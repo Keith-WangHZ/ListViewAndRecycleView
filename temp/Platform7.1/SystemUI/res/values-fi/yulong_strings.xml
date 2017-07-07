@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Kokoustila</string>
+    <string name="qs_label_vibrate_ring">Tärinä</string>
+    <string name="qs_label_softap">Hotspot</string>
+    <string name="accessibility_ime_switch_button">"Syöttötavan vaihtopainike"</string>
+    <string name="accessibility_no_wifi">"WiFi-yhteys katkaistu."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"WiFi ei käytössä."</string>
+    <string name="accessibility_wifi_one_bar">"WiFi – yksi palkki."</string>
+    <string name="accessibility_wifi_signal_full">"WiFi-signaali täysi."</string>
+    <string name="accessibility_wifi_three_bars">"WiFi – kolme palkkia."</string>
+    <string name="accessibility_wifi_two_bars">"WiFi – kaksi palkkia."</string>
+    <string name="guide_click_txt">"Avaa näppäinlukkovaraston asetukset napsauttamalla"</string>
+    <string name="guide_sliding_txt">"Vaihda näyttöä liu'uttamalla"</string>
+    <string name="guide_swipe_up_txt">"Avaa sipaisemalla ylöspäin"</string>
+    <string name="guide_title">"Tervetuloa näppäinlukkovarastoon"</string>
+    <string name="header_name_detail_top">"Näytä ilmoitukset tilapalkissa"</string>
+    <string name="header_name_top">"Tilapalkin ilmoitus"</string>
+    <string name="header_name0">"Tilapalkki"</string>
+    <string name="header_name1">"Näppäinlukko"</string>
+    <string name="header_top">"Ilmoitusten erähallinta"</string>
+    <string name="interruption_level_all">"Kaikki"</string>
+    <string name="keyguard_guide_enter">"Kokeile"</string>
+    <string name="lockscreen_airplane_mode_on">"Lentokonetila on käytössä."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM-kortti puuttuu."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Käyttökelvoton SIM-kortti."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM-virhe."</string>
+    <string name="lockscreen_sim_locked_message">"SIM-kortti on lukittu."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM-kortti on PUK-lukittu."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Laitteen hallinnoija on:\n<xliff:g id="organization">%1$s</xliff:g>\nProfiilisi hallinnoija on:\n<xliff:g id="organization">%2$s</xliff:g>\n\nJärjestelmänvalvoja voi seurata toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja.\n\nKysy lisätietoja järjestelmänvalvojalta."</string>
+    <string name="monitoring_description_legacy_vpn">"Olet yhteydessä VPN-verkkoon (<xliff:g id="application">%1$s</xliff:g>).\n\nVPN-palveluntarjoaja voi seurata laitettasi ja toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Laitteen hallinnoija on:\n<xliff:g id="organization">%1$s</xliff:g>\nProfiilisi hallinnoija on:\n<xliff:g id="organization">%2$s</xliff:g>\n\nJärjestelmänvalvoja voi seurata toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja. Kysy lisätietoja järjestelmänvalvojalta.\n\nLisäksi olet yhteydessä VPN-verkkoon (<xliff:g id="application">%3$s</xliff:g>). VPN-palveluntarjoaja voi seurata myös toimintaasi verkossa."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Laitteen hallinnoija on:\n<xliff:g id="organization">%1$s</xliff:g>\n\nJärjestelmänvalvoja voi seurata toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja. Kysy lisätietoja järjestelmänvalvojalta.\n\nLisäksi olet yhteydessä VPN-verkkoon (<xliff:g id="application">%2$s</xliff:g>). VPN-palveluntarjoaja voi seurata myös toimintaasi verkossa."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Profiilin hallinnoija on:\n<xliff:g id="organization">%1$s</xliff:g>\n\nJärjestelmänvalvoja voi seurata toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja. Kysy lisätietoja järjestelmänvalvojalta.\n\nLisäksi olet yhteydessä VPN-verkkoon (<xliff:g id="application">%2$s</xliff:g>). VPN-palveluntarjoaja voi seurata myös toimintaasi verkossa."</string>
+    <string name="monitoring_description_profile_owned">"Profiilin hallinnoija on:\n<xliff:g id="organization">%1$s</xliff:g>\n\nJärjestelmänvalvoja voi seurata toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja.\n\nKysy lisätietoja järjestelmänvalvojalta."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Laitteen hallinnoija on:\n<xliff:g id="organization">%1$s</xliff:g>\nProfiilisi hallinnoija on:\n<xliff:g id="organization">%2$s</xliff:g>\n\nJärjestelmänvalvoja voi seurata toimintaasi verkossa, esimerkiksi sähköpostia, sovelluksia ja suojattuja sivustoja. Kysy lisätietoja järjestelmänvalvojalta.\n\nLisäksi annoit sovellukselle <xliff:g id="application">%3$s</xliff:g> oikeuden määrittää VPN-yhteys. Sovellus voi seurata myös toimintaasi verkossa."</string>
+    <string name="please_select_phase2">"Vaiheen 2 todennus"</string>
+    <string name="proxy_exclusionlist_label">"Ohitusvälityspalvelin kohteelle"</string>
+    <string name="proxy_hostname_label">"Välityspalvelimen isäntänimi"</string>
+    <string name="proxy_port_label">"Välityspalvelinportti"</string>
+    <string name="proxy_settings_title">"Välityspalvelin"</string>
+    <string name="proxy_warning_limited_support">"HTTP-välityspalvelin on selaimen muttei välttämättä muiden sovellusten käytössä."</string>
+    <string name="qs_bottom_first_btn">"Tiedän"</string>
+    <string name="qs_bottom_first_notice">"Avaa Pika-asetukset-paneeli sipaisemalla näytön alareunasta ylöspäin"</string>
+    <string name="qs_label_cbutton">"C-painike"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Lentokonetila"</string>
+    <string name="sim_slot">"SIM-paikka"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g> viestiä]"</string>
+    <string name="status_bar_settings_airplane">"Lentokonetila"</string>
+    <string name="sub_switch_name0">"Ota ilmoitukset käyttöön"</string>
+    <string name="sub_switch_name1">"Kelluvat ilmoitukset"</string>
+    <string name="sub_switch_name1_sub">"Näytä ilmoitukset ylänäytössä ja piilota automaattisesti"</string>
+    <string name="sub_switch_name2">"Lukitusnäytön ilmoitukset"</string>
+    <string name="sub_switch_name2_sub">"Näytä ilmoitukset tilapalkissa"</string>
+    <string name="sub_switch_name3">"Näytä ilmoitusten tiedot"</string>
+    <string name="sub_switch_name4">"Näytä ilmoitukset tilapalkissa"</string>
+    <string name="title_activity_package_list_batch">"Ilmoitusten eräkäsittely"</string>
+    <string name="wapi_as_certificate">"ASE-varmenne"</string>
+    <string name="wapi_user_certificate">"Käyttäjän varmenne"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Nimetön"</string>
+    <string name="wifi_eap_ca_cert">"CA-varmenne"</string>
+    <string name="wifi_eap_identity">"Henkilöllisyys"</string>
+    <string name="wifi_eap_method">"EAP-tapa"</string>
+    <string name="wifi_eap_user_cert">"Käyttäjän varmenne"</string>
+    <string name="wifi_gateway">"Yhdyskäytävä"</string>
+    <string name="wifi_hex_password">"Heksadesimaalisalasana."</string>
+    <string name="wifi_info_cancal_btn">"Peruuta"</string>
+    <string name="wifi_info_connect_btn">"Yhdistä"</string>
+    <string name="wifi_ip_address">"IP-osoite"</string>
+    <string name="wifi_ip_settings">"IP-asetukset"</string>
+    <string name="wifi_network_prefix_length">"Verkon etuliitteen pituus"</string>
+    <string name="wifi_password">"Salasana"</string>
+    <string name="wifi_password_text">"Salasana (8–63 merkkiä)"</string>
+    <string name="wifi_security">"Suojaus"</string>
+    <string name="wifi_security_none">"Ei mitään"</string>
+    <string name="wifi_show_advanced">"Näytä lisäasetukset"</string>
+    <string name="wifi_show_password">"Näytä salasana"</string>
+    <string name="wifi_signal">"Signaalin voimakkuus"</string>
+    <string name="wifi_ssid">"Verkon SSID"</string>
+    <string name="wifi_ssid_hint">"Anna SSID"</string>
+    <string name="wifi_status">"Tila"</string>
+    <string name="wifi_unchanged">"(ei muutettu)"</string>
+    <string name="wifi_WEP_secury_key">"Suojausavain"</string>
+    <string name="wifi_WEP_transmit_key">"Lähetysavain"</string>
+    <string name="zen_alarm_information_day_time">"Seuraava herätys on klo <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Seuraava herätys on klo <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Vain ensisijaiset keskeytykset"</string>
+    <string name="zen_no_interruptions">"Ei keskeytyksiä"</string>
+    <string name="zen_no_interruptions_with_warning">"Ei keskeytyksiä. Ei edes herätyksiä."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G / China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G / China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G / hätä"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Suosikit"</string>
+    <string name="keyguard_magzine_cancel_collect">"Lisää suosikkeihin"</string>
+    <string name="keyguard_magazine_resident">"Pysyvä"</string>
+    <string name="keyguard_magazine_cancel_resident">"Peruuta pysyvä"</string>
+    <string name="keyguard_magazine_share">"Jaa"</string>
+    <string name="keyguard_magazine_link">"Linkki"</string>
+    <string name="keyguard_magazine_more">"Asetus"</string>
+    <string name="keyguard_magzine_collect_toast">"Tallenna paikallisen gallerian makasiinikuviin"</string>
+    <string name="keyguard_magazine_resident_toast">"Näytetään taustakuvana aina, kun näyttö on käytössä"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Ei näytetä taustakuvana aina, kun näyttö on käytössä"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Makasiinikuvakokoelma"</string>
+    <string name="qs_label_calculator">"Laskin"</string>
+    <string name="qs_label_blaster">"Nauhuri"</string>
+    <string name="qs_label_magical">"Maaginen"</string>
+    <string name="qs_label_camera">"Kamera"</string>
+    <string name="qs_label_recording">"Tallentaminen"</string>
+    <string name="qs_label_controlcentor">"Ohjauskeskus"</string>
+    <string name="qs_label_slience">"Ota kuvakaappaus"</string>
+    <string name="header_name">"ota käyttöön ilmoitus"</string>
+    <string name="header_name_detail">"Näytä ilmoituspaneelissa"</string>
+    <string name="title_show_locksreen">"Näytä lukitusnäytössä"</string>
+    <string name="recents_app_shendu">"syvyys"</string>
+    <string name="recents_app_liuliang">"Tänään:"</string>
+    <string name="recents_app_memory">"Muisti:"</string>
+    <string name="recents_app_battary">"Akku:"</string>
+    <string name="recents_app_running_empty">"ei äskettäisiä tehtäviä"</string>
+    <string name="recents_app_best_already">"puhdistettu, parhaassa kunnossa"</string>
+    <string name="recents_app_release_memory">"vapauta muistia <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"käynnistä ensin turvakeskussovellus"</string>
+    <string name="recents_app_memory_cleaned">"puhdistettu"</string>
+    <string name="preference_detail_show">"Näytä"</string>
+    <string name="preference_detail_hide">"Piilota"</string>
+    <string name="item_show_notifcaiton">"Ilmoitus"</string>
+    <string name="item_show_lockscreen">"lukitusnäytössä"</string>
+    <string name="item_show_floating">"irrallinen"</string>
+    <string name="item_show_detail">"Näytä tiedot"</string>
+    <string name="manage_notification_access_title">"Ilmoitusten käyttö"</string>
+    <string name="notification_hide_system_app">"Piilota järjestelmäsovellukset"</string>
+    <string name="notification_show_system_app">"Näytä järjestelmäsovellukset"</string>
+    <string name="ctrl_center_shown_1page">"Näytetyt pikavalinnat - sivu 1"</string>
+    <string name="ctrl_center_shown_2page">"Näytetyt pikavalinnat - sivu 2"</string>
+    <string name="ctrl_center_non_shown">"Pikavalinnat, joita ei näytetä"</string>
+    <string name="ctrl_center_hint">"Huomautus: Siirrä pikavalinta napauttamalla ja pitämällä. Voit näyttää tai piilottaa sen ja säätää sen sijaintia\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Äänipuhelujen äänenvoimakkuus"</item>
+        <item>"Järjestelmän äänenvoimakkuus"</item>
+        <item>"Soittoäänen ja ilmoitusten äänenvoimakkuus"</item>
+        <item>"Median äänenvoimakkuus"</item>
+        <item>"Hälytysten äänenvoimakkuus"</item>
+        <item></item>
+        <item>"Bluetooth-puhelujen äänenvoimakkuus"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="accessibility_hide">"Piilota"</string>
+    <string name="clear_memory_notice">"Onnittelut, olet onnistuneesti puhdistanut tehtävät"</string>
+    <string name="data_no_connected_error">"Tarkista ovatko säätiedot sallittuja verkkovierailun aikana valitsemalla Asetukset-&gt;SIM-kortin hallinta-&gt;Kansainvälinen verkkovierailu!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Alasveto käytössä lukitusnäytössä"</string>
+    <string name="item_center_notifcaiton_obsessive">"OCD-valinnat"</string>
+    <string name="qs_label_dataportection_mode">"Tietosuoja"</string>
+    <string name="qs_label_ringer">"Soittaja"</string>
+    <string name="qs_label_rotation">"Näytön kierto"</string>
+    <string name="qs_label_speed">"Kiihdytä"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> käytettävissä |yhteensä <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Ei SIM-korttia. Yritä uudelleen kortin asettamisen jälkeen!"</string>
+    <string name="status_bar_screenshot_interesting">"Mielenkiintoinen"</string>
+    <string name="status_bar_screenshot_long">"Pitkä"</string>
+    <string name="status_bar_super_secure_system_mode">"Tällä hetkellä suojatussa tilassa, poistu suojatusta tilasta toiminnon ottamiseksi käyttöön"</string>
+    <string name="title_show_floating_sub">"Ilmoitukset näkyvät ylänäytössä näytön avaamisen jälkeen, ne häviävät sen jälkeen automaattisesti"</string>
+    <string name="yl_volume_ring_icon_description">"Soittoäänen &amp; ilmoituksien äänenvoimakkuus"</string>
+    <string name="accessibility_quick_settings_data_off">"Mobiilitiedot pois."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobiilitiedot päällä."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Verkkovierailu pois."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Verkkovierailu päällä."</string>
+    <string name="brightness_dlg_adjust">"(Säädä)"</string>
+    <string name="brightness_dlg_auto">"Autom."</string>
+    <string name="brightness_dlg_brightness">"Kirkkaus"</string>
+    <string name="clear_notify_all_oldman">"Tyhjennä ilmoitukset"</string>
+    <string name="dateview_day">"Päivä"</string>
+    <string name="dateview_month">"Kuukausi"</string>
+    <string name="domain_switch_toast">"Ilmoitus on lähtöisin toisesta tilasta."</string>
+    <string name="item_center_notifcaiton_ccm">"Näytä operaattorin nimi"</string>
+    <string name="item_center_notifcaiton_control">"Ohjauskeskus"</string>
+    <string name="item_center_notifcaiton_management">"Ilmoituksen hallinta"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Tyhjennä kuvakkeen merkki ravistaessa"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Piilota kuvakkeen merkki"</string>
+    <string name="item_center_notifcaiton_other">"Muut"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Pika-asetukset"</string>
+    <string name="item_center_notifcaiton_sub">"Ilmoitus"</string>
+    <string name="item_center_notifcaiton_title">"Asetukset"</string>
+    <string name="item_show_none">"Ei mitään"</string>
+    <string name="item_show_other">"Muut"</string>
+    <string name="item_show_statusbar">"Paneeli"</string>
+    <string name="keyguard_magazine_enter">"Pyyhi alas lehden painikkeiden suojaamiseksi"</string>
+    <string name="kg_no_service">"Katvealueella"</string>
+    <string name="kg_no_uim">"Ei UIM:ta tai palvelua"</string>
+    <string name="kg_no_usim">"Ei SIM-korttia tai palvelua"</string>
+    <string name="kg_none_carrier">"Katvealueella"</string>
+    <string name="message_keep_one_launcher">"Säilytä vähintään yksi etusivun toiminto!"</string>
+    <string name="message_switch_fail">"Ei voida siirtyä tähän tehtävään, koska siinä ei ole liittymää."</string>
+    <string name="other_notification_expand">"näytä kaikki koskettamalla."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> muuta ilmoitusta"</string>
+    <string name="qs_label_airplane">"Lentokonetila"</string>
+    <string name="qs_label_blacklist">"Esto"</string>
+    <string name="qs_label_blacklist2">"Esto"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Kirkkaus"</string>
+    <string name="qs_label_data_roaming">"Verkkovierailu"</string>
+    <string name="qs_label_doublecard">"Kaksoiskortin asetukset"</string>
+    <string name="qs_label_driving_mode">"Autotila"</string>
+    <string name="qs_label_flashlight">"Taskulamppu"</string>
+    <string name="qs_label_flow_monitor">"Tiedonsiirto"</string>
+    <string name="qs_label_location">"Sijainti"</string>
+    <string name="qs_label_multiple_accounts_name">"Omistaja"</string>
+    <string name="qs_label_mutlwindow">"Monitoiminto"</string>
+    <string name="qs_label_saving">"Virransäästö"</string>
+    <string name="qs_label_scenemode">"Kuvaustila"</string>
+    <string name="qs_label_sdcard_install">"Asenna SD-kortti"</string>
+    <string name="qs_label_sdcard_uninstall">"Poista SD-kortin asennus"</string>
+    <string name="qs_label_secure_mode">"Suojaa tiedot"</string>
+    <string name="qs_label_setting">"Asetukset"</string>
+    <string name="qs_label_shrink_screen">"Näytön skaalaus"</string>
+    <string name="qs_label_silence">"Mykistä"</string>
+    <string name="qs_label_sound">"Ääni"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Superturvallinen tila"</string>
+    <string name="qs_label_switching">"Vaihto"</string>
+    <string name="qs_label_ttwindow_mode">"Uutisvirta"</string>
+    <string name="qs_label_turning_off">"Suljetaan"</string>
+    <string name="qs_label_turning_on">"Avataan"</string>
+    <string name="qs_label_viplist">"Sallittujen luettelo"</string>
+    <string name="qs_label_viplist2">"Sallittujen luettelo"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Näkyy ilmoituspaneelissa (korkeintaan 10)"</string>
+    <string name="qs_minor_bar_tips">"Ei näy ilmoituspaneelissa"</string>
+    <string name="quick_settings_apn_switch_label">"APN-kytkin"</string>
+    <string name="quick_settings_data_off">"Tiedot pois"</string>
+    <string name="quick_settings_dds_sub">"Kortin <xliff:g id="number">%d</xliff:g> tiedot"</string>
+    <string name="quick_settings_mobile_data_label">"Mobiilitiedot"</string>
+    <string name="quick_settings_roaming_label">"Verkkovierailu"</string>
+    <string name="quicksettings_edit_disable">"Muokkaa"</string>
+    <string name="quicksettings_edit_enable">"Sulje"</string>
+    <string name="quicksettings_more">"Lisää"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Verkkoa ei voida yhdistää lentokonetilassa."</string>
+    <string name="status_bar_disable_data_roaming">"Verkkovierailu deaktivoitu."</string>
+    <string name="status_bar_earphones_connected_text">"Kuuloke on yhdistetty."</string>
+    <string name="status_bar_earphones_connected_ticker">"Kuuloke on yhdistetty."</string>
+    <string name="status_bar_earphones_connected_title">"Kuuloke"</string>
+    <string name="status_bar_enable_data_roaming">"Verkkovierailu aktivoitu."</string>
+    <string name="status_bar_expand_autobright">"Kirkkauden automaattinen säätö"</string>
+    <string name="status_bar_expanded_airplane_mode">"Lentokonetila"</string>
+    <string name="status_bar_expanded_check_sim">"Ei SIM-korttia"</string>
+    <string name="status_bar_expanded_check_uim">"Ei UIM-korttia"</string>
+    <string name="status_bar_expanded_check_uimsim">"Ei SIM-korttia"</string>
+    <string name="status_bar_expanded_data_net_status">"Tuntematon"</string>
+    <string name="status_bar_expanded_mms_send_note">"Verkkoyhteyttä luodaan... Yritä myöhemmin uudelleen."</string>
+    <string name="status_bar_expanded_net_using_card">"Puhelinkortin käyttö <xliff:g id="number">%d</xliff:g> tietoyhteyttä varten. Voit vaihtaa verkkoa myöhemmin manuaalisesti."</string>
+    <string name="status_bar_expanded_network_forbid">"Palvelu poistettu käytöstä"</string>
+    <string name="status_bar_expanded_network_off">"Katvealueella"</string>
+    <string name="status_bar_expanded_start_network">"Mobiilitiedot"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobiilitiedot"</string>
+    <string name="status_bar_expanded_stop_network">"Mobiilitiedot"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobiilitiedot"</string>
+    <string name="status_bar_no_running_apps">"Sovellusta ei käynnissä"</string>
+    <string name="status_bar_notification_manager">"johtaja"</string>
+    <string name="status_bar_notify_interception_disable">"Kiellä"</string>
+    <string name="status_bar_notify_interception_enable">"Salli"</string>
+    <string name="status_bar_other_notify">"Lisää"</string>
+    <string name="status_bar_other_notify_back">"Takaisin"</string>
+    <string name="status_bar_recent_delete">"Tyhjennä"</string>
+    <string name="status_bar_recent_historical">"Historiallinen tehtävä"</string>
+    <string name="status_bar_recent_memory">"Muisti"</string>
+    <string name="status_bar_recent_memory_free">"maksuton|"</string>
+    <string name="status_bar_recent_memory_item_used">"Käytetty:"</string>
+    <string name="status_bar_recent_memory_used">"Käytetty:"</string>
+    <string name="status_bar_recent_optimize">"Tiedot"</string>
+    <string name="status_bar_recent_running">"Toiminto käynnissä"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Kopioitu leikepöydälle."</string>
+    <string name="status_bar_screenshot_edit">"Muokkaa"</string>
+    <string name="status_bar_screenshot_exit">"Peruuta"</string>
+    <string name="status_bar_screenshot_save">"Tallenna"</string>
+    <string name="status_bar_screenshot_share">"Jaa"</string>
+    <string name="status_bar_select_network1">"Verkko 1"</string>
+    <string name="status_bar_select_network2">"Verkko 2"</string>
+    <string name="tasklist_killall">"Poista kaikki"</string>
+    <string name="tasklist_memory_usage">"Vapaa/kokonaismuisti: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Tehtävienhallinta"</string>
+    <string name="title_activity_package_list">"Ilmoituskeskus"</string>
+    <string name="title_show_effect_preview">"Kuvan esikatselu"</string>
+    <string name="title_show_floating">"Kelluvat ilmoitukset"</string>
+    <string name="title_show_notifcaiton">"Salli"</string>
+    <string name="title_show_notification_center">"Ilmoituskeskus"</string>
+    <string name="title_show_other">"Näytä muissa"</string>
+    <string name="title_show_statusbar">"Näytä paneelissa"</string>
+    <string name="gps_notification_searching_text_content">"GPS:n poistaminen käytöstä voi säästää akkua."</string>
+    <string name="quick_settings_battery_charging_label">"Ladataan, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Ladattu"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Vaimentanut: <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Näytä siirtymispalkki liu'uttamalla näytön alaosasta ylöspäin"</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.covermode.StarryBottomStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/starry_bottom_status_view"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:layout_gravity="bottom|center"
+    android:orientation="vertical" >
+
+    <com.android.covermode.StarryChargeView
+        android:id="@+id/starry_charge_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/starry_up_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:clickable="true"
+        android:src="@drawable/up_remind" />
+
+</com.android.covermode.StarryBottomStatusView>

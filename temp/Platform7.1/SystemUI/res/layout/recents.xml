@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Recents View -->
+    <com.android.systemui.recents.views.RecentsView
+        android:id="@+id/recents_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.android.systemui.recents.views.RecentsView>
+
+    <!-- Incompatible task overlay -->
+    <ViewStub android:id="@+id/incompatible_app_overlay_stub"
+        android:inflatedId="@+id/incompatible_app_overlay"
+        android:layout="@layout/recents_incompatible_app_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginBottom="48dp"
+        android:layout_gravity="center_horizontal|top" />
+
+     <FrameLayout
+         android:id="@+id/view_bottom"
+         android:layout_width="fill_parent"
+         android:layout_height="148dp"
+         android:layout_gravity="bottom|center_horizontal"
+         android:background="@drawable/recents_bottom_bg"
+         android:orientation="vertical" >
+
+         <com.android.systemui.recents.CircleViewYL
+             android:id="@+id/clear_all"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_marginBottom="88dp"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center_horizontal"
+             android:visibility="invisible"/> 
+             <!-- 
+             android:id="@+id/clear_all"
+             android:layout_width="36dp"
+             android:layout_height="36dp"
+             android:layout_gravity="center_horizontal" />   -->
+             
+            <!-- <com.android.systemui.recents.ProgressImageView
+             android:id="@+id/clear_all"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_marginBottom="40dp"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center_horizontal"
+             android:src="@drawable/recents_clear"
+             android:visibility="invisible" />-->
+
+         <TextView
+             android:id="@+id/text_memory"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:gravity="center"
+             android:layout_marginBottom="64dp"
+             android:layout_marginTop="68dp"
+             android:text="@string/app_label"
+             android:textColor="#7fffffff"
+             android:textSize="12sp"
+             android:visibility="visible" />
+     </FrameLayout>
+
+    <!-- Nav Bar Scrim View -->
+    <ImageView
+        android:id="@+id/nav_bar_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/recents_lower_gradient" />
+    
+</FrameLayout>

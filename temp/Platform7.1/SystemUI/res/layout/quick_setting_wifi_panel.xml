@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#66818A99"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#66818A99"
+        android:src="@drawable/empty_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="@string/SIM"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/id_wifi_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <LinearLayout
+        android:id="@+id/id_ll_dataContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+    
+    <ListView
+        android:id="@+id/listWifiView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="63dp" >
+
+        <TextView
+            android:id="@+id/id_more_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="110dp"
+            android:text="@string/setting_more"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/id_finish"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:text="@string/accomplish"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:clickable="true"  />
+    </RelativeLayout>
+
+</LinearLayout>

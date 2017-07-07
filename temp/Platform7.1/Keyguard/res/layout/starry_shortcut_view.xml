@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.covermode.StarryShortcutView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/starry_shortcut_view"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center|bottom"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/starry_down_botton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/starry_menu_down"
+        android:clickable="true"
+        android:paddingBottom="8dip"
+        android:paddingTop="4dip" />
+
+    <LinearLayout
+        android:id="@+id/starry_shortcut_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/dial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/starry_dial_button"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/flashlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/starry_flashlight_button"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/starry_calculator_button"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/starry_camera_button"
+            android:clickable="true" />
+    </LinearLayout>
+
+</com.android.covermode.StarryShortcutView>

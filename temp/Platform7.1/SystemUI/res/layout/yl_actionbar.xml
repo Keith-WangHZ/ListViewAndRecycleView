@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/status_bar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/topbar_back"
+            android:layout_width="48dip"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/yl_actionbar_back_button_bg_color"
+            android:clickable="true"
+            android:scaleType="center"
+            android:src="@drawable/topbar_up_view_gold" />
+
+        <ImageView
+            android:id="@+id/topbar_divider"
+            android:layout_width="1dip"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_toRightOf="@id/topbar_back"
+            android:background="@drawable/yl_actionbar_button_divider" />
+
+        <TextView
+            android:id="@+id/topbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="16dip" />
+
+        <!--LinearLayout
+            android:id="@+id/topbar_rightbuttonlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@color/yl_actionbar_back_button_bg_color"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/topbar_rightbuttonIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/topbar_rightbuttontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+        </LinearLayout-->
+    </RelativeLayout>
+
+</LinearLayout>

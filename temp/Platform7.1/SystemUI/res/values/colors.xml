@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2010, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <drawable name="notification_number_text_color">#ffffffff</drawable>
+    <drawable name="ticker_background_color">#ff1d1d1d</drawable>
+    <drawable name="system_bar_background">@color/system_bar_background_opaque</drawable>
+    <color name="system_bar_background_opaque">#ff000000</color>
+    <color name="system_bar_background_transparent">#00000000</color>
+    <color name="notification_panel_solid_background">#ff000000</color>
+    <drawable name="status_bar_notification_row_background_color">#ff090909</drawable>
+    <color name="notification_list_shadow_top">#80000000</color>
+    <drawable name="heads_up_notification_bg_pressed">#ff33B5E5</drawable>
+    <color name="batterymeter_frame_color">#4DFFFFFF</color><!-- 30% white -->
+    <color name="batterymeter_charge_color">#ff13b34f</color>
+    <color name="batterymeter_bolt_color">#FFFFFFFF</color>
+    <color name="qs_batterymeter_frame_color">#FF404040</color>
+    <color name="system_primary_color">#ff263238</color><!-- blue grey 900 -->
+    <color name="system_secondary_color">#ff37474F</color><!-- blue grey 800 -->
+    <color name="system_accent_color">#ff80CBC4</color><!-- deep teal 200 -->
+    <color name="system_warning_color">#fff4511e</color><!-- deep orange 600 -->
+    <color name="qs_text">#FFFFFFFF</color>
+    <color name="qs_tile_divider">#29ffffff</color><!-- 16% white -->
+    <color name="yulong_system_accent_color">#0099e5</color>
+    <!--color name="qs_tile_text">#B3FFFFFF</color-->
+    <color name="qs_subhead">#99FFFFFF</color><!-- 60% white -->
+    <color name="qs_subhead_new">#66FFFFFF</color>
+    <color name="qs_detail_empty">#24B0BEC5</color><!-- 14% blue grey 200 -->
+    <color name="qs_detail_button">#FFB0BEC5</color><!-- 100% blue grey 200 -->
+    <color name="qs_detail_button_white">#B3FFFFFF</color><!-- 70% white -->
+    <color name="qs_detail_transition">#66FFFFFF</color>
+    <color name="qs_detail_progress_track">#99009688</color><!-- 60% deep teal 500 -->
+    <color name="data_usage_secondary">#99FFFFFF</color><!-- 60% white -->
+    <color name="data_usage_graph_track">#33FFFFFF</color><!-- 20% white -->
+    <color name="data_usage_graph_warning">#FFFFFFFF</color>
+    <color name="status_bar_clock_color">#FFFFFFFF</color>
+    <color name="qs_user_detail_icon_muted">#FFFFFFFF</color> <!-- not so muted after all -->
+    <color name="qs_tile_disabled_color">#9E9E9E</color> <!-- 38% black -->
+
+    <!-- Tint color for the content on the notification overflow card. -->
+    <color name="keyguard_overflow_content_color">#ff686868</color>
+
+    <!-- The disabled recents task bar background color. -->
+    <color name="recents_task_bar_disabled_background_color">#ff676767</color>
+    <!-- The default recents task bar background color. -->
+    <color name="recents_task_bar_default_background_color">#ffe6e6e6</color>
+    <!-- The default recents task view background color. -->
+    <color name="recents_task_view_default_background_color">#fff3f3f3</color>
+    <!-- The recents task bar light text color to be drawn on top of dark backgrounds. -->
+    <color name="recents_task_bar_light_text_color">#ffeeeeee</color>
+    <!-- The recents task bar dark text color to be drawn on top of light backgrounds. -->
+    <color name="recents_task_bar_dark_text_color">#cc000000</color>
+    <!-- The recents task bar light dismiss icon color to be drawn on top of dark backgrounds. -->
+    <color name="recents_task_bar_light_icon_color">#ccffffff</color>
+    <!-- The recents task bar dark dismiss icon color to be drawn on top of light backgrounds. -->
+    <color name="recents_task_bar_dark_icon_color">#99000000</color>
+    <!-- The lock to task button background color. -->
+    <color name="recents_task_view_lock_to_app_button_background_color">#ffe6e6e6</color>
+    <!-- The lock to task button foreground color. -->
+    <color name="recents_task_view_lock_to_app_button_color">#ff666666</color>
+    <!-- The background color for the freeform workspace. -->
+    <color name="recents_freeform_workspace_bg_color">#33FFFFFF</color>
+
+    <color name="keyguard_affordance">#ffffffff</color>
+
+    <!-- The color of the legacy notification background -->
+    <color name="notification_legacy_background_color">#ff1a1a1a</color>
+
+    <!-- The color of the material notification background -->
+    <color name="notification_material_background_color">@*android:color/notification_material_background_color</color>
+
+    <!-- The color of the material notification background when dimmed -->
+    <color name="notification_material_background_dimmed_color">#ccffffff</color>
+
+    <!-- The color of the material notification background when low priority -->
+    <color name="notification_material_background_low_priority_color">#fff5f5f5</color>
+
+    <!-- The background color of the notification shade -->
+    <color name="notification_shade_background_color">#ffeeeeee</color>
+
+    <!-- The color of the ripples on the untinted notifications -->
+    <color name="notification_ripple_untinted_color">#28000000</color>
+
+    <!-- The color of the ripples on the low priority notifications -->
+    <color name="notification_ripple_color_low_priority">#30000000</color>
+
+    <!-- The color of the ripples on the tinted notifications -->
+    <color name="notification_ripple_tinted_color">#30ffffff</color>
+
+    <!-- The color of the circle around the primary user in the user switcher -->
+    <color name="current_user_border_color">@color/system_accent_color</color>
+
+    <!-- The color of the gear shown behind a notification -->
+    <color name="notification_gear_color">#ff757575</color>
+
+    <!-- The "inside" of a notification, reached via longpress -->
+    <color name="notification_guts_bg_color">#eeeeee</color>
+    <color name="notification_guts_slider_color">@*android:color/material_deep_teal_500</color>
+    <color name="notification_guts_disabled_slider_color">@*android:color/material_grey_300</color>
+    <color name="notification_guts_secondary_slider_color">#858383</color>
+    <color name="notification_guts_icon_tint">#8a000000</color>
+    <color name="notification_guts_disabled_icon_tint">#4d000000</color>
+
+    <color name="assist_orb_color">#ffffff</color>
+
+    <color name="keyguard_user_switcher_background_gradient_color">#77000000</color>
+
+    <!-- The color of the navigation bar icons. Need to be in sync with ic_sysbar_* -->
+    <color name="navigation_bar_icon_color">#E5FFFFFF</color>
+
+    <!-- Shadow color for the first pixels around the fake shadow for recents. -->
+    <color name="fake_shadow_start_color">#44000000</color>
+
+    <!-- Shadow color for the furthest pixels around the fake shadow for recents. -->
+    <color name="fake_shadow_end_color">#03000000</color>
+
+    <color name="screen_pinning_nav_icon_highlight_outer">#4080cbc4</color><!-- 25% deep teal 200 -->
+    <color name="screen_pinning_request_bg">#ff009688</color><!-- deep teal 500 -->
+    <color name="screen_pinning_request_window_bg">#80000000</color>
+
+    <color name="segmented_buttons_background">#14FFFFFF</color><!-- 8% white -->
+    <color name="segmented_button_selected">#FFFFFFFF</color>
+    <color name="segmented_button_unselected">#FFB0BEC5</color><!-- blue grey 200 -->
+
+    <color name="dark_mode_icon_color_single_tone">#99000000</color>
+    <color name="dark_mode_icon_color_dual_tone_background">#3d000000</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#7a000000</color>
+
+    <color name="light_mode_icon_color_single_tone">#ffffff</color>
+    <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
+    <color name="light_mode_icon_color_dual_tone_fill">#ffffff</color>
+
+    <color name="zen_introduction_message_background">#ff009688</color><!-- deep teal 500 -->
+    <color name="volume_icon_color">#ffffffff</color>
+    <color name="volume_settings_icon_color">#7fffffff</color>
+    <color name="volume_slider_inactive">#FFB0BEC5</color><!-- blue grey 200 -->
+
+    <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
+    <color name="fab_shape">#ff009688</color><!-- Teal 500 -->
+
+    <color name="docked_divider_background">#ff000000</color>
+    <color name="docked_divider_handle">#ffffff</color>
+    <drawable name="forced_resizable_background">#59000000</drawable>
+    <color name="minimize_dock_shadow_start">#60000000</color>
+    <color name="minimize_dock_shadow_end">#00000000</color>
+
+    <color name="default_remote_input_background">@*android:color/notification_default_color</color>
+    <color name="remote_input_text_enabled">#ffffffff</color>
+    <color name="remote_input_hint">#99ffffff</color>
+
+    <color name="remote_input_accent">#eeeeee</color>
+
+    <color name="qs_tile_tint_unavailable">#40ffffff</color>
+    <color name="qs_tile_tint_inactive">#4dffffff</color>
+    <color name="qs_tile_tint_active">#ffffffff</color>
+
+    <color name="switch_bar_background">#ff37474f</color>
+    <color name="switch_accent_color">#ff7fcac3</color>
+
+    <!-- Keyboard shortcuts colors -->
+    <color name="ksh_system_group_color">@*android:color/material_deep_teal_500</color>
+    <color name="ksh_application_group_color">#fff44336</color>
+    <color name="ksh_keyword_color">#d9000000</color>
+    <color name="ksh_key_item_color">@*android:color/material_grey_600</color>
+    <color name="ksh_key_item_background">@*android:color/material_grey_100</color>
+
+    <!-- Background color of edit overflow -->
+    <color name="qs_edit_overflow_bg">#455A64</color>
+    <color name="notification_guts_bg_color">@color/system_secondary_color</color>
+    <color name="notification_guts_title_color">#FFFFFFFF</color>
+    <color name="notification_guts_text_color">#b2FFFFFF</color>
+    <color name="notification_guts_btn_color">#FFFFFFFF</color>
+    <color name="notification_panel_color">#ffe5e5e5</color>
+    <color name="statusbar_header_color">#ff80624d</color>
+    <color name="search_panel_circle_color">#ffffff</color>
+    <color name="search_panel_ripple_color">#ffbbbbbb</color>
+    <color name="doze_small_icon_background_color">#ff434343</color>
+    <!-- deep teal 500 -->
+    <!-- add by zhangyang -->
+    <color name="qs_text_color_disabled">#77ffffff</color>
+    <color name="qs_text_color_enabled">#88FFFFFF</color>
+    <color name="qs_text_color_changing">#66ffffff</color>
+    <drawable name="ic_qs_background_color">#4c000000</drawable>
+    <drawable name="package_list_item_normal">#FFF5F5F5</drawable>
+    <drawable name="package_list_item_pressed">#88228822</drawable>
+    <color name="yl_preference_category_color">#0e0e0e</color>
+    <color name="header_background">#f5f5f5</color>
+    <color name="background_holo_light">#ffffff</color>
+    <color name="yl_preference_title_color">#808080</color>
+    <color name="yl_preference_title_default_color">#333333</color>
+    <color name="yl_preference_summary_color">#808080</color>
+    <color name="yl_preference_summary_default_color">#7b7b7b</color>
+    <color name="yl_usb_color">#ffffff</color>
+    <!-- Google 4.3 add strings  start -->
+    <color name="circle_avatar_frame_color">#ffffffff</color>
+    <color name="circle_avatar_frame_shadow_color">#80000000</color>
+    <color name="circle_avatar_frame_pressed_color">#ffffffff</color>
+    <color name="holo_blue_light">#00b300</color>
+    <color name="yl_tab_title_color">#818181</color>
+    <color name="yl_tab_title_default_color">#0d0d0d</color>
+    <color name="left_color">#ff2ead00</color>
+    <color name="middle_color">#ff2ead00</color>
+    <color name="right_color">#ff888888</color>
+    <color name="yl_list_item_title_disabled_text_color">#330d0d0d</color>
+    <color name="yl_list_item_title_default_text_color">#ff0d0d0d</color>
+    <color name="yl_list_item_title_pressed_text_color">#ff0d0d0d</color>
+    <color name="yl_list_item_summary_disabled_text_color">#337b7b7b</color>
+    <color name="yl_list_item_summary_default_text_color">#ff7b7b7b</color>
+    <color name="yl_list_item_summary_pressed_text_color">#ff7b7b7b</color>
+    <color name="yl_actionbar_bg_color">#ff30ae00</color>
+    <color name="yl_actionbar_back_button_bg_normal_color">#00000000</color>
+    <color name="yl_actionbar_back_button_bg_pressed_color">#33000000</color>
+    <color name="yl_create_security_password_color">#f2f2f2</color>
+    <color name="yl_list_background_pressed_color">#2B9900</color>
+    <color name="sim_blue">#0098df</color>
+    <color name="volume_icon_color">#ffffffff</color>
+    <color name="sim_orange">#ff7214</color>
+    <color name="sim_green">#35b800</color>
+    <color name="sim_purple">#735ce1</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparent_fetch_psw">#00000000</color>
+    <color name="windows_background_no_round">#FFfefcfc</color>
+    <color name="yl_preference_category_bg_color">#f5f5f5</color>
+    <color name="yl_preference_category_text_color">#ffa0a0a0</color>
+    <color name="yl_list_selector_color">#ffe0e0e0</color>
+    <color name="yl_list_divider_color">#ffe0e0e0</color>
+    <color name="yl_list_header_line_color">#d2d2d2</color>
+    <color name="yl_list_content_line_color">#e1e1e1</color>
+    <color name="volume_settings_icon_color">#7fffffff</color>
+    <color name="volume_slider_inactive">#FFB0BEC5</color>
+    <color name="status_bar_icon_color_white">#ffffff</color>
+    <color name="status_bar_icon_color_black">#a6000000</color>
+    <color name="batterymeter_lowpower_color">#fff33027</color>
+    <color name="qs_detail_button">#FFB0BEC5</color>
+    <color name="qs_detail_button_new">#FFFFFFFF</color>
+    <color name="qs_detail_button_white">#B3FFFFFF</color>
+    <color name="segmented_buttons_background">#14FFFFFF</color>
+    <color name="segmented_button_selected">#FFFFFFFF</color>
+    <color name="segmented_button_unselected">#FFB0BEC5</color>
+    <color name="zen_introduction_message_background">#ff009688</color>
+    <!-- <color name="notify_title_default_color">#ccffffff</color>
+    <color name="notify_default_color">#8affffff</color> -->
+    <color name="notify_title_default_color">#ff323232</color>
+    <color name="notify_default_color">#ff808080</color>
+    <color name="notify_default_color_action">#ff1f98ff</color>
+    <color name="notify_default_color_action_reject">#ffcd1515</color>
+    <color name="notify_content_background_color">#fff8faff</color>
+    <color name="notify_actions_background_color">#ffffffff</color>
+    
+    <color name="notify_background_transparent">#00000000</color>
+    <color name="notify_background_default_color">#00000000</color>
+    <color name="blur_background_default_color">#4f4f4f</color>
+    <color name="heads_up_default_color">#ff7f7f7f</color>
+    <color name="keyguard_notification_background_color">#70000000</color>
+    <color name="notify_line_default_color">#26ffffff</color>
+    <color name="notify_mid_line_default_color">#19ffffff</color>
+    <color name="notification_banning_bg_color">#ff4444</color>
+    <color name="notification_heads_up_bg_color">#cc000000</color>
+    <color name="notification_right_icon_color">#ffffffff</color>
+    <drawable name="background_holo_light_gold">#000000</drawable>
+    <drawable name="background_holo_light_young">#ffffff</drawable>
+    <color name="background_holo_light_young">#f5f5f5</color>
+    <color name="yl_list_default_color_young">#ffffff</color>
+    <!-- for change volume panel style, pengbin, 2016.1.13 -->
+    <color name="yl_volume_slider_active">#ff00bcd4</color>
+    <color name="yl_volume_slider_inactive">#ffbebebe</color>
+    <color name="yl_volume_icon_color">#ff727272</color>
+    
+    <color name="agreement_prompt_color">#00afec</color>
+    <color name="ll_sim_backgroud">#CC686F7B</color>
+    <color name="ll_sim_backgroud_pressed">#FF686F7B</color>
+    <color name="topbar_background_young">#FFF7F7F7</color>
+    <color name="topbar_title_textcolor_young">#FF323232</color>
+    
+    <color name="secondary_text_material_light">@color/notify_default_color</color>
+    <color name="primary_text_default_material_light">@color/notify_title_default_color</color>
+
+     <!-- yulong end -->
+</resources>

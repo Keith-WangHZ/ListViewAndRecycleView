@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"Priveľa pokusov, skúste to znova o 30 sekúnd."</string>
+    <string name="camera">"Fotoaparát"</string>
+    <string name="kg_invalid_sim_lock_hint">"Zadajte kód uzamknutia karty SIM v rozsahu 4 až 8 čísel"</string>
+    <string name="kg_password_sim_lock_failed">"Zadávanie kódu uzamknutia karty SIM zlyhalo!"</string>
+    <string name="kg_sim_lock_instructions">"Zadajte kód uzamknutia karty SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Kód PIN pre kartu SIM je správny, karta odblokovaná"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Odblokovanie karty SIM úspešné"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Zadajte kód uzamknutia karty SIM. Počet zostávajúcich pokusov: <xliff:g id="number">%d</xliff:g>."</item>
+        <item quantity="other">"Zadajte kód uzamknutia karty SIM. Počet zostávajúcich pokusov: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Nesprávny kód uzamknutia karty SIM. Počet zostávajúcich pokusov: <xliff:g id="number">%d</xliff:g>."</item>
+        <item quantity="other">"Nesprávny kód uzamknutia karty SIM. Počet zostávajúcich pokusov: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekinský čas"</string>
+    <string name="cooluipin_button_cancel">"Zrušiť"</string>
+    <string name="cooluipin_button_delete">"Odstrániť"</string>
+    <string name="cover_notification_clicked">"Otvorte puzdro"</string>
+    <string name="fangdao_hint">"Zadajte zabezpečovacie heslo:"</string>
+    <string name="find_password_text">"Zabudli ste heslo?"</string>
+    <string name="fingerprint_error_hint">"Overenie odtlačkom prsta zlyhalo, skúste to znova"</string>
+    <string name="fingerprint_recognized_hint">"Zámka klávesnice odomknutá."</string>
+    <string name="keyguard_fangdao_input">"Zadať heslo aplikácie CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Zabezpečenie"</string>
+    <string name="keyguard_perso_locked_message">"Karta SIM/RUIM je uzamknutá cez Perso"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Overte odtlačkom prsta alebo zadajte heslo"</string>
+    <string name="kg_no_card">"Nie je vložená karta SIM"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Overte odtlačkom prsta alebo načrtnite svoj vzor"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Overenie odtlačkom prsta zlyhalo, skúste to znova"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Overte odtlačkom prsta alebo zadajte PIN kód"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Teraz je to režim Lietadlo"</string>
+    <string name="kg_remaining_attempts">"Počet zostávajúcich pokusov: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Priečinok <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Neplatná karta."</string>
+    <string name="new_mms">"Nová správa"</string>
+    <string name="new_notify_hint">"Nová udalosť"</string>
+    <string name="no_answer_call">"zmeškané hovory"</string>
+    <string name="Notify_no_info">"Žiadna udalosť"</string>
+    <string name="pass_check_hint">"Nesprávne heslo. Zostáva %d pokusov."</string>
+    <string name="pass_check_hint_new">"Nesprávne heslo, zadajte ho znovu"</string>
+    <string name="password_cancel">"Vymazať"</string>
+    <string name="password_error">"Nesprávne heslo"</string>
+    <string name="password_hint">"Prihlásiť"</string>
+    <string name="starry_unlock_info">"Do odomknutia"</string>
+    <string name="touch_protect_content1">"Skončiť do:"</string>
+    <string name="touch_protect_content2">"Neblokovať senzor priblíženia"</string>
+    <string name="touch_protect_hint">"Skončite stlačením napájacieho tlačidla a tlačidla zvýšenia hlasitosti"</string>
+    <string name="touch_protect_title">"Prevencia nesprávneho dotyku"</string>
+    <string name="user_switched_to_home_hint">"Preplo sa na priestor používateľa"</string>
+    <string name="user_switched_to_primary_hint">"Preplo sa na priestor primárneho používateľa"</string>
+    <string name="user_switching_hint">"Prepína sa používateľ..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Zadajte kód PIN karty SIM. Máte <xliff:g id="number">%d</xliff:g> zostávajúci pokus predtým, ako budete musieť kontaktovať svojho operátora, aby odomkol vaše zariadenie."</item>
+        <item quantity="other">"Zadajte kód PIN karty SIM. Máte <xliff:g id="number">%d</xliff:g> zostávajúce pokusy."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"Karta SIM je teraz vypnutá. Pokračujte zadaním kódu PUK. Máte <xliff:g id="number">%d</xliff:g> zostávajúci pokus predtým, ako bude karta SIM natrvalo nepoužiteľná. Podrobnosti získate u operátora."</item>
+        <item quantity="other">"Karta SIM je teraz vypnutá. Pokračujte zadaním kódu PUK. Máte <xliff:g id="number">%d</xliff:g> zostávajúcich pokusov predtým, ako bude karta SIM natrvalo nepoužiteľná. Podrobnosti získate u operátora."</item>
+    </plurals>
+
+</resources>

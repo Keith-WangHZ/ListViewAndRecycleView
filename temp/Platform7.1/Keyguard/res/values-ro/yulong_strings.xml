@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"Prea multe încercări, încercaţi din nou peste 30 de secunde."</string>
+    <string name="camera">"cameră foto"</string>
+    <string name="kg_invalid_sim_lock_hint">"Introduceţi un cod de BLOCARE SIM între 4 şi 8 cifre"</string>
+    <string name="kg_password_sim_lock_failed">"Operaţie BLOCARE SIM eşuată!"</string>
+    <string name="kg_sim_lock_instructions">"Introduceţi cod de BLOCARE SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Cod PIN SIM corect, cartelă deblocată"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Deblocare cartelă SIM efectuată cu succes"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Introduceţi codul de BLOCARE SIM, v-a rămas <xliff:g id="number">%d</xliff:g> încercare."</item>
+        <item quantity="other">"Introduceţi codul de BLOCARE SIM, v-au rămas <xliff:g id="number">%d</xliff:g> încercări."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Cod BLOCARE SIM incorect, v-a rămas <xliff:g id="number">%d</xliff:g> încercare."</item>
+        <item quantity="other">"Cod BLOCARE SIM incorect, v-au rămas <xliff:g id="number">%d</xliff:g> încercări."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Ora Beijingului"</string>
+    <string name="cooluipin_button_cancel">"Anulare"</string>
+    <string name="cooluipin_button_delete">"Ştergeţi"</string>
+    <string name="cover_notification_clicked">"Vă rugăm să deschideţi tocul dvs."</string>
+    <string name="fangdao_hint">"Introduceţi parola de securitate:"</string>
+    <string name="find_password_text">"Aţi uitat parola?"</string>
+    <string name="fingerprint_error_hint">"Autentificarea amprentei a eşuat. Încercaţi din nou"</string>
+    <string name="fingerprint_recognized_hint">"Tastatură deblocată."</string>
+    <string name="keyguard_fangdao_input">"Introduceţi parola CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Securitate"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM este blocat personal"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verificaţi amprenta sau introduceţi parola"</string>
+    <string name="kg_no_card">"Nicio cartelă SIM"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verificaţi amprenta sau desenaţi modelul dvs."</string>
+    <string name="kg_pattern_finger_config_failed_message">"Autentificarea amprentei a eşuat. Încercaţi din nou"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verificaţi amprenta sau introduceţi codul PIN"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Sunteţi în modul Avion acum"</string>
+    <string name="kg_remaining_attempts">"Încercări rămase: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Slot <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Cartelă invalidă."</string>
+    <string name="new_mms">"Mesaj nou"</string>
+    <string name="new_notify_hint">"Eveniment nou"</string>
+    <string name="no_answer_call">"apeluri pierdute"</string>
+    <string name="Notify_no_info">"Niciun eveniment"</string>
+    <string name="pass_check_hint">"Parolă incorectă. %d încercări rămase."</string>
+    <string name="pass_check_hint_new">"Parolă incorectă. Reporniţi pentru a o introduce"</string>
+    <string name="password_cancel">"Ştergeţi"</string>
+    <string name="password_error">"Parolă incorectă"</string>
+    <string name="password_hint">"Conectare"</string>
+    <string name="starry_unlock_info">"În sus pentru deblocare"</string>
+    <string name="touch_protect_content1">"Ieşire după:"</string>
+    <string name="touch_protect_content2">"Nu blocaţi senzorul de proximitate"</string>
+    <string name="touch_protect_hint">"Apăsaţi tasta Pornire şi tasta olum pentru a ieşi"</string>
+    <string name="touch_protect_title">"Prevenire atingere greşită"</string>
+    <string name="user_switched_to_home_hint">"S-a comutat la spaţiul utilizatorului"</string>
+    <string name="user_switched_to_primary_hint">"S-a comutat la spaţiul utilizatorului principal"</string>
+    <string name="user_switching_hint">"Se comută utilizatorul..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Introduceţi PIN-ul cartelei SIM. Mai aveţi <xliff:g id="number">%d</xliff:g> încercare înainte de a fi necesar să contactaţi operatorul dvs. pentru a vă debloca dispozitivul."</item>
+        <item quantity="other">"Introduceţi PIN-ul cartelei SIM. Mai aveţi <xliff:g id="number">%d</xliff:g> încercări."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM-ul este dezactivat acum. Introduceţi codul PUK pentru a continua. Mai aveţi <xliff:g id="number">%d</xliff:g> încercare înainte ca SIM-ul să devină inutilizabil definitiv. Contactaţi operatorul pentru detalii."</item>
+        <item quantity="other">"SIM-ul este dezactivat acum. Introduceţi codul PUK pentru a continua. Mai aveţi <xliff:g id="number">%d</xliff:g> încercări înainte ca SIM-ul să devină inutilizabil definitiv. Contactaţi operatorul pentru detalii."</item>
+    </plurals>
+
+</resources>

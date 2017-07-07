@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/item_bg_color" >
+
+    <LinearLayout
+        android:id="@+id/border_top"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:background="@color/item_br_color"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/border_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/item_br_color"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/border_left"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@color/item_br_color"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/border_right"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@color/item_br_color"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_width"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/title_font_size"/>
+    </LinearLayout>
+
+</RelativeLayout>

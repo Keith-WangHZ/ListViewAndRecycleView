@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Chế độ họp</string>
+    <string name="accessibility_menu">"Trình đơn"</string>
+    <string name="accessibility_camera_button">"Máy ảnh"</string>
+    <string name="unlock_label">"Mở khóa"</string>
+    <string name="phone_label">"Mở điện thoại"</string>
+    <string name="camera_label">"Mở máy ảnh"</string>
+    <string name="data_usage_disabled_dialog">"Thiết bị của bạn tắt dữ liệu truy cập do đã đạt mức giới hạn bạn đặt.\n\n Bật lại dữ liệu có thể phát sinh chi phí từ nhà mạng."</string>
+    <string name="gps_notification_searching_text_content">"Tìm kiếm GPS"</string>
+    <string name="camera_hint">"Trượt lên trên cho cập cho máy ảnh"</string>
+    <string name="user_add_user_message_short">"Khi bạn thêm người dùng mới, người dùng đó cần thiết lập không gian của mình.\n\n Mọi người dùng đều có thể cập nhật ứng dụng cho tất cả người dùng khác."</string>
+    <string name="compat_mode_off">"Kéo dài để tô màn hình"</string>
+    <string name="screenshot_saving_ticker">"Đang lưu ảnh chụp màn hình"</string>
+    <string name="screenshot_saving_title">"Đang lưu ảnh chụp màn hình"</string>
+    <string name="screenshot_saving_text">"Ảnh chụp màn hình đã được lưu."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Emergency"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="qs_label_blacklist">"Bị chặn"</string>
+    <string name="qs_label_blacklist2">"Bị chặn"</string>
+    <string name="status_bar_screenshot_interesting">"Ảnh chụp màn hình thú vị"</string>
+    <string name="status_bar_recent_memory_free">"Trống"</string>
+    <string name="status_bar_earphones_connected_title">"Tai nghe"</string>
+    <string name="item_center_notifcaiton_obsessive">"Tùy chọn OCD"</string>
+    <string name="quicksettings_more">"Khác"</string>
+    <string name="dateview_month">"Tháng"</string>
+    <string name="dateview_day">"Ngày"</string>
+    <!-- yulong begin add by zhangyang -->
+    <string name="status_bar_expanded_start_network">Dữ liệu di động</string>
+    <string name="status_bar_expanded_stop_network">Dữ liệu di động</string>
+    <string name="status_bar_expanded_start_network_g">Dữ liệu di động</string>
+    <string name="status_bar_expanded_stop_network_g">Dữ liệu di động</string>
+    <string name="status_bar_expanded_data_net_status">Không xác định</string>
+    <string name="status_bar_expanded_check_uimsim">Không có USIM</string>
+    <string name="status_bar_expanded_check_sim">Không có SIM</string>
+    <string name="status_bar_expanded_check_uim">Không có UIM</string>
+    <string name="status_bar_expanded_network_off">Không có dịch vụ</string>
+    <string name="status_bar_expanded_network_forbid">Dịch vụ bị vô hiệu hóa</string>
+    <string name="status_bar_expanded_airplane_mode">Chế độ máy bay</string>
+    <string name="status_bar_expanded_mms_send_note">Đang kết nối mạng... Hãy thử lại sau.</string>
+    <string name="status_bar_airplane_mode_send_note">Không thể kết nối mạng trong chế độ máy bay.</string>
+    <string name="kg_no_uim">Không có UIM hoặc dịch vụ</string>
+    <string name="kg_no_usim">Không có USIM hoặc dịch vụ</string>
+    <string name="kg_none_carrier">Không có dịch vụ</string>
+    <string name="kg_no_service">Không có dịch vụ</string>
+    <string name="status_bar_expanded_net_using_card"><xliff:g id="number">%d</xliff:g>Sử dụng thẻ điện thoại để kết nối dữ liệu. Bạn có thể chuyển mạng sau theo cách thủ công.</string>
+    <!-- yulong beging add by zhangyang for yulong quick setting -->
+
+    <string name="qs_label_brightness">Độ sáng</string>
+    <string name="qs_label_location">Vị trí</string>
+    <string name="qs_label_rotation">Xoay màn hình</string>
+    <string name="qs_label_scenemode">Chế độ</string>
+    <string name="qs_label_standard">Chung</string>
+    <string name="qs_label_flight">Máy bay</string>
+    <string name="qs_label_meeting">Cuộc họp</string>
+    <string name="qs_label_external">Ngoài trời</string>
+    <string name="qs_label_quiet">Im lặng</string>
+    <string name="qs_label_custom">Tùy chỉnh</string>
+    <string name="qs_label_phone">Gọi</string>
+    <string name="qs_label_saving">Tiết kiệm pin</string>
+    <string name="qs_label_airplane">Máy bay</string>
+    <string name="qs_label_ringer">Chuông</string>
+    <string name="qs_label_vibrate_ring">Rung</string>
+    <string name="qs_label_super_saving">Chế độ chờ</string>
+    <string name="qs_label_viplist">Danh sách trắng</string>
+    <string name="qs_label_viplist2">Danh sách trắng</string>
+    <string name="qs_label_doublecard">Thẻ điện thoại</string>
+    <string name="qs_label_setting">Cài đặt</string>
+    <string name="qs_label_speed">Tăng tốc</string>
+    <string name="qs_label_silence">Tắt tiếng</string>
+    <string name="qs_label_softap">Điểm phát sóng</string>
+    <string name="qs_label_sdcard_uninstall">Gỡ cài đặt thẻ SD</string>
+    <string name="qs_label_show">Thông báo</string>
+    <string name="qs_label_hide">Thông báo</string>
+    <string name="qs_label_sdcard_install">Cài đặt thẻ SD</string>
+    <string name="qs_label_flow_monitor">Sử dụng dữ liệu</string>
+    <string name="qs_label_switching">Đang chuyển đổi</string>
+    <string name="qs_label_turning_on">Đang mở</string>
+    <string name="qs_label_turning_off">Đang đóng</string>
+    <string name="qs_label_cbutton">Nút C</string>
+    <string name="qs_label_mutlwindow">Đa nhiệm</string>
+    <string name="qs_label_secure_mode">Bảo vệ dữ liệu</string>
+    <string name="qs_label_super_secure_mode">Chế độ siêu bảo mật</string>
+    <string name="qs_label_dataprotection_mode">Bảo vệ dữ liệu</string>
+    <string name="qs_label_driving_mode">Chế độ lái xe</string>
+    <string name="qs_label_ttwindow_mode">Phát tin tức</string>
+    <string name="qs_label_sound">Âm thanh</string>
+    <string name="qs_label_data_roaming">Chuyển vùng dữ liệu</string>
+    <string name="qs_label_shrink_screen">Co dãn màn hình</string>
+    <string name="qs_label_flashlight">Đèn flash</string>
+    <string name="status_bar_select_network1">"Mạng 1"</string>
+    <string name="status_bar_select_network2">"Mạng 2"</string>
+    <string name="status_bar_no_running_apps">Không có ứng dụng nào đang chạy</string>
+    <string name="status_bar_recent_optimize">Chi tiết</string>
+    <string name="status_bar_recent_delete">Xóa</string>
+    <string name="status_bar_recent_historical">Tác vụ lịch sử</string>
+    <string name="status_bar_recent_running">Tác vụ hiện hoạt</string>
+    <string name="status_bar_screenshot_exit">Hủy bỏ</string>
+    <string name="status_bar_screenshot_share">Chia sẻ</string>
+    <string name="status_bar_screenshot_edit">Chỉnh sửa</string>
+    <string name="status_bar_screenshot_save">Lưu</string>
+    <string name="status_bar_notify_interception_disable">Cấm</string>
+    <string name="status_bar_notify_interception_enable">Cho phép</string>
+    <string name="qs_major_bar_tips">Hiện trong bảng thông báo (tối đa 10)</string>
+    <string name="qs_minor_bar_tips">Không hiện trong bảng thông báo</string>
+    <string name="status_bar_recent_memory">Bộ nhớ</string>
+    <string name="status_bar_recent_memory_used">Đã dùng:</string>
+    <string name="status_bar_recent_memory_item_used">Đã dùng:</string>
+    <string name="status_bar_recent_memory_total">Tổng dung lượng bộ nhớ</string>
+    <string name="status_bar_earphones_connected_text">Đã kết nối tai nghe.</string>
+    <string name="status_bar_earphones_connected_ticker">Đã kết nối tai nghe.</string>
+    <string name="status_bar_screenshot_copytoclipboard">Đã chép vào bộ nhớ tạm.</string>
+    <string name="status_bar_enable_data_roaming">Đã kích hoạt chuyển vùng.</string>
+    <string name="status_bar_disable_data_roaming">Đã hủy kích hoạt chuyển vùng.</string>
+
+    <!-- yulong add by jinxiaofeng -->
+    <string name="status_bar_expand_autobright">Tự động chỉnh độ sáng</string>
+    <string name="status_bar_notification_manager">Trình quản lý</string>
+    <string name="status_bar_other_notify">Khác</string>
+    <string name="status_bar_other_notify_back">Trở về</string>
+    <string name="qs_label_multiple_accounts_name">Chủ sở hữu</string>
+    <string name="brightness_dlg_brightness">Độ sáng</string>
+    <string name="brightness_dlg_adjust">(Điều chỉnh)</string>
+    <string name="brightness_dlg_auto">Tự động</string>
+    <string name="clear_notify_all_oldman">Xóa thông báo</string>
+    <string name="other_notification_format"><xliff:g id="NUMBER">%d</xliff:g> thông báo khác</string>
+    <string name="other_notification_expand">, chạm để xem tất cả.</string>
+    <string name="title_activity_package_list">"Trung tâm thông báo"</string>
+    <string name="title_show_notifcaiton">Hiện thông báo</string>
+    <string name="title_show_statusbar">Hiện trên bảng</string>
+    <string name="title_show_other">Hiện ở vị trí khác</string>
+    <string name="title_show_notification_center">Trung tâm thông báo</string>
+    <string name="title_show_floating">Thông báo nổi</string>
+    <string name="title_show_floating_sub">Sau khi mở khóa màn hình, thông báo sẽ hiển thị trên đầu màn hình rồi sau đó tự động biến mất</string>
+    <string name="title_show_effect_preview">Xem trước ảnh</string>
+    <string name="item_center_notifcaiton_title">Trung tâm thông báo và trung tâm điều khiển</string>
+    <string name="item_center_notifcaiton_sub">Thông báo</string>
+    <string name="item_center_notifcaiton_management">Quản lý thông báo</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">Bật kéo xuống khi khóa màn hình</string>
+    <string name="item_center_notifcaiton_ccm">Hiện tên nhà mạng</string>
+    <string name="item_center_notifcaiton_control">Trung tâm điều khiển</string>
+    <string name="item_center_notifcaiton_quicksettings">Cài đặt nhanh</string>
+    <string name="item_center_notifcaiton_other">Khác</string>
+    <string name="item_center_notifcaiton_obsessive_hide">Ẩn nhãn biểu tượng</string>
+    <string name="item_center_notifcaiton_obsessive_clear">Xóa nhãn biểu tượng khi lắc thiết bị</string>
+    <string name="item_show_notifcaiton">Thông báo</string>
+    <string name="item_show_statusbar">Bảng</string>
+    <string name="item_show_other">Khác</string>
+    <string name="item_show_none">Không có</string>
+    <string name="status_bar_super_secure_system_mode">Chế độ siêu an toàn đang hoạt động, vui lòng thoát khỏi chế độ an toàn để bật chức năng này</string>
+    <string name="quicksettings_edit_disable">Chỉnh sửa</string>
+    <string name="quicksettings_edit_enable">Thoát</string>
+    <string name="clear_memory_notice">Xin chúc mừng bạn đã hoàn tất nhiệm vụ dọn dẹp</string>
+    <!-- yulong end -->
+    <string name="capital_on">BẬT</string>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_off">TẮT</string>
+    <string name="domain_switch_toast">Thông báo từ dung lượng khác.</string>
+    <string name="status_bar_screenshot_long">Chụp màn hình lâu</string>
+    <string name="show_no_sim_message">Không có thẻ SIM. Vui lòng thử lại sau khi lắp thẻ!</string>
+    <string name="data_no_connected_error">Vui lòng kiểm tra có được phép chuyển vùng dữ liệu trong Cài đặt-&gt;SIMQuản lý thẻ-&gt;Chuyển vùng quốc tế!</string>
+    <string name="qs_label_dataportection_mode">"Bảo vệ dữ liệu"</string>
+    <string name="accessibility_hide">"Ẩn"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> Đã dùng |Tổng cộng <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="yl_volume_ring_icon_description">"Nhạc chuông &amp; thông báo âm lượng"</string>
+    <string name="status_bar_accessibility_recent_apps">"%d màn hình trong Tổng quan"</string>
+    <string name="header_name">"Cho phép"</string>
+    <string name="header_name_detail">"Hiện trong bảng thông báo"</string>
+    <string name="header_name_detail_top">"Hiện thông báo trên thanh trạng thái"</string>
+    <string name="header_name_top">"Thông báo thanh trạng thái"</string>
+    <string name="header_name0">"Thông báo"</string>
+    <string name="header_name1">"Khóa màn hình"</string>
+    <string name="header_top">"Quản lý hàng loạt thông báo"</string>
+    <string name="item_show_detail">"Hiện chi tiết"</string>
+    <string name="item_show_floating">"nổi"</string>
+    <string name="item_show_lockscreen">"Khóa màn hình"</string>
+    <string name="keyguard_magazine_cancel_resident">"Hủy cư dân"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Mỗi lần màn hình bật lên sẽ không hiện mặc định hình nền này"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Bộ sưu tập ảnh tạp chí"</string>
+    <string name="keyguard_magazine_link">"Chi tiết"</string>
+    <string name="keyguard_magazine_more">"Cài đặt"</string>
+    <string name="keyguard_magazine_resident">"Cư dân"</string>
+    <string name="keyguard_magazine_resident_toast">"Mỗi lần màn hình bật lên sẽ hiện mặc định hình nền này"</string>
+    <string name="keyguard_magazine_share">"Chia sẻ"</string>
+    <string name="keyguard_magzine_cancel_collect">"Đã thêm vào danh sách yêu thích"</string>
+    <string name="keyguard_magzine_collect">"Thu thập"</string>
+    <string name="keyguard_magzine_collect_toast">"Lưu dưới dạng ảnh tạp chí trong bộ sưu tập cục bộ"</string>
+    <string name="lockscreen_airplane_mode_on">"Chế độ máy bay đã bật."</string>
+    <string name="lockscreen_missing_sim_message_short">"Thẻ SIM đã bị mất."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Thẻ SIM không sử dụng được."</string>
+    <string name="lockscreen_sim_error_message_short">"Lỗi SIM."</string>
+    <string name="lockscreen_sim_locked_message">"Thẻ SIM đã bị khóa."</string>
+    <string name="lockscreen_sim_puk_locked_message">"Thẻ SIM đã bị khóa PUK."</string>
+    <string name="manage_notification_access_title">"Quyền quy cập thông báo"</string>
+    <string name="over_sea_hideNavigationBar_info">"Trượt từ dưới lên để hiện thị thanh công cụ"</string>
+    <string name="please_select_phase2">"Xác thực Giai đoạn 2"</string>
+    <string name="preference_detail_hide">"Ẩn"</string>
+    <string name="preference_detail_show">"Hiển thị"</string>
+    <string name="proxy_action_text">"Xong"</string>
+    <string name="proxy_clear_text">"Xóa"</string>
+    <string name="proxy_defaultView_text">"Khôi phục mặc định"</string>
+    <string name="proxy_error">"Chú ý"</string>
+    <string name="proxy_error_dismiss">"Đồng ý"</string>
+    <string name="proxy_error_empty_host_set_port">"Trường cổng phải trống nếu trường máy chủ trống."</string>
+    <string name="proxy_error_empty_port">"Bạn cần hoàn tất trường cổng."</string>
+    <string name="proxy_error_invalid_exclusion_list">"Danh sách loại trừ mà bạn đã nhập không được định dạng đúng. Hãy nhập danh sách chứa các miền bị loại trừ ngăn cách bằng dấu phẩy."</string>
+    <string name="proxy_error_invalid_host">"Tên máy chủ mà bạn đã nhập không hợp lệ."</string>
+    <string name="proxy_error_invalid_port">"Cổng mà bạn đã nhập không hợp lệ."</string>
+    <string name="proxy_exclusionlist_label">"Bỏ qua proxy cho"</string>
+    <string name="proxy_hostname_label">"Tên máy chủ proxy"</string>
+    <string name="proxy_port_label">"Cổng proxy"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"HTTP proxy được trình duyệt sử dụng nhưng có thể không được các ứng dụng khác sử dụng."</string>
+    <string name="qs_header_afternoon">"Chiều"</string>
+    <string name="qs_header_morning">"Sáng"</string>
+    <string name="qs_label_blaster">"Máy ghi âm"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_calculator">"Máy tính"</string>
+    <string name="qs_label_magical">"Kỳ diệu"</string>
+    <string name="qs_label_camera">"máy chụp ảnh"</string>
+    <string name="qs_label_recording">"Đã bắt đầu ghi"</string>
+    <string name="qs_label_controlcentor">"Trung tâm điều khiển"</string>
+    <string name="qs_label_slience">"Chụp màn hình"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="recents_app_battary">"Pin:"</string>
+    <string name="recents_app_best_already">"Dọn dẹp hoàn tất"</string>
+    <string name="recents_app_depthclear_notfind">"bắt đầu ứ.dụng t.tâm an toàn trước"</string>
+    <string name="recents_app_liuliang">"Hôm nay:"</string>
+    <string name="recents_app_memory">"Bộ nhớ:"</string>
+    <string name="recents_app_memory_cleaned">"Đã dọn dẹp"</string>
+    <string name="recents_app_release_memory">"giải phóng bộ nhớ <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_running_empty">"không có tác vụ gần đây"</string>
+    <string name="recents_app_shendu">"chiều sâu"</string>
+    <string name="sim_slot">"Khe lắp SIM"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>tin nhắn]"</string>
+    <string name="sub_switch_name0">"Cho phép"</string>
+    <string name="sub_switch_name1">"Thông báo nổi"</string>
+    <string name="sub_switch_name1_sub">"Hiện thông báo trên cùng màn hình, sau đó tự động biến mất"</string>
+    <string name="sub_switch_name2">"Thông báo màn hình khóa"</string>
+    <string name="sub_switch_name2_sub">"Hiện thông báo trên thanh trạng thái"</string>
+    <string name="sub_switch_name3">"Hiện chi tiết thông báo"</string>
+    <string name="sub_switch_name4">"Hiện thông báo trên thanh trạng thái"</string>
+    <string name="title_activity_package_list_batch">"Xử lý hàng loạt thông báo"</string>
+    <string name="title_show_locksreen">"Hiện trên màn hình khóa"</string>
+    <string name="wapi_as_certificate">"Giấy phép ASE"</string>
+    <string name="wapi_user_certificate">"Chứng chỉ người dùng"</string>
+    <string name="wifi_disabled_generic">"Đã tắt"</string>
+    <string name="wifi_disabled_network_failure">"Tránh kết nối Internet kém"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Danh tính ẩn danh"</string>
+    <string name="wifi_eap_ca_cert">"Chứng chỉ CA"</string>
+    <string name="wifi_eap_identity">"Nhận dạng"</string>
+    <string name="wifi_eap_method">"Phương pháp EAP"</string>
+    <string name="wifi_eap_user_cert">"Chứng chỉ người dùng"</string>
+    <string name="wifi_frequency">"Tần suất"</string>
+    <string name="wifi_gateway">"Cổng vào"</string>
+    <string name="wifi_hex_password">"Mật khẩu thập lục phân."</string>
+    <string name="wifi_info_cancal_btn">"Hủy bỏ"</string>
+    <string name="wifi_info_connect_btn">"Kết nối"</string>
+    <string name="wifi_ip_address">"Địa chỉ IP"</string>
+    <string name="wifi_ip_settings">"Cài đặt IP"</string>
+    <string name="wifi_network_prefix_length">"Độ dài tiền tố mạng"</string>
+    <string name="wifi_password">"Mật khẩu"</string>
+    <string name="wifi_password_text">"Mật khẩu (8 đến 63 ký tự)"</string>
+    <string name="wifi_remembered">"Đã lưu"</string>
+    <string name="wifi_security">"Bảo mật"</string>
+    <string name="wifi_security_none">"Không có"</string>
+    <string name="wifi_show_advanced">"Hiển thị tùy chọn nâng cao"</string>
+    <string name="wifi_show_password">"Hiển thị mật khẩu"</string>
+    <string name="wifi_signal">"Cường độ tín hiệu"</string>
+    <string name="wifi_speed">"Tốc độ liên kết"</string>
+    <string name="wifi_ssid">"Tên"</string>
+    <string name="wifi_ssid_hint">"Nhập SSID"</string>
+    <string name="wifi_status">"Trạng thái"</string>
+    <string name="wifi_unchanged">"(không thay đổi)"</string>
+    <string name="wifi_unspecified">"(không xác định)"</string>
+    <string name="wifi_WEP_secury_key">"Khóa bảo mật"</string>
+    <string name="wifi_WEP_transmit_key">"Khóa truyền"</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Âm lượng cuộc gọi thoại"</item>
+        <item>"Âm lượng hệ thống"</item>
+        <item>"Nhạc chuông &amp; thông báo âm lượng"</item>
+        <item>"Âm thanh phương tiện"</item>
+        <item>"âm lượng báo thức"</item>
+        <item></item>
+        <item>"âm lượng bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
+    <string name="gps_notification_searching_text_content">"Có thể tiết kiệm pin sau khi đóng GPS."</string>
+    <string name="keyguard_guide_enter">"Hãy làm thử"</string>
+    <string name="guide_title">"Chào mừng bạn đến Tạp chí bảo vệ phím"</string>
+    <string name="guide_swipe_up_txt">"Vuốt lên để mở khóa"</string>
+    <string name="guide_sliding_txt">"Trượt để đổi màn hình"</string>
+    <string name="guide_click_txt">"Nhấp để cài đặt tạp chí bảo vệ phím"</string>
+    <string name="qs_label_white_black_patterns">"Âm thanh đơn"</string>
+    <string name="notification_hide_system_app">"Ẩn ứng dụng hệ thống"</string>
+    <string name="notification_show_system_app">"Hiện ứng dụng hệ thống"</string>
+    <string name="ctrl_center_shown_1page">"Đã hiển thị phím tắt-Trang 1"</string>
+    <string name="ctrl_center_shown_2page">"Đã hiển thị phím tắt-Trang 2"</string>
+    <string name="ctrl_center_non_shown">"Không hiển thị phím tắt"</string>
+    <string name="ctrl_center_hint">"Ghi chú: Chạm và giữ một phím tắt để di chuyển nó. Bạn có thể điều chỉnh thứ tự hiển thị của nó"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="qs_bottom_first_btn">"Tôi biết"</string>
+    <string name="qs_bottom_first_notice">"Vuốt lên từ cuối màn hình để truy cập bảng Cài đặt nhanh"</string>
+
+</resources>

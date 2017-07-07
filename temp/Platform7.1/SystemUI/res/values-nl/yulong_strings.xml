@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Vergaderstand</string>
+    <string name="qs_label_vibrate_ring">Trillen</string>
+    <string name="qs_label_softap">Hotspot</string>
+    <string name="accessibility_ime_switch_button">"Knop voor wijzigen invoermethode."</string>
+    <string name="accessibility_no_wifi">"Wi-Fi-verbinding verbroken."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"Wi-Fi uit."</string>
+    <string name="accessibility_wifi_one_bar">"Wi-Fi één streepje."</string>
+    <string name="accessibility_wifi_signal_full">"Wi-Fi-signaal volledig."</string>
+    <string name="accessibility_wifi_three_bars">"Wi-Fi drie streepjes."</string>
+    <string name="accessibility_wifi_two_bars">"Wi-Fi twee streepjes."</string>
+    <string name="guide_click_txt">"Klik om instellingen voor Keyguard Magazine te wijzigen"</string>
+    <string name="guide_sliding_txt">"Schuiven om het scherm te wijzigen"</string>
+    <string name="guide_swipe_up_txt">"Omhoog vegen om te ontgrendelen"</string>
+    <string name="guide_title">"Welkom bij Keyguard Magazine"</string>
+    <string name="header_name_detail_top">"Meldingen weergeven in statusbalk"</string>
+    <string name="header_name_top">"Statusbalkmelding"</string>
+    <string name="header_name0">"Statusbalk"</string>
+    <string name="header_name1">"Toetsenblokkering"</string>
+    <string name="header_top">"Batch van meldingenbeheer"</string>
+    <string name="interruption_level_all">"Alles"</string>
+    <string name="keyguard_guide_enter">"Proberen"</string>
+    <string name="lockscreen_airplane_mode_on">"Vliegtuigmodus is geactiveerd."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM-kaart ontbreekt."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Onbruikbare SIM-kaart."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM-fout."</string>
+    <string name="lockscreen_sim_locked_message">"SIM-kaart is vergrendeld."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM-kaart is vergrendeld met PUK-code."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Dit apparaat wordt beheerd door:\n<xliff:g id="organization">%1$s</xliff:g>\nUw profiel wordt beheerd door:\n<xliff:g id="organization">%2$s</xliff:g>\n\nDe beheerder kan uw apparaat en de netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites.\n\nNeem contact op met de beheerder voor meer informatie."</string>
+    <string name="monitoring_description_legacy_vpn">"U bent verbonden met een VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nDe VPN-serviceprovider kan uw apparaat en netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Dit apparaat wordt beheerd door:\n<xliff:g id="organization">%1$s</xliff:g>\nUw profiel wordt beheerd door:\n<xliff:g id="organization">%2$s</xliff:g>\n\nDe beheerder kan de netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites. Neem contact op met de beheerder voor meer informatie.\n\nU bent ook verbonden met een VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). De VPN-serviceprovider kan ook netwerkactiviteit bewaken."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Dit apparaat wordt beheerd door:\n<xliff:g id="organization">%1$s</xliff:g>\n\nDe beheerder kan uw netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites. Neem contact op met de beheerder voor meer informatie.\n\nU bent ook verbonden met een VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). De VPN-serviceprovider kan ook netwerkactiviteit bewaken."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Dit profiel wordt beheerd door:\n<xliff:g id="organization">%1$s</xliff:g>\n\nDe beheerder kan de netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites. Neem contact op met de beheerder voor meer informatie.\n\nU bent ook verbonden met een VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). De VPN-serviceprovider kan ook netwerkactiviteit bewaken."</string>
+    <string name="monitoring_description_profile_owned">"Dit profiel wordt beheerd door:\n<xliff:g id="organization">%1$s</xliff:g>\n\nDe beheerder kan uw apparaat en netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites.\n\nNeem contact op met de beheerder voor meer informatie."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Dit apparaat wordt beheerd door:\n<xliff:g id="organization">%1$s</xliff:g>\nUw profiel wordt beheerd door:\n<xliff:g id="organization">%2$s</xliff:g>\n\nDe beheerder kan de netwerkactiviteit bewaken, waaronder e-mails, apps en beveiligde websites. Neem contact op met de beheerder voor meer informatie.\n\nU hebt ook \"<xliff:g id="application">%3$s</xliff:g>\" gemachtigd tot het instellen van een VPN-verbinding. Met deze app kan ook netwerkactiviteit worden bewaakt."</string>
+    <string name="please_select_phase2">"Phase 2-verificatie"</string>
+    <string name="proxy_exclusionlist_label">"Proxy omzeilen voor"</string>
+    <string name="proxy_hostname_label">"Naam proxyhost"</string>
+    <string name="proxy_port_label">"Proxypoort"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"De HTTP-proxy wordt gebruikt door de browser, maar mag niet worden gebruikt door de andere apps."</string>
+    <string name="qs_bottom_first_btn">"Weet ik"</string>
+    <string name="qs_bottom_first_notice">"Veeg omhoog vanaf de onderkant van het scherm om het paneel met snelle instellingen te openen"</string>
+    <string name="qs_label_cbutton">"C-knop"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Vliegtuigmodus"</string>
+    <string name="sim_slot">"SIM-sleuf"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g> berichten]"</string>
+    <string name="status_bar_settings_airplane">"Vliegtuigmodus"</string>
+    <string name="sub_switch_name0">"Meldingen inschakelen"</string>
+    <string name="sub_switch_name1">"Zwevende meldingen"</string>
+    <string name="sub_switch_name1_sub">"Meldingen weergeven boven aan scherm en daarna automatisch laten verdwijnen"</string>
+    <string name="sub_switch_name2">"Meldingen op vergrendelingsscherm"</string>
+    <string name="sub_switch_name2_sub">"Meldingen weergeven in statusbalk"</string>
+    <string name="sub_switch_name3">"Details van meldingen weergeven"</string>
+    <string name="sub_switch_name4">"Meldingen weergeven in statusbalk"</string>
+    <string name="title_activity_package_list_batch">"Verwerking van meldingenbatches"</string>
+    <string name="wapi_as_certificate">"ASE-certificaat"</string>
+    <string name="wapi_user_certificate">"Gebruikerscertificaat"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anonieme identiteit"</string>
+    <string name="wifi_eap_ca_cert">"CA-certificaat"</string>
+    <string name="wifi_eap_identity">"Identiteit"</string>
+    <string name="wifi_eap_method">"EAP-methode"</string>
+    <string name="wifi_eap_user_cert">"Gebruikerscertificaat"</string>
+    <string name="wifi_gateway">"Gateway"</string>
+    <string name="wifi_hex_password">"Hexadecimaal wachtwoord."</string>
+    <string name="wifi_info_cancal_btn">"Annuleren"</string>
+    <string name="wifi_info_connect_btn">"Verbinding maken"</string>
+    <string name="wifi_ip_address">"IP-adres"</string>
+    <string name="wifi_ip_settings">"IP-instellingen"</string>
+    <string name="wifi_network_prefix_length">"Lengte van netwerkprefix"</string>
+    <string name="wifi_password">"Wachtwoord"</string>
+    <string name="wifi_password_text">"Wachtwoord (8 tot 63 tekens)"</string>
+    <string name="wifi_security">"Beveiliging"</string>
+    <string name="wifi_security_none">"Geen"</string>
+    <string name="wifi_show_advanced">"Geavanceerde opties weergeven"</string>
+    <string name="wifi_show_password">"Wachtwoord weergeven"</string>
+    <string name="wifi_signal">"Signaalsterkte"</string>
+    <string name="wifi_ssid">"Netwerk-SSID"</string>
+    <string name="wifi_ssid_hint">"SSID invoeren"</string>
+    <string name="wifi_status">"Status"</string>
+    <string name="wifi_unchanged">"(ongewijzigd)"</string>
+    <string name="wifi_WEP_secury_key">"Beveiligingssleutel"</string>
+    <string name="wifi_WEP_transmit_key">"Zendsleutel"</string>
+    <string name="zen_alarm_information_day_time">"Uw volgende alarm is <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Uw volgende alarm gaat af om <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Alleen storen bij belangrijke meldingen"</string>
+    <string name="zen_no_interruptions">"Niet storen"</string>
+    <string name="zen_no_interruptions_with_warning">"Niet storen. Zelfs geen alarmen."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/nooddienst"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Toevoegen"</string>
+    <string name="keyguard_magzine_cancel_collect">"Toegevoegd"</string>
+    <string name="keyguard_magazine_resident">"Resident"</string>
+    <string name="keyguard_magazine_cancel_resident">"Resident annuleren"</string>
+    <string name="keyguard_magazine_share">"Delen"</string>
+    <string name="keyguard_magazine_link">"Koppeling"</string>
+    <string name="keyguard_magazine_more">"Instelling"</string>
+    <string name="keyguard_magzine_collect_toast">"Opslaan in fotoalbum in de lokale galerij"</string>
+    <string name="keyguard_magazine_resident_toast">"Telkens als het scherm wordt ingeschakeld, wordt deze achtergrond standaard weergegeven"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Telkens als het scherm wordt ingeschakeld, wordt deze achtergrond niet standaard weergegeven"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Collectie fotoalbum"</string>
+    <string name="qs_label_calculator">"Rekenmachine"</string>
+    <string name="qs_label_blaster">"Recorder"</string>
+    <string name="qs_label_magical">"Magisch"</string>
+    <string name="qs_label_camera">"Camera"</string>
+    <string name="qs_label_recording">"Opname"</string>
+    <string name="qs_label_controlcentor">"Controlecentrum"</string>
+    <string name="qs_label_slience">"Schermafbeelding"</string>
+    <string name="header_name">"melding inschakelen"</string>
+    <string name="header_name_detail">"Weergegeven in meldingenvenster"</string>
+    <string name="title_show_locksreen">"Weergeven in vergrendelscherm"</string>
+    <string name="recents_app_shendu">"grondig"</string>
+    <string name="recents_app_liuliang">"Vandaag:"</string>
+    <string name="recents_app_memory">"Geheugen:"</string>
+    <string name="recents_app_battary">"Batterij:"</string>
+    <string name="recents_app_running_empty">"geen recente taken"</string>
+    <string name="recents_app_best_already">"reeds opgeschoond"</string>
+    <string name="recents_app_release_memory">"geheugen opschonen <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"start eerst de beveiligingscentrum-app"</string>
+    <string name="recents_app_memory_cleaned">"opgeschoond"</string>
+    <string name="preference_detail_show">"Tonen"</string>
+    <string name="preference_detail_hide">"Verbergen"</string>
+    <string name="item_show_notifcaiton">"Melding"</string>
+    <string name="item_show_lockscreen">"op vergrendelscherm"</string>
+    <string name="item_show_floating">"zwevend"</string>
+    <string name="item_show_detail">"Details weergeven"</string>
+    <string name="manage_notification_access_title">"Meldingstoegang"</string>
+    <string name="notification_hide_system_app">"Systeemapps verbergen"</string>
+    <string name="notification_show_system_app">"Systeemapps weergeven"</string>
+    <string name="ctrl_center_shown_1page">"Snelkoppelingen weergegeven-pagina 1"</string>
+    <string name="ctrl_center_shown_2page">"Snelkoppelingen weergegeven-pagina 2"</string>
+    <string name="ctrl_center_non_shown">"Snelkoppelingen worden niet weergegeven"</string>
+    <string name="ctrl_center_hint">"Opmerking: Houd uw vinger op een snelkoppeling om deze te verplaatsen. U kunt de snelkoppeling weergeven of verbergen en de locatie aanpassen\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Volume spraakoproepen"</item>
+        <item>"Systeemvolume"</item>
+        <item>"Volume van beltoon en meldingen"</item>
+        <item>"Mediavolume"</item>
+        <item>"Alarmvolume"</item>
+        <item></item>
+        <item>"Volume Bluetooth oproepen"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="accessibility_hide">"Verbergen"</string>
+    <string name="clear_memory_notice">"Gefeliciteerd, taken opruimen is gelukt"</string>
+    <string name="data_no_connected_error">"Controleer alsjeblieft of gegevens-roaming is toegestaan in Instellingen-&gt;SIM-kaartbeheer-&gt;Internationale Roaming!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Omlaag slepen ingeschakeld bij vergrendelscherm"</string>
+    <string name="item_center_notifcaiton_obsessive">"OCD-opties"</string>
+    <string name="qs_label_dataportection_mode">"Gegevensbeveiliging"</string>
+    <string name="qs_label_ringer">"Beltoon"</string>
+    <string name="qs_label_rotation">"Schermrotatie"</string>
+    <string name="qs_label_speed">"Versnellen"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="selected_count">%1$s</xliff:g>bestand(en), <xliff:g id="selected_size">%2$s</xliff:g>in totaal"</string>
+    <string name="show_no_sim_message">"Geen SIM-kaart. Probeer het nogmaals na het inzetten van de kaart!"</string>
+    <string name="status_bar_screenshot_interesting">"Interessante"</string>
+    <string name="status_bar_screenshot_long">"Lange"</string>
+    <string name="status_bar_super_secure_system_mode">"Op dit moment in veilige stand, verlaat de veilige stand als je de functie wilt inschakelen"</string>
+    <string name="title_show_floating_sub">"Na het ontgrendelen van het scherm, worden mededelingen boven aan het scherm getoond en verdwijnen dan automatisch"</string>
+    <string name="yl_volume_ring_icon_description">"Beltoon &amp; kennisgevingen volume"</string>
+    <string name="accessibility_quick_settings_data_off">"Mobiele gegevens uit."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobiele gegevens aan."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Roaming uit."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Roaming aan."</string>
+    <string name="brightness_dlg_adjust">"(Aanpassen)"</string>
+    <string name="brightness_dlg_auto">"Automatisch"</string>
+    <string name="brightness_dlg_brightness">"Helderheid"</string>
+    <string name="clear_notify_all_oldman">"Mededelingen wissen"</string>
+    <string name="dateview_day">"Dag"</string>
+    <string name="dateview_month">"Maand"</string>
+    <string name="domain_switch_toast">"De melding komt uit een andere ruimte."</string>
+    <string name="item_center_notifcaiton_ccm">"Toon naam van carrier"</string>
+    <string name="item_center_notifcaiton_management">"Mededelingenbeheer"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Wis label van pictogrammen wanneer je schudt"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Label van pictogram verbergen"</string>
+    <string name="item_center_notifcaiton_other">"Overig"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Snelle instellingen"</string>
+    <string name="item_center_notifcaiton_sub">"Melding"</string>
+    <string name="item_center_notifcaiton_title">"Instellingen"</string>
+    <string name="item_show_none">"Geen"</string>
+    <string name="item_show_other">"Overig"</string>
+    <string name="item_show_statusbar">"Paneel"</string>
+    <string name="keyguard_magazine_enter">"Veeg omlaag naar toetsbeschermingmagazijn"</string>
+    <string name="kg_no_service">"Geen service"</string>
+    <string name="kg_no_uim">"Geen UIM of service"</string>
+    <string name="kg_no_usim">"Geen SIM-kaart of service"</string>
+    <string name="kg_none_carrier">"Geen service"</string>
+    <string name="message_keep_one_launcher">"Ten minste één Home-activiteit moet behouden blijven!"</string>
+    <string name="message_switch_fail">"Overschakelen naar deze taak is niet mogelijk, er is geen interface"</string>
+    <string name="other_notification_expand">"raak aan als je alles wilt zien."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMMER">%d</xliff:g> overige mededelingen"</string>
+    <string name="qs_label_airplane">"Vliegtuig-mode"</string>
+    <string name="qs_label_blacklist">"Blokkeren"</string>
+    <string name="qs_label_blacklist2">"Blokkeren"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Helderheid"</string>
+    <string name="qs_label_data_roaming">"Roaming"</string>
+    <string name="qs_label_doublecard">"Dual-card instellingen"</string>
+    <string name="qs_label_driving_mode">"Autostand"</string>
+    <string name="qs_label_flashlight">"Flitslicht"</string>
+    <string name="qs_label_flow_monitor">"Datagebruik"</string>
+    <string name="qs_label_location">"Locatie"</string>
+    <string name="qs_label_multiple_accounts_name">"Eigenaar"</string>
+    <string name="qs_label_mutlwindow">"Multitask"</string>
+    <string name="qs_label_saving">"Energiebesparing"</string>
+    <string name="qs_label_scenemode">"Scènemodus"</string>
+    <string name="qs_label_sdcard_install">"SD-kaart installeren"</string>
+    <string name="qs_label_sdcard_uninstall">"SD-kaart de-installeren"</string>
+    <string name="qs_label_secure_mode">"Gegevens beveiligen"</string>
+    <string name="qs_label_setting">"Instellingen"</string>
+    <string name="qs_label_shrink_screen">"Scherm schalen"</string>
+    <string name="qs_label_silence">"Stil"</string>
+    <string name="qs_label_sound">"Geluid"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Superveilige stand"</string>
+    <string name="qs_label_switching">"Aan het overschakelen"</string>
+    <string name="qs_label_ttwindow_mode">"Nieuws-stream"</string>
+    <string name="qs_label_turning_off">"Sluiten"</string>
+    <string name="qs_label_turning_on">"Openen"</string>
+    <string name="qs_label_viplist">"Whitelist"</string>
+    <string name="qs_label_viplist2">"Whitelist"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Getoond in mededelingenpaneel (maximaal 10)"</string>
+    <string name="qs_minor_bar_tips">"Niet getoond in mededelingenpaneel"</string>
+    <string name="quick_settings_apn_switch_label">"APN-schakelaar"</string>
+    <string name="quick_settings_data_off">"Gegevens uit"</string>
+    <string name="quick_settings_dds_sub">"Kaart <xliff:g id="number">%d</xliff:g> gegevens"</string>
+    <string name="quick_settings_mobile_data_label">"Mobiele gegevens"</string>
+    <string name="quick_settings_roaming_label">"Roaming"</string>
+    <string name="quicksettings_edit_disable">"Bewerken"</string>
+    <string name="quicksettings_edit_enable">"Afsluiten"</string>
+    <string name="quicksettings_more">"Meer"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Kan het netwerk niet verbinden in een vliegtuigstand."</string>
+    <string name="status_bar_disable_data_roaming">"Roaming gedeactiveerd."</string>
+    <string name="status_bar_earphones_connected_text">"Oortelefoon is aangesloten."</string>
+    <string name="status_bar_earphones_connected_ticker">"Oortelefoon is aangesloten."</string>
+    <string name="status_bar_earphones_connected_title">"Kuulokkeet"</string>
+    <string name="status_bar_enable_data_roaming">"Roaming geactiveerd."</string>
+    <string name="status_bar_expand_autobright">"Helderheid automatisch aanpassen"</string>
+    <string name="status_bar_expanded_check_sim">"Geen SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Geen UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Geen SIM-kaart"</string>
+    <string name="status_bar_expanded_data_net_status">"Onbekend"</string>
+    <string name="status_bar_expanded_mms_send_note">"Het netwerk wordt verbonden… Probeer het later nog eens."</string>
+    <string name="status_bar_expanded_net_using_card">"Telefoonkaart <xliff:g id="nummer">%d</xliff:g> gebruiken voor dataverbinding. Je kunt later zelf het netwerk inschakelen."</string>
+    <string name="status_bar_expanded_network_forbid">"Service uitgeschakeld"</string>
+    <string name="status_bar_expanded_network_off">"Geen service"</string>
+    <string name="status_bar_expanded_start_network">"Mobiele gegevens"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobiele gegevens"</string>
+    <string name="status_bar_expanded_stop_network">"Mobiele gegevens"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobiele gegevens"</string>
+    <string name="status_bar_no_running_apps">"Geen app actief"</string>
+    <string name="status_bar_notification_manager">"manager"</string>
+    <string name="status_bar_notify_interception_disable">"Verbieden"</string>
+    <string name="status_bar_notify_interception_enable">"Toestaan"</string>
+    <string name="status_bar_other_notify">"Meer"</string>
+    <string name="status_bar_other_notify_back">"Terug"</string>
+    <string name="status_bar_recent_delete">"Wissen"</string>
+    <string name="status_bar_recent_historical">"Historische taak"</string>
+    <string name="status_bar_recent_memory">"Geheugen"</string>
+    <string name="status_bar_recent_memory_free">"vrij|"</string>
+    <string name="status_bar_recent_memory_item_used">"Gebruikt:"</string>
+    <string name="status_bar_recent_memory_used">"Gebruikt:"</string>
+    <string name="status_bar_recent_optimize">"Uitgebreid"</string>
+    <string name="status_bar_recent_running">"Actieve taak"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Gekopieerd naar klembord."</string>
+    <string name="status_bar_screenshot_edit">"Bewerken"</string>
+    <string name="status_bar_screenshot_exit">"Annuleren"</string>
+    <string name="status_bar_screenshot_save">"Opslaan"</string>
+    <string name="status_bar_screenshot_share">"Delen"</string>
+    <string name="status_bar_select_network1">"Net 1"</string>
+    <string name="status_bar_select_network2">"Net 2"</string>
+    <string name="tasklist_killall">"Alles killen"</string>
+    <string name="tasklist_memory_usage">"Vrij/Totaal Geheugen: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Taakbeheer"</string>
+    <string name="title_activity_package_list">"Mededelingencentrum"</string>
+    <string name="title_show_effect_preview">"Voorbeeld afbeelding"</string>
+    <string name="title_show_floating">"Zwevende mededelingen"</string>
+    <string name="title_show_notifcaiton">"Toestaan"</string>
+    <string name="title_show_notification_center">"Mededelingencentrum"</string>
+    <string name="title_show_other">"Tonen in overigen"</string>
+    <string name="title_show_statusbar">"Tonen op paneel"</string>
+    <string name="gps_notification_searching_text_content">"Als GPS is uitgeschakeld, kan energie worden bespaard."</string>
+    <string name="quick_settings_battery_charging_label">"Opladen, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Opgeladen"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Gedempt door <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Navigatiebalk weergeven door vanaf de onderkant van het scherm naar boven te schuiven"</string>
+    <string name="status_bar_expanded_airplane_mode">"Vliegmodus"</string>
+    <string name="item_center_notifcaiton_control">"Controlepaneel"</string>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.covermode.StarryTopStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:WeatherItem="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/starry_top_status_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|end"
+    android:padding="15dp"
+    android:clickable="false" >
+
+    <LinearLayout
+        android:id="@+id/starry_coolpad_health_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/coolpad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:shadowColor="#C0000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/starry_status"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="start"
+            android:shadowColor="#C0000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/starry_status"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/starry_date_weather_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextClock
+            android:id="@+id/date_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:format12Hour="@string/abbrev_wday_month_day_no_year"
+            android:format24Hour="@string/abbrev_wday_month_day_no_year"
+            android:gravity="end"
+            android:shadowColor="#C0000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/clock_white"
+            android:textSize="14sp" />
+
+        <com.android.covermode.StarryWeatherView
+            android:id="@+id/starry_weather_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingBottom="2dip"
+            android:paddingTop="2dip"
+            WeatherItem:temperatureText="@+id/yl_small_window_temperature"
+            WeatherItem:weatherIcon="@+id/yl_small_window_weather" >
+
+            <TextView
+                android:id="@+id/yl_small_window_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:shadowColor="#C0000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="2.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#B2ffffff"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/yl_small_window_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:scaleType="fitXY"
+                android:src="@drawable/weather_04"
+                android:textColor="#99FFFFFF"
+                android:visibility="visible" />
+        </com.android.covermode.StarryWeatherView>
+    </LinearLayout>
+
+</com.android.covermode.StarryTopStatusView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"Te veel pogingen, probeer het opnieuw over 30 seconden."</string>
+    <string name="camera">"camera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Typ een SIMLOCK in tussen 4 en 8 cijfers"</string>
+    <string name="kg_password_sim_lock_failed">"SIMLOCK-bewerking mislukt!"</string>
+    <string name="kg_sim_lock_instructions">"SIMLOCK invoeren"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Pincode SIM-kaart correct, kaart ontgrendeld"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Ontgrendeling SIM-kaart geslaagd"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Voer SIMLOCK in, u hebt <xliff:g id="number">%d</xliff:g> resterende poging."</item>
+        <item quantity="other">"Voer SIMLOCK in, u hebt <xliff:g id="number">%d</xliff:g> resterende pogingen."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Onjuiste vergrendelingscode SIM, u hebt nog <xliff:g id="number">%d</xliff:g> resterende poging."</item>
+        <item quantity="other">"Onjuiste vergrendelingscode SIM, u hebt nog <xliff:g id="number">%d</xliff:g> resterende pogingen."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Beijing-tijd"</string>
+    <string name="cooluipin_button_cancel">"Annuleren"</string>
+    <string name="cooluipin_button_delete">"Wissen"</string>
+    <string name="cover_notification_clicked">"Open je houder"</string>
+    <string name="fangdao_hint">"Voer beveiligingswachtwoord in:"</string>
+    <string name="find_password_text">"Weet je je wachtwoord niet meer?"</string>
+    <string name="fingerprint_error_hint">"Verificatie met vingerafdruk niet gelukt, probeer het nog eens"</string>
+    <string name="fingerprint_recognized_hint">"Toetsbescherming ontgrendeld."</string>
+    <string name="keyguard_fangdao_input">"Voer CoolManager-wachtwoord in"</string>
+    <string name="keyguard_fangdao_title">"Beveiliging"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM is Perso vergrendeld"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verifiëren vingerafdruk of voer wachtwoord in"</string>
+    <string name="kg_no_card">"Geen SIM-kaart"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verifieer vingerafdruk of teken je patroon"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Verificatie met vingerafdruk niet gelukt, probeer het nog eens"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verifiëren vingerafdruk of voer pincode in"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Nu in vliegtuigstand"</string>
+    <string name="kg_remaining_attempts">"Resterende pogingen: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Sleuf <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Ongeldige Kaart."</string>
+    <string name="new_mms">"Nieuw bericht"</string>
+    <string name="new_notify_hint">"Nieuwe gebeurtenis"</string>
+    <string name="no_answer_call">"gemiste oproepen"</string>
+    <string name="Notify_no_info">"Geen gebeurtenis"</string>
+    <string name="pass_check_hint">"Onjuist wachtwoord. Nog %d pogingen over."</string>
+    <string name="pass_check_hint_new">"Onjuist wachtwoord, start het invoeren opnieuw"</string>
+    <string name="password_cancel">"Wissen"</string>
+    <string name="password_error">"Onjuist wachtwoord"</string>
+    <string name="password_hint">"Aanmelden"</string>
+    <string name="starry_unlock_info">"Tot Ontgrendelen"</string>
+    <string name="touch_protect_content1">"Afsluiten om:"</string>
+    <string name="touch_protect_content2">"Blokkeer de nabijheidssensor niet"</string>
+    <string name="touch_protect_hint">"Sluit af door op de Power-toets en de volume-omhoog-toets te drukken"</string>
+    <string name="touch_protect_title">"Preventie verkeerd aanraken"</string>
+    <string name="user_switched_to_home_hint">"Overgeschakeld naar gebruikers-space"</string>
+    <string name="user_switched_to_primary_hint">"Overgeschakeld naar primaire gebruikers-space"</string>
+    <string name="user_switching_hint">"Gebruiker wisselen…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Voer de SIM pincode in, je hebt nog <xliff:g id="number">%d</xliff:g> pogingen over, voordat je contact moet opnemen met je carrier voor het ontgrendelen van je toestel."</item>
+        <item quantity="other">"Voer SIM PIN in, je hebt nog <xliff:g id="number">%d</xliff:g> pogingen over."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM is nu uitgeschakeld. Je kunt pas doorgaan wanneer je de PUK-code invoert. Je hebt nog <xliff:g id="number">%d</xliff:g> pogingen over, voordat de SIM voorgoed onbruikbaar wordt. Neem contact op met je carrier voor nadere bijzonderheden."</item>
+        <item quantity="other">"SIM is nu uitgeschakeld. Je kunt pas doorgaan wanneer je de PUK-code invoert Je hebt nog <xliff:g id="number">%d</xliff:g> pogingen over, voordat de SIM voorgoed onbruikbaar wordt. Neem contact op met je carrier voor nadere bijzonderheden."</item>
+    </plurals>
+
+</resources>

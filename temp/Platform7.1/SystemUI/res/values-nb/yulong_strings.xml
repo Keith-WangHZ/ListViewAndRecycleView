@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Møtemodus</string>
+    <string name="accessibility_ime_switch_button">"Knapp for å bytte inndatametode."</string>
+    <string name="accessibility_no_wifi">"Wi-Fi er frakoblet."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"Wi-Fi av."</string>
+    <string name="accessibility_wifi_one_bar">"Wi-Fi én stolpe."</string>
+    <string name="accessibility_wifi_signal_full">"Wi-Fi-signal fullt."</string>
+    <string name="accessibility_wifi_three_bars">"Wi-Fi tre stolper."</string>
+    <string name="accessibility_wifi_two_bars">"Wi-Fi to stolper."</string>
+    <string name="guide_click_txt">"Klikk for å konfigurere Keyguard Magazine"</string>
+    <string name="guide_sliding_txt">"Skyv for å endre skjerm"</string>
+    <string name="guide_swipe_up_txt">"Skyv opp for å låse opp"</string>
+    <string name="guide_title">"Velkommen til Keyguard Magazine"</string>
+    <string name="header_name_detail_top">"Vis varsler i statuslinjen"</string>
+    <string name="header_name_top">"Varsler i statuslinjen"</string>
+    <string name="header_name0">"Statuslinje"</string>
+    <string name="header_name1">"Keyguard"</string>
+    <string name="header_top">"Gruppevis administrasjon av meldinger"</string>
+    <string name="interruption_level_all">"Alle"</string>
+    <string name="keyguard_guide_enter">"Prøv det ut"</string>
+    <string name="lockscreen_airplane_mode_on">"Flymodus er på."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM-kortet mangler."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"SIM-kortet kan ikke brukes."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM-feil."</string>
+    <string name="lockscreen_sim_locked_message">"SIM-kortet er låst."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM-kortet er PUK-låst."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Denne enheten er administrert av:\n<xliff:g id="organization">%1$s</xliff:g>\nProfilen din er administrert av:\n<xliff:g id="organization">%2$s</xliff:g>\n\nAdministratoren kan overvåke enheten og nettverksaktiviteten din, inkludert e-post, apper og sikre webområder.\n\nKontakt administratoren din for mer informasjon."</string>
+    <string name="monitoring_description_legacy_vpn">"Du er koblet til VPN (\<xliff:g id="application">%1$s</xliff:g>\).\n\nVPN-tjenestene dine kan overvåke enheten og nettverksaktiviteten, inkludert e-post, apper og sikre nettsteder."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Denne enheten er administrert av:\n<xliff:g id="organization">%1$s</xliff:g>\nProfilen din er administrert av:\n<xliff:g id="organization">%2$s</xliff:g>\n\nAdministratoren kan overvåke nettverksaktiviteten din, inkludert e-post, apper og sikre webområder. Hvis du vil ha mer informasjon, kan du kontakte administratoren din.\n\nDu er også koblet til VPN (\<xliff:g id="application">%3$s</xliff:g>\). VPN-tjenesteleverandøren kan også overvåke nettverksaktivitet."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Denne enheten er administrert av:\n<xliff:g id="organization">%1$s</xliff:g>\n\nAdministratoren kan overvåke nettverksaktiviteten din, inkludert e-post, apper og sikre webområder. Hvis du vil ha mer informasjon, kan du kontakte administratoren din.\n\nDu er også koblet til VPN (\<xliff:g id="application">%2$s</xliff:g>\). VPN-tjenesteleverandøren kan også overvåke nettverksaktivitet."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Denne profilen er administrert av:\n<xliff:g id="organization">%1$s</xliff:g>\n\nAdministratoren kan overvåke nettverksaktiviteten din, inkludert e-post, apper og sikre webområder. Hvis du vil ha mer informasjon, kan du kontakte administratoren din.\n\nDu er også koblet til VPN (\<xliff:g id="application">%2$s</xliff:g>\). VPN-tjenesteleverandøren kan også overvåke nettverksaktivitet."</string>
+    <string name="monitoring_description_profile_owned">"Denne profilen er administrert av:\n<xliff:g id="organization">%1$s</xliff:g>\n\nAdministratoren kan overvåke enheten og nettverksaktiviteten din, inkludert e-post, apper og sikre webområder.\n\nKontakt administratoren din for mer informasjon."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Denne enheten er administrert av:\n<xliff:g id="organization">%1$s</xliff:g>\nProfilen din er administrert av:\n<xliff:g id="organization">%2$s</xliff:g>\n\nAdministratoren kan overvåke nettverksaktiviteten din, inkludert e-post, apper og sikre webområder. Kontakt administratoren din for mer informasjon.\n\nDu ga også \<xliff:g id="application">%3$s</xliff:g>\ tillatelse til å sette opp en VPN-tilkobling. Denne appen kan også overvåke nettverksaktivitet."</string>
+    <string name="please_select_phase2">"Fase 2-godkjenning"</string>
+    <string name="proxy_exclusionlist_label">"Ikke bruk proxy for"</string>
+    <string name="proxy_hostname_label">"Proxy-vertsnavn"</string>
+    <string name="proxy_port_label">"Proxyport"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"HTTP-proxyen brukes av nettleseren, men kan ikke brukes av andre apper."</string>
+    <string name="qs_bottom_first_btn">"Jeg vet"</string>
+    <string name="qs_bottom_first_notice">"Skyv opp fra bunnen av skjermen for å få tilgang til kontrollpanelet for hurtiginnstillinger"</string>
+    <string name="qs_label_cbutton">"C-knapp"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Flymodus"</string>
+    <string name="sim_slot">"SIM-spor"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>meldinger]"</string>
+    <string name="status_bar_settings_airplane">"Flymodus"</string>
+    <string name="sub_switch_name0">"Aktiver varsler"</string>
+    <string name="sub_switch_name1">"Flytende varsler"</string>
+    <string name="sub_switch_name1_sub">"Varsler vises øverst på skjermen, og så forsvinner de automatisk"</string>
+    <string name="sub_switch_name2">"Varsler på låst skjerm"</string>
+    <string name="sub_switch_name2_sub">"Vis varsler i statuslinjen"</string>
+    <string name="sub_switch_name3">"Vis detaljer om varsler"</string>
+    <string name="sub_switch_name4">"Vis varsler i statuslinjen"</string>
+    <string name="title_activity_package_list_batch">"Gruppevis håndtering av varsler"</string>
+    <string name="wapi_as_certificate">"ASE-sertifikat"</string>
+    <string name="wapi_user_certificate">"Brukersertifikat"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anonym identitet"</string>
+    <string name="wifi_eap_ca_cert">"CA-sertifikat"</string>
+    <string name="wifi_eap_identity">"Identitet"</string>
+    <string name="wifi_eap_method">"EAP-metode"</string>
+    <string name="wifi_eap_user_cert">"Brukersertifikat"</string>
+    <string name="wifi_gateway">"Gateway"</string>
+    <string name="wifi_hex_password">"Heksadesimale passord."</string>
+    <string name="wifi_info_cancal_btn">"Avbryt"</string>
+    <string name="wifi_info_connect_btn">"Koble til"</string>
+    <string name="wifi_ip_address">"IP-adresse"</string>
+    <string name="wifi_ip_settings">"IP-innstillinger"</string>
+    <string name="wifi_network_prefix_length">"Lengde på nettverksprefiks"</string>
+    <string name="wifi_password">"Passord"</string>
+    <string name="wifi_password_text">"Passord (8 til 63 tegn)"</string>
+    <string name="wifi_security">"Sikkerhet"</string>
+    <string name="wifi_security_none">"Ingen"</string>
+    <string name="wifi_show_advanced">"Vis avanserte alternativer"</string>
+    <string name="wifi_show_password">"Vis passord"</string>
+    <string name="wifi_signal">"Signalstyrke"</string>
+    <string name="wifi_ssid">"Nettverks-SSID"</string>
+    <string name="wifi_ssid_hint">"Angi SSID"</string>
+    <string name="wifi_status">"Status"</string>
+    <string name="wifi_unchanged">"(uendret)"</string>
+    <string name="wifi_WEP_secury_key">"Sikkerhetstast"</string>
+    <string name="wifi_WEP_transmit_key">"Overfør-tast"</string>
+    <string name="zen_alarm_information_day_time">"Din neste alarm er den <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Din neste alarm er klokken <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Bare prioriterte forstyrrelser"</string>
+    <string name="zen_no_interruptions">"Ingen forstyrrelser"</string>
+    <string name="zen_no_interruptions_with_warning">"Ingen forstyrrelser. Selv ikke alarmer."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G / China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G / China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G / nødnummer"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Hent"</string>
+    <string name="keyguard_magzine_cancel_collect">"Har blitt hentet"</string>
+    <string name="keyguard_magazine_resident">"Gjest"</string>
+    <string name="keyguard_magazine_cancel_resident">"Avbryt gjest"</string>
+    <string name="keyguard_magazine_share">"Del"</string>
+    <string name="keyguard_magazine_link">"Kobling"</string>
+    <string name="keyguard_magazine_more">"Innstilling"</string>
+    <string name="keyguard_magzine_collect_toast">"Lagre i magasinbilder i lokalt galleri"</string>
+    <string name="keyguard_magazine_resident_toast">"Hver gang skjermen er på, vises denne bakgrunnen som standard"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Hver gang skjermen er på, vises ikke denne bakgrunnen som standard"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Magasinbildesamling"</string>
+    <string name="qs_label_calculator">"Kalkulator"</string>
+    <string name="qs_label_blaster">"Opptaker"</string>
+    <string name="qs_label_magical">"Magisk"</string>
+    <string name="qs_label_camera">"Kamera"</string>
+    <string name="qs_label_recording">"Opptak"</string>
+    <string name="qs_label_controlcentor">"Kontrollsenter"</string>
+    <string name="qs_label_slience">"Skjermbilde"</string>
+    <string name="header_name">"aktiver varsling"</string>
+    <string name="header_name_detail">"Vis i varslingspanel"</string>
+    <string name="title_show_locksreen">"Vis på låst skjerm"</string>
+    <string name="recents_app_shendu">"dybde"</string>
+    <string name="recents_app_liuliang">"I dag:"</string>
+    <string name="recents_app_memory">"Minne:"</string>
+    <string name="recents_app_battary">"Batteri:"</string>
+    <string name="recents_app_running_empty">"ingen nye oppgaver"</string>
+    <string name="recents_app_best_already">"slett beste nå"</string>
+    <string name="recents_app_release_memory">"frigjør minne <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"start sikkerhetssenter-app først"</string>
+    <string name="recents_app_memory_cleaned">"slettet"</string>
+    <string name="preference_detail_show">"Vis"</string>
+    <string name="preference_detail_hide">"Skjul"</string>
+    <string name="item_show_notifcaiton">"Varsling"</string>
+    <string name="item_show_lockscreen">"på låst skjerm"</string>
+    <string name="item_show_floating">"flytende"</string>
+    <string name="item_show_detail">"Vis detalj"</string>
+    <string name="manage_notification_access_title">"Varslingstilgang"</string>
+    <string name="notification_hide_system_app">"Skjul systemapper"</string>
+    <string name="notification_show_system_app">"Vis systemapper"</string>
+    <string name="ctrl_center_shown_1page">"Viste snarveier-Side 1"</string>
+    <string name="ctrl_center_shown_2page">"Viste snarveier-Side 2"</string>
+    <string name="ctrl_center_non_shown">"Snarveier vises ikke"</string>
+    <string name="ctrl_center_hint">"Merk: Trykk på og hold nede på en snarvei for å flytte den. Du kan velge å vise eller ikke og justere plasseringen\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Volum for taleanrop"</item>
+        <item>"Systemvolum"</item>
+        <item>"Ringtone- og varslingsvolum"</item>
+        <item>"Medievolum"</item>
+        <item>"Volum for alarmer"</item>
+        <item></item>
+        <item>"Volum for Bluetooth-anrop"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 skjerm i oversikten"</item>
+        <item quantity="other">"%d skjermer i oversikten"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Skjul"</string>
+    <string name="clear_memory_notice">"Gratulerer, du har vellykket slettet oppgaver"</string>
+    <string name="data_no_connected_error">"Vennligst sjekk at værdataroaming er tillatt i innstillinger-&gt;SIM-kortadministrasjon-&gt;Internasjonal roaming!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Nedtrekk aktivert ved låst skjerm"</string>
+    <string name="item_center_notifcaiton_obsessive">"OCD valg"</string>
+    <string name="qs_label_dataportection_mode">"Databeskyttelse"</string>
+    <string name="qs_label_ringer">"Ringer"</string>
+    <string name="qs_label_rotation">"Skjerm rotasjon"</string>
+    <string name="qs_label_speed">"Aksellerer"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> brukbar |total <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Intet SIM-kort. Prøv igjen etter å ha satt inn kortet!"</string>
+    <string name="status_bar_screenshot_interesting">"Interessant"</string>
+    <string name="status_bar_screenshot_long">"Langt"</string>
+    <string name="status_bar_super_secure_system_mode">"Er nå i sikker modus, gå ut av sikker modus for å aktivere funksjonen"</string>
+    <string name="title_show_floating_sub">"Etter å ha låst opp skjermen, vises påminnelser på topp-skjermen, og vil slukkes automatisk"</string>
+    <string name="yl_volume_ring_icon_description">"Ringetone &amp; meldingsvolum"</string>
+    <string name="accessibility_quick_settings_data_off">"Mobildata av."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobildata på."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Roaming av."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Roaming på."</string>
+    <string name="brightness_dlg_adjust">"(Juster)"</string>
+    <string name="brightness_dlg_auto">"Automatisk"</string>
+    <string name="brightness_dlg_brightness">"Lysstyrke"</string>
+    <string name="clear_notify_all_oldman">"Slett påminnelser"</string>
+    <string name="dateview_day">"Dag"</string>
+    <string name="dateview_month">"Måned"</string>
+    <string name="domain_switch_toast">"Påminnelsen er fra et annet rom."</string>
+    <string name="item_center_notifcaiton_ccm">"Vis operatør-navn"</string>
+    <string name="item_center_notifcaiton_control">"Kontrollsenter"</string>
+    <string name="item_center_notifcaiton_management">"Påminnelse-administrasjon"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Slett etikett på symbol ved risting"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Skjul etikett på symbol"</string>
+    <string name="item_center_notifcaiton_other">"Annet"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Hurtig-innstillinger"</string>
+    <string name="item_center_notifcaiton_sub">"Varsel"</string>
+    <string name="item_center_notifcaiton_title">"Innstillinger"</string>
+    <string name="item_show_none">"Ingen"</string>
+    <string name="item_show_other">"Annet"</string>
+    <string name="item_show_statusbar">"Vindu"</string>
+    <string name="keyguard_magazine_enter">"Sveip ned til nøkkel-magasinet"</string>
+    <string name="kg_no_service">"Ingen tjeneste"</string>
+    <string name="kg_no_uim">"Ingen UIM eller tjeneste"</string>
+    <string name="kg_no_usim">"Intet SIM-kort eller tjenester"</string>
+    <string name="kg_none_carrier">"Ingen tjeneste"</string>
+    <string name="message_keep_one_launcher">"Bør beholde minst en hjemme-aktivitet!"</string>
+    <string name="message_switch_fail">"Kan ikke bytte til denne oppgaven da den ikke har noe grensesnitt."</string>
+    <string name="other_notification_expand">"trykk for å vise alt."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> annen påmelding"</string>
+    <string name="qs_label_airplane">"Flymodus"</string>
+    <string name="qs_label_blacklist">"Blokker"</string>
+    <string name="qs_label_blacklist2">"Blokker"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Lysstyrke"</string>
+    <string name="qs_label_data_roaming">"Roamer"</string>
+    <string name="qs_label_doublecard">"Dual-kort innstillinger"</string>
+    <string name="qs_label_driving_mode">"Bil-modus"</string>
+    <string name="qs_label_flashlight">"Lommelykt"</string>
+    <string name="qs_label_flow_monitor">"Databruk"</string>
+    <string name="qs_label_location">"Posisjon"</string>
+    <string name="qs_label_multiple_accounts_name">"Eier"</string>
+    <string name="qs_label_mutlwindow">"Multitask"</string>
+    <string name="qs_label_saving">"Strømsparing"</string>
+    <string name="qs_label_scenemode">"Velg scenemodus"</string>
+    <string name="qs_label_sdcard_install">"Installer SD-kort"</string>
+    <string name="qs_label_sdcard_uninstall">"Avinstaller SD-kort"</string>
+    <string name="qs_label_secure_mode">"Beskytte data"</string>
+    <string name="qs_label_setting">"Innstillinger"</string>
+    <string name="qs_label_shrink_screen">"Skjerm-skalering"</string>
+    <string name="qs_label_silence">"Kutt lyden"</string>
+    <string name="qs_label_softap">"hotspot"</string>
+    <string name="qs_label_sound">"Lyd"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Super sikkerhets-modus"</string>
+    <string name="qs_label_switching">"Bytter..."</string>
+    <string name="qs_label_ttwindow_mode">"Nyhetsstrøm"</string>
+    <string name="qs_label_turning_off">"Lukker"</string>
+    <string name="qs_label_turning_on">"Åpner"</string>
+    <string name="qs_label_vibrate_ring">"vibrer"</string>
+    <string name="qs_label_viplist">"Whitelist"</string>
+    <string name="qs_label_viplist2">"Whitelist"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Vis i meldingsvinduet (maks 10)"</string>
+    <string name="qs_minor_bar_tips">"Ikke vist i meldings-vinduet"</string>
+    <string name="quick_settings_apn_switch_label">"APN bryter"</string>
+    <string name="quick_settings_data_off">"Data av"</string>
+    <string name="quick_settings_dds_sub">"Kort <xliff:g id="number">%d</xliff:g> data"</string>
+    <string name="quick_settings_mobile_data_label">"Mobildata"</string>
+    <string name="quick_settings_roaming_label">"Roamer"</string>
+    <string name="quicksettings_edit_disable">"Rediger"</string>
+    <string name="quicksettings_edit_enable">"Avslutt"</string>
+    <string name="quicksettings_more">"Mer"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Kan ikke koble til nettverk i fly-modus."</string>
+    <string name="status_bar_disable_data_roaming">"Roaming deaktivert."</string>
+    <string name="status_bar_earphones_connected_text">"Hodetelefon er tilkoblet."</string>
+    <string name="status_bar_earphones_connected_ticker">"Hodetelefon er tilkoblet."</string>
+    <string name="status_bar_earphones_connected_title">"Øretelefon"</string>
+    <string name="status_bar_enable_data_roaming">"Roaming aktivert."</string>
+    <string name="status_bar_expand_autobright">"Auto-juster lyshet"</string>
+    <string name="status_bar_expanded_airplane_mode">"Flymodus"</string>
+    <string name="status_bar_expanded_check_sim">"Intet SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Intet UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Intet SIM-kort"</string>
+    <string name="status_bar_expanded_data_net_status">"Ukjent"</string>
+    <string name="status_bar_expanded_mms_send_note">"Kobler til nettverket... Prøv igjen senere."</string>
+    <string name="status_bar_expanded_net_using_card">"Bruk av telefonkort <xliff:g id="number">%d</xliff:g> for datatilkobling. Du kan manuelt bytte nettverk senere."</string>
+    <string name="status_bar_expanded_network_forbid">"Tjenesten er deaktivert"</string>
+    <string name="status_bar_expanded_network_off">"Ingen tjeneste"</string>
+    <string name="status_bar_expanded_start_network">"Mobildata"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobildata"</string>
+    <string name="status_bar_expanded_stop_network">"Mobildata"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobildata"</string>
+    <string name="status_bar_no_running_apps">"Ingen aktiv app"</string>
+    <string name="status_bar_notification_manager">"administrator"</string>
+    <string name="status_bar_notify_interception_disable">"Forby"</string>
+    <string name="status_bar_notify_interception_enable">"Tillat"</string>
+    <string name="status_bar_other_notify">"Mer"</string>
+    <string name="status_bar_other_notify_back">"Bakside"</string>
+    <string name="status_bar_recent_delete">"Tøm"</string>
+    <string name="status_bar_recent_historical">"Historisk oppgave"</string>
+    <string name="status_bar_recent_memory">"Minne"</string>
+    <string name="status_bar_recent_memory_free">"fri|"</string>
+    <string name="status_bar_recent_memory_item_used">"Brukt:"</string>
+    <string name="status_bar_recent_memory_used">"Brukt:"</string>
+    <string name="status_bar_recent_optimize">"Detaljer"</string>
+    <string name="status_bar_recent_running">"Aktiv oppgave"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Kopiert til utklippstavlen."</string>
+    <string name="status_bar_screenshot_edit">"Rediger"</string>
+    <string name="status_bar_screenshot_exit">"Avbryt"</string>
+    <string name="status_bar_screenshot_save">"Lagre"</string>
+    <string name="status_bar_screenshot_share">"Del"</string>
+    <string name="status_bar_select_network1">"Nett 1"</string>
+    <string name="status_bar_select_network2">"Nett 2"</string>
+    <string name="tasklist_killall">"Drep alle"</string>
+    <string name="tasklist_memory_usage">"Ledig/totalt minne: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Oppgaveadministrator"</string>
+    <string name="title_activity_package_list">"Meldingssenter"</string>
+    <string name="title_show_effect_preview">"Bilde forhåndsvisning"</string>
+    <string name="title_show_floating">"Flytende påminnelser"</string>
+    <string name="title_show_notifcaiton">"Tillat"</string>
+    <string name="title_show_notification_center">"Meldingssenter"</string>
+    <string name="title_show_other">"Vis i andre"</string>
+    <string name="title_show_statusbar">"Vis i vindu"</string>
+    <string name="gps_notification_searching_text_content">"Du kan lukke GPS-en for å spare strøm"</string>
+    <string name="quick_settings_battery_charging_label">"Lader <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Oppladet"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Dempet av <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Skyv opp fra nederst på skjermen for å vise navigasjonsfeltet"</string>
+
+</resources>

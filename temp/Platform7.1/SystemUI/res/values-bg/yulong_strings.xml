@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="qs_label_meeting_mode">Режим среща</string>
+    <string name="qs_label_vibrate_ring">Вибрация</string>
+    <string name="qs_label_softap">Гореща точка</string>
+    <string name="accessibility_ime_switch_button">"Бутон за промяна на метода на въвеждане."</string>
+    <string name="accessibility_no_wifi">"WiFi е прекъсната."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"WiFi изкл."</string>
+    <string name="accessibility_wifi_one_bar">"WiFi една черта."</string>
+    <string name="accessibility_wifi_signal_full">"Пълен WiFi сигнал."</string>
+    <string name="accessibility_wifi_three_bars">"WiFi три черти."</string>
+    <string name="accessibility_wifi_two_bars">"WiFi две черти."</string>
+    <string name="guide_click_txt">"Щракнете за настройки на екрана за защита на клавиатурата"</string>
+    <string name="guide_sliding_txt">"Плъзнете, за да промените екрана"</string>
+    <string name="guide_swipe_up_txt">"Плъзнете за отключване"</string>
+    <string name="guide_title">"Добре дошли в екрана за защита на клавиатурата"</string>
+    <string name="header_name_detail_top">"Показване на известия в лентата на състоянието"</string>
+    <string name="header_name_top">"Известия в лентата на състоянието"</string>
+    <string name="header_name0">"Лента на състоянието"</string>
+    <string name="header_name1">"Защита на клавиатурата"</string>
+    <string name="header_top">"Управление на партидата от известия"</string>
+    <string name="interruption_level_all">"Всички"</string>
+    <string name="keyguard_guide_enter">"Опитайте"</string>
+    <string name="lockscreen_airplane_mode_on">"Самолетният режим е включен."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM картата липсва."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Неизползваема SIM карта."</string>
+    <string name="lockscreen_sim_error_message_short">"Грешка при SIM."</string>
+    <string name="lockscreen_sim_locked_message">"SIM картата е заключена."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM картата е заключена с PUK."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Това устройство се управлява от:\n<xliff:g id="organization">%1$s</xliff:g>\nВашият профил се управлява от:\n<xliff:g id="organization">%2$s</xliff:g>\n\nВашият администратор може да следи вашето устройство и мрежова дейност, включително имейли, приложения и защитени уеб сайтове.\n\nЗа повече информация се свържете с вашия администратор."</string>
+    <string name="monitoring_description_legacy_vpn">"Свързани сте с VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nВашият доставчик на VPN услуги може да следи дейността на вашите устройство и мрежа, включително имейли, приложения и защитени уеб сайтове."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Това устройство се управлява от:\n<xliff:g id="organization">%1$s</xliff:g>\nВашият профил се управлява от:\n<xliff:g id="organization">%2$s</xliff:g>\n\nВашият администратор може да следи вашата мрежова дейност, включително имейли, приложения и защитени уеб сайтове. За повече информация се свържете с вашия администратор.\n\nСъщо така сте свързани с VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Вашият доставчик на VPN услуги също може да следи мрежовата дейност."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Това устройство се управлява от:\n<xliff:g id="organization">%1$s</xliff:g>\n\nВашият администратор може да следи вашата мрежова дейност, включително имейли, приложения и защитени уеб сайтове. За повече информация се свържете с вашия администратор.\n\nСъщо така сте свързани с VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Вашият доставчик на VPN услуги също може да следи мрежовата дейност."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Този профил се управлява от:\n<xliff:g id="organization">%1$s</xliff:g>\n\nВашият администратор може да следи вашата мрежова дейност, включително имейли, приложения и защитени уеб сайтове. За повече информация се свържете с вашия администратор.\n\nСъщо така сте свързани с VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Вашият доставчик на VPN услуги също може да следи мрежовата дейност."</string>
+    <string name="monitoring_description_profile_owned">"Този профил се управлява от:\n<xliff:g id="organization">%1$s</xliff:g>\n\nВашият администратор може да следи вашата мрежова дейност, включително имейли, приложения и защитени уеб сайтове.\n\nЗа повече информация се свържете с вашия администратор."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Това устройство се управлява от:\n<xliff:g id="organization">%1$s</xliff:g>\nВашият профил се управлява от:\n<xliff:g id="organization">%2$s</xliff:g>\n\nВашият администратор може да следи вашата мрежова дейност, включително имейли, приложения и защитени уеб сайтове. За повече информация се свържете с вашия администратор.\n\nСъщо така разрешихте на \"<xliff:g id="application">%3$s</xliff:g>\" да настрои VPN връзка. Това приложение също може да следи мрежова дейност."</string>
+    <string name="please_select_phase2">"Фаза 2 на удостоверяване"</string>
+    <string name="proxy_exclusionlist_label">"Заобикаляне на прокси сървъра за"</string>
+    <string name="proxy_hostname_label">"Име на хост на прокси сървъра"</string>
+    <string name="proxy_port_label">"Порт за прокси сървър"</string>
+    <string name="proxy_settings_title">"Прокси"</string>
+    <string name="proxy_warning_limited_support">"HTTP прокси сървърът се използва от браузъра, но не може да бъде използван от другите приложения."</string>
+    <string name="qs_bottom_first_btn">"Знам"</string>
+    <string name="qs_bottom_first_notice">"Плъзнете нагоре от долната част на екрана, за да осъществите достъп до панела за бързи настройки"</string>
+    <string name="qs_label_cbutton">"Бутон С"</string>
+    <string name="qs_label_white_black_patterns">"Моно"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Самолетен режим"</string>
+    <string name="sim_slot">"Слот за SIM"</string>
+    <string name="sim1">"SIM 1"</string>
+    <string name="sim2">"SIM 2"</string>
+    <string name="sim3">"SIM 3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>съобщения]"</string>
+    <string name="status_bar_settings_airplane">"Самолетен режим"</string>
+    <string name="sub_switch_name0">"Активиране на известия"</string>
+    <string name="sub_switch_name1">"Плаващи известия"</string>
+    <string name="sub_switch_name1_sub">"Показване на известия отгоре на екрана, които след това изчезват автоматично"</string>
+    <string name="sub_switch_name2">"Известия при заключен екран"</string>
+    <string name="sub_switch_name2_sub">"Показване на известия в лентата на състоянието"</string>
+    <string name="sub_switch_name3">"Показване на подробности за известията"</string>
+    <string name="sub_switch_name4">"Показване на известия в лентата на състоянието"</string>
+    <string name="title_activity_package_list_batch">"Работа с партиди от известия"</string>
+    <string name="wapi_as_certificate">"ASE сертификат"</string>
+    <string name="wapi_user_certificate">"Потребителски сертификат"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Анонимна самоличност"</string>
+    <string name="wifi_eap_ca_cert">"СА сертификат"</string>
+    <string name="wifi_eap_identity">"Самоличност"</string>
+    <string name="wifi_eap_method">"Метод EAP"</string>
+    <string name="wifi_eap_user_cert">"Потребителски сертификат"</string>
+    <string name="wifi_gateway">"Шлюз"</string>
+    <string name="wifi_hex_password">"Шестнадесетична парола."</string>
+    <string name="wifi_info_cancal_btn">"Отказ"</string>
+    <string name="wifi_info_connect_btn">"Свързване"</string>
+    <string name="wifi_ip_address">"IP адрес"</string>
+    <string name="wifi_ip_settings">"IP настройки"</string>
+    <string name="wifi_network_prefix_length">"Дължина на префикса на мрежата"</string>
+    <string name="wifi_password">"Парола"</string>
+    <string name="wifi_password_text">"Парола (от 8 до 63 символа)"</string>
+    <string name="wifi_security">"Сигурност"</string>
+    <string name="wifi_security_none">"Няма"</string>
+    <string name="wifi_show_advanced">"Показване на разширени опции"</string>
+    <string name="wifi_show_password">"Показване на паролата"</string>
+    <string name="wifi_signal">"Сила на сигнала"</string>
+    <string name="wifi_ssid">"SSID на мрежата"</string>
+    <string name="wifi_ssid_hint">"Въведете SSIID"</string>
+    <string name="wifi_status">"Състояние"</string>
+    <string name="wifi_unchanged">"(непроменени)"</string>
+    <string name="wifi_WEP_secury_key">"Бутон за сигурност"</string>
+    <string name="wifi_WEP_transmit_key">"Бутон за предаване"</string>
+    <string name="zen_alarm_information_day_time">"Вашата следваща аларма е <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Вашата следваща аларма е в <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Само приоритетни прекъсвания"</string>
+    <string name="zen_no_interruptions">"Без прекъсвания"</string>
+    <string name="zen_no_interruptions_with_warning">"Без прекъсвания. Дори без аларми."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Спешен случай"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Предпочитани"</string>
+    <string name="keyguard_magzine_cancel_collect">"Добавено към предпочитани"</string>
+    <string name="keyguard_magazine_resident">"Жител"</string>
+    <string name="keyguard_magazine_cancel_resident">"Отмяна на жител"</string>
+    <string name="keyguard_magazine_share">"Споделяне"</string>
+    <string name="keyguard_magazine_link">"Връзка"</string>
+    <string name="keyguard_magazine_more">"Настройка"</string>
+    <string name="keyguard_magzine_collect_toast">"Запазване в албум за снимки в локалната галерия"</string>
+    <string name="keyguard_magazine_resident_toast">"При всяко включване на екрана ще се показва този тапет"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"При всяко включване на екрана няма да се показва този тапет"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Колекция от снимки от списание"</string>
+    <string name="qs_label_calculator">"Калкулатор"</string>
+    <string name="qs_label_blaster">"Рекордер"</string>
+    <string name="qs_label_magical">"Магически звук"</string>
+    <string name="qs_label_camera">"Камера"</string>
+    <string name="qs_label_recording">"Записване"</string>
+    <string name="qs_label_controlcentor">"Център за управление"</string>
+    <string name="qs_label_slience">"Заснемане на екрана"</string>
+    <string name="header_name">"активиране на известие"</string>
+    <string name="header_name_detail">"Показване в панела с известия"</string>
+    <string name="title_show_locksreen">"Показване в заключен екран"</string>
+    <string name="recents_app_shendu">"дълбочина"</string>
+    <string name="recents_app_liuliang">"Днес:"</string>
+    <string name="recents_app_memory">"Памет:"</string>
+    <string name="recents_app_battary">"Батерия:"</string>
+    <string name="recents_app_running_empty">"няма скорошни задачи"</string>
+    <string name="recents_app_best_already">"най-добрите вече са изчистени"</string>
+    <string name="recents_app_release_memory">"освобождаване на памет <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"първо стартирайте приложението център за безопасност"</string>
+    <string name="recents_app_memory_cleaned">"изчистени"</string>
+    <string name="preference_detail_show">"Показване"</string>
+    <string name="preference_detail_hide">"Скрий"</string>
+    <string name="item_show_notifcaiton">"Известие"</string>
+    <string name="item_show_lockscreen">"на заключения екран"</string>
+    <string name="item_show_floating">"плаващ"</string>
+    <string name="item_show_detail">"Показване на детайли"</string>
+    <string name="manage_notification_access_title">"Достъп до известия"</string>
+    <string name="notification_hide_system_app">"Скриване на системни приложения"</string>
+    <string name="notification_show_system_app">"Показване на системни приложения"</string>
+    <string name="ctrl_center_shown_1page">"Изведени преки пътища – стр. 1"</string>
+    <string name="ctrl_center_shown_2page">"Изведени преки пътища – стр. 2"</string>
+    <string name="ctrl_center_non_shown">"Преките пътища не са изведени"</string>
+    <string name="ctrl_center_hint">"Забележка: Докоснете и задръжте пряк път, за да го преместите. Можете да го изведете или да не го извеждате и да коригирате местоположението му\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Сила на звука за гласови обаждания"</item>
+        <item>"Сила на звука на системата"</item>
+        <item>"Тон на звънене &amp; сила на звука на известия"</item>
+        <item>"Сила на звука на мултимедия"</item>
+        <item>"Сила на звука на алармата"</item>
+        <item></item>
+        <item>"Сила на звука за Bluetooth обаждания"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 екран в преглед"</item>
+        <item quantity="other">"%d екрана в преглед"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Скрий"</string>
+    <string name="clear_memory_notice">"Поздравления, изчистихте успешно задачите"</string>
+    <string name="data_no_connected_error">"Моля, проверете дали е разрешен роуминг за данни в Настройки-&gt;Управление на SIM карта-&gt;Международен роуминг!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Разрешено изтегляне надолу по време на заключен екран"</string>
+    <string name="item_center_notifcaiton_obsessive">"Опции на OCD"</string>
+    <string name="qs_label_dataportection_mode">"Защита на данни"</string>
+    <string name="qs_label_ringer">"Звънене"</string>
+    <string name="qs_label_rotation">"Завъртане на екрана"</string>
+    <string name="qs_label_speed">"Ускорение"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> използвани / общо <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Няма SIM карта. Моля, опитайте отново след поставяне на картата!"</string>
+    <string name="status_bar_screenshot_interesting">"Интересна снимка"</string>
+    <string name="status_bar_screenshot_long">"Продължително заснемане"</string>
+    <string name="status_bar_super_secure_system_mode">"В момента е в безопасен режим, моля излезте от безопасен режим за активиране на функцията"</string>
+    <string name="title_show_floating_sub">"След отключване на екрана, известията се показват в горната част на екрана и след това изчезват автоматично"</string>
+    <string name="yl_volume_ring_icon_description">"Сила на звука на мелодия &amp; известия"</string>
+    <string name="accessibility_quick_settings_data_off">"Изключени мобилни данни."</string>
+    <string name="accessibility_quick_settings_data_on">"Включени мобилни данни"</string>
+    <string name="accessibility_quick_settings_roaming_off">"Изключен роуминг."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Включен роуминг."</string>
+    <string name="brightness_dlg_adjust">"(Настрой)"</string>
+    <string name="brightness_dlg_auto">"Автоматично"</string>
+    <string name="brightness_dlg_brightness">"Яркост"</string>
+    <string name="clear_notify_all_oldman">"Изчистване на известия"</string>
+    <string name="dateview_day">"Ден"</string>
+    <string name="dateview_month">"Месец"</string>
+    <string name="domain_switch_toast">"Известието е от друго място."</string>
+    <string name="item_center_notifcaiton_ccm">"Покажи име на оператор"</string>
+    <string name="item_center_notifcaiton_control">"Контролен център"</string>
+    <string name="item_center_notifcaiton_management">"Управление на известия"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Изчистване на етикет на икона при разклащане"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Скрий етикет на икона"</string>
+    <string name="item_center_notifcaiton_other">"Друго"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Бързи настройки"</string>
+    <string name="item_center_notifcaiton_sub">"Уведомление"</string>
+    <string name="item_center_notifcaiton_title">"Настройки"</string>
+    <string name="item_show_none">"Няма"</string>
+    <string name="item_show_other">"Друго"</string>
+    <string name="item_show_statusbar">"Панел"</string>
+    <string name="keyguard_magazine_enter">"Плъзни надолу към заключения екран"</string>
+    <string name="kg_no_service">"Няма покритие."</string>
+    <string name="kg_no_uim">"Няма UIM или услуга"</string>
+    <string name="kg_no_usim">"Няма SIM карта или услуга"</string>
+    <string name="kg_none_carrier">"Няма покритие."</string>
+    <string name="message_keep_one_launcher">"Трябва да бъде запазена поне една активност на началния екран!"</string>
+    <string name="message_switch_fail">"Невъзможно превключване към тази задача, защото няма интерфейс."</string>
+    <string name="other_notification_expand">"докосни за преглед на всички."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> други известия"</string>
+    <string name="qs_label_airplane">"Режим полет"</string>
+    <string name="qs_label_blacklist">"Блокиране"</string>
+    <string name="qs_label_blacklist2">"Блокиране"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Яркост"</string>
+    <string name="qs_label_data_roaming">"Роуминг"</string>
+    <string name="qs_label_doublecard">"Настройки на две карти"</string>
+    <string name="qs_label_driving_mode">"Режим автомобил"</string>
+    <string name="qs_label_flashlight">"Фенерче"</string>
+    <string name="qs_label_flow_monitor">"Използване на данни"</string>
+    <string name="qs_label_location">"Местоположение"</string>
+    <string name="qs_label_multiple_accounts_name">"Собственик"</string>
+    <string name="qs_label_mutlwindow">"Мултитаск"</string>
+    <string name="qs_label_saving">"Пестене на енергия"</string>
+    <string name="qs_label_scenemode">"Сценичен режим"</string>
+    <string name="qs_label_sdcard_install">"Инсталиране на SD карта"</string>
+    <string name="qs_label_sdcard_uninstall">"Деинсталиране на SD карта"</string>
+    <string name="qs_label_secure_mode">"Защита на данни"</string>
+    <string name="qs_label_setting">"Настройки"</string>
+    <string name="qs_label_shrink_screen">"Мащабиране на екрана"</string>
+    <string name="qs_label_silence">"Без звук"</string>
+    <string name="qs_label_sound">"Звук"</string>
+    <string name="qs_label_super_saving">"Супер"</string>
+    <string name="qs_label_super_secure_mode">"Супер защитен режим"</string>
+    <string name="qs_label_switching">"В процес на промяна"</string>
+    <string name="qs_label_ttwindow_mode">"Новинарски поток"</string>
+    <string name="qs_label_turning_off">"Затваряне"</string>
+    <string name="qs_label_turning_on">"Отваряне"</string>
+    <string name="qs_label_viplist">"Бял списък"</string>
+    <string name="qs_label_viplist2">"Бял списък"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Показано в панела за известия (най-много 10)"</string>
+    <string name="qs_minor_bar_tips">"Не е показано в панела за известия"</string>
+    <string name="quick_settings_apn_switch_label">"APN смяна"</string>
+    <string name="quick_settings_data_off">"Изкл. данни"</string>
+    <string name="quick_settings_dds_sub">"Данни на карта <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="quick_settings_mobile_data_label">"Мобилни данни"</string>
+    <string name="quick_settings_roaming_label">"Роуминг"</string>
+    <string name="quicksettings_edit_disable">"Редактиране"</string>
+    <string name="quicksettings_edit_enable">"Изход"</string>
+    <string name="quicksettings_more">"Още"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Не можете да се свържете към мрежата в режим самолет."</string>
+    <string name="status_bar_disable_data_roaming">"Деактивиран роуминг."</string>
+    <string name="status_bar_earphones_connected_text">"Слушалките са свързвани."</string>
+    <string name="status_bar_earphones_connected_ticker">"Слушалките са свързвани."</string>
+    <string name="status_bar_earphones_connected_title">"Слушалки"</string>
+    <string name="status_bar_enable_data_roaming">"Активиран роуминг."</string>
+    <string name="status_bar_expand_autobright">"Автоматична настройка на яркост"</string>
+    <string name="status_bar_expanded_airplane_mode">"Режим полет"</string>
+    <string name="status_bar_expanded_check_sim">"Няма SIM карта"</string>
+    <string name="status_bar_expanded_check_uim">"Няма UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Няма USIM"</string>
+    <string name="status_bar_expanded_data_net_status">"Няма данни"</string>
+    <string name="status_bar_expanded_mms_send_note">"Свързване към мрежата... Опитайте отново по-късно."</string>
+    <string name="status_bar_expanded_net_using_card">"Използване на картата на телефона <xliff:g id="number">%d</xliff:g> за връзка за данни. Можете да превключите ръчно мрежата по-късно."</string>
+    <string name="status_bar_expanded_network_forbid">"Услугата е деактивирана"</string>
+    <string name="status_bar_expanded_network_off">"Няма покритие."</string>
+    <string name="status_bar_expanded_start_network">"Мобилни данни"</string>
+    <string name="status_bar_expanded_start_network_g">"Мобилни данни"</string>
+    <string name="status_bar_expanded_stop_network">"Мобилни данни"</string>
+    <string name="status_bar_expanded_stop_network_g">"Мобилни данни"</string>
+    <string name="status_bar_no_running_apps">"Няма работещи приложения"</string>
+    <string name="status_bar_notification_manager">"мениджър"</string>
+    <string name="status_bar_notify_interception_disable">"Забрани"</string>
+    <string name="status_bar_notify_interception_enable">"Разреши"</string>
+    <string name="status_bar_other_notify">"Още"</string>
+    <string name="status_bar_other_notify_back">"Назад"</string>
+    <string name="status_bar_recent_delete">"Изчистване"</string>
+    <string name="status_bar_recent_historical">"Историческо задание"</string>
+    <string name="status_bar_recent_memory">"Памет"</string>
+    <string name="status_bar_recent_memory_free">"свободни|"</string>
+    <string name="status_bar_recent_memory_item_used">"Използвани:"</string>
+    <string name="status_bar_recent_memory_used">"Използвани:"</string>
+    <string name="status_bar_recent_optimize">"Детайли"</string>
+    <string name="status_bar_recent_running">"Активна задача"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Копирано в клавиатура."</string>
+    <string name="status_bar_screenshot_edit">"Редактиране"</string>
+    <string name="status_bar_screenshot_exit">"Отказ"</string>
+    <string name="status_bar_screenshot_save">"Запис"</string>
+    <string name="status_bar_screenshot_share">"Сподели"</string>
+    <string name="status_bar_select_network1">"Мрежа 1"</string>
+    <string name="status_bar_select_network2">"Мрежа 2"</string>
+    <string name="tasklist_killall">"Спри всички"</string>
+    <string name="tasklist_memory_usage">"Свободна/общо памет: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Мениджър на задачите"</string>
+    <string name="title_activity_package_list">"Център за известия"</string>
+    <string name="title_show_effect_preview">"Преглед на изображение"</string>
+    <string name="title_show_floating">"Плаващи известия"</string>
+    <string name="title_show_notifcaiton">"Разреши"</string>
+    <string name="title_show_notification_center">"Център за известия"</string>
+    <string name="title_show_other">"Покажи в други"</string>
+    <string name="title_show_statusbar">"Покажи върху панела"</string>
+    <string name="gps_notification_searching_text_content">"Можете да спестите мощност, след като затворите GPS."</string>
+    <string name="quick_settings_battery_charging_label">"Зареждане, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Заредено"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Звукът е спрян от <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Показване на лентата за навигация, като плъзнете нагоре от долната страна на екрана"</string>
+
+</resources>

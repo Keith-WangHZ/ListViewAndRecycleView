@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:background="#66818A99"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp" >
+
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">"
+
+			<include layout="@layout/quick_startapp_itemview"
+			   android:id="@+id/itemapp0"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_marginLeft="4dp"
+			   android:layout_marginRight="4dp"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			
+			<include layout="@layout/quick_startapp_itemview"
+			   android:id="@+id/itemapp1"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_marginLeft="4dp"
+			   android:layout_marginRight="4dp"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+
+			<include 
+               android:visibility="visible"
+               android:layout_width="0dp"
+               android:layout_weight="4"
+               android:layout_height="50dp"
+               android:layout_marginTop="3dp"
+               android:layout_marginLeft="4dp"
+			   android:layout_marginRight="4dp"
+               android:layout_centerVertical="true"
+               android:background="#748692"
+               layout= "@layout/quick_settings_brightness_dialog_new"/>
+			
+			<include layout="@layout/quick_startapp_itemview"
+			   android:id="@+id/itemapp2"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_marginLeft="4dp"
+			   android:layout_marginRight="4dp"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			
+			<include layout="@layout/quick_startapp_itemview"
+			   android:id="@+id/itemapp3"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_marginLeft="4dp"
+			   android:layout_marginRight="4dp"	   
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+
+	    </LinearLayout>
+    </LinearLayout>
+

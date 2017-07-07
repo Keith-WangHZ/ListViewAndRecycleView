@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/L1"
+    android:layout_width="match_parent"
+    android:layout_height="91dp"
+    android:background="#818A99"
+    android:orientation="horizontal"
+    android:paddingBottom="0dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="0dp" >
+
+    <com.android.systemui.quicksettings.bottom.QuickSettingIconView
+        android:id="@+id/L11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </com.android.systemui.quicksettings.bottom.QuickSettingIconView>
+
+    <com.android.systemui.quicksettings.bottom.QuickSettingIconView
+        android:id="@+id/L12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </com.android.systemui.quicksettings.bottom.QuickSettingIconView>
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="3dp"
+        android:layout_weight="4"
+        layout="@layout/quick_settings_brightness_dialog_new"
+        android:visibility="visible" />
+
+    <com.android.systemui.quicksettings.bottom.QuickSettingIconView
+        android:id="@+id/L13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </com.android.systemui.quicksettings.bottom.QuickSettingIconView>
+
+    <com.android.systemui.quicksettings.bottom.QuickSettingIconView
+        android:id="@+id/L14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </com.android.systemui.quicksettings.bottom.QuickSettingIconView>
+
+</LinearLayout>

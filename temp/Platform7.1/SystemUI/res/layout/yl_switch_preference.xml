@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="54dip"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip" >
+
+    <!--LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/switch_preference_icon"
+            android:layout_width="@dimen/header_icon_width"
+            android:layout_height="@dimen/header_icon_width"
+            android:layout_marginRight="16dip"
+            android:scaleType="centerInside" />
+    </LinearLayout-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="16dip"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/switch_preference_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/yl_list_item_title_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/switch_preference_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/switch_preference_title"
+            android:layout_below="@id/switch_preference_title"
+            android:maxLines="10"
+            android:textColor="@color/yl_list_item_summary_text_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:minWidth="@*android:dimen/preference_widget_width"
+        android:orientation="vertical" >
+
+        <com.yulong.android.common.widget.CommonSwitch
+            android:id="@+id/enabledswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#00ffffff"
+            android:clickable="true"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>

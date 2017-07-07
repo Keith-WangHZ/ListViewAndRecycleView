@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_error_lockout">"Liian monta yritystä, yritä uudelleen 30 sekunnin kuluttua."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Kirjoita SIM-lukituskoodi, jossa on 4–8 numeroa"</string>
+    <string name="kg_password_sim_lock_failed">"SIM-kortin lukitustoiminto epäonnistui."</string>
+    <string name="kg_sim_lock_instructions">"Anna SIM-kortin lukituskoodi"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIM-kortin PIN-koodi oikea, kortti avattu"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM-kortin lukitus on avattu"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Anna SIM-kortin lukituskoodi, <xliff:g id="number">%d</xliff:g> yritys jäljellä."</item>
+        <item quantity="other">"Anna SIM-kortin lukituskoodi, <xliff:g id="number">%d</xliff:g> yritystä jäljellä."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Väärä SIM-kortin lukituskoodi, <xliff:g id="number">%d</xliff:g> yritys jäljellä."</item>
+        <item quantity="other">"Väärä SIM-kortin lukituskoodi, <xliff:g id="number">%d</xliff:g> yritystä jäljellä."</item>
+    </plurals>
+
+    <string name="password_cancel">"Tyhjennä"</string>
+    <string name="city_name_beijing">"Pekingin aika"</string>
+    <string name="cooluipin_button_cancel">"Peruuta"</string>
+    <string name="cooluipin_button_delete">"Poista"</string>
+    <string name="cover_notification_clicked">"Avaa oma Holster"</string>
+    <string name="fangdao_hint">"Syötä suojaussalasana:"</string>
+    <string name="find_password_text">"Unohditko salasanasi?"</string>
+    <string name="fingerprint_error_hint">"Sormenjäljen varmennus epäonnistui, yritä uudelleen"</string>
+    <string name="fingerprint_recognized_hint">"Näppäinsuoja avattu."</string>
+    <string name="keyguard_fangdao_input">"Syötä CoolManager-salasana"</string>
+    <string name="keyguard_fangdao_title">"Suojaus"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM on Perso-lukittu"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Tarkista sormenjälki tai syötä salasana"</string>
+    <string name="kg_no_card">"Ei SIM-korttia"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Tarkista sormenjälki tai piirrä oma kuvio"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Sormenjäljen varmennus epäonnistui, yritä uudelleen"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Tarkista sormenjälki tai syötä PIN-koodi"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Nyt on lentokonetila"</string>
+    <string name="kg_remaining_attempts">"Yrityskertoja jäljellä: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Korttipaikka <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Virheellinen kortti."</string>
+    <string name="new_mms">"Uusi viesti"</string>
+    <string name="new_notify_hint">"Uusi tapahtuma"</string>
+    <string name="no_answer_call">"vastaamattomat puhelut"</string>
+    <string name="Notify_no_info">"Ei tapahtumaa"</string>
+    <string name="pass_check_hint">"Virheellinen salasana. %d yrityskertaa jäljellä."</string>
+    <string name="pass_check_hint_new">"Virheellinen salasana, syötä käynnistämällä uudelleen"</string>
+    <string name="password_error">"Virheellinen salasana"</string>
+    <string name="password_hint">"Kirjaudu sisään"</string>
+    <string name="starry_unlock_info">"Jopa avaa"</string>
+    <string name="touch_protect_content1">"Poistu viimeistään:"</string>
+    <string name="touch_protect_content2">"Älä estä lähestymisanturia"</string>
+    <string name="touch_protect_hint">"Paina virtapainiketta ja äänenvoimakkuuden nostopainiketta poistuaksesi"</string>
+    <string name="touch_protect_title">"Tahattoman kosketuksen esto"</string>
+    <string name="user_switched_to_home_hint">"Siirrytty käyttäjätilaan"</string>
+    <string name="user_switched_to_primary_hint">"Siirrytty ensisijaiseen käyttäjätilaan"</string>
+    <string name="user_switching_hint">"Vaihdetaan käyttäjää…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Syötä SIM PIN -koodi, sinulla on <xliff:g id="number">%d</xliff:g> yrityskertaa jäljellä ennen kuin sinun tulee ottaa yhteyttä operaattoriin laitteen lukituksen avaamiseksi."</item>
+        <item quantity="other">"Syötä SIM PIN -koodi, sinulla on <xliff:g id="number">%d</xliff:g> yrityskertaa jäljellä."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM on nyt poistettu käytöstä. Jatka syöttämällä PUK-koodi. <xliff:g id="number">%d</xliff:g> yrityskertaa jäljellä ennen kuin SIM-kortista tehdään pysyvästi käyttökelvoton. Pyydä lisätietoa operaattorilta."</item>
+        <item quantity="other">"SIM on nyt poistettu käytöstä. Jatka syöttämällä PUK-koodi. <xliff:g id="number">%d</xliff:g> yrityskertaa jäljellä ennen kuin SIM-kortista tehdään pysyvästi käyttökelvoton. Pyydä lisätietoa operaattorilta."</item>
+    </plurals>
+
+</resources>

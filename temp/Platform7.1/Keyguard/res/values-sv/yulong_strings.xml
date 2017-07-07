@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"För många försök. Försök igen efter 30 sekunder."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Ange SPÄRR-kod för SIM-kort som består av 4 till 8 siffror"</string>
+    <string name="kg_password_sim_lock_failed">"Åtgärden SPÄRR-kod för SIM-kort misslyckades."</string>
+    <string name="kg_sim_lock_instructions">"Ange SPÄRR-kod för SIM-kort"</string>
+    <string name="kg_sim_pin_unlock_succeed">"PIN-kod för SIM-kort korrekt. Kort har låsts upp"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM-kort har låsts upp"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Ange SPÄRR-kod för SIM-kort. <xliff:g id="number">%d</xliff:g> försök återstår."</item>
+        <item quantity="other">"Ange SPÄRR-kod för SIM-kort. <xliff:g id="number">%d</xliff:g> försök återstår."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Felaktig SPÄRR-kod för SIM-kort. <xliff:g id="number">%d</xliff:g> försök återstår."</item>
+        <item quantity="other">"Felaktig SPÄRR-kod för SIM-kort. <xliff:g id="number">%d</xliff:g> försök återstår."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Beijing-tid"</string>
+    <string name="cooluipin_button_cancel">"Avbryt"</string>
+    <string name="cooluipin_button_delete">"Radera"</string>
+    <string name="cover_notification_clicked">"Öppna fodralet"</string>
+    <string name="fangdao_hint">"Skriv in säkerhetslösenord:"</string>
+    <string name="find_password_text">"Glömt ditt lösenord?"</string>
+    <string name="fingerprint_error_hint">"Fingeravtrycksverifiering misslyckades, försök igen"</string>
+    <string name="fingerprint_recognized_hint">"Knappskydd upplåst."</string>
+    <string name="keyguard_fangdao_input">"Skriv in CoolManager lösenord"</string>
+    <string name="keyguard_fangdao_title">"Säkerhet"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM är Person-låst"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verifiera fingeravtryck eller ange lösenord"</string>
+    <string name="kg_no_card">"Inget SIM-kort"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verifiera fingeravtryck eller rita ditt mönster"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Fingeravtrycksverifiering misslyckades, försök igen"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verifiera fingeravtryck eller ange PIN-kod"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Det är flygplansläge nu"</string>
+    <string name="kg_remaining_attempts">"Kvarvarande försök: <xliff:g id="playcount">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Öppning <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Ogiltigt kort."</string>
+    <string name="new_mms">"Nytt meddelande"</string>
+    <string name="new_notify_hint">"Ny händelse"</string>
+    <string name="no_answer_call">"missade samtal"</string>
+    <string name="Notify_no_info">"Ingen händelse"</string>
+    <string name="pass_check_hint">"Felaktigt lösenord. %d försök kvar."</string>
+    <string name="pass_check_hint_new">"Felaktigt lösenord, starta om för inmatning"</string>
+    <string name="password_cancel">"Ta bort"</string>
+    <string name="password_error">"Felaktigt lösenord"</string>
+    <string name="password_hint">"Inloggning"</string>
+    <string name="starry_unlock_info">"Upp för att låsa upp"</string>
+    <string name="touch_protect_content1">"Avsluta med:"</string>
+    <string name="touch_protect_content2">"Blockera inte närhetssensorn"</string>
+    <string name="touch_protect_hint">"Tryck på strömknappen och volym-upp knappen för att avsluta"</string>
+    <string name="touch_protect_title">"Förhindra touch av misstag"</string>
+    <string name="user_switched_to_home_hint">"Växla till användarutrymme"</string>
+    <string name="user_switched_to_primary_hint">"Växla till primärt användarutrymme"</string>
+    <string name="user_switching_hint">"Växlar användare..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Skriv in SIM PIN, du har <xliff:g id="number">%d</xliff:g> återstående försök innan du måste kontakta din leverantör för att låsa upp din enhet."</item>
+        <item quantity="other">"Skriv in SIM PIN, du har <xliff:g id="number">%d</xliff:g> återstående försök."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM är nu avaktiverad. Ange PUK-kod för att fortsätta. Du har <xliff:g id="number">%d</xliff:g> återstående försök innan SIM-kortet blir permanent obrukbart. Kontaktleverantör för detaljer."</item>
+        <item quantity="other">"SIM är nu avaktiverad. Ange PUK-kod för att fortsätta. Du har <xliff:g id="number">%d</xliff:g> återstående försök innan SIM-kortet blir permanent obrukbart. Kontaktleverantör för detaljer."</item>
+    </plurals>
+
+</resources>

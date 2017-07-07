@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.covermode.NewNotificationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/new_notification_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/new_notification_titleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/menu_clear_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_clear"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/new_notify_hint"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/new_notification_list_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/new_notification_text_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/Notify_no_info"
+        android:textColor="#66666666"
+        android:textSize="16sp" />
+
+</com.android.covermode.NewNotificationLayout>

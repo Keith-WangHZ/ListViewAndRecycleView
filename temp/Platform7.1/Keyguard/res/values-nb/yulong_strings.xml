@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <string name="fingerprint_error_lockout">"Du har prøvd for mange ganger. Prøv igjen om 30 sekunder."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Skriv inn en SIM-låsekode på 4 til 8 sifre"</string>
+    <string name="kg_password_sim_lock_failed">"Kunne ikke angi SIM-lås."</string>
+    <string name="kg_sim_lock_instructions">"Angi SIM-lås"</string>
+    <string name="kg_sim_pin_unlock_succeed">"PIN-koden for SIM-kortet er riktig. Kortet er låst opp"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM-kortet ble låst opp"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Angi SIM-låsekode. Du har <xliff:g id="number">%d</xliff:g> gjenværende forsøk."</item>
+        <item quantity="other">"Angi SIM-låsekode. Du har <xliff:g id="number">%d</xliff:g> gjenværende forsøk."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Feil SIM-låsekode. Du har <xliff:g id="number">%d</xliff:g> gjenværende forsøk."</item>
+        <item quantity="other">"Feil SIM-låsekode. Du har <xliff:g id="number">%d</xliff:g> gjenværende forsøk."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekingtid"</string>
+    <string name="cooluipin_button_cancel">"Avbryt"</string>
+    <string name="cooluipin_button_delete">"Slett"</string>
+    <string name="cover_notification_clicked">"Åpne hylsteret"</string>
+    <string name="fangdao_hint">"Vennligst tast inn sikkerhetspassordet:"</string>
+    <string name="find_password_text">"Glemt passordet ditt?"</string>
+    <string name="fingerprint_error_hint">"Fingeravtrykk verifisering feilet, vennligst forsøk igjen"</string>
+    <string name="fingerprint_recognized_hint">"Nøkkelås åpen."</string>
+    <string name="keyguard_fangdao_input">"Legg inn CoolManager passord"</string>
+    <string name="keyguard_fangdao_title">"Sikkerhet"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM er Perso låst"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verifiser fingeravtrykk eller skriv inn passord"</string>
+    <string name="kg_no_card">"Intet SIM-kort"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verifiserer fingeravtrykk eller tegn mønsteret ditt"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Fingeravtrykk verifisering feilet, vennligst forsøk igjen"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verifiser fingeravtrykk eller tast inn PIN-kode"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Det er flymodus nå"</string>
+    <string name="kg_remaining_attempts">"Gjenværende forsøk: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Spor <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Ugyldig kort."</string>
+    <string name="new_mms">"Ny melding"</string>
+    <string name="new_notify_hint">"Nytt arrangement"</string>
+    <string name="no_answer_call">"tapte anrop"</string>
+    <string name="Notify_no_info">"Ingen hendelse"</string>
+    <string name="pass_check_hint">"Feil passord. %d forsøk gjenstår."</string>
+    <string name="pass_check_hint_new">"Feil passord, omstart for å legge in igjen"</string>
+    <string name="password_cancel">"Tøm"</string>
+    <string name="password_error">"Feil passord"</string>
+    <string name="password_hint">"Login"</string>
+    <string name="starry_unlock_info">"Opp for å låse opp"</string>
+    <string name="touch_protect_content1">"Avslutt ved:"</string>
+    <string name="touch_protect_content2">"Ikke blokkèr nærhetssensor"</string>
+    <string name="touch_protect_hint">"Trykk på strømknappen og volum opp-knappen for å avslutte"</string>
+    <string name="touch_protect_title">"Forhindre feiltasting"</string>
+    <string name="user_switched_to_home_hint">"Byttet til brukerens plass"</string>
+    <string name="user_switched_to_primary_hint">"Byttet til brukerens primære plass"</string>
+    <string name="user_switching_hint">"Bytter bruker…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Skriv inn SIM PIN kode, du har <xliff:g id="number">%d</xliff:g> forsøk igjen før du må kontakte nettleverandøren for å låse opp telefonen igjen."</item>
+        <item quantity="other">"Skriv inn SIM PIN kode, du har <xliff:g id="number">%d</xliff:g> forsøk igjen."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM en nå deaktivert. Legg inn PUK-kode for å fortsette. Du har <xliff:g id="number">%d</xliff:g> gjenværende forsøk før SIM blir permanent utilgjengelig. Kontakt nettleverandøren for detaljer."</item>
+        <item quantity="other">"SIM en nå deaktivert. Legg inn PUK-kode for å fortsette. Du har <xliff:g id="number">%d</xliff:g> gjenværende forsøk før SIM blir permanent utilgjengelig. Kontakt nettleverandøren for detaljer."</item>
+    </plurals>
+
+</resources>

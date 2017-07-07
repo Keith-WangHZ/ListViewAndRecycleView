@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@drawable/ic_qs_bg_tl_pressed_right"></item>
+    <item android:drawable="@drawable/ic_qs_bg_tl_normal_right"></item>
+
+</selector>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		/**************************************************************************/
+		/* */ /* Copyright (c) 2000-2010 YULONG Company */ /*
+		宇龙计算机通信科技（深圳）有限公司 版权所有 2000-2010 */ /* */ /* PROPRIETARY RIGHTS of
+		YULONG Company are involved in the */ /* subject matter of this
+		material. All manufacturing, reproduction, use,*/ /* and sales rights
+		pertaining to this subject matter are governed by the */ /* license
+		agreement. The recipient of this software implicitly accepts */ /* the
+		terms of the license. */ /* 本软件文档资料是宇龙公司的资产,任何人士阅读和使用本资料必须获得 */ /*
+		相应的书面授权,承担保密责任和接受相应的法律约束. */ /* */   ////
+		/**************************************************************************/
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tabunlock="http://schemas.android.com/apk/res-"
+    android:id="@+id/yulong_login_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff5f5f5" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="top"
+        android:background="#ff0db564" >
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginStart="16dip"
+            android:src="@drawable/security_topbar_up_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="12.5dp"
+            android:singleLine="true"
+            android:text="@string/keyguard_fangdao_title"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/login_password_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dip"
+        android:layout_marginTop="78dip"
+        android:textColor="#ffff0000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/login_password_input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="328dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:layout_marginTop="102dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <!-- displays dots as user enters pin -->
+
+            <TextView
+                android:id="@+id/new_password_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/keyguard_fangdao_input"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="#ff0d0d0d"
+                android:textColorHint="#ffb1b1b1"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:id="@+id/backspace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_delete_background" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="328dip"
+            android:layout_height="1dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dip"
+            android:background="#ff0db564" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/find_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/login_password_input_text"
+        android:layout_marginEnd="16dip"
+        android:layout_marginTop="30dip"
+        android:text="@string/find_password_text"
+        android:textColor="#ff7b7b7b"
+        android:textSize="14dip"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/accountKeyBoard"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dip"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/fulscreen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:src="@drawable/fangdao_keyboard_big" />
+
+        <ImageButton
+            android:id="@+id/halfscreen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:src="@drawable/fangdao_keyboard_small"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/accountKeyBoard"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/fangdao_numpad_bg" >
+
+        <LinearLayout
+            android:id="@+id/fullKeyBoard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="6dip"
+                android:layout_marginTop="8dip"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/one"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_marginStart="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_1" />
+
+                <ImageButton
+                    android:id="@+id/two"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_2" />
+
+                <ImageButton
+                    android:id="@+id/three"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="6dip"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/four"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_marginStart="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_4" />
+
+                <ImageButton
+                    android:id="@+id/five"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_5" />
+
+                <ImageButton
+                    android:id="@+id/six"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="6dip"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/seven"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_marginStart="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_7" />
+
+                <ImageButton
+                    android:id="@+id/eight"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_8" />
+
+                <ImageButton
+                    android:id="@+id/nine"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="4dip"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/password_cancel_button"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_marginStart="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_land_keyguard_background"
+                    android:text="@string/password_cancel"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ff4d4d4d"
+                    android:textSize="18dp" />
+
+                <ImageButton
+                    android:id="@+id/zero"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_keyguard_background"
+                    android:src="@drawable/fangdao_num_0" />
+
+                <Button
+                    android:id="@+id/password_hint_button"
+                    android:layout_width="112dip"
+                    android:layout_height="54dip"
+                    android:layout_marginEnd="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_land_keyguard_background"
+                    android:text="@string/password_hint"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ff4d4d4d"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

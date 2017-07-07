@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:gravity="bottom"
+    android:orientation="horizontal" >    
+
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item0"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item1"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item2"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item3"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"	   
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+	    
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item4"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item5"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item6"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+			<include layout="@layout/quick_setting_item1"
+			   android:id="@+id/item7"
+			   android:layout_width="0dp"
+			   android:layout_weight="1"	   
+			   android:layout_height="wrap_content"
+			   android:layout_centerVertical="true"/>
+	 
+</LinearLayout>

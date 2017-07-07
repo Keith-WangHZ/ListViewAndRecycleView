@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" 
+    android:paddingTop="72dp"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gap_24"
+        android:layout_marginTop="4dp"
+        android:text="@string/ctrl_center_shown_1page"
+        android:textColor="@color/caption_color"
+        android:textSize="@dimen/caption_font_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gap_24"
+        android:layout_marginTop="165dp"
+        android:text="@string/ctrl_center_shown_2page"
+        android:textColor="@color/caption_color"
+        android:textSize="@dimen/caption_font_size"
+        android:id="@+id/ctrl_center_shown_page2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gap_24"
+        android:layout_marginTop="326dp"
+        android:text="@string/ctrl_center_non_shown"
+        android:textColor="@color/caption_color"
+        android:textSize="@dimen/caption_font_size"
+        android:id="@+id/ctrl_center_not_shown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode ="true"
+        android:layout_marginStart="@dimen/gap_24"
+        android:text="@string/ctrl_center_hint"
+        android:textColor="@color/caption_color"
+        android:textSize="@dimen/caption_font_size"
+        android:layout_marginBottom="9dp" />
+
+</FrameLayout>

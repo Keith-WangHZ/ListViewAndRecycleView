@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Режим «Нарада»</string>
+    <string name="status_bar_settings_airplane">"У літаку"</string>
+    <string name="quick_settings_airplane_mode_label">"У літаку"</string>
+    <string name="quick_settings_hotspot_label">"Точка доступу до бездротової мережі"</string>
+    <string name="status_bar_expanded_airplane_mode">"У літаку"</string>
+    <string name="qs_label_softap">"Точка доступу до бездротової мережі"</string>
+    
+    <string name="qs_label_vibrate_ring">Вібрація</string>
+    <string name="qs_label_softap">Точка доступу</string>
+    <string name="accessibility_ime_switch_button">"Перемкнути кнопку метода вводу."</string>
+    <string name="accessibility_no_wifi">"WI-FI від’єднано."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"WI-FI вимкнено."</string>
+    <string name="accessibility_wifi_one_bar">"WI-FI одна смужка."</string>
+    <string name="accessibility_wifi_signal_full">"Повний сигнал WI-FI."</string>
+    <string name="accessibility_wifi_three_bars">"WI-FI три смужки."</string>
+    <string name="accessibility_wifi_two_bars">"WI-FI дві смужки."</string>
+    <string name="guide_click_txt">"Натисніть, щоб потрапити до налаштувань сховища блокувань клавіш"</string>
+    <string name="guide_sliding_txt">"Потягніть, щоб змінити екран"</string>
+    <string name="guide_swipe_up_txt">"Проведіть пальцем угору, щоб розблокувати"</string>
+    <string name="guide_title">"Ласкаво просимо до сховища блокувань клавіш"</string>
+    <string name="header_name_detail_top">"Показувати сповіщення рядку стану"</string>
+    <string name="header_name_top">"Сповіщення рядку стану"</string>
+    <string name="header_name0">"Рядок стану"</string>
+    <string name="header_name1">"Блокування клавіатури"</string>
+    <string name="header_top">"Керування групою сповіщень"</string>
+    <string name="interruption_level_all">"Всі"</string>
+    <string name="keyguard_guide_enter">"Спробуйте"</string>
+    <string name="lockscreen_airplane_mode_on">"Режим літака увімкнено."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM-картка відсутня."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Непридатна SIM-картка."</string>
+    <string name="lockscreen_sim_error_message_short">"Помилка SIM."</string>
+    <string name="lockscreen_sim_locked_message">"SIM-картка заблокована."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM-картка заблокована PUK-кодом."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Цей пристрій керується:\n<xliff:g id="organization">%1$s</xliff:g>\nВаш профіль керується:\n<xliff:g id="organization">%2$s</xliff:g>\n\nВаш адміністратор може переглядати стан вашого пристрою та активність у мережі, включаючи електронну пошту, програми та безпечні сайти.\n\nБільш детальну інформацію можна отримати у вашого адміністратора."</string>
+    <string name="monitoring_description_legacy_vpn">"Ви підключені до VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nВаш постачальник послуг VPN може переглядати стан вашого пристрою та активність у мережі, включаючи електронну пошту, програми та безпечні сайти."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Цей пристрій керується:\n<xliff:g id="organization">%1$s</xliff:g>\nВаш профіль керується:\n<xliff:g id="organization">%2$s</xliff:g>\n\nВаш адміністратор може переглядати вашу активність у мережі, включаючи електронну пошту, програми та безпечні сайти. Більш детальну інформацію можна отримати у вашого адміністратора.\n\nКрім того, ви підключені до VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Ваш постачальник послуг VPN може також переглядати вашу активність у мережі."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Цей пристрій керується:\n<xliff:g id="organization">%1$s</xliff:g>\n\nВаш адміністратор може переглядати вашу активність у мережі, включаючи електронну пошту, програми та безпечні сайти. Більш детальну інформацію можна отримати у вашого адміністратора.\n\nКрім того, ви підключені до VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Ваш постачальник послуг VPN може також переглядати вашу активність у мережі."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Цей профіль керується:\n<xliff:g id="organization">%1$s</xliff:g>\n\nВаш адміністратор може переглядати вашу активність у мережі, включаючи електронну пошту, програми та безпечні сайти. Більш детальну інформацію можна отримати у вашого адміністратора.\n\nКрім того, ви підключені до VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Ваш постачальник послуг VPN може також переглядати вашу активність у мережі."</string>
+    <string name="monitoring_description_profile_owned">"Цей профіль керується:\n<xliff:g id="organization">%1$s</xliff:g>\n\nВаш адміністратор може переглядати стан вашого пристрою та активність у мережі, включаючи електронну пошту, програми та безпечні сайти.\n\nБільш детальну інформацію можна отримати у вашого адміністратора."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Цей пристрій керується:\n<xliff:g id="organization">%1$s</xliff:g>\nВаш профіль керується:\n<xliff:g id="organization">%2$s</xliff:g>\n\nВаш адміністратор може переглядати вашу активність у мережі, включаючи електронну пошту, програми та безпечні сайти. Більш детальну інформацію можна отримати у вашого адміністратора.\n\nКрім того, ви надали \"<xliff:g id="application">%3$s</xliff:g>\" дозвіл на встановлення з’єднання VPN. Ця програма може також переглядати активність у мережі."</string>
+    <string name="please_select_phase2">"Фаза автентифікації 2"</string>
+    <string name="proxy_exclusionlist_label">"Обхід проксі за"</string>
+    <string name="proxy_hostname_label">"Ім’я вузла проксі"</string>
+    <string name="proxy_port_label">"Порт проксі"</string>
+    <string name="proxy_settings_title">"Проксі"</string>
+    <string name="proxy_warning_limited_support">"Проксі HTTP використовується браузером, але може не використовуватися іншими програмами."</string>
+    <string name="qs_bottom_first_btn">"Я знаю"</string>
+    <string name="qs_bottom_first_notice">"Проведіть пальцем у напрямку від низу екрана, щоб отримати доступ до панелі швидких налаштувань"</string>
+    <string name="qs_label_cbutton">"Кнопка С"</string>
+    <string name="qs_label_white_black_patterns">"Моно"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Режим літака"</string>
+    <string name="sim_slot">"Слот для SIM-картки"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>повідомлень]"</string>
+    <string name="status_bar_settings_airplane">"Режим літака"</string>
+    <string name="sub_switch_name0">"Увімкнути сповіщення"</string>
+    <string name="sub_switch_name1">"Плаваючі сповіщення"</string>
+    <string name="sub_switch_name1_sub">"Показувати сповіщення зверху екрана, після чого прибирати їх автоматично"</string>
+    <string name="sub_switch_name2">"Сповіщення на екрані блокування"</string>
+    <string name="sub_switch_name2_sub">"Показувати сповіщення рядку стану"</string>
+    <string name="sub_switch_name3">"Показати подробиці сповіщень"</string>
+    <string name="sub_switch_name4">"Показувати сповіщення рядку стану"</string>
+    <string name="title_activity_package_list_batch">"Обробка групи сповіщень"</string>
+    <string name="wapi_as_certificate">"Сертифікат ASE"</string>
+    <string name="wapi_user_certificate">"Сертифікат користувача"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Анонімна особа"</string>
+    <string name="wifi_eap_ca_cert">"Сертифікат ЦС"</string>
+    <string name="wifi_eap_identity">"Особа"</string>
+    <string name="wifi_eap_method">"Метод EAP"</string>
+    <string name="wifi_eap_user_cert">"Сертифікат користувача"</string>
+    <string name="wifi_gateway">"Шлюз"</string>
+    <string name="wifi_hex_password">"Шістнадцятиричний пароль."</string>
+    <string name="wifi_info_cancal_btn">"Скасувати"</string>
+    <string name="wifi_info_connect_btn">"З’єднання"</string>
+    <string name="wifi_ip_address">"IP-адреса"</string>
+    <string name="wifi_ip_settings">"Налаштування IP"</string>
+    <string name="wifi_network_prefix_length">"Довжина мережевого префікса"</string>
+    <string name="wifi_password">"Пароль"</string>
+    <string name="wifi_password_text">"Пароль (від 8 до 63 символів)"</string>
+    <string name="wifi_security">"Безпека"</string>
+    <string name="wifi_security_none">"Немає"</string>
+    <string name="wifi_show_advanced">"Показати додаткові параметри"</string>
+    <string name="wifi_show_password">"Показати пароль"</string>
+    <string name="wifi_signal">"Потужність сигналу"</string>
+    <string name="wifi_ssid">"Ідентифікатор SSID мережі"</string>
+    <string name="wifi_ssid_hint">"Ввести ідентифікатор SSID"</string>
+    <string name="wifi_status">"Стан"</string>
+    <string name="wifi_unchanged">"(без змін)"</string>
+    <string name="wifi_WEP_secury_key">"Ключ безпеки"</string>
+    <string name="wifi_WEP_transmit_key">"Кнопка передачі"</string>
+    <string name="zen_alarm_information_day_time">"Наступний будильник заведено <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Наступний будильник заведено на <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Тільки першочергові перешкоди"</string>
+    <string name="zen_no_interruptions">"Без перешкод"</string>
+    <string name="zen_no_interruptions_with_warning">"Без перешкод. Немає будильника."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Emergency"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Обрані"</string>
+    <string name="keyguard_magzine_cancel_collect">"Додано до обраних"</string>
+    <string name="keyguard_magazine_resident">"Постійний користувач"</string>
+    <string name="keyguard_magazine_cancel_resident">"Відмінити постійного користувача"</string>
+    <string name="keyguard_magazine_share">"Поділитися"</string>
+    <string name="keyguard_magazine_link">"Посилання"</string>
+    <string name="keyguard_magazine_more">"Налаштування"</string>
+    <string name="keyguard_magzine_collect_toast">"Зберегти фото з локальної галереї до фотоальбому"</string>
+    <string name="keyguard_magazine_resident_toast">"Ці шпалери будуть відображуватися за замовчуванням кожного разу при увімкненні екрану"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Ці шпалери не будуть відображуватися за замовчуванням кожного разу при увімкненні екрану"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Колекція фотоальбому"</string>
+    <string name="qs_label_calculator">"Калькулятор"</string>
+    <string name="qs_label_blaster">"Диктофон"</string>
+    <string name="qs_label_magical">"Неперевершений звук"</string>
+    <string name="qs_label_camera">"Камера"</string>
+    <string name="qs_label_recording">"Запис"</string>
+    <string name="qs_label_controlcentor">"Центр керування"</string>
+    <string name="qs_label_slience">"Знімок екрана"</string>
+    <string name="header_name">"увімкнути сповіщення"</string>
+    <string name="header_name_detail">"Вказано на панелі сповіщень"</string>
+    <string name="title_show_locksreen">"Показувати на екрані блокування"</string>
+    <string name="recents_app_shendu">"глибина"</string>
+    <string name="recents_app_liuliang">"Сьогодні:"</string>
+    <string name="recents_app_memory">"Пам’ять:"</string>
+    <string name="recents_app_battary">"Батарея:"</string>
+    <string name="recents_app_running_empty">"нещодавніх завдань немає"</string>
+    <string name="recents_app_best_already">"вже очищено"</string>
+    <string name="recents_app_release_memory">"звільнити пам’ять <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"спочатку запустити центр безпеки"</string>
+    <string name="recents_app_memory_cleaned">"очищено"</string>
+    <string name="preference_detail_show">"Показати"</string>
+    <string name="preference_detail_hide">"Приховати"</string>
+    <string name="item_show_notifcaiton">"Сповіщення"</string>
+    <string name="item_show_lockscreen">"на екрані блокування"</string>
+    <string name="item_show_floating">"плаваюче"</string>
+    <string name="item_show_detail">"Показати подробиці"</string>
+    <string name="manage_notification_access_title">"Прийом сповіщень"</string>
+    <string name="notification_hide_system_app">"Приховати системні програми"</string>
+    <string name="notification_show_system_app">"Показати системні програми"</string>
+    <string name="ctrl_center_shown_1page">"Відображення ярликів – сторінка 1"</string>
+    <string name="ctrl_center_shown_2page">"Відображення ярликів – сторінка 2"</string>
+    <string name="ctrl_center_non_shown">"Ярлики не відображуються"</string>
+    <string name="ctrl_center_hint">"Примітка. Щоб перемістити ярлик, торкніться та утримуйте його. Відображення та місце розташування ярлика можна налаштувати\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Гучність голосового виклику"</item>
+        <item>"Системна гучність"</item>
+        <item>"Мелодія &amp; гучність сповіщень"</item>
+        <item>"Гучність мультимедійних матеріалів"</item>
+        <item>"Гучність будильника"</item>
+        <item></item>
+        <item>"Гучність виклику через Bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"На панелі огляду 1 екран"</item>
+        <item quantity="other">"Екранів на панелі огляду: %d"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Приховати"</string>
+    <string name="clear_memory_notice">"Вітаємо, список завдань було успішно очищено"</string>
+    <string name="data_no_connected_error">"Перевірте, чи дозволений роумінг даних у меню «Налаштування-&gt;Управління SIM-карткою-&gt;Міжнародний роумінг»!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Під час блокування екрана перетягування увімкнено"</string>
+    <string name="item_center_notifcaiton_obsessive">"Опції OCD"</string>
+    <string name="qs_label_dataportection_mode">"Захист даних"</string>
+    <string name="qs_label_ringer">"Дзвінок"</string>
+    <string name="qs_label_rotation">"Поворот екрану"</string>
+    <string name="qs_label_speed">"Прискорення"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> використовується |всього <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"SIM-картка відсутня. Установіть картку й повторіть спробу!"</string>
+    <string name="status_bar_screenshot_interesting">"Цікавий"</string>
+    <string name="status_bar_screenshot_long">"Довгий"</string>
+    <string name="status_bar_super_secure_system_mode">"Зараз активний безпечний режим. Вийдіть з нього, щоб увімкнути цю функцію"</string>
+    <string name="title_show_floating_sub">"Після розблокування екрана сповіщення відображаються у верхній частині екрана, а потім зникають автоматично"</string>
+    <string name="yl_volume_ring_icon_description">"Гучність дзвінка &amp; сповіщень"</string>
+    <string name="accessibility_quick_settings_data_off">"Передачу мобільних даних вимкнено."</string>
+    <string name="accessibility_quick_settings_data_on">"Передачу мобільних даних увімкнено."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Передачу в роумінгу вимкнено."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Передачу в роумінгу ввімкнено."</string>
+    <string name="brightness_dlg_adjust">"(Налаштування)"</string>
+    <string name="brightness_dlg_auto">"Авто"</string>
+    <string name="brightness_dlg_brightness">"Яскравість"</string>
+    <string name="clear_notify_all_oldman">"Очистити сповіщення"</string>
+    <string name="dateview_day">"День"</string>
+    <string name="dateview_month">"Місяць"</string>
+    <string name="domain_switch_toast">"Сповіщення з іншої пам’яті."</string>
+    <string name="item_center_notifcaiton_ccm">"Показати назву оператора"</string>
+    <string name="item_center_notifcaiton_control">"Центр управління"</string>
+    <string name="item_center_notifcaiton_management">"Управління сповіщеннями"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Очистити мітки піктограми при струшуванні"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Приховати мітки піктограми"</string>
+    <string name="item_center_notifcaiton_other">"Інші"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Швидкі налаштування"</string>
+    <string name="item_center_notifcaiton_sub">"Сповіщення"</string>
+    <string name="item_center_notifcaiton_title">"Установки"</string>
+    <string name="item_show_none">"Немає"</string>
+    <string name="item_show_other">"Інші"</string>
+    <string name="item_show_statusbar">"Панель"</string>
+    <string name="keyguard_magazine_enter">"Проведіть пальцем вниз для блокування клавіатури"</string>
+    <string name="kg_no_service">"Немає мережі"</string>
+    <string name="kg_no_uim">"Відсутня UIM-карта або послуга"</string>
+    <string name="kg_no_usim">"Відсутня SIM-карта або відсутнє покриття"</string>
+    <string name="kg_none_carrier">"Немає мережі"</string>
+    <string name="message_keep_one_launcher">"Потрібно зберегти принаймні один основний процес."</string>
+    <string name="message_switch_fail">"Не вдалося переключитися на це завдання через відсутність у ньому інтерфейсу."</string>
+    <string name="other_notification_expand">"натисніть, щоб переглянути все."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> інших сповіщень"</string>
+    <string name="qs_label_airplane">"Режим без зв\’язку"</string>
+    <string name="qs_label_blacklist">"Блокувальник"</string>
+    <string name="qs_label_blacklist2">"Блокувальник"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Яскравість"</string>
+    <string name="qs_label_data_roaming">"Роумінг"</string>
+    <string name="qs_label_doublecard">"Налаштування двох карток"</string>
+    <string name="qs_label_driving_mode">"Режим «В автомобілі»"</string>
+    <string name="qs_label_flashlight">"Ліхтарик"</string>
+    <string name="qs_label_flow_monitor">"Використання даних"</string>
+    <string name="qs_label_location">"Розташування"</string>
+    <string name="qs_label_multiple_accounts_name">"Власник"</string>
+    <string name="qs_label_mutlwindow">"Багатозадачність"</string>
+    <string name="qs_label_saving">"Енергозбереження"</string>
+    <string name="qs_label_scenemode">"Сюжетний режим"</string>
+    <string name="qs_label_sdcard_install">"Встановлення SD-карти"</string>
+    <string name="qs_label_sdcard_uninstall">"Видалення SD-карти"</string>
+    <string name="qs_label_secure_mode">"Захист даних"</string>
+    <string name="qs_label_setting">"Установки"</string>
+    <string name="qs_label_shrink_screen">"Масштабування екрану"</string>
+    <string name="qs_label_silence">"Вимкнути звук"</string>
+    <string name="qs_label_sound">"Звук"</string>
+    <string name="qs_label_super_saving">"Супер"</string>
+    <string name="qs_label_super_secure_mode">"Супербезпечний режим"</string>
+    <string name="qs_label_switching">"Перемикання"</string>
+    <string name="qs_label_ttwindow_mode">"Стрічка новин"</string>
+    <string name="qs_label_turning_off">"Закриття"</string>
+    <string name="qs_label_turning_on">"Відкриття"</string>
+    <string name="qs_label_viplist">"Білий список"</string>
+    <string name="qs_label_viplist2">"Білий список"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Показано у панелі сповіщень (до 10)"</string>
+    <string name="qs_minor_bar_tips">"Не показано в панелі сповіщень"</string>
+    <string name="quick_settings_apn_switch_label">"Перемикач APN"</string>
+    <string name="quick_settings_data_off">"Передачу даних вимкнено"</string>
+    <string name="quick_settings_dds_sub">"Дані карти <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="quick_settings_mobile_data_label">"Мобільні дані"</string>
+    <string name="quick_settings_roaming_label">"Роумінг"</string>
+    <string name="quicksettings_edit_disable">"Редагувати"</string>
+    <string name="quicksettings_edit_enable">"Вихід"</string>
+    <string name="quicksettings_more">"Додатково"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Не вдається підключитися до мережі в режимі «У літаку»."</string>
+    <string name="status_bar_disable_data_roaming">"Роумінг деактивовано."</string>
+    <string name="status_bar_earphones_connected_text">"Навушники підключено."</string>
+    <string name="status_bar_earphones_connected_ticker">"Навушники підключено."</string>
+    <string name="status_bar_earphones_connected_title">"Навушник"</string>
+    <string name="status_bar_enable_data_roaming">"Роумінг активовано."</string>
+    <string name="status_bar_expand_autobright">"Автоматичне налаштування яскравості"</string>
+    <string name="status_bar_expanded_check_sim">"Немає SIM-карти"</string>
+    <string name="status_bar_expanded_check_uim">"Відсутня UIM-карта"</string>
+    <string name="status_bar_expanded_check_uimsim">"SIM-картка відсутня"</string>
+    <string name="status_bar_expanded_data_net_status">"Невідомий"</string>
+    <string name="status_bar_expanded_mms_send_note">"Підключення до мережі... Спробуйте пізніше."</string>
+    <string name="status_bar_expanded_net_using_card">"Використання телефонної картки <xliff:g id="number">%d</xliff:g> для передачі даних. Ви можете вручну перемкнути мережу пізніше."</string>
+    <string name="status_bar_expanded_network_forbid">"Службу вимкнено"</string>
+    <string name="status_bar_expanded_network_off">"Немає мережі"</string>
+    <string name="status_bar_expanded_start_network">"Мобільні дані"</string>
+    <string name="status_bar_expanded_start_network_g">"Мобільні дані"</string>
+    <string name="status_bar_expanded_stop_network">"Мобільні дані"</string>
+    <string name="status_bar_expanded_stop_network_g">"Мобільні дані"</string>
+    <string name="status_bar_no_running_apps">"Немає працюючих програм"</string>
+    <string name="status_bar_notification_manager">"адміністратор"</string>
+    <string name="status_bar_notify_interception_disable">"Забор."</string>
+    <string name="status_bar_notify_interception_enable">"Дозволити"</string>
+    <string name="status_bar_other_notify">"Додатково"</string>
+    <string name="status_bar_other_notify_back">"Назад"</string>
+    <string name="status_bar_recent_delete">"Очистити"</string>
+    <string name="status_bar_recent_historical">"Завдання з журналу"</string>
+    <string name="status_bar_recent_memory">"Пам’ять"</string>
+    <string name="status_bar_recent_memory_free">"вільна|"</string>
+    <string name="status_bar_recent_memory_item_used">"Використовується:"</string>
+    <string name="status_bar_recent_memory_used">"Використовується:"</string>
+    <string name="status_bar_recent_optimize">"Деталі"</string>
+    <string name="status_bar_recent_running">"Активне завдання"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Скопійовано в буфер обміну."</string>
+    <string name="status_bar_screenshot_edit">"Редагувати"</string>
+    <string name="status_bar_screenshot_exit">"Скасувати"</string>
+    <string name="status_bar_screenshot_save">"Зберегти"</string>
+    <string name="status_bar_screenshot_share">"Сп. дост."</string>
+    <string name="status_bar_select_network1">"Мережа 1"</string>
+    <string name="status_bar_select_network2">"Мережа 2"</string>
+    <string name="tasklist_killall">"Закрити всі"</string>
+    <string name="tasklist_memory_usage">"Вільно/усього пам’яті: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Диспетчер завдань"</string>
+    <string name="title_activity_package_list">"Центр сповіщень"</string>
+    <string name="title_show_effect_preview">"Попередній перегляд зображення"</string>
+    <string name="title_show_floating">"Спливаючі сповіщення"</string>
+    <string name="title_show_notifcaiton">"Дозволити"</string>
+    <string name="title_show_notification_center">"Центр сповіщень"</string>
+    <string name="title_show_other">"Показати в інших"</string>
+    <string name="title_show_statusbar">"Показати на панелі"</string>
+    <string name="gps_notification_searching_text_content">"Живлення залишатиметься ввімкненим після вимкнення GPS."</string>
+    <string name="quick_settings_battery_charging_label">"<xliff:g id="number">%d</xliff:g>: триває заряджання<xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Заряджено"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"<xliff:g id="third_party">%1$s</xliff:g> вимикає звук"</string>
+    <string name="over_sea_hideNavigationBar_info">"Показати панель навігації, прокрутивши вгору знизу екрана"</string>
+    <string name="status_bar_expanded_airplane_mode">"В літаку"</string>
+
+</resources>

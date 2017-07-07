@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.QuickSettingsConfigView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+  
+    android:paddingBottom="0dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:gravity="bottom"
+    android:orientation="vertical" />    
+  

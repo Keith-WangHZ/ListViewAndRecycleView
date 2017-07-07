@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.QuickSettingsContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:id="@+id/yulong_quick_settings"
+    android:orientation="horizontal"
+    >
+	<android.support.v4.view.ViewPager
+	    android:layout_width="match_parent"
+		android:layout_height="94dp"
+		android:id="@+id/viewpager"/>     
+</com.android.systemui.statusbar.phone.QuickSettingsContainerView>

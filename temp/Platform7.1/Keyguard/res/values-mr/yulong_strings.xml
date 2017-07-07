@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_ime_switch_button">"इनपुट पद्धत स्‍विच करा बटण."</string>
+    <string name="airplane_mode">"एअरप्लेन मोड"</string>
+    <string name="app_name">"कीगार्ड"</string>
+    <string name="camera">"%2$s\n%1$s"</string>
+    <string name="city_name_beijing">"बीजिंग वेळ"</string>
+    <string name="cooluipin_button_cancel">"रद्द करा"</string>
+    <string name="cooluipin_button_delete">"हटवा"</string>
+    <string name="cover_notification_clicked">"कृपया आपले होल्स्टर उघडा"</string>
+    <string name="fangdao_hint">"कृपया सुरक्षितता पासवर्ड प्रविष्ट करा:"</string>
+    <string name="find_password_text">"आपला पासवर्ड विसरलात?"</string>
+    <string name="fingerprint_error_hint">"फिंगरप्रिंट प्रमाणीकरण अयशस्वी झाले, कृपया पुन्हा प्रयत्न करा"</string>
+    <string name="fingerprint_error_lockout">"बरेच प्रयत्न, कृपया 30 सेकंदांनंतर पुन्हा प्रयत्न करा."</string>
+    <string name="fingerprint_not_recognized">"ओळखले नाही"</string>
+    <string name="fingerprint_recognized_hint">"कीगार्ड अनलॉक केले."</string>
+    <string name="keyboardview_keycode_delete">"हटवा"</string>
+    <string name="keyboardview_keycode_enter">"प्रविष्ट करा"</string>
+    <string name="keyguard_accessibility_next_alarm">"पुढील अलार्म<xliff:g id="ALARM">%1$s</xliff:g>साठी सेट केला"</string>
+    <string name="keyguard_accessibility_password_unlock">"संकेतशब्द अनलॉक."</string>
+    <string name="keyguard_accessibility_pattern_area">"नमुना क्षेत्र."</string>
+    <string name="keyguard_accessibility_pattern_unlock">"नमुना अनलॉक."</string>
+    <string name="keyguard_accessibility_pin_area">"PIN क्षेत्र"</string>
+    <string name="keyguard_accessibility_pin_unlock">"पिन अनलॉक."</string>
+    <string name="keyguard_accessibility_sim_pin_area">"SIM PIN क्षेत्र"</string>
+    <string name="keyguard_accessibility_sim_puk_area">"SIM PUK क्षेत्र"</string>
+    <string name="keyguard_accessibility_slide_area">"स्लाइड क्षेत्र."</string>
+    <string name="keyguard_carrier_default">"सेवा नाही."</string>
+    <string name="keyguard_charged">"चार्ज झाली"</string>
+    <string name="keyguard_fangdao_input">"पासवर्ड प्रविष्ट करा"</string>
+    <string name="keyguard_fangdao_title">"सुरक्षितता"</string>
+    <string name="keyguard_instructions_when_pattern_disabled">"अनलॉक करण्यासाठी मेनू दाबा."</string>
+    <string name="keyguard_low_battery">"आपले चार्जर कनेक्ट करा."</string>
+    <string name="keyguard_missing_sim_instructions">"एक सिम कार्ड घाला."</string>
+    <string name="keyguard_missing_sim_instructions_long">"सिम कार्ड गहाळ झाले आहे किंवा ते वाचनीय नाही. एक सिम कार्ड घाला."</string>
+    <string name="keyguard_missing_sim_message_short">"SIM कार्ड नाही"</string>
+    <string name="keyguard_network_locked_message">"नेटवर्क लॉक केले"</string>
+    <string name="keyguard_password_enter_password_code">"अनलॉक करण्यासाठी संकेतशब्द टाइप करा"</string>
+    <string name="keyguard_password_enter_pin_code">"PIN कोड टाइप करा"</string>
+    <string name="keyguard_password_enter_pin_password_code">"अनलॉक करण्यासाठी PIN टाइप करा"</string>
+    <string name="keyguard_password_enter_pin_prompt">"नवीन सिम पिन कोड"</string>
+    <string name="keyguard_password_enter_puk_code">"सिम PUK आणि नवीन पिन कोड टाइप करा"</string>
+    <string name="keyguard_password_enter_puk_prompt">"सिम PUK कोड"</string>
+    <string name="keyguard_password_entry_touch_hint">"<font size="17">पासवर्ड प्रविष्ट करा</font>"</string>
+    <string name="keyguard_password_wrong_pin_code">"चूक PIN कोड."</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"आपले सिम कार्ड कायमचे अक्षम केले गेले आहे.\n दुसर्‍या सिम कार्डसाठी आपल्‍या वायरलेस सेवा प्रदात्‍यासह संपर्क साधा."</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">"निरूपयोगी सिम कार्ड."</string>
+    <string name="keyguard_plugged_in">"चार्जिग <xliff:g id="BATTERY_LEVEL">%s</xliff:g>"</string>
+    <string name="keyguard_sim_locked_message">"सिम कार्ड लॉक झाले आहे."</string>
+    <string name="keyguard_sim_puk_locked_message">"सिम कार्ड PUK-लॉक केलेले आहे."</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">"सिम कार्ड अनलॉक करत आहे…"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"फिंगरप्रिंट सत्यापित करा किंवा पासवर्ड प्रविष्ट करा"</string>
+    <string name="kg_enter_confirm_pin_hint">"इच्छित PIN कोड ची पुष्टी करा"</string>
+    <string name="kg_forgot_pattern_button_text">"नमुना विसरलात"</string>
+    <string name="kg_invalid_puk">"योग्य PUK कोड पुन्हा-प्रविष्ट करा. परत प्रयत्न करणे सिम कायमचे अक्षम करेल."</string>
+    <string name="kg_invalid_sim_pin_hint">"4 ते 8 क्रमांक अससेला PIN टाईप करा."</string>
+    <string name="kg_invalid_sim_puk_hint">"PUK कोड 8 अंकी किंवा त्यापेक्षा अधिकचा असावा."</string>
+    <string name="kg_login_too_many_attempts">"बरेच नमुना प्रयत्न"</string>
+    <string name="kg_no_card">"SIM कार्ड नाही"</string>
+    <string name="kg_password_instructions">"पासवर्ड प्रविष्ट करा"</string>
+    <string name="kg_password_pin_failed">"SIM PIN क्रिया अयशस्वी!"</string>
+    <string name="kg_password_puk_failed">"सिम PUK कार्य अयशस्‍वी झाले!"</string>
+
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">"सिम पिन कोड चुकीचा आहे, आपण आपले डिव्‍हाइस अनलॉक करण्‍यासाठी आपल्‍या वाहकाशी संपर्क साधण्‍यापूर्वी आपल्‍याकडे <xliff:g id="NUMBER">%d</xliff:g> प्रयत्न उर्वरित आहेत."</item>
+        <item quantity="other">"सिम पिन कोड चुकीचा आहे, आपल्‍याकडे <xliff:g id="NUMBER">%d</xliff:g> प्रयत्न उर्वरित आहेत."</item>
+    </plurals>
+
+    <string name="kg_password_wrong_pin_code_pukked">"चुकीचा SIM PIN कोड तुमचे उपकरण अनलॉक करण्याकरता आपल्या कॅरीयरशी संपर्क साधा."</string>
+
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">"सिम PUK कोड चुकीचा आहे, सिम कायमचे निरूपयोगी होण्‍यापूर्वी आपल्‍याकडे <xliff:g id="NUMBER">%d</xliff:g> प्रयत्न उर्वरित आहे."</item>
+        <item quantity="other">"सिम PUK कोड चुकीचा आहे, सिम कायमचे निरूपयोगी होण्‍यापूर्वी आपल्‍याकडे <xliff:g id="NUMBER">%d</xliff:g> प्रयत्न उर्वरित आहेत."</item>
+    </plurals>
+
+    <string name="kg_password_wrong_puk_code_dead">"सिम निरुपयोगी आहे. आपल्या वाहकाशी संपर्क साधा."</string>
+    <string name="kg_pattern_finger_config_enabled_message">"फिंगरप्रिंट सत्यापित करा किंवा आपला पॅटर्न रेखांकित करा"</string>
+    <string name="kg_pattern_finger_config_failed_message">"फिंगरप्रिंट प्रमाणीकरण अयशस्वी झाले, कृपया पुन्हा प्रयत्न करा"</string>
+    <string name="kg_pattern_instructions">"आपला नमुना काढा"</string>
+    <string name="kg_pin_accepted">"कोड स्‍वीकारला!"</string>
+    <string name="kg_pin_finger_config_enabled_message">"फिंगरप्रिंट सत्यापित करा किंवा PIN कोड प्रविष्ट करा"</string>
+    <string name="kg_pin_instructions">"PIN प्रविष्ट करा"</string>
+    <string name="kg_pinlock_airplanemode_alert">"तो आता विमान मोडमध्ये आहे"</string>
+    <string name="kg_prompt_reason_restart_password">"आपण डिव्हाइस पुन्हा सुरू केल्यावर पासवर्ड आवश्यक आहे."</string>
+    <string name="kg_prompt_reason_restart_pattern">"आपण डिव्हाइस पुन्हा सुरू केल्यावर पॅटर्न आवश्यक आहे."</string>
+    <string name="kg_prompt_reason_restart_pin">"आपण डिव्हाइस पुन्हा सुरू केल्यावर PIN आवश्यक आहे."</string>
+    <string name="kg_prompt_reason_switch_profiles_password">"आपण प्रोफाइल्स स्विच केल्यावर पासवर्ड आवश्यक आहे."</string>
+    <string name="kg_prompt_reason_switch_profiles_pattern">"आपण प्रोफाइल्स स्विच केल्यावर पॅटर्न आवश्यक आहे."</string>
+    <string name="kg_prompt_reason_switch_profiles_pin">"आपण प्रोफाइल्स स्विच केल्यावर PIN आवश्यक आहे."</string>
+
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">"डिव्हाइस <xliff:g id="number">%d</xliff:g> तासासाठी अनलॉक केले गेले नाही. पासवर्डची पुष्टी करा."</item>
+        <item quantity="other">"डिव्हाइस <xliff:g id="number">%d</xliff:g> तासांसाठी अनलॉक केले गेले नाही. पासवर्डची पुष्टी करा."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">"डिव्हाइस <xliff:g id="number">%d</xliff:g> तासासाठी अनलॉक केले गेले नाही. पॅटर्नची पुष्टी करा."</item>
+        <item quantity="other">"डिव्हाइस <xliff:g id="number">%d</xliff:g> तासांसाठी अनलॉक केले गेले नाही. पॅटर्नची पुष्टी करा."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">"डिव्हाइस <xliff:g id="number">%d</xliff:g> तासासाठी अनलॉक केले गेले नाही. PIN ची पुष्टी करा."</item>
+        <item quantity="other">"डिव्हाइस <xliff:g id="number">%d</xliff:g> तासांसाठी अनलॉक केले गेले नाही. PIN ची पुष्टी करा."</item>
+    </plurals>
+
+    <string name="kg_puk_enter_pin_hint">"इच्छित PIN कोड प्रविष्ट करा"</string>
+    <string name="kg_puk_enter_puk_hint">"सिम आता अक्षम केले आहे. सुरु ठेवण्यासाठी PUK कोड प्रविष्ट करा. तपशीलांसाठी वाहकाशी संपर्क साधा."</string>
+    <string name="kg_puk_enter_puk_hint_multi">"SIM \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" आता अक्षम केले आहे. सुरू ठेवण्यासाठी PUK कोड प्रविष्ट करा. तपशीलांसाठी वाहकाशी संपर्क साधा."</string>
+    <string name="kg_remaining_attempts">"शिल्लक प्रयत्न: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_sim_pin_instructions">"सिम PIN प्रविष्ट करा"</string>
+    <string name="kg_sim_pin_instructions_multi">"\"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" साठी SIM PIN प्रविष्ट करा"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIM PIN कोड योग्य, कार्ड अनलॉक केले"</string>
+    <string name="kg_sim_unlock_progress_dialog_message">"सिम कार्ड अनलॉक करत आहे…"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM कार्ड अनलॉक करा यशस्वी"</string>
+    <string name="kg_slot_name">"स्लॉट <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="kg_too_many_failed_attempts_countdown">"<xliff:g id="number">%d</xliff:g>सेकंदामध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"आपण आपला संकेतशब्द <xliff:g id="NUMBER_0">%d</xliff:g> वेळा अयोग्यरितीने टाइप केला आहे. \n\n <xliff:g id="NUMBER_1">%d</xliff:g> सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"आपण आपला अनलॉक नमुना <xliff:g id="NUMBER_0">%d</xliff:g> वेळा अयोग्यरितीने काढला आहे. \n\n <xliff:g id="NUMBER_1">%d</xliff:g> सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"आपण आपला PIN <xliff:g id="NUMBER_0">%d</xliff:g> वेळा अयोग्यरितीने टाइप केला आहे. \n\n <xliff:g id="NUMBER_1">%d</xliff:g> सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_wrong_password">"चुकीचा संकेतशब्द"</string>
+    <string name="kg_wrong_pattern">"चुकीचा नमुना"</string>
+    <string name="kg_wrong_pin">"चुकीचा पिन"</string>
+    <string name="lockscreen_sim_error_message_short">"अवैध कार्ड."</string>
+    <string name="new_mms">"नवीन संदेश"</string>
+    <string name="new_notify_hint">"नवीन इव्हेंट"</string>
+    <string name="no_answer_call">"सूटलेला कॉल"</string>
+    <string name="Notify_no_info">"इव्हेंट नाही"</string>
+    <string name="pass_check_hint">"चुकीचा पासवर्ड. %d प्रयत्न शिल्लक."</string>
+    <string name="pass_check_hint_new">"चुकीचा पासवर्ड, कृपया इनपुट करण्यासाठी पुन्हा सुरू करा"</string>
+    <string name="password_cancel">"साफ"</string>
+    <string name="password_error">"चुकीचा पासवर्ड"</string>
+    <string name="password_hint">"लॉगिन"</string>
+    <string name="starry_unlock_info">"अनलॉक करण्यासाठी वर करा"</string>
+    <string name="touch_protect_content1">"याद्वारे बाहेर पडा:"</string>
+    <string name="touch_protect_content2">"प्रॉक्सिमिटी सेंसर अवरोधित करू नका"</string>
+    <string name="touch_protect_hint">"बाहेर पडण्यासाठी पॉवर की आणि आवाज वर की दाबा"</string>
+    <string name="touch_protect_title">"चुकीचा स्पर्श प्रतिबंध"</string>
+    <string name="user_switched_to_home_hint">"प्रयोक्ता जागेमध्ये स्विच केले"</string>
+    <string name="user_switched_to_primary_hint">"प्राथमिक प्रयोक्ता जागेमध्ये स्विच केले"</string>
+    <string name="user_switching_hint">"प्रयोक्ता स्विच करत आहे…"</string>
+    <string name="default:keyguard_missing_sim_message">"फोनमध्‍ये सिम कार्ड नाही."</string>
+    <string name="default:kg_failed_attempts_almost_at_erase_profile">"आपण <xliff:g id="number">%d</xliff:g> वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे.
+       आणखी <xliff:g id="number">%d</xliff:g> अयशस्वी प्रयत्नांनंतर,
+       कार्य प्रोफाइल काढले जाईल, ज्यामुळे त्याचा सर्व प्रोफाइल डेटा हटविला जाईल."</string>
+    <string name="default:kg_failed_attempts_almost_at_erase_user">"आपण <xliff:g id="number">%d</xliff:g> वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे.
+       आणखी <xliff:g id="number">%d</xliff:g> अयशस्वी प्रयत्नांनंतर,
+       हा प्रयोक्ता काढला जाईल, ज्यामुळे त्याचा सर्व वापरकर्ता डेटा हटविला जाईल."</string>
+    <string name="default:kg_failed_attempts_almost_at_login">"आपण आपला अनलॉक नमुना <xliff:g id="NUMBER_0">%d</xliff:g> वेळा अयोग्यपणे काढला आहे. आणखी <xliff:g id="NUMBER_1">%d</xliff:g> अयशस्वी प्रयत्नांनंतर, आपल्याला ईमेल खाते वापरून आपला फोन अनलॉक करण्यास सांगितले जाईल.\n\n <xliff:g id="NUMBER_2">%d</xliff:g> सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="default:kg_failed_attempts_almost_at_wipe">"आपण <xliff:g id="number">%d</xliff:g> वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे.
+       आणखी <xliff:g id="number">%d</xliff:g> अयशस्वी प्रयत्नांनंतर,
+       हा फोन रिसेट केला जाईल, ज्यामुळे त्याचा सर्व डेटा हटविला जाईल."</string>
+    <string name="default:kg_failed_attempts_now_erasing_profile">"आपण <xliff:g id="number">%d</xliff:g> वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे.
+       कार्य प्रोफाइल काढले जाईल, ज्यामुळे त्याचा सर्व प्रोफाइल डेटा हटविला जाईल."</string>
+    <string name="default:kg_failed_attempts_now_erasing_user">"आपण <xliff:g id="number">%d</xliff:g> वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे.
+       हा प्रयोक्ता काढला जाईल, ज्यामुळे त्याचा सर्व प्रयोक्ता डेटा हटविला जाईल."</string>
+    <string name="default:kg_failed_attempts_now_wiping">"आपण <xliff:g id="number">%d</xliff:g> वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे.
+       हा फोन रिसेट केला जाईल, ज्यामुळे त्याचा सर्व डेटा हटविला जाईल."</string>
+    <string name="default:kg_invalid_confirm_pin_hint">"PIN कोड जुळत नाहीत"</string>
+
+</resources>

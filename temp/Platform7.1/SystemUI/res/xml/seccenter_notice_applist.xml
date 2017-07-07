@@ -1,0 +1,373 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<whitelist>
+    <!-- xml配置文件路径 : /data/system/seccenter/seccenter_notice_applist.xml-->
+    <!-- prefs数据库路径: /data/data/com.android.systemui/shared_prefs -->
+ <!--增加白名单的每条记录格式如下，key=包名，value值用处如下
+  1A:在控制中心显示     0A:不在控制中心显示
+  1B:显示通知     0B:不显示通知
+  1C:在状态栏上显示     0C:不在状态栏上显示
+  1D:不收入通知合辑显示     0D:收入通知合辑 
+       附加条件：显示在状态栏则一定不显示在其他通知-->
+   	<!-- all show and no restrictions-->
+	
+	<item key="com.kaolafm.fmradio" value="1E_1A_1B_1C_1D_"/>
+    <item key="cn.wps.moffice_eng" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tencent.androidqqmail" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.google.android.gm" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.asiainfo.android" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.intsig.BizCardReader" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.moji.mjweather" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.baidu.searchbox" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.wochacha" value="1E_1A_1B_1C_1D_"/>
+   	<item key="cn.etouch.ecalendar" value="1E_1A_1B_1C_1D_"/>
+   	<item key="net.qihoo.launcher.widget.clockweather" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.baidu.BaiduMap" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.autonavi.minimap" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.google.android.apps.maps" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.Qunar" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.mapbar.android.mapbarmap" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.duoduo.child.story" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.xiaobanlong.main" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.erdo.android.FJDXCartoon" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.appshare.android.ilisten" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.kunpeng.babyting" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.taobao.taobao" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.sankuai.meituan" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tmall.wireless" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.jingdong.app.mall" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.lingdong.client.android" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.lingan.seeyou" value="1E_1A_1B_1C_1D_"/>
+   	<item key="me.chunyu.ChunyuDoctor" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.xikang.android.slimcoach" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.babytree.apps.pregnancy" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.dailyyoga.cn" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.youdao.dict" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.handsgo.jiakao.android" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.kingsoft" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.zzenglish.client" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.xtuone.android.syllabus" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.eg.android.AlipayGphone" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.alipay.android.app" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.hexin.plat.android" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.chinamworld.main" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.mymoney" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.mt.mtxx.mtxx" value="1E_1A_1B_1C_1D_"/>
+   	<item key="vStudio.Android.Camera360" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.meitu.meiyancamera" value="1E_1A_1B_1C_1D_"/>
+   	<item key="my.beautyCamera" value="1E_1A_1B_1C_1D_"/>
+   	<item key="cn.jingling.motu.photowonder" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.tencent.mobileqq" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.sina.weibo" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tencent.mm" value="1E_1A_1B_1C_0D_"/>
+   	<item key="com.immomo.momo" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.sec.chaton" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.qzone" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.qihoo360.mobilesafe" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.sohu.inputmethod.sogou" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.UCMobile" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.snda.wifilocating" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.qihoo.browser" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.tencent.news" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.chaozh.iReaderFree" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.chaozh.iReaderFree15" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.shuqi.controller" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.ss.android.article.news" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.kugou.android" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.youku.phone" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.storm.smart" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.sds.android.ttpod" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.qiyi.video" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.qihoo360.launcher" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.androidesk" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.gau.go.launcherex" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.qigame.lock" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.nd.android.pandahome2" value="1E_1A_1B_1C_1D_"/>
+
+   	<item key="com.happyelements.AndroidAnimal" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tuyoo.doudizhu.main" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.netease.my.qihoo" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.popcap.pvz2cthd360" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.kiloo.subwaysurf" value="1E_1A_1B_1C_1D_"/>
+   	
+   	<item key="com.whatsapp" value="1E_1A_1B_1C_1D_"/>
+
+   	<!-- show in statusBar but in other -->
+    <item key="com.tencent.hd.qzone" value="1E_1A_1B_1C_1D_"/>
+    <item key="com.tencent.pb" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tencent.pbvuh" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tencent.androidqqmailb" value="1E_1A_1B_1C_1D_"/>
+   	<item key="com.tencent.WBlog" value="1E_1A_1B_1C_1D_"/>
+   	
+   	<item key="com.yulong.coolmessage" value="1E_1A_1B_1C_1D_"/>
+    
+   	<!-- show in notification-center and not the upper-->	
+    <!--item key="com.sina.weibo" value="1A_1B_0C_0D_"/-->
+    <!-- name=信息 -->
+    <item key="com.android.mms" value="1E_1A_1B_1C_1D_"/>
+    <item key="com.yulong.coolmessage" value="1E_1A_1B_1C_1D_"/>
+    <!-- name=互联网 -->
+   	<item key="com.android.browser" value="1E_1A_1B_0C_1D_"/>
+   	<!-- name=应用商店 -->
+   	<item key="com.yulong.android.coolmart" value="1E_1A_1B_0C_0D_"/>
+   	<!-- name=酷秀 -->
+   	<item key="com.yulong.android.coolshow" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=酷管家 -->
+   	<item key="com.yulong.android.security" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=音乐 -->
+   	<item key="com.coolpad.music" value="1E_1A_1B_1C_1D_"/> 
+   	<!-- name=视频 -->
+   	<item key="com.yulong.android.videoplayer" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=照片  -->
+   	<item key="com.android.gallery3d" value="1E_1A_0B_0C_1D_"/> 
+   	<!-- name=相机 -->
+   	<item key="com.android.camera" value="1E_1A_0B_1C_0D_"/> 
+   	<!-- name=计算器 -->
+   	<item key="com.android.calculator2" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=系统更新 -->
+   	<item key="com.yulong.android.ota" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=电子邮件 -->
+   	<item key="com.android.email" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=收音机 -->
+   	<item key="com.quicinc.fmradio" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=录音 -->
+   	<item key="com.yulong.android.soundrecorder" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=指南针 -->
+   	<item key="com.yulong.android.compass" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=快速拨号 -->
+   	<item key="com.yulong.android.quickdial" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=酷派备份 -->
+   	<item key="com.yulong.android.backup" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=酷传 -->
+   	<item key="com.yulong.coolshare" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=家庭相册 -->
+   	<item key="com.icoolme.android.sharephoto" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=云分享 -->
+   	<item key="com.android.cooperation" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=下载管理程序 -->
+   	<item key="com.android.providers.downloads" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=WLAN设置 -->
+   	<item key="com.android.settings.wifi" value="1E_1A_1B_1C_0D_"/> 
+   	<!-- name=记事本 -->
+   	<item key="com.yulong.android.memo" value="1E_1A_0B_0C_0D_"/> 
+   	<!-- name=文件管理 -->
+   	<item key="com.yulong.android.filebrowser" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=酷派商城 -->
+   	<item key="com.yulong.coolshop" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=游戏中心 -->
+   	<item key="com.yulong.android.gamecenter" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=最美天气 -->
+   	<item key="com.icoolme.android.weather" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=设置 -->
+   	<item key="com.android.settings" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=安全模式 -->
+   	<item key="com.yulong.android.privatemode.activity" value="1E_1A_1B_0C_0D_"/>
+   	<!-- name=升级 --> 
+   	<item key="com.icoolme.android.upgrade" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=蓝牙共享 -->
+   	<item key="com.android.bluetooth" value="1E_1A_1B_1C_1D_"/> 
+   	<!-- name=蓝牙 -->
+	<item key="com.android.settings.bluetooth" value="1E_1A_1B_1C_1D_"/> 
+	<!-- name=瀑布流 -->
+   	<item key="com.yulong.ttwindow" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=GPSView -->
+   	<item key="com.yulong.android.gpsview" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=演示模式 -->
+   	<item key="com.yulong.android.show.retailmode" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=启动器 -->
+   	<item key="com.yulong.android.launcher3" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=生活助手 -->
+   	<item key="com.yulong.android.contacts.discover" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=星空视窗 -->
+   	<item key="com.yulong.android.covermode" value="1E_1A_1B_0C_0D_"/> 
+   	<!-- name=手机 -->
+   	<!--  item key="com.android.phone" value="1"/--> 
+    <!-- name=电话/信息存储 -->
+   	<item key="com.android.providers.telephony" value="1E_1A_1B_1C_1D_"/> 
+   	<!-- name=通讯录 -->
+   	<item key="com.yulong.android.contacts" value="1E_1A_1B_1C_1D_"/> 
+   	<!-- name=联系人存储 -->
+   	<item key="com.android.providers.contacts" value="1E_1A_1B_1C_1D_"/> 
+   	<item key="com.android.server.telecom" value="1E_1A_1B_1C_1D_"/> 
+   	<item key="com.android.dialer" value="1E_1A_1B_1C_1D_"/> 
+   	<!-- name=酷管家服务 -->
+   	<item key="com.yulong.android.seccenter" value="1E_1A_1B_0C_1D_"/> 
+   	<!-- name=日历存储 -->
+	<item key="com.android.providers.calendar" value="1E_1A_1B_0C_1D_"/> 
+	<!-- name=闹钟时间 -->
+    <item key="com.yulong.android.xtime" value="1E_1A_1B_0C_1D_"/> 
+    <!-- name=日历 -->
+    <item key="com.yulong.android.calendar" value="1E_1A_1B_0C_1D_"/> 
+    <!-- name=酷友社区 -->
+	<item key="com.yulong.android.coolyou" value="1E_1A_1B_0C_0D_"/> 
+	<!-- name=离线日志 -->
+	<item key="com.yulong.logredirect" value="1E_1A_1B_0C_0D_"/> 
+	<!-- name=双卡设置 -->
+	<item key="com.yulong.android.dev.gcoption" value="1E_1A_1B_0C_0D_"/> 
+	<item key="com.android.settings.wifi.TetherSettings" value="1E_1A_1B_1C_1D_"/>
+	<item key="com.securespaces.android.navigator" value="1E_1A_1B_0C_1D_"/>
+
+	<!-- the yulong app and not show int notification-center -->
+	<!-- name=应用包访问权限帮助程序 -->
+	<item key="com.android.defcontainer" value="1E_0A_1B_0C_0D_"/> 
+	<!-- name=搜索 -->
+   <item key="com.android.quicksearchbox" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=设置存储 -->
+   <item key="com.android.providers.settings" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=通讯录 -->
+   <!--item key="com.yulong.android.contacts" value="0A_1B_0C_0D_"/--> 
+   <!-- name=酷派设置 -->
+   <item key="com.yulong.android.settings" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=日历 -->
+   <!--item key="com.yulong.android.calendar" value="0A_1B_0C_0D_"/--> 
+   <!-- name=蓝牙 -->
+   <!--item key="com.android.settings.bluetooth" value="0A_1B_0C_0D_"/--> 
+   <!-- name=手机 -->
+   <!--item key="com.android.phone" value="0A_1B_0C_0D_"/--> 
+   <!-- name=派粉俱乐部 -->
+   <item key="com.yulong.android.bugreport.client" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=桌面服务 -->
+   <item key="com.yulong.android.network.widget" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=酷健康 -->
+   <item key="com.yulong.android.health" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=日历存储 -->
+   <!--item key="com.android.providers.calendar" value="0A_1B_0C_0D_"/--> 
+   <!-- name=离线日志 -->
+   <!--item key="com.yulong.logredirect" value="0A_1B_0C_0D_"/--> 
+   <!-- name=双卡设置 -->
+   <!--item key="com.yulong.android.dev.gcoption" value="0A_1B_0C_0D_"/--> 
+   <!-- name=文档 -->
+   <item key="com.android.documentsui" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=时钟Widget -->
+   <item key="com.yulong.android.xtimewidget" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=媒体存储 -->
+   <item key="com.android.providers.media" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=星空视窗 -->
+   <item key="com.yulong.android.covermode" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=证书安装程序 -->
+   <item key="com.android.certinstaller" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=酷乐购 -->
+   <item key="com.yulong.android.coolmall" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=SIM卡1应用 -->
+   <item key="com.yulong.android.cp_utk" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=照片屏幕保护程序 -->
+   <item key="com.android.dreams.phototable" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=归属地 -->
+   <item key="com.yulong.android.adscription" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=酷友社区 -->
+   <!--item key="com.yulong.android.coolyou" value="0A_1B_0C_0D_"/--> 
+   <!-- name=天气小部件 -->
+   <item key="com.yulong.android.weatherwidget" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=C键 -->
+   <item key="com.yulong.android.cbutton" value="1E_1A_1B_1C_0D_"/> 
+   <!-- name=照片屏幕保护程序 -->
+   <item key="com.android.dreams.phototable" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=C键 -->
+   
+   <!-- name=音乐可视化壁纸 -->
+   <item key="com.android.musicvis" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=Exchange 服务 -->
+   <item key="com.android.exchange" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=汽车模式 -->
+   <item key="com.yulong.carmode" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=数据传输性能测试工具 -->
+   <item key="com.yulong.coolpad.network" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=天气小部件 -->
+   <item key="com.yulong.android.weatherwidget" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=应用包安装程序 -->
+   <item key="com.android.packageinstaller" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=Gms自动更新 -->
+   <item key="com.android.yulong.gmsupdate" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=电话/信息存储 -->
+   <!--item key="com.android.providers.telephony" value="0A_1B_0C_0D_"/--> 
+   <!-- name=泡泡 -->
+   <item key="com.android.noisefield" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=闹钟时间 -->
+   <!--item key="com.yulong.android.xtime" value="0A_1B_0C_0D_"/--> 
+   <!-- name=一体化位置信息 -->
+   <item key="com.android.location.fused" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=魔幻烟雾壁纸 -->
+   <item key="com.android.magicsmoke" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=画眷 -->
+   <item key="com.yulong.huajuan" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=工厂模式 -->
+   <item key="com.yulong.android.factorypattern" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=USB用户界面 -->
+   <item key="com.android.usbui" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=镭光 -->
+   <item key="com.android.phasebeam" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=工程模式 -->
+   <item key="com.yulong.android.cp_engmode" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=情景模式 -->
+   <item key="com.yulong.android.scenemode" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=Android 键盘 (AOSP) -->
+   <item key="com.android.inputmethod.latin" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=镭光 -->
+   <item key="com.android.phasebeam" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=蓝牙导入联系人 -->
+   <item key="com.android.bluetoothpbap" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=网络位置 -->
+   <item key="com.amap.android.location" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=输入设备 -->
+   <item key="com.android.inputdevices" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=酷管家服务 -->
+   <!--item key="com.yulong.android.seccenter" value="0A_1B_0C_0D_"/--> 
+   <!-- name=SIM卡2应用 -->
+   <item key="com.android.stk" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=测试工具助手 -->
+   <item key="com.yulong.stress.helper" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=CPU异常监控 -->
+   <item key="com.yulong.android.cpumonitor" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=Android 系统 -->
+   <item key="com.android.update.dmp" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=星空拨号盘 -->
+   <item key="com.yulong.android.contacts.dialwin" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=内存监控 -->
+   <item key="com.yulong.android.memoryreport" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=打印处理服务 -->
+   <item key="com.android.printspooler" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=Android 系统 -->
+   <item key="android" value="1E_1A_1B_1C_1D_"/> 
+   <!-- name=联系人存储 -->
+   <!--item key="com.android.providers.contacts" value="0A_1B_0C_0D_"/--> 
+   <!-- name=阅读 -->
+   <item key="com.chaozh.iReaderFree" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=外部存储设备 -->
+   <item key="com.android.externalstorage" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=酷派输入法 -->
+   <item key="com.yulong.android.coolpadime" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=酷云 -->
+   <item key="com.android.coolwind" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=基本互动屏保 -->
+   <item key="com.android.dreams.basic" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=系统用户界面 -->
+   <item key="com.android.systemui" value="1E_0A_1B_1C_0D_"/> 
+   <!-- name=密钥链 -->
+   <item key="com.android.keychain" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=Android 动态壁纸 -->
+   <item key="com.android.wallpaper" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=启动器 -->
+   <item key="com.yulong.android.agedlauncher" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=增强型GPS设置 -->
+   <item key="com.yulong.android.agpssettings" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=随手记 -->
+   <item key="com.yulong.android.memo.widget" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=人脸解锁 -->
+   <item key="com.android.facelock" value="1E_0A_1B_0C_0D_"/> 
+   <!-- name=信号显示工具 -->
+   <item key="com.yulong.android.signalanalyse" value="1E_0A_1B_0C_0D_"/> 
+   <item key="com.yulong.ims" value="1E_1A_1B_1C_1D_"/>
+	
+</whitelist>

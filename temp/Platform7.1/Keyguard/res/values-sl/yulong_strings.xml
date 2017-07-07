@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="fingerprint_error_lockout">"Preveč poskusov, znova poskusite po 30 sekundah."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Vnesite kodo ZAKLEPANJA KARTICE SIM, dolžine od 4 do 8 številk"</string>
+    <string name="kg_password_sim_lock_failed">"Postopek ZAKLEPANJA KARTICE SIM ni uspel!"</string>
+    <string name="kg_sim_lock_instructions">"Vnesite kodo ZAKLEPANJA KARTICE SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Pravilna koda PIN kartice SIM, kartica je odklenjena"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Kartica SIM uspešno odklenjena"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Vnesite kodo ZAKLEPANJA KARTICE SIM. Imate še <xliff:g id="number">%d</xliff:g> poskus."</item>
+        <item quantity="other">"Vnesite kodo ZAKLEPANJA KARTICE SIM. Imate še toliko poskusov: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Napačna koda ZAKLEPANJA KARTICE SIM. Imate še <xliff:g id="number">%d</xliff:g> poskus."</item>
+        <item quantity="other">"Vnesite kodo ZAKLEPANJA KARTICE SIM. Imate še toliko poskusov: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+
+    <string name="guide_gesture_hold_fist">"Stisnite v pest"</string>
+    <string name="keyguard_fangdao_title">"Varnost"</string>
+    <string name="keyguard_fangdao_input">"Vnesite geslo za CoolManager"</string>
+    <string name="find_password_text">"Ste pozabili geslo?"</string>
+    <string name="password_hint">"Prijava"</string>
+    <string name="password_cancel">"Počisti"</string>
+    <string name="password_error">"Nepravilno geslo"</string>
+    <string name="kg_no_card">"Ni kartice SIM"</string>
+    <string name="cooluipin_button_cancel">"Prekliči"</string>
+    <string name="cooluipin_button_delete">"Izbriši"</string>
+    <string name="new_mms">"Novo sporočilo"</string>
+    <string name="city_name_beijing">"Ura v Pekingu"</string>
+    <string name="lockscreen_sim_error_message_short">"Neveljavna kartica"</string>
+    <string name="cover_notification_clicked">"Odprite svoj tok"</string>
+    <string name="fangdao_hint">"Vtipkajte varnostno geslo:"</string>
+    <string name="fingerprint_error_hint">"Verifikacija prstnega odtisa ni uspela, poskusite znova"</string>
+    <string name="fingerprint_recognized_hint">"Nadzor tipk je odklenjen."</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM je Perso zaklenjen"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verificiraj prstni odtis ali vnesi geslo"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verificiraj prstni odtis ali nariši svoj vzorec"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Verifikacija prstnega odtisa ni uspela, poskusite znova"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verificiraj prstni odtis ali vnesi kodo PIN"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Trenutno je v letalskem načinu"</string>
+    <string name="kg_remaining_attempts">"Preostali poskusi: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Reža <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="new_notify_hint">"Novi dogodek"</string>
+    <string name="no_answer_call">"zgrešen klici"</string>
+    <string name="Notify_no_info">"Ni dogodka"</string>
+    <string name="pass_check_hint">"Nepravilno geslo. Ostaja %d poskusov."</string>
+    <string name="pass_check_hint_new">"Nepravilno geslo, vnesite ponovno"</string>
+    <string name="starry_unlock_info">"Naprej k Odkleni"</string>
+    <string name="touch_protect_content1">"Zapustil je:"</string>
+    <string name="touch_protect_content2">"Ne blokiraj senzorja za približevanje"</string>
+    <string name="touch_protect_hint">"ta izhod pritisnite tipko za vklop in tipko za povečanje glasnosti"</string>
+    <string name="touch_protect_title">"Zađčita proti napačnemu dotiku"</string>
+    <string name="user_switched_to_home_hint">"Preklopite k uporabniku prostora"</string>
+    <string name="user_switched_to_primary_hint">"Preklopite k primarnemu uporabniku prostora"</string>
+    <string name="user_switching_hint">"Preklapljam uporabnika ..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Vnesite PIN kartice SIM, ostalo vam je še <xliff:g id="number">%d</xliff:g> poskusov preden boste morali kontaktirati na svojega operaterja, da odklenete napravo."</item>
+        <item quantity="other">"Vnesite SIM PIn, ostalo vam je še <xliff:g id="number">%d</xliff:g> poskusov."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM je onemogočena. Vnesite kodo PUK za nadaljevanje. Ostalo vam je še <xliff:g id="number">%d</xliff:g> poskusov preden SIM ne postane trajno neuporaben. Za podrobnosti kontaktirajte ponudnika."</item>
+        <item quantity="other">"SIM je onemogočena. Vnesite kodo PUK za nadaljevanje. Ostalo vam je še <xliff:g id="number">%d</xliff:g> poskusov preden SIM ne postane trajno neuporaben. Za podrobnosti kontaktirajte ponudnika."</item>
+    </plurals>
+
+</resources>

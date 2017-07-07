@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.covermode.StarryPatternView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        layout="@layout/starry_message_area" />
+
+    <com.android.internal.widget.LockPatternView
+        android:id="@+id/lockPatternView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dip"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingBottom="40dip"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="-12dip"
+        android:layout_marginTop="-10dip"
+        android:contentDescription="@string/keyguard_accessibility_pattern_area"
+        android:gravity="top" />
+
+</com.android.covermode.StarryPatternView>

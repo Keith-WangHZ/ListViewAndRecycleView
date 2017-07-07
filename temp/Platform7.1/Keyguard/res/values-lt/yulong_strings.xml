@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_error_lockout">"Per daug bandymų, pamėginkite dar kartą po 30 sekundžių."</string>
+    <string name="camera">"fotoaparatas"</string>
+    <string name="kg_invalid_sim_lock_hint">"Įveskite 4–8 skaitmenų SIM UŽRAKTĄ."</string>
+    <string name="kg_password_sim_lock_failed">"SIM UŽRAKTO veikimo klaida!"</string>
+    <string name="kg_sim_lock_instructions">"Įveskite SIM UŽRAKTĄ"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIM PIN kodas teisingas, kortelė atrakinta"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM kortelė atrakinta"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Įveskite SIM UŽRAKTĄ, jums liko <xliff:g id="number">%d</xliff:g> bandymas."</item>
+        <item quantity="other">"Įveskite SIM UŽRAKTĄ, jums liko <xliff:g id="number">%d</xliff:g> bandymai."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"SIM UŽRAKTO kodas neteisingas, jums liko <xliff:g id="number">%d</xliff:g> bandymas."</item>
+        <item quantity="other">"SIM UŽRAKTO kodas neteisingas, jums liko <xliff:g id="number">%d</xliff:g> bandymai."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekino laikas"</string>
+    <string name="cooluipin_button_cancel">"Atšaukti"</string>
+    <string name="cooluipin_button_delete">"Trinti"</string>
+    <string name="cover_notification_clicked">"Prašome atidaryti savo dėklą"</string>
+    <string name="fangdao_hint">"Įveskite saugos slaptažodį:"</string>
+    <string name="find_password_text">"Pamiršote savo slaptažodį?"</string>
+    <string name="fingerprint_error_hint">"Piršto atspaudo identifikuoti nepavyko; bandykite dar kartą"</string>
+    <string name="fingerprint_recognized_hint">"Klaviatūros atrakinta."</string>
+    <string name="keyguard_fangdao_input">"Įveskite „CollManager“ slaptažodį"</string>
+    <string name="keyguard_fangdao_title">"Apsauga"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM yra asmens užrakinta"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Patvirtinkite piršto atspaudą arba įveskite slaptažodį"</string>
+    <string name="kg_no_card">"Nėra SIM kortelės"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Patvirtinkite piršto atspaudą arba nupieškite šabloną"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Piršto atspaudo identifikuoti nepavyko; bandykite dar kartą"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Patvirtinkite piršto atspaudą arba įveskite PIN kodą"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Dabar veikia lėktuvo režimas"</string>
+    <string name="kg_remaining_attempts">"Liko bandymų: <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Lizdas <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Negaliojanti kortelė."</string>
+    <string name="new_mms">"Naujas pranešimas"</string>
+    <string name="new_notify_hint">"Naujas įvykis"</string>
+    <string name="no_answer_call">"Praleisti skambučiai"</string>
+    <string name="Notify_no_info">"Nėra įvykio"</string>
+    <string name="pass_check_hint">"Neteisingas slaptažodis. liko %d bandymų."</string>
+    <string name="pass_check_hint_new">"Neteisingas slaptažodis, įveskite dar kartą"</string>
+    <string name="password_cancel">"Išvalyti"</string>
+    <string name="password_error">"Neteisingas slaptažodis"</string>
+    <string name="password_hint">"Prisijungti"</string>
+    <string name="starry_unlock_info">"Pakelkite, kad atrakintumėte"</string>
+    <string name="touch_protect_content1">"Uždaryti iki:"</string>
+    <string name="touch_protect_content2">"Neužstokite artumo jutiklio"</string>
+    <string name="touch_protect_hint">"Spauskite įjungimo klavišą ir garsumo didinimo mygtuką, kad išjungtumėte"</string>
+    <string name="touch_protect_title">"Netyčinio palietimo prevencija"</string>
+    <string name="user_switched_to_home_hint">"Perjungta naudotojo vieta"</string>
+    <string name="user_switched_to_primary_hint">"Perjungta pirminio naudotojo vieta"</string>
+    <string name="user_switching_hint">"Perjungiamas vartotojas..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Įveskite SIM PIN, jums liko <xliff:g id="number">%d</xliff:g> bandymų, tada turėsite susisiekti su savo operatoriumi, kad prietaisas būtų atrakintas."</item>
+        <item quantity="other">"Įveskite SIM PIN, jums liko <xliff:g id="number">%d</xliff:g> bandymų."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM dabar išjungta. Įveskite PUK kodą, kad tęstumėte. Jums liko <xliff:g id="number">%d</xliff:g> bandymas, paskui SIM bus visam laikui užblokuota. Daugiau informacijos gausite iš savo tinklo operatoriaus."</item>
+        <item quantity="other">"SIM dabar išjungta. Įveskite PUK kodą, kad tęstumėte. Jums liko <xliff:g id="number">%d</xliff:g> bandymai, paskui SIM bus visam laikui užblokuota. Daugiau informacijos gausite iš savo tinklo operatoriaus."</item>
+    </plurals>
+
+</resources>

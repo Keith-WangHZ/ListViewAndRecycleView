@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="item_width">74dp</dimen>
+    <dimen name="item_height">67dp</dimen>
+    
+    <dimen name="item_width_b">99dp</dimen>
+    <dimen name="item_height_b">93dp</dimen>
+    
+    <dimen name="icon_width">36dp</dimen>
+    <dimen name="icon_width_b">38dp</dimen>
+    
+    <dimen name="title_font_size">10dp</dimen>
+    <dimen name="title_font_size_b">11dp</dimen>
+    <dimen name="caption_font_size">12dp</dimen>
+    
+    <dimen name="gap_24">24dp</dimen>
+    <dimen name="gap_3">3dp</dimen>
+    <dimen name="gap_5">5dp</dimen>
+    <dimen name="gap_7">7dp</dimen>
+    <dimen name="gap_18">18dp</dimen>
+
+    <color name="title_color">#323232</color>
+    <color name="ctrl_title_color">#b3ffffff</color>
+    <color name="caption_color">#808080</color>
+    <color name="item_bg_color">#ffffff</color>
+    <color name="item_br_color">#595757</color>
+    <color name="ctrl_bg_color">#9ac9caca</color>
+    <color name="ctrl_br_color">#9fa0a0</color>
+    
+    
+</resources>

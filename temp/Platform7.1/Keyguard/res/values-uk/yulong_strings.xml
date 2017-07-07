@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="user_switched_to_primary_hint">"Здійснено перехід до загального простору користувача"</string>
+    <string name="user_switched_to_home_hint">"Здійснено перехід до простору користувача"</string>
+    <string name="fingerprint_error_lockout">"Занадто багато спроб, спробуйте через 30 секунд."</string>
+    <string name="camera">"камера"</string>
+    <string name="kg_invalid_sim_lock_hint">"Введіть код блокування SIM-картки, що містить від 4 до 8 цифр"</string>
+    <string name="kg_password_sim_lock_failed">"Код блокування SIM-картки не спрацював!"</string>
+    <string name="kg_sim_lock_instructions">"Введіть код блокування SIM-картки"</string>
+    <string name="kg_sim_pin_unlock_succeed">"PIN-код SIM-картки вірний, картка розблокована"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Розблокування SIM-картки успішне"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Введіть код блокування SIM-картки, залишилась <xliff:g id="number">%d</xliff:g> спроба."</item>
+        <item quantity="other">"Введіть код блокування SIM-картки, залишилось <xliff:g id="number">%d</xliff:g> спроб."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Невірний код блокування SIM-картки, залишилась <xliff:g id="number">%d</xliff:g> спроба."</item>
+        <item quantity="other">"Невірний код блокування SIM-картки, залишилось <xliff:g id="number">%d</xliff:g> спроб."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Пекінський час"</string>
+    <string name="cooluipin_button_cancel">"Скасувати"</string>
+    <string name="cooluipin_button_delete">"Видалити"</string>
+    <string name="cover_notification_clicked">"Відкрийте свій чохол"</string>
+    <string name="fangdao_hint">"Введіть пароль:"</string>
+    <string name="find_password_text">"Забули свій пароль?"</string>
+    <string name="fingerprint_error_hint">"Помилка автентифікації за відбитком пальця, спробуйте ще раз"</string>
+    <string name="fingerprint_recognized_hint">"Захист клавіатури розблоковано."</string>
+    <string name="keyguard_fangdao_input">"Введіть пароль CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Безпека"</string>
+    <string name="keyguard_perso_locked_message">"SIM-/RUIM-картку заблоковано за допомогою Perso"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Перевірте відбиток пальця або введіть пароль"</string>
+    <string name="kg_no_card">"SIM-картка відсутня"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Перевірте відбиток пальця або накресліть свій малюнок"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Помилка автентифікації за відбитком пальця, спробуйте ще раз"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Перевірте відбиток пальця або введіть PIN-код"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Активний режим «У літаку»"</string>
+    <string name="kg_remaining_attempts">"Залишилось спроб: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Роз’єм <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Недійсна картка."</string>
+    <string name="new_mms">"Нове повідомлення"</string>
+    <string name="new_notify_hint">"Нова подія"</string>
+    <string name="no_answer_call">"пропущені виклики"</string>
+    <string name="Notify_no_info">"Відсутня подія"</string>
+    <string name="pass_check_hint">"Невірний пароль. Залишилось %d спроб."</string>
+    <string name="pass_check_hint_new">"Невірний пароль, перезавантажте й уведіть знову"</string>
+    <string name="password_cancel">"Очистити"</string>
+    <string name="password_error">"Невірний пароль"</string>
+    <string name="password_hint">"Вхід"</string>
+    <string name="starry_unlock_info">"Проведіть вгору, щоб розблокувати"</string>
+    <string name="touch_protect_content1">"Вийти шляхом:"</string>
+    <string name="touch_protect_content2">"Не закривайте датчик відстані"</string>
+    <string name="touch_protect_hint">"Натисніть кнопку живлення та кнопку збільшення гучності, щоб вийти"</string>
+    <string name="touch_protect_title">"Запобігання помилковому натисканню"</string>
+    <string name="user_switching_hint">"Зміна користувача…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Уведіть PIN-код SIM-картки. Залишилося спроб: <xliff:g id="number">%d</xliff:g>. Якщо вони будуть невдалими, зверніться до вашого оператора для розблокування пристрою."</item>
+        <item quantity="other">"Уведіть PIN-код SIM-картки. Залишилося спроб: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM-картку заблоковано. Для продовження введіть PUK-код. Залишилося спроб: <xliff:g id="number">%d</xliff:g>. Якщо вони будуть невдалими, SIM-картку буде заблоковано назавжди. Більш детальну інформацію ви можете отримати у вашого оператора."</item>
+        <item quantity="other">"SIM-картку заблоковано. Для продовження введіть PUK-код. Залишилося спроб: <xliff:g id="number">%d</xliff:g>. Якщо вони будуть невдалими, SIM-картку буде заблоковано назавжди. Більш детальну інформацію ви можете отримати у вашого оператора."</item>
+    </plurals>
+
+</resources>

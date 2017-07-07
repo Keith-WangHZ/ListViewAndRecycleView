@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"Pārāk daudz mēģinājumu. Lūdzu, mēģiniet vēlreiz pēc 30 sekundēm."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Ierakstiet SIMLOCK, kas sastāv no 4 līdz 8 cipariem"</string>
+    <string name="kg_password_sim_lock_failed">"SIM LOCK darbība neizdevās!"</string>
+    <string name="kg_sim_lock_instructions">"Ievadiet SIM LOCK"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIM kartes PIN kods ir pareizs, karte ir atbloķēta"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Veiksmīga SIM kartes atbloķēšana"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Ievadiet SIM kartes LOCK kodu, jums ir atlicis <xliff:g id="number">%d</xliff:g> mēģinājums."</item>
+        <item quantity="other">"Ievadiet SIM kartes LOCK kodu, jums ir atlikuši <xliff:g id="number">%d</xliff:g> mēģinājumi."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Nepareizs SIM kartes LOCK kods, jums ir atlicis <xliff:g id="number">%d</xliff:g> mēģinājums."</item>
+        <item quantity="other">"Nepareizs SIM kartes LOCK kods, jums ir atlikuši <xliff:g id="number">%d</xliff:g> mēģinājumi."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekinas laiks"</string>
+    <string name="cooluipin_button_cancel">"Atcelt"</string>
+    <string name="cooluipin_button_delete">"Dzēst"</string>
+    <string name="cover_notification_clicked">"Atveriet ierīces maciņu"</string>
+    <string name="fangdao_hint">"Lūdzu, ievadiet drošības paroli:"</string>
+    <string name="find_password_text">"Vai aizmirsāt paroli?"</string>
+    <string name="fingerprint_error_hint">"Autentifikācija ar pirkstu nospiedumu neizdevās, lūdzu, mēģiniet vēlreiz"</string>
+    <string name="fingerprint_recognized_hint">"Taustiņslēgs atbloķēts."</string>
+    <string name="keyguard_fangdao_input">"Ievadiet CoolManager paroli"</string>
+    <string name="keyguard_fangdao_title">"Drošība"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM ir personīgi bloķēts"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Pārbaudīt pirkstu nospiedumu vai ievadīt paroli"</string>
+    <string name="kg_no_card">"Nav SIM kartes"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Pārbaudīt pirkstu nospiedumu vai uzzīmēt savu paraugu"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Autentifikācija ar pirkstu nospiedumu neizdevās, lūdzu, mēģiniet vēlreiz"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Pārbaudīt pirkstu nospiedumu vai ievadīt PIN kodu"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Tagad iesl. lidmašīnas režīms"</string>
+    <string name="kg_remaining_attempts">"Atlikušie mēģinājumi: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Slots <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Nederīga karte."</string>
+    <string name="new_mms">"Jauns ziņojums"</string>
+    <string name="new_notify_hint">"Jauns notikums"</string>
+    <string name="no_answer_call">"neatbildētie zvani"</string>
+    <string name="Notify_no_info">"Nav notikuma"</string>
+    <string name="pass_check_hint">"Nepareiza parole. Atlikuši %d mēģinājumi."</string>
+    <string name="pass_check_hint_new">"Nepareiza parole, restartējiet, lai ievadītu"</string>
+    <string name="password_cancel">"Notīrīt"</string>
+    <string name="password_error">"Nepareiza parole"</string>
+    <string name="password_hint">"Pieteikšanās"</string>
+    <string name="starry_unlock_info">"Līdz atbloķēšanai"</string>
+    <string name="touch_protect_content1">"Iziet caur:"</string>
+    <string name="touch_protect_content2">"Nenobloķējiet tuvuma sensoru"</string>
+    <string name="touch_protect_hint">"Lai izietu, nospiediet ieslēgšanas pogu un skaņas līmeņa palielināšanas taustiņu"</string>
+    <string name="touch_protect_title">"Nejauša pieskāriena novēršana"</string>
+    <string name="user_switched_to_home_hint">"Pārslēgts uz lietotāja vietu"</string>
+    <string name="user_switched_to_primary_hint">"Pārslēgts uz primārā lietotāja vietu"</string>
+    <string name="user_switching_hint">"Maina lietotāju..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Ievadiet SIM kartes PIN kodu, jums ir atlikuši <xliff:g id="number">%d</xliff:g> mēģinājumi, pirms jums jāsazinās ar savu operatoru, lai atbloķētu ierīci."</item>
+        <item quantity="other">"Ievadiet SIM kartes PIN kodu, jums atlikuši <xliff:g id="number">%d</xliff:g> mēģinājumi."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM tagad ir atspējota. Ievadiet PUK kodu, lai turpinātu. Jums atlicis <xliff:g id="number">%d</xliff:g> mēģinājums, pirms SIM karte kļūs neatgriezeniski nelietojama. Sazinieties ar operatoru, lai iegūtu vairāk informācijas."</item>
+        <item quantity="other">"SIM tagad ir atspējota. Ievadiet PUK kodu, lai turpinātu. Jums atlikuši <xliff:g id="number">%d</xliff:g> mēģinājumi, pirms SIM karte kļūs neatgriezeniski nelietojama. Sazinieties ar operatoru, lai iegūtu vairāk informācijas."</item>
+    </plurals>
+
+</resources>

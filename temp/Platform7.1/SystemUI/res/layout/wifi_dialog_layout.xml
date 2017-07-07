@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="vertical" >
+
+            <!--
+            <TextView android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/wifi_item_label"
+            android:textAlignment="viewStart" />
+            -->
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="#4c4c4c"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0"/>
+        
+        <RelativeLayout
+            android:id="@+id/wifi_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/wifi_status_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="left"
+                android:textColor="#4c4c4c"
+                android:textSize="14dp"
+                android:text="@string/wifi_status" />
+            <TextView
+                android:id="@+id/wifi_status_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:textColor="#4c4c4c"
+                android:textSize="14dp"
+                android:text="@string/lockpassword_confirm_passwords_dont_match" />
+        </RelativeLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="vertical" >
+        
+        <include layout="@layout/wifi_dialog" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/action_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal" >
+            
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:textColor="@drawable/qs_tile_wifi_info_text_color"
+                android:background="@drawable/qs_tile_wifi_info_connct"
+                android:text="@string/wifi_info_cancal_btn"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/connected"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="@drawable/qs_tile_wifi_info_text_color"
+                android:background="@drawable/qs_tile_wifi_info_connct"
+                android:text="@string/wifi_info_connect_btn"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

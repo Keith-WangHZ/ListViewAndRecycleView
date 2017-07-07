@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_error_lockout">"कई प्रयास किए गए, कृपया 30 सेकंड्स बाद फिर से प्रयास करें."</string>
+    <string name="camera">"कैमरा"</string>
+    <string name="kg_invalid_sim_lock_hint">"SIM लॉक लिखें जो कि 4 से 8 नंबर्स के हैं"</string>
+    <string name="kg_password_sim_lock_failed">"SIM लॉक की कार्रवाई विफल हुई!"</string>
+    <string name="kg_sim_lock_instructions">"SIM लॉक दर्ज करें"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIM PIN कोड सही है, कॉर्ड अनलॉक हुआ"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM कार्ड अनलॉक करना सफल हुआ"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"SIM लॉक दर्ज करें, आपके पास <xliff:g id="number">%d</xliff:g> प्रयास शेष है."</item>
+        <item quantity="other">"SIM लॉक दर्ज करें, आपके पास <xliff:g id="number">%d</xliff:g> प्रयास शेष हैं."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"SIM लॉक कोड गलत है, आपके पास <xliff:g id="number">%d</xliff:g> प्रयास शेष है."</item>
+        <item quantity="other">"SIM लॉक कोड गलत है, आपके पास <xliff:g id="number">%d</xliff:g> प्रयास शेष हैं."</item>
+    </plurals>
+
+    <string name="keyguard_fangdao_title">"सुरक्षा"</string>
+    <string name="keyguard_fangdao_input">"CoolManager पासवर्ड डालें"</string>
+    <string name="find_password_text">"अपना पासवर्ड भूल गए हैं?"</string>
+    <string name="password_maxlength">8</string>
+    <string name="password_hint">"लॉगिन करें"</string>
+    <string name="password_cancel">"साफ़ करें"</string>
+    <string name="fangdao_hint">"कृपया सुरक्षा पासवर्ड दर्ज करें:"</string>
+    <string name="password_error">"गलत पासवर्ड"</string>
+    <string name="pass_check_hint">"गलत पासवर्ड. %d प्रयास शेष."</string>
+    <string name="pass_check_hint_new">"गलत पासवर्ड, कृपया इनपुट करने के लिए पुनः प्रारंभ करें"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"फ़िंगरप्रिंट सत्यापित करें या अपना पैटर्न बनाएं"</string>
+    <string name="kg_pattern_finger_config_failed_message">"फिंगरप्रिंट प्रमाणीकरण विफल हुआ, कृपया फिर से प्रयास करें"</string>
+    <string name="fingerprint_error_hint">"फिंगरप्रिंट प्रमाणीकरण विफल हुआ, कृपया फिर से प्रयास करें"</string>
+    <string name="fingerprint_recognized_hint">"कीगार्ड अनलॉक किया गया."</string>
+    <string name="kg_pin_finger_config_enabled_message">"फ़िंगरप्रिंट सत्यापित करें या PIN कोड दर्ज करें"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"फ़िंगरप्रिंट सत्यापित करें या पासवर्ड दर्ज करें"</string>
+    <string name="kg_no_card">"कोई SIM कार्ड नहीं"</string>
+    <string name="cooluipin_button_cancel">"रद्द करें"</string>
+    <string name="cooluipin_button_delete">"हटाएँ"</string>
+    <string name="kg_pinlock_airplanemode_alert">"अब विमान मोड पर है"</string>
+    <string name="starry_unlock_info">"अनलॉक करने के लिए ऊपर करें"</string>
+    <string name="new_notify_hint">"नया ईवेंट"</string>
+    <string name="new_mms">"नया संदेश"</string>
+    <string name="Notify_no_info">"कोई ईवेंट नहीं"</string>
+    <string name="no_answer_call">"छूटा कॉल"</string>
+    <string name="cover_notification_clicked">"कृपया अपना होल्स्टर खोलें"</string>
+    <string name="city_name_beijing">"बीजिंग समय"</string>
+    <string name="touch_protect_title">"गलती से स्पर्श होने से बचाव"</string>
+    <string name="touch_protect_content1">"गलती से स्पर्श होने से बचाव वाले मोड में"</string>
+    <string name="touch_protect_content2">"निकटता सेंसर अवरोधित न करें"</string>
+    <string name="touch_protect_hint">"बाहर निकलने के लिए पावर कुंजी और वॉल्यूम दबाएं"</string>
+    <string name="user_switching_hint">"उपयोगकर्ता स्विच कर रहा है…"</string>
+    <string name="user_switched_to_primary_hint">"प्राथमिक उपयोगकर्ता स्थान पर स्विच किया गया"</string>
+    <string name="user_switched_to_home_hint">"उपयोगकर्ता स्थान पर स्विच किया गया"</string>
+    <!-- Shown in the lock screen when there is SIM card IO error. -->
+    <string name="lockscreen_sim_error_message_short">"अमान्य कार्ड."</string>
+
+</resources>

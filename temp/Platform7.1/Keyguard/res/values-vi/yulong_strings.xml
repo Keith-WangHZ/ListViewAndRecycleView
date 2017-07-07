@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="kg_sim_lock_instructions">"Nhập khóa SIM"</string>
+    <string name="kg_invalid_sim_lock_hint">"Gõ từ 4 đến 8 số để khóa SIM"</string>
+    <string name="kg_remaining_attempts">"Còn lần: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="keyguard_fangdao_title">"Bảo vệ"</string>
+    <string name="password_hint">"Đăng nhập"</string>
+    <string name="fangdao_hint">"Vui lòng nhập mật mã bảo vệ:"</string>
+    <string name="password_error">"Mật mã không đúng"</string>
+    <string name="pass_check_hint">"Mật mã không đúng. Còn lại %d"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Xác nhận bằng dấu vân tay hoặc gõ mật mã"</string>
+    <string name="kg_no_card">"Không thẻ sim"</string>
+    <string name="camera">"Máy ảnh"</string>
+    <string name="password_cancel">Xóa</string>
+    <string name="fingerprint_error_lockout">"Đã thử quá nhiều lần, vui lòng thử lại sau 30 giây."</string>
+    <string name="keyguard_fangdao_input">Nhập mật khẩu CoolManager</string>
+    <string name="find_password_text">Quên mật khẩu</string>
+    <string name="pass_check_hint_new">"Mật khẩu sai, vui lòng khởi động lại để nhập"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Xác minh dấu vân tay hoặc vẽ mẫu hình"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Xác minh dấu vân tay thất bại, vui lòng thử lại"</string>
+    <string name="fingerprint_error_hint">"Xác minh dấu vân tay thất bại, vui lòng thử lại"</string>
+    <string name="fingerprint_recognized_hint">"Đã khóa bảo vệ phím."</string>
+    <string name="kg_pin_finger_config_enabled_message">"Xác minh dấu vân tay hoặc Nhập mã PIN"</string>
+    <string name="cooluipin_button_cancel">"Hủy"</string>
+    <string name="cooluipin_button_delete">"Xóa"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Đang trong chế độ máy bay"</string>
+    <string name="starry_unlock_info">"Vuốt lên để mở khóa"</string>
+    <string name="new_notify_hint">"Sự kiện mới"</string>
+    <string name="new_mms">"Tin nhắn mới"</string>
+    <string name="Notify_no_info">"Không có sự kiện"</string>
+    <string name="no_answer_call">"Cuộc gọi nhỡ"</string>
+    <string name="cover_notification_clicked">"Vui lòng mở bao của bạn"</string>
+    <string name="city_name_beijing">"Giờ Bắc Kinh"</string>
+    <string name="keyguard_perso_locked_message">"Mạng đã bị khóa"</string>
+    <string name="touch_protect_title">"Ngăn chạm nhầm"</string>
+    <string name="touch_protect_content1">"Không khóa cảm biến tiệm cận"</string>
+    <string name="touch_protect_content2">"trong chế độ ngăn chạm nhầm"</string>
+    <string name="touch_protect_hint">"Nhấn phím nguồn và phím tăng âm lượng để thoát"</string>
+    <string name="user_switching_hint">"Đang chuyển người dùng…"</string>
+    <string name="user_switched_to_primary_hint">"Đã chuyển sang dung lượng người dùng chính"</string>
+    <string name="user_switched_to_home_hint">"Đã chuyển sang dung lượng người dùng"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed" msgid="8950398016976865762">"Mở khóa thẻ SIM thành công"</string>
+    <string name="kg_sim_pin_unlock_succeed" msgid="8950398016976865762">"Mã PIN của SIM chính xác, đã mở khóa thẻ"</string>
+    <!-- Shown in the lock screen when there is SIM card IO error. -->
+    <string name="lockscreen_sim_error_message_short">Thẻ không hợp lệ.</string>
+
+</resources>

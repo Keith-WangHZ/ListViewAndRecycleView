@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Režim Stretnutie</string>
+    <string name="quick_settings_apn_switch_label">"Prepínač APN"</string>
+    <string name="qs_label_vibrate_ring">Vibrovať</string>
+    <string name="qs_label_softap">Prístupový bod</string>
+    <string name="accessibility_ime_switch_button">"Tlačidlo na prepínanie spôsobu vkladania"</string>
+    <string name="accessibility_no_wifi">"Wi-Fi odpojené."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"Wi-Fi vypnuté."</string>
+    <string name="accessibility_wifi_one_bar">"Wi-Fi jedna čiarka."</string>
+    <string name="accessibility_wifi_signal_full">"Wi-Fi plný signál."</string>
+    <string name="accessibility_wifi_three_bars">"Wi-Fi tri čiarky."</string>
+    <string name="accessibility_wifi_two_bars">"Wi-Fi dve čiarky."</string>
+    <string name="guide_click_txt">"Kliknutím upravte nastavenia pre časopis Keyguard"</string>
+    <string name="guide_sliding_txt">"Potiahnutím prsta prejdite na inú obrazovku"</string>
+    <string name="guide_swipe_up_txt">"Odomknite potiahnutím prsta nahor"</string>
+    <string name="guide_title">"Víta vás magazín Keyguard"</string>
+    <string name="header_name_detail_top">"Zobraziť oznámenia v stavovom riadku"</string>
+    <string name="header_name_top">"Oznámenia v stavovom riadku"</string>
+    <string name="header_name0">"Stavový riadok"</string>
+    <string name="header_name1">"Blokovanie tlačidiel"</string>
+    <string name="header_top">"Správa dávky oznámení"</string>
+    <string name="interruption_level_all">"Všetko"</string>
+    <string name="keyguard_guide_enter">"Vyskúšajte to"</string>
+    <string name="lockscreen_airplane_mode_on">"Režim Lietadlo je zapnutý."</string>
+    <string name="lockscreen_missing_sim_message_short">"Karta SIM chýba."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Nepoužiteľná karta SIM."</string>
+    <string name="lockscreen_sim_error_message_short">"Chyba karty SIM."</string>
+    <string name="lockscreen_sim_locked_message">"Karta SIM je uzamknutá."</string>
+    <string name="lockscreen_sim_puk_locked_message">"Karta SIM je uzamknutá kódom PUK."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Správcom tohto zariadenia je:\n<xliff:g id="organization">%1$s</xliff:g>\nSprávcom tohto profilu je:\n<xliff:g id="organization">%2$s</xliff:g>\n\nVáš správca má možnosť monitorovať vašu činnosť v rámci zariadenia a siete vrátane e-mailov, aplikácií a zabezpečených webových lokalít.\n\nAk chcete získať viac informácií, obráťte sa na vášho správcu."</string>
+    <string name="monitoring_description_legacy_vpn">"Ste pripojení k VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nVáš poskytovateľ služby VPN môže monitorovať vašu činnosť v rámci zariadenia a siete vrátane e-mailov, aplikácií a zabezpečených webových lokalít."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Správcom tohto zariadenia je:\n<xliff:g id="organization">%1$s</xliff:g>\nSprávcom tohto profilu je:\n<xliff:g id="organization">%2$s</xliff:g>\n\nVáš správca má možnosť monitorovať vašu činnosť v sieti vrátane e-mailov, aplikácií a zabezpečených webových lokalít. Ak chcete získať viac informácií, obráťte sa na vášho správcu.\n\nSte tiež pripojení k sieti VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Váš poskytovateľ služby VPN môže tiež monitorovať vašu činnosť v sieti."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Správcom tohto zariadenia je:\n<xliff:g id="organization">%1$s</xliff:g>\n\nVáš správca má možnosť monitorovať vašu činnosť v sieti vrátane e-mailov, aplikácií a zabezpečených webových lokalít. Ak chcete získať viac informácií, obráťte sa na vášho správcu.\n\nSte tiež pripojení k sieti VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Váš poskytovateľ služby VPN môže tiež monitorovať vašu činnosť v sieti."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Správcom tohto profilu je:\n<xliff:g id="organization">%1$s</xliff:g>\n\nVáš správca má možnosť monitorovať vašu činnosť v sieti vrátane e-mailov, aplikácií a zabezpečených webových lokalít. Ak chcete získať viac informácií, obráťte sa na vášho správcu.\n\nSte tiež pripojení k sieti VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Váš poskytovateľ služby VPN môže tiež monitorovať vašu činnosť v sieti."</string>
+    <string name="monitoring_description_profile_owned">"Správcom tohto profilu je:\n<xliff:g id="organization">%1$s</xliff:g>\n\nVáš správca má možnosť monitorovať vašu činnosť v rámci zariadenia a siete vrátane e-mailov, aplikácií a zabezpečených webových lokalít.\n\nAk chcete získať viac informácií, obráťte sa na vášho správcu."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Správcom tohto zariadenia je:\n<xliff:g id="organization">%1$s</xliff:g>\nSprávcom tohto profilu je:\n<xliff:g id="organization">%2$s</xliff:g>\n\nVáš správca má možnosť monitorovať vašu činnosť v sieti vrátane e-mailov, aplikácií a zabezpečených webových lokalít. Ak chcete získať viac informácií, obráťte sa na vášho správcu.\n\nOkrem toho ste udelili povolenie pre \"<xliff:g id="application">%3$s</xliff:g>\" na vytvorenie pripojenia VPN. Táto aplikácia tiež umožňuje monitorovať činnosť v sieti."</string>
+    <string name="please_select_phase2">"2. fáza autentifikácie"</string>
+    <string name="proxy_exclusionlist_label">"Obísť server proxy pre"</string>
+    <string name="proxy_hostname_label">"Názov hostiteľa servera proxy"</string>
+    <string name="proxy_port_label">"Port servera proxy"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"Prehľadávač využíva server HTTP proxy, ktorý však nefunguje pre ostatné aplikácie."</string>
+    <string name="qs_bottom_first_btn">"Viem"</string>
+    <string name="qs_bottom_first_notice">"Potiahnutím prst zdola obrazovky nahor zobrazíte panel rýchlych nastavení"</string>
+    <string name="qs_label_cbutton">"Tlačidlo C"</string>
+    <string name="qs_label_white_black_patterns">"Čiernobiele"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Režim Lietadlo"</string>
+    <string name="sim_slot">"Slot na kartu SIM"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[Počet správ: <xliff:g id="number">%d</xliff:g>]"</string>
+    <string name="status_bar_settings_airplane">"Režim Lietadlo"</string>
+    <string name="sub_switch_name0">"Povoliť oznámenia"</string>
+    <string name="sub_switch_name1">"Vznášajúce sa upozornenia"</string>
+    <string name="sub_switch_name1_sub">"Zobraziť oznámenia v hornej časti obrazovky a potom ich skryť"</string>
+    <string name="sub_switch_name2">"Oznámenia na obrazovke uzamknutia"</string>
+    <string name="sub_switch_name2_sub">"Zobraziť oznámenia v stavovom riadku"</string>
+    <string name="sub_switch_name3">"Zobraziť podrobnosti o oznámeniach"</string>
+    <string name="sub_switch_name4">"Zobraziť oznámenia v stavovom riadku"</string>
+    <string name="title_activity_package_list_batch">"Spracovanie dávky oznámení"</string>
+    <string name="wapi_as_certificate">"Certifikát ASE"</string>
+    <string name="wapi_user_certificate">"Certifikát používateľa"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anonymná identita"</string>
+    <string name="wifi_eap_ca_cert">"Certifikát CA"</string>
+    <string name="wifi_eap_identity">"Identita"</string>
+    <string name="wifi_eap_method">"Metóda EAP"</string>
+    <string name="wifi_eap_user_cert">"Certifikát používateľa"</string>
+    <string name="wifi_gateway">"Brána"</string>
+    <string name="wifi_hex_password">"Heslo v hexadecimálnom tvare."</string>
+    <string name="wifi_info_cancal_btn">"Zrušiť"</string>
+    <string name="wifi_info_connect_btn">"Pripojiť"</string>
+    <string name="wifi_ip_address">"Adresa IP"</string>
+    <string name="wifi_ip_settings">"Nastavenie IP"</string>
+    <string name="wifi_network_prefix_length">"Dĺžka sieťovej predvoľby"</string>
+    <string name="wifi_password">"Heslo"</string>
+    <string name="wifi_password_text">"Heslo (8 až 63 znakov)"</string>
+    <string name="wifi_security">"Zabezpečenie"</string>
+    <string name="wifi_security_none">"Žiadne"</string>
+    <string name="wifi_show_advanced">"Zobraziť rozšírené možnosti"</string>
+    <string name="wifi_show_password">"Zobraziť heslo"</string>
+    <string name="wifi_signal">"Sila signálu"</string>
+    <string name="wifi_ssid">"SSID siete"</string>
+    <string name="wifi_ssid_hint">"Zadajte SSID"</string>
+    <string name="wifi_status">"Stav"</string>
+    <string name="wifi_unchanged">"(nezmenené)"</string>
+    <string name="wifi_WEP_secury_key">"Bezpečnostný kľúč"</string>
+    <string name="wifi_WEP_transmit_key">"Odovzdať kľúč"</string>
+    <string name="zen_alarm_information_day_time">"Najbližší budík je <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Najbližší budík je nastavený na <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Len prioritné prerušenia"</string>
+    <string name="zen_no_interruptions">"Bez prerušenia"</string>
+    <string name="zen_no_interruptions_with_warning">"Bez prerušenia. Ani budíky."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Núdzové"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Zbierka"</string>
+    <string name="keyguard_magzine_cancel_collect">"Zrušiť pridanie do zbierky"</string>
+    <string name="keyguard_magazine_resident">"Rezident"</string>
+    <string name="keyguard_magazine_cancel_resident">"Zrušiť rezidenta"</string>
+    <string name="keyguard_magazine_share">"Zdieľať"</string>
+    <string name="keyguard_magazine_link">"Prepojenie"</string>
+    <string name="keyguard_magazine_more">"Nastavenie"</string>
+    <string name="keyguard_magzine_collect_toast">"Uložiť do fotografií magazínu v lokálnej galérii"</string>
+    <string name="keyguard_magazine_resident_toast">"Pri každom zapnutí obrazovky sa predvolene zobrazí táto tapeta"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Pri každom zapnutí obrazovky sa predvolene nezobrazí táto tapeta"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Zbierka fotografií magazínu"</string>
+    <string name="qs_label_calculator">"Kalkulačka"</string>
+    <string name="qs_label_blaster">"Ovládač"</string>
+    <string name="qs_label_magical">"Kúzelné"</string>
+    <string name="qs_label_camera">"Fotoaparát"</string>
+    <string name="qs_label_recording">"Nahrávka"</string>
+    <string name="qs_label_controlcentor">"Ovládacie centrum"</string>
+    <string name="qs_label_slience">"Snímka obrazovky"</string>
+    <string name="header_name">"povoliť oznámenie"</string>
+    <string name="header_name_detail">"Zobrazené v paneli oznámení"</string>
+    <string name="title_show_locksreen">"Zobraziť na uzamknutej obrazovke"</string>
+    <string name="recents_app_shendu">"hrúbka"</string>
+    <string name="recents_app_liuliang">"Dnes:"</string>
+    <string name="recents_app_memory">"Pamäť:"</string>
+    <string name="recents_app_battary">"Batéria:"</string>
+    <string name="recents_app_running_empty">"žiadne nedávne úlohy"</string>
+    <string name="recents_app_best_already">"už vyčistiť najlepšie"</string>
+    <string name="recents_app_release_memory">"uvoľniť pamäť <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"najskôr spustiť aplikáciu centra zabezpečenia"</string>
+    <string name="recents_app_memory_cleaned">"vyčistené"</string>
+    <string name="preference_detail_show">"Zobraziť"</string>
+    <string name="preference_detail_hide">"Skryť"</string>
+    <string name="item_show_notifcaiton">"Oznámenia"</string>
+    <string name="item_show_lockscreen">"pri uzamknutej obrazovke"</string>
+    <string name="item_show_floating">"plávajúce"</string>
+    <string name="item_show_detail">"Zobraziť podrobnosti"</string>
+    <string name="manage_notification_access_title">"Prístup k oznámeniam"</string>
+    <string name="notification_hide_system_app">"Skryť systémové aplikácie"</string>
+    <string name="notification_show_system_app">"Zobraziť systémové aplikácie"</string>
+    <string name="ctrl_center_shown_1page">"Skratky zobrazené – strana 1"</string>
+    <string name="ctrl_center_shown_2page">"Skratky zobrazené – strana 2"</string>
+    <string name="ctrl_center_non_shown">"Skratky nezobrazené"</string>
+    <string name="ctrl_center_hint">"Poznámka: Ťuknutím na skratku a podržaním ju presuňte. Môžete ju zobraziť alebo skryť a upraviť jej polohu\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Hlasitosť hlasových hovorov"</item>
+        <item>"Hlasitosť systému"</item>
+        <item>"Hlasitosť zvonenia a oznámení"</item>
+        <item>"Hlasitosť médií"</item>
+        <item>"Hlasitosť budíkov"</item>
+        <item></item>
+        <item>"Hlasitosť hovorov Bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"V Prehľade je 1 obrazovka"</item>
+        <item quantity="other">"V Prehľade je niekoľko obrazoviek (počet: %d)"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Skryť"</string>
+    <string name="clear_memory_notice">"Blahoželáme, úspešne ste vyčistili úlohy"</string>
+    <string name="data_no_connected_error">"Overte si, či je povolený dátový roaming pod položkami Nastavenia-&gt;Správa SIM kariet-&gt;Medzinárodný roaming!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Potiahnutie nadol povolené pri uzamknutej obrazovke"</string>
+    <string name="item_center_notifcaiton_obsessive">"Možnosti OCD"</string>
+    <string name="qs_label_dataportection_mode">"Ochrana údajov"</string>
+    <string name="qs_label_ringer">"Zvonenie"</string>
+    <string name="qs_label_rotation">"Otáčanie obrazovky"</string>
+    <string name="qs_label_speed">"Zrýchliť"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> dostupné |spolu <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Žiadna karta SIM. Skúste znova po vložení karty!"</string>
+    <string name="status_bar_screenshot_interesting">"Zaujímavá"</string>
+    <string name="status_bar_screenshot_long">"Dlhá"</string>
+    <string name="status_bar_super_secure_system_mode">"Momentálne je v režime zabezpečenia, ak chcete funkciu povoliť opustite režim zabezpečenia"</string>
+    <string name="title_show_floating_sub">"Po odomknutí obrazovky sa notifikácie zobrazia v hornej časti obrazovky a potom automaticky zmiznú."</string>
+    <string name="yl_volume_ring_icon_description">"Hlasitosť zvonení a oznámení"</string>
+    <string name="accessibility_quick_settings_data_off">"Vypnuté mobilné dáta."</string>
+    <string name="accessibility_quick_settings_data_on">"Zapnuté mobilné dáta."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Vypnutý roaming."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Zapnutý roaming."</string>
+    <string name="brightness_dlg_adjust">"(Nastaviť)"</string>
+    <string name="brightness_dlg_auto">"Auto"</string>
+    <string name="brightness_dlg_brightness">"Jas"</string>
+    <string name="clear_notify_all_oldman">"Vymazať oznámenia"</string>
+    <string name="dateview_day">"Deň"</string>
+    <string name="dateview_month">"Mesiac"</string>
+    <string name="domain_switch_toast">"Oznámenie je z iného priestoru."</string>
+    <string name="item_center_notifcaiton_ccm">"Zobraziť meno operátora"</string>
+    <string name="item_center_notifcaiton_control">"Kontrolné stredisko"</string>
+    <string name="item_center_notifcaiton_management">"Správa oznámení"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Vymazať menovku ikony pri zatrasení"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Skryť menovku ikony"</string>
+    <string name="item_center_notifcaiton_other">"Iné"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Rýchle nastavenia"</string>
+    <string name="item_center_notifcaiton_sub">"Oznámenie"</string>
+    <string name="item_center_notifcaiton_title">"Nastavenia"</string>
+    <string name="item_show_none">"Žiadne"</string>
+    <string name="item_show_other">"Iné"</string>
+    <string name="item_show_statusbar">"Panel"</string>
+    <string name="keyguard_magazine_enter">"Potiahnite smerom dole na zámok klávesnice"</string>
+    <string name="kg_no_service">"Žiadna služba"</string>
+    <string name="kg_no_uim">"Žiadne UIM alebo služba"</string>
+    <string name="kg_no_usim">"Nie je vložená karta SIM alebo nedostupná služba"</string>
+    <string name="kg_none_carrier">"Žiadna služba"</string>
+    <string name="message_keep_one_launcher">"Mali by ste zachovať aspoň jednu domácu aktivitu!"</string>
+    <string name="message_switch_fail">"Nedá sa prepnúť na túto úlohu, pretože nemá žiadne rozhranie."</string>
+    <string name="other_notification_expand">"dotykom zobrazíte všetky."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> iných oznámení"</string>
+    <string name="qs_label_airplane">"Režim v lietadle"</string>
+    <string name="qs_label_blacklist">"Blokovač"</string>
+    <string name="qs_label_blacklist2">"Blokovač"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Jas"</string>
+    <string name="qs_label_data_roaming">"Prebieha roaming"</string>
+    <string name="qs_label_doublecard">"Nastavenia duálnej karty"</string>
+    <string name="qs_label_driving_mode">"Režim automobilu"</string>
+    <string name="qs_label_flashlight">"Baterka"</string>
+    <string name="qs_label_flow_monitor">"Využitie dát"</string>
+    <string name="qs_label_location">"Lokalita"</string>
+    <string name="qs_label_multiple_accounts_name">"Vlastník"</string>
+    <string name="qs_label_mutlwindow">"Viacero úloh"</string>
+    <string name="qs_label_saving">"Úspora energie"</string>
+    <string name="qs_label_scenemode">"Režim scény"</string>
+    <string name="qs_label_sdcard_install">"Nainštalovať kartu SD"</string>
+    <string name="qs_label_sdcard_uninstall">"Odinštalovať kartu SD"</string>
+    <string name="qs_label_secure_mode">"Ochrana údajov"</string>
+    <string name="qs_label_setting">"Nastavenia"</string>
+    <string name="qs_label_shrink_screen">"Škálovanie obrazovky"</string>
+    <string name="qs_label_silence">"Stlmiť zvuk"</string>
+    <string name="qs_label_sound">"Zvuk"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Režim dôkladného zabezpečenia"</string>
+    <string name="qs_label_switching">"Spínacie"</string>
+    <string name="qs_label_ttwindow_mode">"Tok správ"</string>
+    <string name="qs_label_turning_off">"Zatvára sa"</string>
+    <string name="qs_label_turning_on">"Otvára sa"</string>
+    <string name="qs_label_viplist">"Biely zoznam"</string>
+    <string name="qs_label_viplist2">"Biely zoznam"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Zobrazené na notifikačnom paneli (najviac 10)"</string>
+    <string name="qs_minor_bar_tips">"Nezobrazené na notifikačnom paneli"</string>
+    <string name="quick_settings_data_off">"Dáta vypnuté"</string>
+    <string name="quick_settings_dds_sub">"Karta obsahuje <xliff:g id="number">%d</xliff:g> dát"</string>
+    <string name="quick_settings_mobile_data_label">"Mobilné dáta"</string>
+    <string name="quick_settings_roaming_label">"Prebieha roaming"</string>
+    <string name="quicksettings_edit_disable">"Upraviť"</string>
+    <string name="quicksettings_edit_enable">"Skončiť"</string>
+    <string name="quicksettings_more">"Viac"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Nedá sa pripojiť k sieti v režime lietadlo."</string>
+    <string name="status_bar_disable_data_roaming">"Roaming deaktivovaný."</string>
+    <string name="status_bar_earphones_connected_text">"Slúchadlá sú pripojené."</string>
+    <string name="status_bar_earphones_connected_ticker">"Slúchadlá sú pripojené."</string>
+    <string name="status_bar_earphones_connected_title">"Slúchadlá"</string>
+    <string name="status_bar_enable_data_roaming">"Roaming aktivovaný."</string>
+    <string name="status_bar_expand_autobright">"Automatické nastavenie jasu"</string>
+    <string name="status_bar_expanded_airplane_mode">"Režim v lietadle"</string>
+    <string name="status_bar_expanded_check_sim">"Žiadna karta SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Žiadne UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Nie je vložená karta SIM"</string>
+    <string name="status_bar_expanded_data_net_status">"Neznáme"</string>
+    <string name="status_bar_expanded_mms_send_note">"Pripája sa k sieti... Skúste to znova neskôr."</string>
+    <string name="status_bar_expanded_net_using_card">"Na dátové pripojenie sa používa karta telefónu <xliff:g id="number">%d</xliff:g>. Sieť môžete manuálne prepnúť neskôr."</string>
+    <string name="status_bar_expanded_network_forbid">"Služba je vypnutá"</string>
+    <string name="status_bar_expanded_network_off">"Žiadna služba"</string>
+    <string name="status_bar_expanded_start_network">"Mobilné dáta"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobilné dáta"</string>
+    <string name="status_bar_expanded_stop_network">"Mobilné dáta"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobilné dáta"</string>
+    <string name="status_bar_no_running_apps">"Žiadna spustená aplikácia"</string>
+    <string name="status_bar_notification_manager">"manažér"</string>
+    <string name="status_bar_notify_interception_disable">"Zakázať"</string>
+    <string name="status_bar_notify_interception_enable">"Povoliť"</string>
+    <string name="status_bar_other_notify">"Viac"</string>
+    <string name="status_bar_other_notify_back">"Späť"</string>
+    <string name="status_bar_recent_delete">"Vymazať"</string>
+    <string name="status_bar_recent_historical">"Historická úloha"</string>
+    <string name="status_bar_recent_memory">"Pamäť"</string>
+    <string name="status_bar_recent_memory_free">"voľné|"</string>
+    <string name="status_bar_recent_memory_item_used">"Použité:"</string>
+    <string name="status_bar_recent_memory_used">"Použité:"</string>
+    <string name="status_bar_recent_optimize">"Podrobnosti"</string>
+    <string name="status_bar_recent_running">"Aktívna úloha"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Skopírovalo sa do schránky"</string>
+    <string name="status_bar_screenshot_edit">"Upraviť"</string>
+    <string name="status_bar_screenshot_exit">"Zrušiť"</string>
+    <string name="status_bar_screenshot_save">"Uložiť"</string>
+    <string name="status_bar_screenshot_share">"Zdieľať"</string>
+    <string name="status_bar_select_network1">"Sieť 1"</string>
+    <string name="status_bar_select_network2">"Sieť 2"</string>
+    <string name="tasklist_killall">"Odstaviť všetko"</string>
+    <string name="tasklist_memory_usage">"Voľná/celková pamäť: [<xliff:g id="number">%s</xliff:g>]/[<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Správca úloh"</string>
+    <string name="title_activity_package_list">"Stredisko oznámení"</string>
+    <string name="title_show_effect_preview">"Náhľad na obrázok"</string>
+    <string name="title_show_floating">"Plávajúce oznámenia"</string>
+    <string name="title_show_notifcaiton">"Povoliť"</string>
+    <string name="title_show_notification_center">"Stredisko oznámení"</string>
+    <string name="title_show_other">"Zobraziť v iných"</string>
+    <string name="title_show_statusbar">"Zobraziť na paneli"</string>
+    <string name="gps_notification_searching_text_content">"Energiu možno ušetriť po vypnutí GPS."</string>
+    <string name="quick_settings_battery_charging_label">"Nabíja sa, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Nabité"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Stmené <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Zobraziť navigačnú lištu posunutím prstom smerom hore zo spodnej časti obrazovky"</string>
+
+</resources>

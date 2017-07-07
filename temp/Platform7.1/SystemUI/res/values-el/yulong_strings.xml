@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Λειτουργία συνάντησης</string>
+    <string name="qs_label_vibrate_ring">Δόνηση</string>
+    <string name="qs_label_softap">Σημείο πρόσβασης</string>
+    <string name="accessibility_ime_switch_button">"Κουμπί εναλλαγής μεθόδου εισαγωγής."</string>
+    <string name="accessibility_no_wifi">"Wifi αποσυνδεδεμένο."</string>
+    <string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+    <string name="accessibility_wifi_off">"Wifi απενεργοποιημένο."</string>
+    <string name="accessibility_wifi_one_bar">"Ισχύς σήματος Wifi: μία γραμμή."</string>
+    <string name="accessibility_wifi_signal_full">"Ισχύς σήματος Wifi: πλήρης."</string>
+    <string name="accessibility_wifi_three_bars">"Ισχύς σήματος Wifi: τρεις γραμμές."</string>
+    <string name="accessibility_wifi_two_bars">"Ισχύς σήματος Wifi: δύο γραμμές."</string>
+    <string name="guide_click_txt">"Κάντε κλικ για τις ρυθμίσεις του Keyguard Magazine"</string>
+    <string name="guide_sliding_txt">"Σύρετε για αλλαγή οθόνης"</string>
+    <string name="guide_swipe_up_txt">"Μετακινήστε το δάχτυλο προς τα πάνω για ξεκλείδωμα"</string>
+    <string name="guide_title">"Καλωσορίσατε στο Keyguard Magazine"</string>
+    <string name="header_name_detail_top">"Εμφάνιση ειδοποιήσεων στη γραμμή κατάστασης"</string>
+    <string name="header_name_top">"Ειδοποίηση στη γραμμή κατάστασης"</string>
+    <string name="header_name0">"Γραμμή κατάστασης"</string>
+    <string name="header_name1">"Keyguard"</string>
+    <string name="header_top">"Μαζική διαχείριση ειδοποιήσεων"</string>
+    <string name="interruption_level_all">"Όλα"</string>
+    <string name="keyguard_guide_enter">"Δοκιμάστε"</string>
+    <string name="lockscreen_airplane_mode_on">"Η λειτουργία πτήσης είναι ενεργοποιημένη."</string>
+    <string name="lockscreen_missing_sim_message_short">"Η κάρτα SIM λείπει."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Δεν είναι δυνατή η χρήση της κάρτας SIM."</string>
+    <string name="lockscreen_sim_error_message_short">"Σφάλμα SIM."</string>
+    <string name="lockscreen_sim_locked_message">"Η κάρτα SIM είναι κλειδωμένη."</string>
+    <string name="lockscreen_sim_puk_locked_message">"Η κάρτα SIM είναι κλειδωμένη με κωδικό PUK."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Διαχείριση συσκευής από:\n<xliff:g id="organization">%1$s</xliff:g>\nΔιαχείριση προφίλ από:\n<xliff:g id="organization">%2$s</xliff:g>\n\nΟ διαχειριστής μπορεί να παρακολουθεί τη συσκευή σας και τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων.\n\nΓια περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας."</string>
+    <string name="monitoring_description_legacy_vpn">"Έχετε συνδεθεί σε VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nΟ πάροχος υπηρεσιών VPN μπορεί να παρακολουθεί τη συσκευή σας και τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Διαχείριση συσκευής από:\n<xliff:g id="organization">%1$s</xliff:g>\nΔιαχείριση προφίλ από:\n<xliff:g id="organization">%2$s</xliff:g>\n\nΟ διαχειριστής έχει τη δυνατότητα να παρακολουθεί τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων. Για περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας.\n\nΕπίσης, έχετε συνδεθεί σε VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Ο πάροχος υπηρεσιών VPN μπορεί επίσης να παρακολουθεί τη δραστηριότητα του δικτύου."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Διαχείριση συσκευής από:\n<xliff:g id="organization">%1$s</xliff:g>\n\nΟ διαχειριστής έχει τη δυνατότητα να παρακολουθεί τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων. Για περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας.\n\nΕπίσης, έχετε συνδεθεί σε VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Ο πάροχος υπηρεσιών VPN μπορεί επίσης να παρακολουθεί τη δραστηριότητα του δικτύου."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Διαχείριση προφίλ από:\n<xliff:g id="organization">%1$s</xliff:g>\n\nΟ διαχειριστής έχει τη δυνατότητα να παρακολουθεί τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων. Για περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας.\n\nΕπίσης, έχετε συνδεθεί σε VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Ο πάροχος υπηρεσιών VPN μπορεί επίσης να παρακολουθεί τη δραστηριότητα του δικτύου."</string>
+    <string name="monitoring_description_profile_owned">"Διαχείριση προφίλ από:\n<xliff:g id="organization">%1$s</xliff:g>\n\nΟ διαχειριστής μπορεί να παρακολουθεί τη συσκευή σας και τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων.\n\nΓια περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Διαχείριση συσκευής από:\n<xliff:g id="organization">%1$s</xliff:g>\nΔιαχείριση προφίλ από:\n<xliff:g id="organization">%2$s</xliff:g>\n\nΟ διαχειριστής έχει τη δυνατότητα να παρακολουθεί τη δραστηριότητα του δικτύου, συμπεριλαμβανομένων των email, των εφαρμογών και των ασφαλών ιστότοπων. Για περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας.\n\nΕπίσης, παραχωρήσατε στην εφαρμογή \"<xliff:g id="application">%3$s</xliff:g>\" άδεια για δημιουργία σύνδεσης VPN. Αυτή η εφαρμογή μπορεί επίσης να παρακολουθεί τη δραστηριότητα του δικτύου."</string>
+    <string name="please_select_phase2">"Φάση 2, έλεγχος ταυτότητας"</string>
+    <string name="proxy_exclusionlist_label">"Παράκαμψη διακομιστή μεσολάβησης για"</string>
+    <string name="proxy_hostname_label">"Όνομα κεντρικού υπολογιστή διακομιστή μεσολάβησης"</string>
+    <string name="proxy_port_label">"Θύρα διακομιστή μεσολάβησης"</string>
+    <string name="proxy_settings_title">"Διακομιστής μεσολάβησης"</string>
+    <string name="proxy_warning_limited_support">"Ο διακομιστής μεσολάβησης HTTP χρησιμοποιείται από το πρόγραμμα περιήγησης, αλλά ενδέχεται να μην χρησιμοποιείται από τις άλλες εφαρμογές."</string>
+    <string name="qs_bottom_first_btn">"Το γνωρίζω"</string>
+    <string name="qs_bottom_first_notice">"Μετακινήστε το δάχτυλό σας από κάτω προς τα πάνω στην οθόνη για πρόσβαση στον πίνακα γρήγορων ρυθμίσεων"</string>
+    <string name="qs_label_cbutton">"Κουμπί C"</string>
+    <string name="qs_label_white_black_patterns">"Ασπρόμαυρο"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Λειτουργία πτήσης"</string>
+    <string name="sim_slot">"Υποδοχή SIM"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>μηνύματα]"</string>
+    <string name="status_bar_settings_airplane">"Λειτουργία πτήσης"</string>
+    <string name="sub_switch_name0">"Ενεργοποίηση ειδοποιήσεων"</string>
+    <string name="sub_switch_name1">"Αιωρούμενες ειδοποιήσεις"</string>
+    <string name="sub_switch_name1_sub">"Εμφάνιση ειδοποιήσεων στην κορυφή της οθόνης και αυτόματο κλείσιμο"</string>
+    <string name="sub_switch_name2">"Ειδοποιήσεις στην οθόνη κλειδώματος"</string>
+    <string name="sub_switch_name2_sub">"Εμφάνιση ειδοποιήσεων στη γραμμή κατάστασης"</string>
+    <string name="sub_switch_name3">"Εμφάνιση λεπτομερειών ειδοποιήσεων"</string>
+    <string name="sub_switch_name4">"Εμφάνιση ειδοποιήσεων στη γραμμή κατάστασης"</string>
+    <string name="title_activity_package_list_batch">"Μαζικός χειρισμός ειδοποιήσεων"</string>
+    <string name="wapi_as_certificate">"Πιστοποιητικό ASE"</string>
+    <string name="wapi_user_certificate">"Πιστοποιητικό χρήστη"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Ανώνυμη ταυτότητα"</string>
+    <string name="wifi_eap_ca_cert">"Πιστοποιητικό CA"</string>
+    <string name="wifi_eap_identity">"Ταυτότητα"</string>
+    <string name="wifi_eap_method">"Μέθοδος EAP"</string>
+    <string name="wifi_eap_user_cert">"Πιστοποιητικό χρήστη"</string>
+    <string name="wifi_gateway">"Πύλη"</string>
+    <string name="wifi_hex_password">"Δεκαεξαδικός κωδικός πρόσβασης."</string>
+    <string name="wifi_info_cancal_btn">"Ακύρωση"</string>
+    <string name="wifi_info_connect_btn">"Σύνδεση"</string>
+    <string name="wifi_ip_address">"Διεύθυνση IP"</string>
+    <string name="wifi_ip_settings">"Ρυθμίσεις IP"</string>
+    <string name="wifi_network_prefix_length">"Μήκος προθέματος δικτύου"</string>
+    <string name="wifi_password">"Κωδικός πρόσβασης"</string>
+    <string name="wifi_password_text">"Κωδικός πρόσβασης (8 έως 63 χαρακτήρες)"</string>
+    <string name="wifi_security">"Ασφάλεια"</string>
+    <string name="wifi_security_none">"Καμία"</string>
+    <string name="wifi_show_advanced">"Εμφάνιση επιλογών για προχωρημένους"</string>
+    <string name="wifi_show_password">"Εμφάνιση κωδικού πρόσβασης"</string>
+    <string name="wifi_signal">"Ισχύς σήματος"</string>
+    <string name="wifi_ssid">"SSID δικτύου"</string>
+    <string name="wifi_ssid_hint">"Εισαγάγετε το SSID"</string>
+    <string name="wifi_status">"Κατάσταση"</string>
+    <string name="wifi_unchanged">"(χωρίς αλλαγή)"</string>
+    <string name="wifi_WEP_secury_key">"Κλειδί ασφαλείας"</string>
+    <string name="wifi_WEP_transmit_key">"Κλειδί μετάδοσης"</string>
+    <string name="zen_alarm_information_day_time">"Η επόμενη ειδοποίηση είναι <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Η επόμενη ειδοποίηση είναι στις <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Μόνο διακοπές υψηλής προτεραιότητας"</string>
+    <string name="zen_no_interruptions">"Χωρίς διακοπές"</string>
+    <string name="zen_no_interruptions_with_warning">"Χωρίς διακοπές. Χωρίς ειδοποιήσεις."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Κλήσεις έκτακτης ανάγκης"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Αγαπημένα"</string>
+    <string name="keyguard_magzine_cancel_collect">"Προστέθηκε στα Αγαπημένα"</string>
+    <string name="keyguard_magazine_resident">"Παραμονή"</string>
+    <string name="keyguard_magazine_cancel_resident">"Ακύρωση παραμονής στη συσκευή"</string>
+    <string name="keyguard_magazine_share">"Κοινοποίηση"</string>
+    <string name="keyguard_magazine_link">"Σύνδεση"</string>
+    <string name="keyguard_magazine_more">"Ρύθμιση"</string>
+    <string name="keyguard_magzine_collect_toast">"Αποθήκευση στις φωτογραφίες του άλμπουμ φωτογραφιών στην τοπική συλλογή"</string>
+    <string name="keyguard_magazine_resident_toast">"Κάθε φορά που ενεργοποιείται η οθόνη, θα εμφανίζεται από προεπιλογή αυτή η ταπετσαρία"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Κάθε φορά που ενεργοποιείται η οθόνη, δεν θα εμφανίζεται από προεπιλογή αυτή η ταπετσαρία"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Συλλογή φωτογραφιών άλμπουμ"</string>
+    <string name="qs_label_calculator">"Αριθμομηχανή"</string>
+    <string name="qs_label_blaster">"Συσκευή εγγραφής"</string>
+    <string name="qs_label_magical">"Μαγικός"</string>
+    <string name="qs_label_camera">"Κάμερα"</string>
+    <string name="qs_label_recording">"Εγγραφή"</string>
+    <string name="qs_label_controlcentor">"Κέντρο ελέγχου"</string>
+    <string name="qs_label_slience">"λήψη στιγμιότυπου οθόνης"</string>
+    <string name="header_name">"ενεργοποίηση ειδοποιήσεων"</string>
+    <string name="header_name_detail">"εμφάνιση στο πλαίσιο ειδοποιήσεων"</string>
+    <string name="title_show_locksreen">"εμφάνιση στην οθόνη κλειδώματος"</string>
+    <string name="recents_app_shendu">"βάθος"</string>
+    <string name="recents_app_liuliang">"Σήμερα:"</string>
+    <string name="recents_app_memory">"Μνήμη:"</string>
+    <string name="recents_app_battary">"Μπαταρία:"</string>
+    <string name="recents_app_running_empty">"δεν υπάρχουν πρόσφατες εργασίες"</string>
+    <string name="recents_app_best_already">"έχει γίνει ήδη βέλτιστη εκκαθάριση"</string>
+    <string name="recents_app_release_memory">"απελευθέρωση μνήμης <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"να εκκινείται πρώτα η εφαρμογή κέντρου ασφαλείας"</string>
+    <string name="recents_app_memory_cleaned">"έγινε εκκαθάριση"</string>
+    <string name="preference_detail_show">"Εμφάνιση"</string>
+    <string name="preference_detail_hide">"Απόκρυψη"</string>
+    <string name="item_show_notifcaiton">"Ειδοποίηση"</string>
+    <string name="item_show_lockscreen">"στην οθόνη κλειδώματος"</string>
+    <string name="item_show_floating">"αιωρούμενο"</string>
+    <string name="item_show_detail">"Εμφάνιση λεπτομερειών"</string>
+    <string name="manage_notification_access_title">"Πρόσβαση στις ειδοποιήσεις"</string>
+    <string name="notification_hide_system_app">"Απόκρυψη εφαρμογών συστήματος"</string>
+    <string name="notification_show_system_app">"Εμφάνιση εφαρμογών συστήματος"</string>
+    <string name="ctrl_center_shown_1page">"Συντομεύσεις που εμφανίζονται-Σελίδα 1"</string>
+    <string name="ctrl_center_shown_2page">"Συντομεύσεις που εμφανίζονται-Σελίδα 2"</string>
+    <string name="ctrl_center_non_shown">"Συντομεύσεις που δεν εμφανίζονται"</string>
+    <string name="ctrl_center_hint">"Σημείωση: Πατήστε παρατεταμένα μια συντόμευση για να τη μετακινήσετε. Μπορείτε να την κάνετε να εμφανίζεται ή να μην εμφανίζεται και να προσαρμόσετε τη θέση της\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Ένταση ήχου φωνητικών κλήσεων"</item>
+        <item>"Ένταση ήχου συστήματος"</item>
+        <item>"Ένταση ήχου κουδουνίσματος &amp; ειδοποιήσεων"</item>
+        <item>"Ένταση ήχου πολυμέσων"</item>
+        <item>"Ένταση ήχου συναγερμών"</item>
+        <item></item>
+        <item>"Ένταση ήχου κλήσεων μέσω Bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="accessibility_hide">"Απόκρυψη"</string>
+    <string name="clear_memory_notice">"Συγχαρητήρια, καθαρίσατε με επιτυχία τις εργασίες"</string>
+    <string name="data_no_connected_error">"Παρακαλούμε ελέγξτε αν επιτρέπεται η περιαγωγή δεδομένων από τις Ρυθμίσεις-&gt;Διαχείριση καρτών SIM-&gt;Διεθνής περιαγωγή!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Σύρσιμο κάτω ενεργοποιημένο με οθόνη κλειδώματος"</string>
+    <string name="item_center_notifcaiton_obsessive">"Επιλογές OCD"</string>
+    <string name="qs_label_dataportection_mode">"Προστασία δεδομένων"</string>
+    <string name="qs_label_ringer">"Ηχείο"</string>
+    <string name="qs_label_rotation">"Περιστροφή οθόνης"</string>
+    <string name="qs_label_speed">"Επιτάχυνση"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> σε χρήση |συνολικά <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Καμία κάρτα SIM. Προσπαθήστε πάλι αφού τοποθετήσετε την κάρτα!"</string>
+    <string name="status_bar_screenshot_interesting">"Ενδιαφέρον"</string>
+    <string name="status_bar_screenshot_long">"Μεγάλο οθόνης"</string>
+    <string name="status_bar_super_secure_system_mode">"Προς το παρόν σε ασφαλή λειτουργία, βγείτε από την ασφαλή λειτουργία για να ενεργοποιήσετε τη λειτουργία"</string>
+    <string name="title_show_floating_sub">"Μετά το ξεκλείδωμα της οθόνης, οι ειδοποιήσεις εμφανίζονται στο πάνω μέρος της οθόνης και κατόπιν εξαφανίζονται αυτόματα"</string>
+    <string name="yl_volume_ring_icon_description">"Ένταση ήχου κουδουνίσματος &amp; ειδοποιήσεων"</string>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 οθόνη σε Επισκόπηση"</item>
+        <item quantity="other">"%d οθόνες σε Επισκόπηση"</item>
+    </plurals>
+
+    <string name="accessibility_quick_settings_data_off">"Δεδομένα κινητής ανενεργά."</string>
+    <string name="accessibility_quick_settings_data_on">"Δεδομένα κινητής ενεργά."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Περιαγωγή ανενεργή."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Περιαγωγή ενεργή."</string>
+    <string name="brightness_dlg_adjust">"(Ρύθμιση)"</string>
+    <string name="brightness_dlg_auto">"Αυτόματο"</string>
+    <string name="brightness_dlg_brightness">"Φωτεινότητα"</string>
+    <string name="clear_notify_all_oldman">"Διαγραφή ειδοποιήσεων"</string>
+    <string name="dateview_day">"Ημέρα"</string>
+    <string name="dateview_month">"Μήνας"</string>
+    <string name="domain_switch_toast">"Η ειδοποίηση είναι από άλλο χώρο."</string>
+    <string name="item_center_notifcaiton_ccm">"Εμφάνιση ονόματος παρόχου"</string>
+    <string name="item_center_notifcaiton_control">"Κέντρο ελέγχου"</string>
+    <string name="item_center_notifcaiton_management">"Διαχείριση ειδοποιήσεων"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Διαγραφή ετικέτας εικόνας με ανακίνηση"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Απόκρυψη ετικέτας εικόνας"</string>
+    <string name="item_center_notifcaiton_other">"Άλλα"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Γρήγορες ρυθμίσεις"</string>
+    <string name="item_center_notifcaiton_sub">"Ειδοποίηση"</string>
+    <string name="item_center_notifcaiton_title">"Ρυθμίσεις"</string>
+    <string name="item_show_none">"Τίποτα"</string>
+    <string name="item_show_other">"Άλλα"</string>
+    <string name="item_show_statusbar">"Πίνακας"</string>
+    <string name="keyguard_magazine_enter">"Σύρετε γρήγορα κάτω για προστασία πλήκτρων περιοδικού"</string>
+    <string name="kg_no_service">"Καμία υπηρεσία"</string>
+    <string name="kg_no_uim">"Καμία UIM ή υπηρεσία"</string>
+    <string name="kg_no_usim">"Δεν υπάρχει κάρτα SIM ή υπηρεσία"</string>
+    <string name="kg_none_carrier">"Καμία υπηρεσία"</string>
+    <string name="message_keep_one_launcher">"Θα πρέπει να διατηρήσετε τουλάχιστον μία δραστηριότητα αρχικής!"</string>
+    <string name="message_switch_fail">"Ανέφικτη η αλλαγή σε αυτή την εργασία, επειδή δεν έχει διεπαφή."</string>
+    <string name="other_notification_expand">"αγγίξτε για προβολή όλων."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> ακόμα ειδοποιήσεις"</string>
+    <string name="qs_label_airplane">"Λειτουργία πτήσης"</string>
+    <string name="qs_label_blacklist">"Αναστολέας"</string>
+    <string name="qs_label_blacklist2">"Αναστολέας"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Φωτεινότητα"</string>
+    <string name="qs_label_data_roaming">"Περιαγωγή"</string>
+    <string name="qs_label_doublecard">"Ρυθμίσεις διπλής κάρτας"</string>
+    <string name="qs_label_driving_mode">"Λειτουργία Αυτοκινήτου"</string>
+    <string name="qs_label_flashlight">"Φλας"</string>
+    <string name="qs_label_flow_monitor">"Χρήση δεδομένων"</string>
+    <string name="qs_label_location">"Θέση"</string>
+    <string name="qs_label_multiple_accounts_name">"Κάτοχος"</string>
+    <string name="qs_label_mutlwindow">"Πολυδιεργασία"</string>
+    <string name="qs_label_saving">"Εξοικονόμηση ενέργειας"</string>
+    <string name="qs_label_scenemode">"Λειτουργία Σκηνή"</string>
+    <string name="qs_label_sdcard_install">"Εγκατάσταση κάρτας SD"</string>
+    <string name="qs_label_sdcard_uninstall">"Απεγκατάσταση κάρτας SD"</string>
+    <string name="qs_label_secure_mode">"Προστασία δεδομένων"</string>
+    <string name="qs_label_setting">"Ρυθμίσεις"</string>
+    <string name="qs_label_shrink_screen">"Προσαρμογή κλίμακας οθόνης"</string>
+    <string name="qs_label_silence">"Σίγαση"</string>
+    <string name="qs_label_sound">"Ήχος"</string>
+    <string name="qs_label_super_saving">"Σούπερ"</string>
+    <string name="qs_label_super_secure_mode">"Σούπερ ασφαλής λειτουργία"</string>
+    <string name="qs_label_switching">"Εναλλαγή"</string>
+    <string name="qs_label_ttwindow_mode">"Ροή ειδήσεων"</string>
+    <string name="qs_label_turning_off">"Κλείνει"</string>
+    <string name="qs_label_turning_on">"Ανοίγει"</string>
+    <string name="qs_label_viplist">"Λευκή λίστα"</string>
+    <string name="qs_label_viplist2">"Λευκή λίστα"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Εμφανίζεται στον πίνακα ειδοποιήσεων (το πολύ 10)"</string>
+    <string name="qs_minor_bar_tips">"Δεν εμφανίζεται στον πίνακα ειδοποιήσεων"</string>
+    <string name="quick_settings_apn_switch_label">"Διακόπτης APN"</string>
+    <string name="quick_settings_data_off">"Δεδομένα ανενεργά"</string>
+    <string name="quick_settings_dds_sub">"Κάρτα <xliff:g id="number">%d</xliff:g> data"</string>
+    <string name="quick_settings_mobile_data_label">"Δεδομένα κινητής"</string>
+    <string name="quick_settings_roaming_label">"Περιαγωγή"</string>
+    <string name="quicksettings_edit_disable">"Επεξεργασία"</string>
+    <string name="quicksettings_edit_enable">"Έξοδος"</string>
+    <string name="quicksettings_more">"Περισσότερα"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Δεν είναι εφικτή η σύνδεση σε δίκτυο από λειτουργία πτήσης."</string>
+    <string name="status_bar_disable_data_roaming">"Περιαγωγή απενεργοποιημένη."</string>
+    <string name="status_bar_earphones_connected_text">"Συνδέθηκε ακουστικό."</string>
+    <string name="status_bar_earphones_connected_ticker">"Συνδέθηκε ακουστικό."</string>
+    <string name="status_bar_earphones_connected_title">"Ακουστικά"</string>
+    <string name="status_bar_enable_data_roaming">"Περιαγωγή ενεργοποιημένη."</string>
+    <string name="status_bar_expand_autobright">"Αυτόμ. ρύθμιση φωτεινότητας"</string>
+    <string name="status_bar_expanded_airplane_mode">"Λειτουργία πτήσης"</string>
+    <string name="status_bar_expanded_check_sim">"Καμία SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Καμία UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Καμία κάρτα SIM"</string>
+    <string name="status_bar_expanded_data_net_status">"Άγνωστ."</string>
+    <string name="status_bar_expanded_mms_send_note">"Γίνεται σύνδεση στο δίκτυο... Προσπαθήστε πάλι αργότερα."</string>
+    <string name="status_bar_expanded_net_using_card">"Για σύνδεση δεδομένων χρησιμοποιείται η κάρτα <xliff:g id="number">%d</xliff:g> του τηλεφώνου. Μπορείτε να αλλάξετε δίκτυο χειροκίνητα αργότερα."</string>
+    <string name="status_bar_expanded_network_forbid">"Υπηρεσία απενεργοποιήθηκε"</string>
+    <string name="status_bar_expanded_network_off">"Καμία υπηρεσία"</string>
+    <string name="status_bar_expanded_start_network">"Δεδομένα κινητής"</string>
+    <string name="status_bar_expanded_start_network_g">"Δεδομένα κινητής"</string>
+    <string name="status_bar_expanded_stop_network">"Δεδομένα κινητής"</string>
+    <string name="status_bar_expanded_stop_network_g">"Δεδομένα κινητής"</string>
+    <string name="status_bar_no_running_apps">"Καμία εκτελούμενη εφαρμογή"</string>
+    <string name="status_bar_notification_manager">"διευθυντής"</string>
+    <string name="status_bar_notify_interception_disable">"Απαγόρευση"</string>
+    <string name="status_bar_notify_interception_enable">"Να επιτρέπεται"</string>
+    <string name="status_bar_other_notify">"Περισσότερα"</string>
+    <string name="status_bar_other_notify_back">"Πίσω"</string>
+    <string name="status_bar_recent_delete">"Εκκαθάριση"</string>
+    <string name="status_bar_recent_historical">"Εργασία ιστορικού"</string>
+    <string name="status_bar_recent_memory">"Μνήμη"</string>
+    <string name="status_bar_recent_memory_free">"ελεύθερη|"</string>
+    <string name="status_bar_recent_memory_item_used">"Σε χρήση:"</string>
+    <string name="status_bar_recent_memory_used">"Σε χρήση:"</string>
+    <string name="status_bar_recent_optimize">"Λεπτομέρειες"</string>
+    <string name="status_bar_recent_running">"Ενεργή εργασία"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Αντιγράφηκε στο πρόχειρο."</string>
+    <string name="status_bar_screenshot_edit">"Επεξεργασία"</string>
+    <string name="status_bar_screenshot_exit">"Ακύρωση"</string>
+    <string name="status_bar_screenshot_save">"Αποθήκευση"</string>
+    <string name="status_bar_screenshot_share">"Κοινή χρήση"</string>
+    <string name="status_bar_select_network1">"Δίκτυο 1"</string>
+    <string name="status_bar_select_network2">"Δίκτυο 2"</string>
+    <string name="tasklist_killall">"Τερματισμός όλων"</string>
+    <string name="tasklist_memory_usage">"Ελεύθερη/Συνολική μνήμη: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Διαχειριστής Εργασιών"</string>
+    <string name="title_activity_package_list">"Κέντρο ειδοποιήσεων"</string>
+    <string name="title_show_effect_preview">"Προεπισκόπηση εικόνας"</string>
+    <string name="title_show_floating">"Πλωτές ειδοποιήσεις"</string>
+    <string name="title_show_notifcaiton">"Να επιτρέπεται"</string>
+    <string name="title_show_notification_center">"Κέντρο ειδοποιήσεων"</string>
+    <string name="title_show_other">"Εμφάνιση σε άλλα"</string>
+    <string name="title_show_statusbar">"Εμφάνιση στον πίνακα"</string>
+    <string name="gps_notification_searching_text_content">"Η εξοικονόμηση ενέργειας είναι δυνατή μετά το κλείσιμο του GPS."</string>
+    <string name="quick_settings_battery_charging_label">"Φόρτιση, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Φορτίστηκε"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Σίγαση ήχου από <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Εμφάνιση γραμμής πλοήγησης με κίνηση σάρωσης από το κάτω μέρος της οθόνης προς τα επάνω."</string>
+
+</resources>

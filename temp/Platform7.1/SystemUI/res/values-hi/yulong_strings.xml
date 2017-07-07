@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- yulong begin add by zhangyang -->
+    <string name="accessibility_ime_switch_button">"इनपुट पद्धति स्विच करें बटन."</string>
+    <string name="accessibility_no_wifi">"Wifi डिस्कनेक्ट हुआ."</string>
+    <string name="accessibility_wifi_off">"Wifi बंद."</string>
+    <string name="accessibility_wifi_one_bar">"Wifi एक सिग्नल."</string>
+    <string name="accessibility_wifi_signal_full">"Wifi पूरा सिग्नल."</string>
+    <string name="accessibility_wifi_three_bars">"Wifi तीन सिग्नल."</string>
+    <string name="accessibility_wifi_two_bars">"Wifi दो सिग्नल."</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="ctrl_center_hint">"नोट: शॉर्टकट को अन्यत्र ले जाने के लिए उसे टैप करके रखें. आप उसके प्रदर्शन का क्रम समायोजित कर सकते हैं"</string>
+    <string name="ctrl_center_non_shown">"शॉर्टकट्स प्रदर्शित नहीं किए गए हैं"</string>
+    <string name="ctrl_center_shown_1page">"प्रदर्शित शॉर्टकट्स-पृष्ठ 1"</string>
+    <string name="ctrl_center_shown_2page">"प्रदर्शित शॉर्टकट्स-पृष्ठ 2"</string>
+    <string name="gps_notification_searching_text_content">"GPS बंद करके पावर सहेजा जा सकता है."</string>
+    <string name="guide_click_txt">"कीगार्ड मैग्ज़ीन सेटिंग्स पर क्लिक करें"</string>
+    <string name="guide_sliding_txt">"स्क्रीन बदलने के लिए स्लाइड करें"</string>
+    <string name="guide_swipe_up_txt">"अनलॉक करने के लिए ऊपर की ओर स्वाइप करें"</string>
+    <string name="guide_title">"कीगार्ड मैग्ज़ीन में आपका स्वागत है"</string>
+    <string name="interruption_level_all">"सभी"</string>
+    <string name="keyguard_guide_enter">"इसे आज़माएं"</string>
+    <string name="monitoring_description_device_and_profile_owned">"यह डिवाइस इसके द्वारा प्रबंधित होता है:\n<xliff:g id="organization">%1$s</xliff:g>\nआपकी प्रोफ़ाइल इसके द्वारा प्रबंधित होती है:\n<xliff:g id="organization">%2$s</xliff:g>\n\nआपका व्यवस्थापक ईमेल, एप्स और वेबसाइटों सहित, आपकी डिवाइस और नेटवर्क गतिविधि मॉनिटर कर सकता है.\n\nअधिक जानकरी के लिए, अपने व्यवस्थापक से संपर्क करें."</string>
+    <string name="monitoring_description_legacy_vpn">"आप एक VPN (\"<xliff:g id="application">%1$s</xliff:g>\") से कनेक्ट किए जाते हैं.\n\nआपका VPN सेवा प्रदाता ईमेल, एप्स और सुरक्षा वेबसाइटों सहित आपके डिवाइस और नेटवर्क गतिविधि को मॉनिटर कर सकता है."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"यह डिवाइस इसके द्वारा प्रबंधित होता है\n<xliff:g id="organization">%1$s</xliff:g>\nआपकी प्रोफ़ाइल इसके द्वारा प्रबंधित होती है:\n<xliff:g id="organization">%2$s</xliff:g>\n\nआपका व्यवस्थापक ईमेल, एप्स और सुरक्षा वेबसाइटों सहित आपकी नेटवर्क गतिविधि मॉनिटर करने में सक्षम होता है. अधिक जानकारी के लिए, अपने व्यवस्थापक से संपर्क करें.\n\nसाथ ही, आप एक VPN (\"<xliff:g id="application">%3$s</xliff:g>\") से कनेक्ट किए जाते हैं. आपका VPN प्रदाता नेटवर्क गतिविधि को भी मॉनिटर कर सकता है."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"यह डिवाइस इसके द्वारा प्रबंधित होता है:\n<xliff:g id="organization">%1$s</xliff:g>\n\nआपका व्यवस्थापक ईमेल, एप्स और सुरक्षा वेबसाइटों सहित आपकी नेटवर्क गतिविधि मॉनिटर करने में सक्षम होता है. अधिक जानकारी के लिए, अपने व्यवस्थापक से संपर्क करें.\n\nसाथ ही, आप एक VPN (\"<xliff:g id="application">%2$s</xliff:g>\") से कनेक्ट किए जाते हैं. आपका VPN प्रदाता नेटवर्क गतिविधि को भी मॉनिटर कर सकता है."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"यह प्रोफ़ाइल इसके द्वारा प्रबंधित होता है:\n<xliff:g id="organization">%1$s</xliff:g>\n\nआपका व्यवस्थापक ईमेल, एप्स और सुरक्षा वेबसाइटों सहित आपकी नेटवर्क गतिविधि मॉनिटर करने में सक्षम होता है. अधिक जानकारी के लिए, अपने व्यवस्थापक से संपर्क करें.\n\nसाथ ही, आप एक VPN (\"<xliff:g id="application">%2$s</xliff:g>\") से कनेक्ट किए जाते हैं. आपका VPN प्रदाता नेटवर्क गतिविधि को भी मॉनिटर कर सकता है."</string>
+    <string name="monitoring_description_profile_owned">"यह प्रोफ़ाइल इसके द्वारा प्रबंधित होता है:\n<xliff:g id="organization">%1$s</xliff:g>\n\nआपका व्यवस्थापक ईमेल, एप्स और वेबसाइटों सहित, आपके डिवाइस और नेटवर्क गतिविधि मॉनिटर कर सकता है.\n\nअधिक जानकरी के लिए, अपने व्यवस्थापक से संपर्क करें."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"यह डिवाइस इसके द्वारा प्रबंधित होता है\n<xliff:g id="organization">%1$s</xliff:g>\nआपकी प्रोफ़ाइल इसके द्वारा प्रबंधित होती है:\n<xliff:g id="organization">%2$s</xliff:g>\n\nआपका व्यवस्थापक ईमेल, एप्स और सुरक्षा वेबसाइटों सहित आपकी नेटवर्क गतिविधि मॉनिटर करने में सक्षम होता है. अधिक जानकारी के लिए, अपने व्यवस्थापक से संपर्क करें.\n\nसाथ ही, एक VPN कनेक्शन सेट करने के लिए आप \"<xliff:g id="application">%3$s</xliff:g>\" अनुमति देते हैं. यह एप नेटवर्क गतिविधि को भी मॉनिटर कर सकता है."</string>
+    <string name="muted_by">"<xliff:g id="third_party">%1$s</xliff:g> के द्वारा म्यूट किया गया"</string>
+    <string name="notification_hide_system_app">"सिस्टम ऐप्स छुपाएं"</string>
+    <string name="notification_show_system_app">"सिस्टम ऐप्स दिखाएं"</string>
+    <string name="qs_bottom_first_btn">"मुझे पता है"</string>
+    <string name="qs_bottom_first_notice">"त्वरित सेटिंग्स पैनल पर पहुँच प्राप्त करने के लिए स्क्रीन पर नीचे से ऊपर की ओर स्वाइप करें"</string>
+    <string name="qs_label_white_black_patterns">"मोनो"</string>
+    <string name="quick_settings_airplane_mode_label">"विमान मोड"</string>
+    <string name="quick_settings_battery_charged_label">"चार्ज हुआ"</string>
+    <string name="quick_settings_battery_charging_label">"चार्ज हो रहा है, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_settings_airplane">"विमान मोड"</string>
+    <string name="zen_alarm_information_day_time">"आपका अगला अलार्म <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g> है"</string>
+    <string name="zen_alarm_information_time">"आपका अगला अलार्म <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g> बजे है"</string>
+    <string name="zen_important_interruptions">"केवल प्राथमिक व्यवधान"</string>
+    <string name="zen_no_interruptions">"कोई व्यवधान नहीं"</string>
+    <string name="zen_no_interruptions_with_warning">"कोई व्यवधान नहीं. अलार्म भी नहीं."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/आपातकालीन"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="over_sea_hideNavigationBar_info">"स्क्रीन के निचले भाग से ऊपर की ओर स्लाइड करके नेविगेशन बार दिखाएँ"</string>
+    <string name="status_bar_screenshot_interesting">"मज़ेदार कैप्चर"</string>
+    <string name="status_bar_expanded_start_network">"मोबाइल डेटा"</string>
+    <string name="status_bar_expanded_stop_network">"मोबाइल डेटा"</string>
+    <string name="status_bar_expanded_start_network_g">"मोबाइल डेटा"</string>
+    <string name="status_bar_expanded_stop_network_g">"मोबाइल डेटा"</string>
+    <string name="status_bar_expanded_data_net_status">"अज्ञात"</string>
+    <string name="status_bar_expanded_check_uimsim">"कोई USIM नहीं है"</string>
+    <string name="status_bar_expanded_check_sim">"कोई SIM नहीं है"</string>
+    <string name="status_bar_expanded_check_uim">"कोई UIM नहीं है"</string>
+    <string name="status_bar_expanded_network_off">"कोई सेवा नहीं है"</string>
+    <string name="status_bar_expanded_network_forbid">"सेवा अक्षम है"</string>
+    <string name="status_bar_expanded_airplane_mode">"विमान मोड"</string>
+    <string name="status_bar_expanded_mms_send_note">"नेटवर्क से कनेक्ट कर रहा है... बाद में पुनः प्रयास करें."</string>
+    <string name="status_bar_airplane_mode_send_note">"विमान मोड में नेटवर्क से कनेक्ट नहीं कर सकते."</string>
+    <string name="kg_no_uim">"कोई UIM या सेवा नहीं है"</string>
+    <string name="kg_no_usim">"कोई UIM या सेवा नहीं है"</string>
+    <string name="kg_none_carrier">"कोई सेवा नहीं है"</string>
+    <string name="kg_no_service">"कोई सेवा नहीं है"</string>
+    <string name="status_bar_expanded_net_using_card"><xliff:g id="number">%d</xliff:g>"डेटा कनेक्शन के लिए फ़ोन कार्ड उपयोग करना. आप बाद में मैन्युअल रूप से नेटवर्क स्विच कर सकते हैं."</string>
+    <!-- yulong beging add by zhangyang for yulong quick setting -->
+
+    <string name="qs_label_brightness">"चमक"</string>
+    <string name="qs_label_bluetooth">"ब्लूटूथ"</string>
+    <string name="qs_label_location">"स्थान"</string>
+    <string name="qs_label_rotation">"स्वत: घुमाएँ"</string>
+    <string name="qs_label_scenemode">"दृश्य मोड"</string>
+    <string name="qs_label_saving">"पावर सेवर"</string>
+    <string name="qs_label_airplane">"विमान मोड"</string>
+    <string name="qs_label_ringer">"मौन करें"</string>
+    <string name="qs_label_vibrate_ring">"कंपन"</string>
+    <string name="qs_label_super_saving">"सुपर"</string>
+    <string name="qs_label_viplist">"व्हाइटलिस्ट"</string>
+    <string name="qs_label_viplist2">"व्हाइटलिस्ट"</string>
+    <string name="qs_label_doublecard">"डुअल-कार्ड सेटिंग्स"</string>
+    <string name="qs_label_setting">"सेट करें"</string>
+    <string name="qs_label_speed">"एकल-कुंजी एक्सेलरेशन"</string>
+    <string name="qs_label_silence">"मौन करें"</string>
+    <string name="qs_label_softap">"पोर्टेबल हॉटस्पॉट"</string>
+    <string name="qs_label_sdcard_uninstall">"SD कार्ड की स्थापना रद्द करें"</string>
+    <string name="qs_label_sdcard_install">"SD कार्ड स्थापित करें"</string>
+    <string name="qs_label_flow_monitor">"डेटा उपयोग"</string>
+    <string name="qs_label_switching">"स्विच कर रहा है"</string>
+    <string name="qs_label_turning_on">"खोल रहा है"</string>
+    <string name="qs_label_turning_off">"बंद कर रहा है"</string>
+    <string name="qs_label_blacklist">"ब्लैक/व्हाइट सूची"</string>
+    <string name="qs_label_blacklist2">"उत्पीड़न-विरोधी"</string>
+    <string name="qs_label_mutlwindow">"मल्टीटास्क"</string>
+    <string name="qs_label_secure_mode">"डेटा सुरक्षित रखें"</string>
+    <string name="qs_label_super_secure_mode">"सुपर सेफ़ मोड"</string>
+    <string name="qs_label_driving_mode">"कार मोड"</string>
+    <string name="qs_label_ttwindow_mode">"झरने का प्रवाह"</string>
+    <string name="qs_label_sound">"ध्वनि"</string>
+    <string name="qs_label_data_roaming">"रोमिंग"</string>
+    <string name="qs_label_shrink_screen">"स्क्रीन स्केलिंग"</string>
+    <string name="qs_label_flashlight">"फ़्लैशलाइट"</string>
+    <string name="qs_label_meeting_mode">सम्मेलन मोड</string>
+    <string name="status_bar_select_network1">"नेट 1"</string>
+    <string name="status_bar_select_network2">"नेट 2"</string>
+    <string name="status_bar_no_running_apps">"कोई एप नहीं चल रहा है"</string>
+    <string name="status_bar_recent_optimize">"विवरण"</string>
+    <string name="status_bar_recent_delete">"सभी खत्म करें"</string>
+    <string name="status_bar_recent_historical">"ऐतिहासिक कार्य"</string>
+    <string name="status_bar_recent_running">"सक्रिय कार्य"</string>
+    <string name="status_bar_screenshot_exit">"रद्द करें"</string>
+    <string name="status_bar_screenshot_share">"शेयर करें"</string>
+    <string name="status_bar_screenshot_edit">"डूडल"</string>
+    <string name="status_bar_screenshot_save">"सहेजें"</string>
+    <string name="status_bar_notify_interception_disable">"वर्जित"</string>
+    <string name="status_bar_notify_interception_enable">"अनुमति दें"</string>
+    <string name="qs_major_bar_tips">"सूचना पैनल में प्रदर्शन (अधिकतम 10)"</string>
+    <string name="qs_minor_bar_tips">"सूचना पैनल में नहीं दिखाया गया"</string>
+    <string name="status_bar_recent_memory">"मेमोरी"</string>
+    <string name="status_bar_recent_memory_used">"उपयोग किया गया:"</string>
+    <string name="status_bar_recent_memory_free">"खाली|"</string>
+    <string name="status_bar_recent_memory_item_used">"उपयोग किया गया:"</string>
+    <string name="status_bar_recent_memory_total">Total memory</string>
+    <string name="status_bar_earphones_connected_title">"इयरफ़ोन"</string>
+    <string name="status_bar_earphones_connected_text">"इयरफ़ोन कनेक्ट है."</string>
+    <string name="status_bar_earphones_connected_ticker">"इयरफ़ोन कनेक्ट है."</string>
+    <string name="status_bar_screenshot_copytoclipboard">"क्लिपबोर्ड में कॉपी किया गया"</string>
+    <string name="status_bar_enable_data_roaming">"रोमिंग सक्रिय."</string>
+    <string name="status_bar_disable_data_roaming">"रोमिंग निष्क्रिय."</string>
+
+    <!-- yulong add by jinxiaofeng -->
+    <string name="status_bar_expand_autobright">"चमक स्वतः समायोजित करें"</string>
+    <string name="status_bar_notification_manager">"प्रबंधक"</string>
+    <string name="status_bar_other_notify">"अधिक देखें"</string>
+    <string name="status_bar_other_notify_back">"वापस"</string>
+    <string name="qs_label_multiple_accounts_name">"स्वामी"</string>
+    <string name="status_bar_3g_priority">3G/2G</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="brightness_dlg_brightness">"चमक"</string>
+    <string name="brightness_dlg_adjust">"(समायोजित करें)"</string>
+    <string name="brightness_dlg_auto">"स्वचालित"</string>
+    <string name="clear_notify_all_oldman">"सूचनाएँ साफ़ करें"</string>
+    <string name="other_notification_format"><xliff:g id="NUMBER">%d</xliff:g>" अन्य सूचनाएँ"</string>
+    <string name="other_notification_expand">"सभी देखने के लिए टच करें."</string>
+    <string name="title_activity_package_list">"सूचना केंद्र"</string>
+    <string name="title_show_notifcaiton">"अनुमति दें"</string>
+    <string name="title_show_statusbar">"पैनल पर दिखाएँ"</string>
+    <string name="title_show_other">"अन्य में दिखाएँ"</string>
+    <string name="title_show_notification_center">"सूचना केंद्र"</string>
+    <string name="title_show_floating">"फ्लोटिंग सूचनाएँ"</string>
+    <string name="title_show_floating_sub">"स्क्रीन अनलॉक करने के बाद, सूचनाएँ स्क्रीन के शीर्ष पर दिखाई देती हैं, फिर स्वचालित रूप से गायब हो जाती हैं"</string>
+    <string name="title_show_effect_preview">"छवि पूर्वावलोकन"</string>
+    <string name="item_center_notifcaiton_title">"सेटिंग्स"</string>
+    <string name="item_center_notifcaiton_sub">"सूचना"</string>
+    <string name="item_center_notifcaiton_management">"सूचना प्रबंधन"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"लॉकस्क्रीन में नीचे ड्रैग करना सक्षम"</string>
+    <string name="item_center_notifcaiton_ccm">"कैरियर नाम दिखाएँ"</string>
+    <string name="item_center_notifcaiton_control">"नियंत्रण केंद्र"</string>
+    <string name="item_center_notifcaiton_quicksettings">"त्वरित सेटिंग्स"</string>
+    <string name="item_center_notifcaiton_other">"अन्य"</string>
+    <string name="item_center_notifcaiton_obsessive">"ओसीडी के विकल्प"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"आइकन का लेबल छुपाएँ"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"हिलाने पर आइकन का लेबल साफ़ करें"</string>
+    <string name="item_show_notifcaiton">"सूचना"</string>
+    <string name="item_show_statusbar">"पैनल"</string>
+    <string name="item_show_other">"अन्य"</string>
+    <string name="item_show_none">"कोई नहीं"</string>
+    <string name="item_show_dot">/</string>
+    <string name="status_bar_super_secure_system_mode">"वर्तमान में सुपर सुरक्षित मोड में हैं, कृपया फ़ंक्शन सक्षम करने के लिए सुरक्षित मोड से बाहर निकलें"</string>
+    <string name="quicksettings_more">"अधिक"</string>
+    <string name="quicksettings_edit_disable">"बुकमार्क संपादित करें"</string>
+    <string name="quicksettings_edit_enable">"बाहर निकलें"</string>
+    <string name="clear_memory_notice">"बधाई हो, आपने सफलतापूर्वक क्लीनअप कार्य कर लिया है"</string>
+    <!-- yulong end -->
+
+    <string name="dateview_month">"महीना"</string>
+    <string name="dateview_day">"दिन"</string>
+    <string name="domain_switch_toast">"सूचना अन्य स्थान से है."</string>
+    <string name="qs_label_cbutton">"C-बटन"</string>
+    <string name="qs_label_dataportection_mode">"डेटा सुरक्षा"</string>
+    <string name="status_bar_screenshot_long">"लंबा स्क्रीनशॉट"</string>
+    <string name="show_no_sim_message">"कोई SIM कार्ड नहीं. कार्ड डालने के बाद कृपया पुनः प्रयास करें!"</string>
+    <string name="accessibility_hide">"छिपाएँ"</string>
+    <string name="data_no_connected_error">"कृपया जाँचें कि सेटिंग्स-&gt; SIM कार्ड प्रबंधन-&gt; अंतर्राष्ट्रीय रोमिंग में डेटा रोमिंग की अनुमति है या नहीं!"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> उपयोग किया |कुल <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="yl_volume_ring_icon_description">"रिंगटोन और सूचना वॉल्यूम"</string>
+    <string name="status_bar_accessibility_recent_apps">"ओवरव्यू में %d स्क्रीन"</string>
+    <string name="header_name">"अनुमति दें"</string>
+    <string name="header_name_detail">"सूचना पैनल में दिखाया गया"</string>
+    <string name="header_name_detail_top">"स्थिति बार में सूचनाएँ दिखाएँ"</string>
+    <string name="header_name_top">"स्थिति बार सूचना"</string>
+    <string name="header_name0">"सूचना"</string>
+    <string name="header_name1">"लॉक करें"</string>
+    <string name="header_top">"सूचना प्रबंधन की बैच"</string>
+    <string name="item_show_detail">"विवरण दिखाएँ"</string>
+    <string name="item_show_floating">"फ्लोटिंग"</string>
+    <string name="item_show_lockscreen">"लॉक करें"</string>
+    <string name="keyguard_magazine_cancel_resident">"नहर निवासी"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"हर बार स्क्रीन चालू होने पर डिफ़ॉल्ट रूप से यह वॉलपेपर दिखाई नहीं देगा"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"मैग्ज़ीन फ़ोटो संग्रह"</string>
+    <string name="keyguard_magazine_link">"विवरण"</string>
+    <string name="keyguard_magazine_more">"सेट करें"</string>
+    <string name="keyguard_magazine_resident">"निवासी"</string>
+    <string name="keyguard_magazine_resident_toast">"हर बार स्क्रीन चालू होने पर डिफ़ॉल्ट रूप से यह वॉलपेपर दिखाई देगा"</string>
+    <string name="keyguard_magazine_share">"शेयर करें"</string>
+    <string name="keyguard_magzine_cancel_collect">"पसंदीदा में जोड़ा गया"</string>
+    <string name="keyguard_magzine_collect">"पसंदीदा"</string>
+    <string name="keyguard_magzine_collect_toast">"स्थानीय गैलरी के मैग्ज़ीन फ़ोटो में सहेजें"</string>
+    <string name="lockscreen_airplane_mode_on">"विमान मोड चालू है."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM कार्ड गुम है."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"अप्रयुक्त SIM कार्ड."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM त्रुटि."</string>
+    <string name="lockscreen_sim_locked_message">"SIM कार्ड लॉक है."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM कार्ड PUK-लॉक है."</string>
+    <string name="manage_notification_access_title">"सूचना एक्सेस"</string>
+    <string name="please_select_phase2">"चरण 2 प्रमाणीकरण"</string>
+    <string name="preference_detail_hide">"छिपाएँ"</string>
+    <string name="preference_detail_show">"दिखाएँ"</string>
+    <string name="proxy_action_text">"समाप्त"</string>
+    <string name="proxy_clear_text">"सभी खत्म करें"</string>
+    <string name="proxy_defaultView_text">"रीसेट करें"</string>
+    <string name="proxy_error">"महत्वपूर्ण"</string>
+    <string name="proxy_error_dismiss">"ठीक"</string>
+    <string name="proxy_error_empty_host_set_port">"यदि होस्ट फ़ील्ड खाली है तो पोर्ट फील्ड भी खाली होना चाहिए."</string>
+    <string name="proxy_error_empty_port">"आपको पोर्ट फ़ील्ड पूरा करना आवश्यक है."</string>
+    <string name="proxy_error_invalid_exclusion_list">"आपकी लिखी गई अपवर्जन सूची सहि तरीके से फ़ॉर्मेट नहीं है. अपवर्जित डोमेंस की कॉमा-सेपरेटेड सूची लिखें."</string>
+    <string name="proxy_error_invalid_host">"आपका लिखा गया होस्ट नाम मान्य नहीं है."</string>
+    <string name="proxy_error_invalid_port">"आपका लिखा गया पोर्ट मान्य नहीं है."</string>
+    <string name="proxy_exclusionlist_label">"इसके लिए बायपास प्रॉक्सी"</string>
+    <string name="proxy_hostname_label">"प्रॉक्सी होस्टनाम"</string>
+    <string name="proxy_port_label">"प्रॉक्सी पोर्ट"</string>
+    <string name="proxy_settings_title">"प्रॉक्सी"</string>
+    <string name="proxy_warning_limited_support">"HTTP प्रॉक्सी ब्राउजर द्वारा उपयोग किया जाता है लेकिन अन्य एप्स द्वारा उपयोग नहीं किया जा सकता है."</string>
+    <string name="qs_header_afternoon">"Pm"</string>
+    <string name="qs_header_morning">"Am"</string>
+    <string name="qs_label_blaster">"रिकॉर्ड"</string>
+    <string name="qs_label_calculator">"कैलक्यूलेटर"</string>
+    <string name="qs_label_camera">"कैमरा"</string>
+    <string name="qs_label_controlcentor">"नियंत्रण केंद्र"</string>
+    <string name="qs_label_magical">"जादुई"</string>
+    <string name="qs_label_recording">"रिकॉर्डिंग"</string>
+    <string name="qs_label_slience">"स्क्रीनशॉट"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_wlan_title">"Wi-Fi"</string>
+    <string name="recents_app_battary">"बैटरी:"</string>
+    <string name="recents_app_best_already">"पहले से श्रेष्ठ को साफ़ करें"</string>
+    <string name="recents_app_depthclear_notfind">"पहले सुरक्षित केंद्र एप प्रारंभ करें"</string>
+    <string name="recents_app_liuliang">"आज:"</string>
+    <string name="recents_app_memory">"मेमोरी:"</string>
+    <string name="recents_app_memory_cleaned">"साफ़ किया गया"</string>
+    <string name="recents_app_release_memory">"<xliff:g id="used">%1$s</xliff:g> मेमोरी रिलीज़ करें"</string>
+    <string name="recents_app_running_empty">"कोई हाल ही के कार्य नहीं हैं"</string>
+    <string name="recents_app_shendu">"गहराई"</string>
+    <string name="sim_slot">"SIM स्लॉट"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>संदेश]"</string>
+    <string name="sub_switch_name0">"अनुमति दें"</string>
+    <string name="sub_switch_name1">"फ्लोटिंग सूचनाएँ"</string>
+    <string name="sub_switch_name1_sub">"शीर्ष स्क्रीन में सूचनाएँ दिखाएँ, फिर स्वचालित रूप से गायब करें"</string>
+    <string name="sub_switch_name2">"लॉक स्क्रीन सूचनाएँ"</string>
+    <string name="sub_switch_name2_sub">"स्थिति बार में सूचनाएँ दिखाएँ"</string>
+    <string name="sub_switch_name3">"सूचनाओं का विवरण दिखाएँ"</string>
+    <string name="sub_switch_name4">"स्थिति बार में सूचनाएँ दिखाएँ"</string>
+    <string name="title_activity_package_list_batch">"सूचना बैच व्यवहार"</string>
+    <string name="title_show_locksreen">"लॉक स्क्रीन में दिखाएँ"</string>
+    <string name="wapi_as_certificate">"ASE प्रमाणपत्र"</string>
+    <string name="wapi_user_certificate">"उपयोगकर्ता प्रमाणपत्र"</string>
+    <string name="wifi_disabled_generic">"अवरूद्ध"</string>
+    <string name="wifi_disabled_network_failure">"खराब इंटरनेट कनेक्शन से बचें"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"अनाम पहचान"</string>
+    <string name="wifi_eap_ca_cert">"CA प्रमाणपत्र"</string>
+    <string name="wifi_eap_identity">"पहचान"</string>
+    <string name="wifi_eap_method">"EAP विधि"</string>
+    <string name="wifi_eap_user_cert">"उपयोगकर्ता प्रमाणपत्र"</string>
+    <string name="wifi_frequency">"आवृत्ति"</string>
+    <string name="wifi_gateway">"गेटवे"</string>
+    <string name="wifi_hex_password">"हेक्साडेसिमल पासवर्ड."</string>
+    <string name="wifi_info_cancal_btn">"रद्द करें"</string>
+    <string name="wifi_info_connect_btn">"कनेक्ट करें"</string>
+    <string name="wifi_ip_address">"IP पता"</string>
+    <string name="wifi_ip_settings">"IP सेटिंग्स"</string>
+    <string name="wifi_network_prefix_length">"नेटवर्क प्रिफिक्स लंबाई"</string>
+    <string name="wifi_password">"पासवर्ड डालें"</string>
+    <string name="wifi_password_text">"पासवर्ड (8 से 63 वर्ण)"</string>
+    <string name="wifi_remembered">"सहेजा गया"</string>
+    <string name="wifi_security">"सुरक्षा"</string>
+    <string name="wifi_security_none">"कोई नहीं"</string>
+    <string name="wifi_show_advanced">"उन्नत विकल्प दिखाएँ"</string>
+    <string name="wifi_show_password">"पासवर्ड दिखाएँ"</string>
+    <string name="wifi_signal">"सिग्नल क्षमता"</string>
+    <string name="wifi_speed">"लिंक गति"</string>
+    <string name="wifi_ssid">"नाम"</string>
+    <string name="wifi_ssid_hint">"SSID डालें"</string>
+    <string name="wifi_status">"स्थिति"</string>
+    <string name="wifi_unchanged">"(अपरिवर्तित)"</string>
+    <string name="wifi_unspecified">"(अनिर्दिष्ट)"</string>
+    <string name="wifi_WEP_secury_key">"सुरक्षा कुंजी"</string>
+    <string name="wifi_WEP_transmit_key">"ट्रांसमिट कुंजी"</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"वॉइस कॉल वॉल्यूम"</item>
+        <item>"सिस्टम वॉल्यूम"</item>
+        <item>"रिंगटोन और सूचना वॉल्यूम"</item>
+        <item>"अलार्म वॉल्यूम"</item>
+        <item>"सूचना वॉल्यूम"</item>
+        <item></item>
+        <item>"सक्रिय रखें"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>

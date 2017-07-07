@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	
+	@actor litao/zhangyang
+	@email zhangyang1@yulong.com
+	@motify : 2011/04/09 steal some code from www.android10.org and modified by little  
+						2013-02-26 add crunch
+						2013-02-28 add 4.2 feature support
+						2013-03-15 add proguard support
+-->
+<project name="Keyguard"
+    default="help" >
+
+	<!--
+         The local.properties file is created and updated by the 'android' tool.
+         It contains the path to the SDK. It should *NOT* be checked into
+         Version Control Systems.
+    -->
+
+	<property file="local.properties" />
+
+	<!--
+         The ant.properties file can be created by you. It is only edited by the
+         'android' tool to add properties to it.
+         This is the place to change some Ant specific build properties.
+         Here are some properties you may want to change/update:
+
+         source.dir
+             The name of the source directory. Default is 'src'.
+         out.dir
+             The name of the output directory. Default is 'bin'.
+
+         For other overridable properties, look at the beginning of the rules
+         files in the SDK, at tools/ant/build.xml
+
+         Properties related to the SDK location or the project target should
+         be updated using the 'android' tool with the 'update' action.
+
+         This file is an integral part of the build system for your
+         application and should be checked into Version Control Systems.
+    -->
+
+	<property file="ant.properties" />
+
+	<!--
+         if sdk.dir was not set from one of the property file, then
+         get it from the ANDROID_HOME env var.
+         This must be done before we load project.properties since
+         the proguard config can use sdk.dir
+    -->
+	<property environment="env" />
+
+	<condition
+        property="sdk.dir"
+        value="${env.ANDROID_HOME}" >
+
+		<isset property="env.ANDROID_HOME" />
+	</condition>
+
+	<!--
+         The project.properties file is created and updated by the 'android'
+         tool, as well as ADT.
+
+         This contains project specific properties such as project target, and library
+         dependencies. Lower level build properties are stored in ant.properties
+         (or in .classpath for Eclipse projects).
+
+         This file is an integral part of the build system for your
+         application and should be checked into Version Control Systems.
+    -->
+
+	<loadproperties srcFile="project.properties" />
+
+	<!-- quick check on sdk.dir -->
+	<fail
+        message="sdk.dir is missing. Make sure to generate local.properties using &apos;android update project&apos; or to inject it through the ANDROID_HOME environment variable."
+        unless="sdk.dir" />
+
+	<!--
+        Import per project custom build rules if present at the root of the project.
+        This is the place to put custom intermediary targets such as:
+            -pre-build
+            -pre-compile
+            -post-compile (This is typically used for code obfuscation.
+                           Compiled code location: ${out.classes.absolute.dir}
+                           If this is not done in place, override ${out.dex.input.absolute.dir})
+            -post-package
+            -post-build
+            -pre-clean
+    -->
+
+	<import
+        file="custom_rules.xml"
+        optional="true" />
+
+	<property
+        name="java.encoding"
+        value="GB18030" />
+
+	<property
+        name="java.target"
+        value="1.7" />
+
+	<property
+        name="java.source"
+        value="1.7" />
+
+	<property
+        name="java.compilerargs"
+        value="" />
+
+	<!-- signapk jar path -->
+	<property
+        name="signAPKJava"
+        value="/home/ciserver/App_Platform/script/signapk.jar" />
+	<!-- public key -->
+	<property
+        name="publicKey"
+        value="/home/ciserver/App_Platform/script/security/platform.x509.pem" />
+	<!-- private key -->
+	<property
+        name="privateKey"
+        value="/home/ciserver/App_Platform/script/security/platform.pk8" />
+
+	<!-- debug public key -->
+	<property
+        name="publicKey_debug"
+        value="/home/ciserver/App_Platform/script/security_debug/platform.x509.pem" />
+	
+	<!-- debug public key -->
+	<property
+        name="privateKey_debug"
+        value="/home/ciserver/App_Platform/script/security_debug/platform.pk8" />
+
+	<target name="-pre-compile" >
+
+		<property name="obfuscate.absolute.dir" location="${out.absolute.dir}" />
+		<echo message="obfuscate location = ${obfuscate.absolute.dir}" />
+		<echo message="JARPATH=${toString:project.target.class.path}" />
+
+		<property
+            name="yulong.libs.absolute.dir"
+	    location="../../sdklibs" />
+
+		<echo message="${yulong.libs.absolute.dir}" >
+		</echo>
+
+		<path id="yulong.libs" >
+			<pathelement path="${yulong.libs.absolute.dir}/telephony-common.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/framework.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/core-libart.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/android-common.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/CP_MiscInterfaceDebug.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/CP_Common.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/CP_SystemInterfaceDebug.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/SettingsLib.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/android-support-v7-preference.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/android-support-v7-recyclerview.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/android-support-v14-preference.jar" />
+			<pathelement path="${yulong.libs.absolute.dir}/android-support-v17-leanback.jar" />
+			<path path="${toString:project.target.class.path}" >
+			</path>
+		</path>
+
+		<path id="project.target.class.path" >
+
+			<path refid="yulong.libs" >
+			</path>
+		</path>
+
+		<echo message="JARPATH=${toString:project.target.class.path}" >
+		</echo>
+	</target>
+
+	<target
+        name="release-with-yulongkey"
+        depends="-set-release-mode, -release-obfuscation-check, -package"
+        description="Builds the application. The generated apk file must be signed before
+                            it is published." >
+
+		<property
+            name="out.unaligned.file"
+            location="${out.absolute.dir}/${ant.project.name}-release-unaligned.apk" />
+
+		<property
+            name="yulong.out.final.file"
+            location="${out.absolute.dir}/${ant.project.name}.apk" />
+
+		<exec
+            executable="java"
+            failonerror="true" >
+
+			<arg line="-Xmx1024m -jar ${signAPKJava} -w ${publicKey_debug} ${privateKey_debug} ${out.packaged.file} ${out.unaligned.file}" />
+		</exec>
+
+		<!-- Zip aligns the APK -->
+		<zipalign-helper
+            in.package="${out.unaligned.file}"
+            out.package="${out.final.file}" />
+
+		<!-- Delete out.unsigned.package & out.unaligned.package -->
+		<delete file="${out.packaged.file}" />
+
+		<delete file="${out.unaligned.file}" />
+
+		<!-- Rename -->
+		<move
+            file="${out.final.file}"
+            tofile="${yulong.out.final.file}" />
+	</target>
+
+	<!-- use our own key -->
+	<target
+        name="debug-with-yulongkey"
+        depends="-set-release-mode, -release-obfuscation-check, -package"
+        description="Builds the application. The generated apk file must be signed before
+                            it is published." >
+
+		<property
+            name="out.unaligned.file"
+            location="${out.absolute.dir}/${ant.project.name}-release-unaligned.apk" />
+
+		<property
+            name="yulong.out.final.file"
+            location="${out.absolute.dir}/${ant.project.name}.apk" />
+
+		<exec
+            executable="java"
+            failonerror="true" >
+
+			<arg line="-Xmx1024m -jar ${signAPKJava} -w ${publicKey_debug} ${privateKey_debug} ${out.packaged.file} ${out.unaligned.file}" />
+		</exec>
+
+		<!-- Zip aligns the APK -->
+		<zipalign-helper
+            in.package="${out.unaligned.file}"
+            out.package="${out.final.file}" />
+
+		<!-- Delete out.unsigned.package & out.unaligned.package -->
+		<delete file="${out.packaged.file}" />
+
+		<delete file="${out.unaligned.file}" />
+
+		<!-- Rename -->
+		<move
+            file="${out.final.file}"
+            tofile="${yulong.out.final.file}" />
+	</target>
+
+	<!--
+         Import the actual build file.
+
+         To customize existing targets, there are two options:
+         - Customize only one target:
+             - copy/paste the target into this file, *before* the
+               <import> task.
+             - customize it to your needs.
+         - Customize the whole content of build.xml
+             - copy/paste the content of the rules files (minus the top node)
+               into this file, replacing the <import> task.
+             - customize to your needs.
+
+         ***********************
+         ****** IMPORTANT ******
+         ***********************
+         In all cases you must update the value of version-tag below to read 'custom' instead of an integer,
+         in order to avoid having your file be overridden by tools such as "android update project"
+    -->
+	<!-- version-tag: 1 -->
+
+	<import file="${sdk.dir}/tools/ant/build.xml" />
+	<!-- import file="build_base.xml" / -->
+
+</project>

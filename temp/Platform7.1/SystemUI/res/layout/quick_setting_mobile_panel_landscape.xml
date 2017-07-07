@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/qs_detail_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#CC686F7B"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:src="@drawable/ic_qs_spread" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="top|center_horizontal"
+            android:text="@string/quick_settings_cellular_detail_title"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#fff" />
+
+    <LinearLayout
+        android:id="@+id/id_ll_dataContent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="0dp"
+        android:background="#CC686F7B"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/id_ll_sim1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ll_sim_backgroud"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"  
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_sim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/mobile_sim"
+                android:textColor="#fff"
+                android:textSize="14dp" />
+
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:gravity="right" >
+
+                <RadioButton
+                    android:id="@+id/id_sim1_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/quick_setting_mobile_panel_radio_background" />
+            </LinearLayout> />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_sim2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ll_sim_backgroud"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/id_sim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/mobile_sim_second"
+                android:textColor="#fff"
+                android:textSize="14dp" />
+
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:gravity="right" >
+
+                <RadioButton
+                    android:id="@+id/id_sim2_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/quick_setting_mobile_panel_radio_background" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_sim3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ll_sim_backgroud"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/id_sim3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/mobile_sim_third"
+                android:textColor="#fff"
+                android:textSize="14dp" />
+
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:gravity="right" >
+
+                <RadioButton
+                    android:id="@+id/id_sim3_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/quick_setting_mobile_panel_radio_background" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#CC686F7B"
+        android:gravity="end" >
+        
+        <TextView
+            android:id="@+id/id_moresetting"
+            style="@style/QSBorderlessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:focusable="true"
+            android:minWidth="132dp"
+            android:text="@string/quick_settings_more_settings"
+            android:textAppearance="@style/TextAppearance.QS.DetailButton" />
+
+        <TextView
+            android:id="@+id/id_finish"
+            style="@style/QSBorderlessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginEnd="24dp"
+            android:focusable="true"
+            android:minWidth="30dp"
+            android:text="@string/quick_settings_done"
+            android:textAppearance="@style/TextAppearance.QS.DetailButton" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="fingerprint_error_lockout">"Příliš mnoho pokusů, zkuste to znovu za 30 sekund."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Zadejte zámek SIM: 4 až 8 číslic"</string>
+    <string name="kg_password_sim_lock_failed">"Vytvoření zámku SIM bylo neúspěšné!"</string>
+    <string name="kg_sim_lock_instructions">"Zadejte zámek SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Kód PIN SIM je správný, karta odemčena"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Odemknutí karty SIM bylo úspěšné"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Zadejte kód zámku SIM, zbývá <xliff:g id="number">%d</xliff:g> pokus."</item>
+        <item quantity="other">"Zadejte kód zámku SIM, zbývá <xliff:g id="number">%d</xliff:g> pokusů."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Nesprávný kód zámku SIM, zbývá <xliff:g id="number">%d</xliff:g> pokus."</item>
+        <item quantity="other">"Nesprávný kód zámku SIM, zbývá <xliff:g id="number">%d</xliff:g> pokusů."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekingský čas"</string>
+    <string name="cooluipin_button_cancel">"Zrušit"</string>
+    <string name="cooluipin_button_delete">"Smazat"</string>
+    <string name="cover_notification_clicked">"Otevřete prosím vaše pouzdro"</string>
+    <string name="fangdao_hint">"Zadejte prosím bezpečnostní heslo:"</string>
+    <string name="find_password_text">"Zapomněli jste své heslo?"</string>
+    <string name="fingerprint_error_hint">"Ověření otisku prstu se nezdařilo, zkuste to prosím znovu"</string>
+    <string name="fingerprint_recognized_hint">"Ochrana tlačítek odemknuta."</string>
+    <string name="keyguard_fangdao_input">"Zadejte heslo CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Zabezpečení"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM karta je osobně uzamčená"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Ověřte otisk prstu nebo zadejte heslo"</string>
+    <string name="kg_no_card">"Žádná SIM karta"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Ověřte otisk prstu nebo nakreslete vaše gesto"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Ověření otisku prstu se nezdařilo, zkuste to prosím znovu"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Ověřte otisk prstu nebo zadejte PIN kód"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Nyní jste v režimu V letadle"</string>
+    <string name="kg_remaining_attempts">"Zbývajících pokusů: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Slot <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Neplatná karta."</string>
+    <string name="new_mms">"Nová zpráva"</string>
+    <string name="new_notify_hint">"Nová událost"</string>
+    <string name="no_answer_call">"zmeškané hovory"</string>
+    <string name="Notify_no_info">"Žádná událost"</string>
+    <string name="pass_check_hint">"Nesprávné heslo. %d zbývajících pokusů."</string>
+    <string name="pass_check_hint_new">"Nesprávné heslo, restartujte prosím pro zadání"</string>
+    <string name="password_cancel">"Vymazat"</string>
+    <string name="password_error">"Nesprávné heslo"</string>
+    <string name="password_hint">"Přihlášení"</string>
+    <string name="starry_unlock_info">"Nahoru pro Odemknutí"</string>
+    <string name="touch_protect_content1">"Ukončeno kým:"</string>
+    <string name="touch_protect_content2">"Neblokujte snímač přiblížení"</string>
+    <string name="touch_protect_hint">"Stiskněte tlačítko napájení a tlačítko zvýšení hlasitosti pro ukončení"</string>
+    <string name="touch_protect_title">"Prevence nechtěného dotyku"</string>
+    <string name="user_switched_to_home_hint">"Přepnuto na místo uživatele"</string>
+    <string name="user_switched_to_primary_hint">"Přepnuto na primární místo uživatele"</string>
+    <string name="user_switching_hint">"Přepínání uživatele…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Zadejte kód PIN SIM karty, máte <xliff:g id="number">%d</xliff:g> zbývajících pokusů; pak musíte kontaktovat operátora a požádat jej o odemknutí vašeho zařízení."</item>
+        <item quantity="other">"Zadejte kód PIN SIM karty, máte <xliff:g id="number">%d</xliff:g> zbývajících pokusů."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM karta je nyní zablokována. Pro pokračování zadejte PUK kód. Máte <xliff:g id="number">%d</xliff:g> zbývajících pokusů, než se SIM karta stane trvale nepoužitelnou. Podrobnosti vám sdělí operátor."</item>
+        <item quantity="other">"SIM karta je nyní zablokována. Pro pokračování zadejte PUK kód. Máte <xliff:g id="number">%d</xliff:g> zbývajících pokusů, než se SIM karta stane trvale nepoužitelnou. Podrobnosti vám sdělí operátor."</item>
+    </plurals>
+
+</resources>

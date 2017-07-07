@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Mode réunion</string>
+    <string name="qs_label_vibrate_ring">Vibreur</string>
+    <string name="qs_label_softap">Hotspot</string>
+    <string name="accessibility_ime_switch_button">"Bouton de changement de méthode de saisie."</string>
+    <string name="accessibility_no_wifi">"Wi-Fi déconnecté."</string>
+    <string name="accessibility_wifi_off">"Wi-Fi désactivé."</string>
+    <string name="accessibility_wifi_one_bar">"Wi-Fi : 1 barre."</string>
+    <string name="accessibility_wifi_signal_full">"Signal Wi-Fi plein"</string>
+    <string name="accessibility_wifi_three_bars">"Wi-Fi : 3 barres."</string>
+    <string name="accessibility_wifi_two_bars">"Wi-Fi : 2 barres."</string>
+    <string name="guide_click_txt">"Cliquez pour accéder aux paramètres Keyguard Magazine"</string>
+    <string name="guide_sliding_txt">"Glisser pour changer écran"</string>
+    <string name="guide_swipe_up_txt">"Glisser vers le haut pour déverrouiller"</string>
+    <string name="guide_title">"Bienvenue dans Keyguard Magazine"</string>
+    <string name="header_name_detail_top">"Afficher les notifications dans la barre d'état"</string>
+    <string name="header_name_top">"Notification - barre d'état"</string>
+    <string name="header_name0">"Barre d'état"</string>
+    <string name="header_name1">"Verrouillage de sécurité"</string>
+    <string name="header_top">"Gestion lot de notifications"</string>
+    <string name="interruption_level_all">"Tous"</string>
+    <string name="keyguard_guide_enter">"Essayer"</string>
+    <string name="lockscreen_airplane_mode_on">"Le mode Avion est activé."</string>
+    <string name="lockscreen_missing_sim_message_short">"Carte SIM manquante."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Carte SIM inutilisable."</string>
+    <string name="lockscreen_sim_error_message_short">"Erreur de carte SIM."</string>
+    <string name="lockscreen_sim_locked_message">"La carte SIM est verrouillée."</string>
+    <string name="lockscreen_sim_puk_locked_message">"La carte SIM est verrouillée par PUK."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Cet appareil est géré par :\n<xliff:g id="organization">%1$s</xliff:g>\nVotre profil est géré par :\n<xliff:g id="organization">%2$s</xliff:g>\n\nVotre administrateur peut surveiller l'activité réseau et de votre appareil, notamment les e-mails, les applications et les sites web sécurisés.\n\nPour plus d'informations, contactez votre administrateur."</string>
+    <string name="monitoring_description_legacy_vpn">"Vous êtes connecté à un VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nVotre fournisseur de services VPN peut surveiller l'activité réseau et de votre appareil, y compris les courriels, les applications et les sites web sécurisés."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Cet appareil est géré par :\n<xliff:g id="organization">%1$s</xliff:g>\nVotre profil est géré par :\n<xliff:g id="organization">%2$s</xliff:g>\n\nVotre administrateur est capable de surveiller l'activité de votre réseau, y compris les courriels, les applications et les sites web sécurisés. Pour plus d'informations, contactez votre administrateur.\n\nAussi, vous êtes connecté à un VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Votre fournisseur de services VPN peut lui aussi surveiller l'activité du réseau."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Cet appareil est géré par :\n<xliff:g id="organization">%1$s</xliff:g>\n\nVotre administrateur est capable de surveiller l'activité de votre réseau, y compris les courriels, les applications et les sites web sécurisés. Pour plus d'informations, contactez votre administrateur.\n\nAussi, vous êtes connecté à un VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Votre fournisseur de services VPN peut lui aussi surveiller l'activité du réseau."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Ce profil est géré par :\n<xliff:g id="organization">%1$s</xliff:g>\n\nVotre administrateur est capable de surveiller l'activité de votre réseau, y compris les courriels, les applications et les sites web sécurisés. Pour plus d'informations, contactez votre administrateur.\n\nAussi, vous êtes connecté à un VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Votre fournisseur de services VPN peut lui aussi surveiller l'activité du réseau."</string>
+    <string name="monitoring_description_profile_owned">"Ce profil est géré par :\n<xliff:g id="organization">%1$s</xliff:g>\n\nVotre administrateur peut surveiller l'activité réseau et de votre appareil, notamment les e-mails, les applications et les sites Web sécurisés.\n\nPour plus d'informations, contactez votre administrateur."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Cet appareil est géré par :\n<xliff:g id="organization">%1$s</xliff:g>\nVotre profil est géré par :\n<xliff:g id="organization">%2$s</xliff:g>\n\nVotre administrateur est capable de surveiller l'activité de votre réseau, y compris les courriels, les applications et les sites web sécurisés. Pour plus d'informations, contactez votre administrateur.\n\nAussi, vous avez autorisé \"<xliff:g id="application">%3$s</xliff:g>\" à configurer une connexion VPN. Cette application peut également surveiller l'activité du réseau."</string>
+    <string name="please_select_phase2">"Authentification - phase 2"</string>
+    <string name="proxy_exclusionlist_label">"Ignorer le serveur proxy pour"</string>
+    <string name="proxy_hostname_label">"Nom d'hôte proxy"</string>
+    <string name="proxy_port_label">"Port proxy"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"Le proxy HTTP est utilisé par le navigateur, mais ne peut pas être utilisé par les autres applications."</string>
+    <string name="qs_bottom_first_btn">"Je sais"</string>
+    <string name="qs_bottom_first_notice">"Glisser vers le haut de l'écran pour accéder aux paramètres rapides"</string>
+    <string name="qs_label_cbutton">"Touche C"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Mode Avion"</string>
+    <string name="sim_slot">"Logement carte SIM"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g> messages]"</string>
+    <string name="status_bar_settings_airplane">"Mode Avion"</string>
+    <string name="sub_switch_name0">"Activer les notifications"</string>
+    <string name="sub_switch_name1">"Notifications flottantes"</string>
+    <string name="sub_switch_name1_sub">"Afficher les notifications sur l'écran supérieur, puis masquer automatiquement"</string>
+    <string name="sub_switch_name2">"Notifications écran de verrouillage"</string>
+    <string name="sub_switch_name2_sub">"Afficher les notifications dans la barre d'état"</string>
+    <string name="sub_switch_name3">"Afficher les détails des notifications"</string>
+    <string name="sub_switch_name4">"Afficher les notifications dans la barre d'état"</string>
+    <string name="title_activity_package_list_batch">"Gestion lot de notifications"</string>
+    <string name="wapi_as_certificate">"Certificat ASE"</string>
+    <string name="wapi_user_certificate">"Certificat utilisateur"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Identité anonyme"</string>
+    <string name="wifi_eap_ca_cert">"Certificat CA"</string>
+    <string name="wifi_eap_identity">"Identité"</string>
+    <string name="wifi_eap_method">"Méthode EAP"</string>
+    <string name="wifi_eap_user_cert">"Certificat utilisateur"</string>
+    <string name="wifi_gateway">"Passerelle"</string>
+    <string name="wifi_hex_password">"Mot de passe hexadécimal."</string>
+    <string name="wifi_info_cancal_btn">"Annuler"</string>
+    <string name="wifi_info_connect_btn">"Se connecter"</string>
+    <string name="wifi_ip_address">"Adresse IP"</string>
+    <string name="wifi_ip_settings">"Paramètres IP"</string>
+    <string name="wifi_network_prefix_length">"Longueur de préfixe réseau"</string>
+    <string name="wifi_password">"Mot de passe"</string>
+    <string name="wifi_password_text">"Mot de passe (8 à 63 caractères)"</string>
+    <string name="wifi_security">"Sécurité"</string>
+    <string name="wifi_security_none">"Aucun"</string>
+    <string name="wifi_show_advanced">"Afficher les options avancées"</string>
+    <string name="wifi_show_password">"Afficher mot de passe"</string>
+    <string name="wifi_signal">"Intensité du signal"</string>
+    <string name="wifi_ssid">"SSID réseau"</string>
+    <string name="wifi_ssid_hint">"Accéder au SSID"</string>
+    <string name="wifi_status">"État"</string>
+    <string name="wifi_unchanged">"(inchangé)"</string>
+    <string name="wifi_WEP_secury_key">"Clé de sécurité"</string>
+    <string name="wifi_WEP_transmit_key">"Clé de transmission"</string>
+    <string name="zen_alarm_information_day_time">"Votre prochaine alarme est <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Votre prochaine alarme est à <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Interruptions de priorité seulement"</string>
+    <string name="zen_no_interruptions">"Aucune interruption"</string>
+    <string name="zen_no_interruptions_with_warning">"Pas d'interruptions. Même pas les alarmes."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Urgence"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Favoris"</string>
+    <string name="keyguard_magzine_cancel_collect">"Enregistré dans Favoris"</string>
+    <string name="keyguard_magazine_resident">"Résident"</string>
+    <string name="keyguard_magazine_cancel_resident">"Annuler résident"</string>
+    <string name="keyguard_magazine_share">"Partager"</string>
+    <string name="keyguard_magazine_link">"Lien"</string>
+    <string name="keyguard_magazine_more">"Paramètre"</string>
+    <string name="keyguard_magzine_collect_toast">"Enregistrer dans album photos dans la galerie locale"</string>
+    <string name="keyguard_magazine_resident_toast">"Quand l'écran est activé, ce fond d'écran sera utilisé par défaut"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Quand l'écran est activé, ce fond d'écran ne sera pas utilisé par défaut"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Collection d'album photos"</string>
+    <string name="qs_label_calculator">"Calculatrice"</string>
+    <string name="qs_label_blaster">"Enregistreur"</string>
+    <string name="qs_label_magical">"Magique"</string>
+    <string name="qs_label_camera">"Appareil photo"</string>
+    <string name="qs_label_recording">"Enregistrement"</string>
+    <string name="qs_label_controlcentor">"Centre de contrôle"</string>
+    <string name="qs_label_slience">"Capture écran"</string>
+    <string name="header_name">"activer la notification"</string>
+    <string name="header_name_detail">"Affiché dans le panneau de notification"</string>
+    <string name="title_show_locksreen">"Afficher dans écran verrouillé"</string>
+    <string name="recents_app_shendu">"profondeur"</string>
+    <string name="recents_app_liuliang">"Aujourd'hui :"</string>
+    <string name="recents_app_memory">"Mémoire :"</string>
+    <string name="recents_app_battary">"Batterie :"</string>
+    <string name="recents_app_running_empty">"pas de tâches récentes"</string>
+    <string name="recents_app_best_already">"déjà nettoyé au mieux"</string>
+    <string name="recents_app_release_memory">"libérer de la mémoire <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"démarrer d'abord l'application centre de sécurité"</string>
+    <string name="recents_app_memory_cleaned">"nettoyé"</string>
+    <string name="preference_detail_show">"Afficher"</string>
+    <string name="preference_detail_hide">"Masquer"</string>
+    <string name="item_show_notifcaiton">"Notification"</string>
+    <string name="item_show_lockscreen">"dans écran verrouillé"</string>
+    <string name="item_show_floating">"flottant"</string>
+    <string name="item_show_detail">"Afficher détails"</string>
+    <string name="manage_notification_access_title">"Accès notification"</string>
+    <string name="notification_hide_system_app">"Masquer les applications système"</string>
+    <string name="notification_show_system_app">"Afficher les applications système"</string>
+    <string name="ctrl_center_shown_1page">"Raccourcis affichés-Page 1"</string>
+    <string name="ctrl_center_shown_2page">"Raccourcis affichés-Page 2"</string>
+    <string name="ctrl_center_non_shown">"Raccourcis non affichés"</string>
+    <string name="ctrl_center_hint">"Remarque : Touchez et maintenez un raccourci pour le déplacer. Vous pouvez l'afficher ou non et ajuster son emplacement\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Volume des appels vocaux"</item>
+        <item>"Volume du système"</item>
+        <item>"Volume sonnerie et notifications"</item>
+        <item>"Volume média"</item>
+        <item>"Volume alarmes"</item>
+        <item></item>
+        <item>"Volume appels Bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="accessibility_hide">"Masquer"</string>
+    <string name="clear_memory_notice">"Félicitations, vous avez correctement nettoyer les tâches"</string>
+    <string name="data_no_connected_error">"Veuillez vérifier si l'itinérance des données est autorisée dans Paramètres-&gt;Gestion Carte SIM-&gt;Itinérance internationale !"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Glissage vers le bas actif lorsque l'écran est verrouillé"</string>
+    <string name="item_center_notifcaiton_obsessive">"Options OCD"</string>
+    <string name="qs_label_dataportection_mode">"Protection des données"</string>
+    <string name="qs_label_ringer">"Sonnerie"</string>
+    <string name="qs_label_rotation">"Rotation de l'écran"</string>
+    <string name="qs_label_speed">"Accélérer"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> disponible|total <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Aucune carte SIM. Veuillez réessayer après insertion de la carte !"</string>
+    <string name="status_bar_screenshot_interesting">"intéressante"</string>
+    <string name="status_bar_screenshot_long">"longue"</string>
+    <string name="status_bar_super_secure_system_mode">"Actuellement en mode Sans échec, quittez le mode Sans échec pour activer la fonction"</string>
+    <string name="title_show_floating_sub">"Après déverrouillage de l'écran, les notifications sont affichées en haut de l'écran puis elles disparaissent automatiquement"</string>
+    <string name="yl_volume_ring_icon_description">"Sonnerie &amp; volume des notifications"</string>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 écran dans l'aperçu"</item>
+        <item quantity="other">"%d écran dans l'aperçu"</item>
+    </plurals>
+
+    <string name="accessibility_quick_settings_data_off">"Données mobiles désactivées."</string>
+    <string name="accessibility_quick_settings_data_on">"Données mobiles activées."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Itinérance désactivée."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Itinérance activée."</string>
+    <string name="brightness_dlg_adjust">"(Régler)"</string>
+    <string name="brightness_dlg_auto">"Auto"</string>
+    <string name="brightness_dlg_brightness">"Luminosité"</string>
+    <string name="clear_notify_all_oldman">"Effacer les notifications"</string>
+    <string name="dateview_day">"Jour"</string>
+    <string name="dateview_month">"Mois"</string>
+    <string name="domain_switch_toast">"La notification provient d'un autre espace."</string>
+    <string name="item_center_notifcaiton_ccm">"Afficher le nom du fournisseur"</string>
+    <string name="item_center_notifcaiton_control">"Centre de contrôle"</string>
+    <string name="item_center_notifcaiton_management">"Gestion des notitifications"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Effacer l'étiquette de l'icône en secouant le téléphone"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Masquer l'étiquette de l'icône"</string>
+    <string name="item_center_notifcaiton_other">"Autres"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Paramétrage rapide"</string>
+    <string name="item_center_notifcaiton_sub">"Notification"</string>
+    <string name="item_center_notifcaiton_title">"Paramètres"</string>
+    <string name="item_show_none">"Aucun"</string>
+    <string name="item_show_other">"Autres"</string>
+    <string name="item_show_statusbar">"Panneau"</string>
+    <string name="keyguard_magazine_enter">"Balayer vers le bas pour le verrouillage clavier"</string>
+    <string name="kg_no_service">"Aucun service"</string>
+    <string name="kg_no_uim">"Aucune UIM ou aucun service"</string>
+    <string name="kg_no_usim">"Aucune carte SIM ou service"</string>
+    <string name="kg_none_carrier">"Aucun service"</string>
+    <string name="message_keep_one_launcher">"Une activité d'accueil doit au moins être conservée !"</string>
+    <string name="message_switch_fail">"Impossible de passer à cette tâche car elle n'a pas d'interface."</string>
+    <string name="other_notification_expand">"appuyez pour afficher"</string>
+    <string name="other_notification_format">"Autres notification <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <string name="qs_label_airplane">"Mode Avion"</string>
+    <string name="qs_label_blacklist">"Bloqueur"</string>
+    <string name="qs_label_blacklist2">"Bloqueur"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Luminosité"</string>
+    <string name="qs_label_data_roaming">"Itinérance"</string>
+    <string name="qs_label_doublecard">"Paramètres double carte"</string>
+    <string name="qs_label_driving_mode">"Mode Voiture"</string>
+    <string name="qs_label_flashlight">"Lampe torche"</string>
+    <string name="qs_label_flow_monitor">"Consommation des données"</string>
+    <string name="qs_label_location">"Emplacement"</string>
+    <string name="qs_label_multiple_accounts_name">"Propriétaire"</string>
+    <string name="qs_label_mutlwindow">"Multitâche"</string>
+    <string name="qs_label_saving">"Économiseur d'énergie"</string>
+    <string name="qs_label_scenemode">"Mode Scène"</string>
+    <string name="qs_label_sdcard_install">"Installer une carte SD"</string>
+    <string name="qs_label_sdcard_uninstall">"Désinstaller la carte SD"</string>
+    <string name="qs_label_secure_mode">"Protéger les données"</string>
+    <string name="qs_label_setting">"Paramètres"</string>
+    <string name="qs_label_shrink_screen">"Mise à l'échelle de l'écran"</string>
+    <string name="qs_label_silence">"Muet"</string>
+    <string name="qs_label_sound">"Sonore"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Mode Super sécurisé"</string>
+    <string name="qs_label_switching">"Commutation"</string>
+    <string name="qs_label_ttwindow_mode">"Streaming des actualités"</string>
+    <string name="qs_label_turning_off">"Fermeture"</string>
+    <string name="qs_label_turning_on">"Ouverture"</string>
+    <string name="qs_label_viplist">"Liste blanche"</string>
+    <string name="qs_label_viplist2">"Liste blanche"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Affichées dans le panneau de notification (10 au plus)"</string>
+    <string name="qs_minor_bar_tips">"Non affichées dans le panneau de notification"</string>
+    <string name="quick_settings_apn_switch_label">"Permutation APN"</string>
+    <string name="quick_settings_data_off">"Données désactivées"</string>
+    <string name="quick_settings_dds_sub">"Carte <xliff:g id="number">%d</xliff:g> données"</string>
+    <string name="quick_settings_mobile_data_label">"Données mobiles"</string>
+    <string name="quick_settings_roaming_label">"Itinérance"</string>
+    <string name="quicksettings_edit_disable">"﻿Éditer"</string>
+    <string name="quicksettings_edit_enable">"Quitter"</string>
+    <string name="quicksettings_more">"Plus"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Impossible de se connecter au réseau en mode Avion."</string>
+    <string name="status_bar_disable_data_roaming">"Itinérance désactivée."</string>
+    <string name="status_bar_earphones_connected_text">"Écouteurs branchés."</string>
+    <string name="status_bar_earphones_connected_ticker">"Écouteurs branchés."</string>
+    <string name="status_bar_earphones_connected_title">"Casque d'écoute"</string>
+    <string name="status_bar_enable_data_roaming">"Itinérance activée."</string>
+    <string name="status_bar_expand_autobright">"Autoréglage de la luminosité"</string>
+    <string name="status_bar_expanded_airplane_mode">"Mode Avion"</string>
+    <string name="status_bar_expanded_check_sim">"Aucune SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Aucune UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Aucune carte SIM"</string>
+    <string name="status_bar_expanded_data_net_status">"Inconnue"</string>
+    <string name="status_bar_expanded_mms_send_note">"Connexion au réseau en cours... Réessayez ultérieurement."</string>
+    <string name="status_bar_expanded_net_using_card">"Utilisation de la carte de téléphone <xliff:g id="number">%d</xliff:g> pour la connexion aux données. Vous pourrez changer de réseau manuellement ultérieurement."</string>
+    <string name="status_bar_expanded_network_forbid">"Service désactivé"</string>
+    <string name="status_bar_expanded_network_off">"Aucun service"</string>
+    <string name="status_bar_expanded_start_network">"Données mobiles"</string>
+    <string name="status_bar_expanded_start_network_g">"Données mobiles"</string>
+    <string name="status_bar_expanded_stop_network">"Données mobiles"</string>
+    <string name="status_bar_expanded_stop_network_g">"Données mobiles"</string>
+    <string name="status_bar_no_running_apps">"Aucune application en cours d'exécution"</string>
+    <string name="status_bar_notification_manager">"gestionnaire"</string>
+    <string name="status_bar_notify_interception_disable">"Interdire"</string>
+    <string name="status_bar_notify_interception_enable">"Autoriser"</string>
+    <string name="status_bar_other_notify">"Plus"</string>
+    <string name="status_bar_other_notify_back">"Retour"</string>
+    <string name="status_bar_recent_delete">"Effacer"</string>
+    <string name="status_bar_recent_historical">"Historique des tâches"</string>
+    <string name="status_bar_recent_memory">"Mémoire"</string>
+    <string name="status_bar_recent_memory_free">"libre|"</string>
+    <string name="status_bar_recent_memory_item_used">"Utilisée :"</string>
+    <string name="status_bar_recent_memory_used">"Utilisée :"</string>
+    <string name="status_bar_recent_optimize">"Détails"</string>
+    <string name="status_bar_recent_running">"Tâches actives"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Copié(es) dans le presse-papier."</string>
+    <string name="status_bar_screenshot_edit">"﻿Éditer"</string>
+    <string name="status_bar_screenshot_exit">"Annuler"</string>
+    <string name="status_bar_screenshot_save">"Sauvegarder"</string>
+    <string name="status_bar_screenshot_share">"Partager"</string>
+    <string name="status_bar_select_network1">"Net 1"</string>
+    <string name="status_bar_select_network2">"Net 2"</string>
+    <string name="tasklist_killall">"Tuer toutes les tâches"</string>
+    <string name="tasklist_memory_usage">"Mémoire libre/totale : [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Gestionnaire de tâches"</string>
+    <string name="title_activity_package_list">"Centre de notification"</string>
+    <string name="title_show_effect_preview">"Aperçu Image"</string>
+    <string name="title_show_floating">"Notifications flottantes"</string>
+    <string name="title_show_notifcaiton">"Autoriser"</string>
+    <string name="title_show_notification_center">"Centre de notification"</string>
+    <string name="title_show_other">"Afficher sur d'autres"</string>
+    <string name="title_show_statusbar">"Afficher sur le panneau"</string>
+    <string name="gps_notification_searching_text_content">"Économisez l'énergie en fermant le GPS."</string>
+    <string name="quick_settings_battery_charging_label">"Charge, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Chargé"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Mis en silencieux par <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Afficher la barre de navigation en balayant l'écran de bas en haut"</string>
+
+</resources>

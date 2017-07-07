@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="YLTheme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:preferenceStyle">@style/YLPreferenceHolo</item>
+        <item name="android:preferenceScreenStyle">@style/YLPreferenceScreen</item>
+        <item name="android:checkBoxPreferenceStyle">@style/YLCheckBoxPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/YLdialogPreferenceStyle</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/yl_btn_check_holo_light</item>
+        <item name="android:windowBackground">@color/background_holo_light</item>
+        <item name="android:switchPreferenceStyle">@style/YLPreference.SwitchPreference</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Holo.Light.TextView.ListSeparator</item>
+        <item name="android:actionBarStyle">@style/YLWidget.DeviceDefault.Light.ActionBar</item>
+        
+        <!--item name="YLActionBarTitleColor">@android:color/white</item>
+		<item name="YLActionBarBackground">@color/yl_actionbar_bg_color</item>
+		<item name="YLActionBarItemBackground">@drawable/yl_action_bar_item</item>
+		<item name="YLActionBarDividerDrawable">@color/yl_list_divider_color</item>
+		<item name="YLActionBarDividerWidth">1px</item>
+		<item name="YLActionBarApplicationDrawable">@null</item>
+		<item name="YLActionBarHomeDrawable">@null</item>
+		<item name="YLActionBarItemColorNormal">@android:color/white</item>
+		<item name="YLActionBarItemColorAlt">@android:color/black</item>
+		<item name="YLActionBarMaxItems">3</item>
+
+		<item name="YLActionBarStyle">@style/GreenDroid.Widget.ActionBar</item>
+		<item name="YLActionBarTitleStyle">@style/GreenDroid.Widget.ActionBar.Title</item>
+		<item name="YLActionBarItemStyle">@style/GreenDroid.Widget.ActionBar.Item</item-->
+        </style>
+        
+    <style name="YLTheme.DeviceDefault.Light_new" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">false</item>
+        <item name="android:listViewStyle">@style/YLWidget.DeviceDefault.Light.ListView</item>
+        <item name="android:preferenceCategoryStyle">@style/YLPreferenceCategoryHolo</item>
+        
+        <item name="android:preferenceStyle">@style/YLPreferenceHolo</item>
+        <item name="android:preferenceScreenStyle">@style/YLPreferenceScreen</item>
+        <item name="android:checkBoxPreferenceStyle">@style/YLCheckBoxPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/YLdialogPreferenceStyle</item>
+        <item name="android:yesNoPreferenceStyle">@style/YLyesNoPreferenceStyle</item> <!-- no use -->
+        <item name="android:listChoiceIndicatorMultiple">@drawable/yl_btn_check_holo_light</item>
+        <item name="android:windowBackground">@color/background_holo_light</item>
+        <item name="android:switchPreferenceStyle">@style/YLPreference.SwitchPreference</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Holo.Light.TextView.ListSeparator</item>
+        
+    </style>
+	<!-- 
+	   The following themes inherits from the Theme.Light Android base theme. 
+	   They are strict copies of the previous themes which a large source of errors
+	   However, it looks like there are no way to overcome this (multiple inheritance
+	   is not permitted).
+	-->
+	<style name="Theme.GreenDroid.Light" parent="@android:style/Theme.Light">
+		
+		<item name="YLActionBarTitleColor">@android:color/white</item>
+		<item name="YLActionBarBackground">@color/yl_actionbar_bg_color</item>
+		<item name="YLActionBarItemBackground">@drawable/yl_action_bar_item</item>
+		<item name="YLActionBarDividerDrawable">@color/yl_list_divider_color</item>
+		<item name="YLActionBarDividerWidth">1px</item>
+		<item name="YLActionBarApplicationDrawable">@null</item>
+		<item name="YLActionBarHomeDrawable">@null</item>
+		<item name="YLActionBarItemColorNormal">@android:color/white</item>
+		<item name="YLActionBarItemColorAlt">@android:color/black</item>
+		<item name="YLActionBarMaxItems">3</item>
+
+		<item name="YLActionBarStyle">@style/GreenDroid.Widget.ActionBar</item>
+		<item name="YLActionBarTitleStyle">@style/GreenDroid.Widget.ActionBar.Title</item>
+		<item name="YLActionBarItemStyle">@style/GreenDroid.Widget.ActionBar.Item</item>
+
+		
+	</style>
+</resources>

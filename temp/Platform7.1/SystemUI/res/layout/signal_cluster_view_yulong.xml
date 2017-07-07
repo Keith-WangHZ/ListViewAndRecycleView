@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.android.systemui.statusbar.SignalClusterViewYuLong xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+<FrameLayout
+    android:id="@+id/wifi_signal_group"
+    android:layout_height="17dp"
+    android:layout_width="17dp"
+    android:layout_marginRight="2dp"
+    >
+    <!-- android:src="@drawable/stat_sys_wifi_signal_3" -->
+    <ImageView
+            android:id="@+id/wifi_signal_icon"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            />
+    
+    <!-- android:src="@drawable/stat_sys_wifi_datainout" -->
+        <ImageView
+            android:id="@+id/wifi_data_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|right"
+            />
+</FrameLayout>      
+<FrameLayout
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical|left">
+   	<LinearLayout 
+	    android:id="@+id/airplane_showhide"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="visible">
+        
+    <LinearLayout
+        android:id="@+id/mobile_data_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:paddingRight="3dp"
+        android:visibility="gone" >
+		<LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="vertical">        
+            <!-- android:src="@drawable/stat_sys_signal_type_4g" -->  
+	        <ImageView android:id="@+id/mobile_data_network_type_yulong_0"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_gravity="center_vertical|center"
+	        />
+	        <!-- android:src="@drawable/stat_sys_data_inandout" -->  
+		    <ImageView
+		            android:id="@+id/mobile_data_network_yulong_0"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_gravity="center_vertical|center"
+		     />
+        </LinearLayout>
+		<ImageView
+			android:id="@+id/mobile_data_network_sign"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:src="@drawable/stat_sys_signal_type_card1"
+			android:layout_gravity="top"
+			android:paddingTop="-8dp"
+			android:layout_marginTop="-5dp"
+			android:visibility="gone"
+			android:background="#0000ff00"/>
+	</LinearLayout>
+	
+    <com.android.systemui.statusbar.MultiSignalView
+        android:id="@+id/mobile_signal_group_0"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="2dp"
+        android:paddingRight="0dp" >
+    </com.android.systemui.statusbar.MultiSignalView>
+
+    <com.android.systemui.statusbar.MultiSignalView
+        android:id="@+id/mobile_signal_group_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="3dp"
+        android:paddingRight="0dp" >
+    </com.android.systemui.statusbar.MultiSignalView>
+    
+  </LinearLayout>
+
+    <ImageView
+                android:id="@+id/scene_flight_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat_sys_model_flight"
+                android:background="#00000000"
+                android:visibility="gone"/>	     
+ </FrameLayout>
+
+</com.android.systemui.statusbar.SignalClusterViewYuLong>

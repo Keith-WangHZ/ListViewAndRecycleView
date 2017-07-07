@@ -1,0 +1,348 @@
+/*
+ * Copyright (C) 2012 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.android.keyguard;
+
+import android.R.integer;
+import android.content.Context;
+import android.os.AsyncTask;
+import android.os.CountDownTimer;
+import android.os.SystemClock;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.view.HapticFeedbackConstants;
+import android.view.KeyEvent;
+import android.view.View;
+import android.widget.LinearLayout;
+
+import com.android.internal.widget.LockPatternChecker;
+import com.android.internal.widget.LockPatternUtils;
+//import android.service.securespaces.SpaceEncryptionManager;
+
+/**
+ * Base class for PIN and password unlock screens.
+ */
+public abstract class KeyguardAbsKeyInputView extends LinearLayout
+        implements KeyguardSecurityView, EmergencyButton.EmergencyButtonCallback {
+    protected KeyguardSecurityCallback mCallback;
+    protected LockPatternUtils mLockPatternUtils;
+    protected AsyncTask<?, ?, ?> mPendingLockCheck;
+    protected SecurityMessageDisplay mSecurityMessageDisplay;
+    protected View mEcaView;
+    protected boolean mEnableHaptics;
+    private boolean mDismissing;
+    private int mMaxCountdownTimes = 0;
+    private int mCountdownTimes;
+	protected boolean mFingerDetectionRunning;
+	private final String TAG = "KeyguardAbsKeyInputView";
+
+    // To avoid accidental lockout due to events while the device in in the pocket, ignore
+    // any passwords with length less than or equal to this length.
+    protected static final int MINIMUM_PASSWORD_LENGTH_BEFORE_REPORT = 3;
+
+    public KeyguardAbsKeyInputView(Context context) {
+        this(context, null);
+    }
+
+	public KeyguardAbsKeyInputView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		mMaxCountdownTimes = context.getResources().getInteger(
+				R.integer.config_max_unlock_countdown_time);
+		mCountdownTimes = mMaxCountdownTimes;
+	}
+
+    @Override
+    public void setKeyguardCallback(KeyguardSecurityCallback callback) {
+        mCallback = callback;
+    }
+
+    @Override
+    public void setLockPatternUtils(LockPatternUtils utils) {
+        mLockPatternUtils = utils;
+        mEnableHaptics = mLockPatternUtils.isTactileFeedbackEnabled();
+    }
+
+    @Override
+    public void reset() {
+        // start fresh
+        mDismissing = false;
+        resetPasswordText(false /* animate */, false /* announce */);
+        // if the user is currently locked out, enforce it.
+        long deadline = mLockPatternUtils.getLockoutAttemptDeadline(
+                KeyguardUpdateMonitor.getCurrentUser());
+        if (shouldLockout(deadline)) {
+            handleAttemptLockout(deadline);
+        } else {
+            resetState();
+        }
+    }
+
+    // Allow subclasses to override this behavior
+    protected boolean shouldLockout(long deadline) {
+        return deadline != 0;
+    }
+
+    protected abstract int getPasswordTextViewId();
+    protected abstract void resetState();
+
+    @Override
+    protected void onFinishInflate() {
+        mLockPatternUtils = new LockPatternUtils(mContext);
+        mSecurityMessageDisplay = KeyguardMessageArea.findSecurityMessageDisplay(this);
+        mEcaView = findViewById(R.id.keyguard_selector_fade_container);
+
+//        mMaxCountdownTimes = mContext.getResources()
+//                .getInteger(R.integer.config_max_unlock_countdown_times);
+
+        EmergencyButton button = (EmergencyButton) findViewById(R.id.emergency_call_button);
+        if (button != null) {
+            button.setCallback(this);
+        }
+    }
+
+    @Override
+    public void onEmergencyButtonClickedWhenInCall() {
+        mCallback.reset();
+    }
+
+    /*
+     * Override this if you have a different string for "wrong password"
+     *
+     * Note that PIN/PUK have their own implementation of verifyPasswordAndUnlock and so don't need this
+     */
+    protected int getWrongPasswordStringId() {
+        return R.string.kg_wrong_password;
+    }
+
+    protected void verifyPasswordAndUnlock() {
+        if (mDismissing) return; // already verified but haven't been dismissed; don't do it again.
+
+        final String entry = getPasswordText();
+        setPasswordEntryInputEnabled(false);
+        if (mPendingLockCheck != null) {
+            mPendingLockCheck.cancel(false);
+        }
+
+        final int userId = KeyguardUpdateMonitor.getCurrentUser();
+        if (entry.length() <= MINIMUM_PASSWORD_LENGTH_BEFORE_REPORT) {
+            // to avoid accidental lockout, only count attempts that are long enough to be a
+            // real password. This may require some tweaking.
+            setPasswordEntryInputEnabled(true);
+            onPasswordChecked(userId, false /* matched */, 0, false /* not valid - too short */, entry);
+            return;
+        }
+
+        mPendingLockCheck = LockPatternChecker.checkPassword(
+                mLockPatternUtils,
+                entry,
+                userId,
+                new LockPatternChecker.OnCheckCallback() {
+                    @Override
+                    public void onChecked(boolean matched, int timeoutMs) {
+                        setPasswordEntryInputEnabled(true);
+                        mPendingLockCheck = null;
+                        onPasswordChecked(userId, matched, timeoutMs,
+                        		true /* isValidPassword */, entry);
+                    }
+                });
+    }
+
+    private void onPasswordChecked(int userId, boolean matched, int timeoutMs,
+    		boolean isValidPassword, String entry) {
+        boolean dismissKeyguard = KeyguardUpdateMonitor.getCurrentUser() == userId;
+        if (matched) {
+//	    mLockPatternUtils.sanitizePassword();/// M modify for MTK
+            mCallback.reportUnlockAttempt(userId, true, 0);
+            if (dismissKeyguard) {
+                mDismissing = true;
+                mCallback.dismiss(true);
+				/*if (SpaceEncryptionManager.needsEcryptfsMount(userId)//===modify by ty
+						&& SpaceEncryptionManager.ecryptfsMount(userId, 0, entry) >= 0) {
+					SpaceEncryptionManager.switchUser(userId);
+				}*/
+            }
+        } else {
+            if (isValidPassword) {
+                mCallback.reportUnlockAttempt(userId, false, timeoutMs);
+				mCountdownTimes--;
+				int attempts = KeyguardUpdateMonitor.getInstance(mContext)
+						.getFailedUnlockAttempts(userId);
+				Log.d(TAG, "attempts="+attempts+", mCountdownTimes="+mCountdownTimes);
+//                if  (!(mMaxCountdownTimes > 0) && timeoutMs > 0) {
+				if (!(mCountdownTimes > 0) && 0 == (attempts % 5) || 10 < attempts) {
+					Log.v("KeyguardAbsKeyInputView",
+							"verifyPasswordAndUnlock() setLockoutAttemptDeadline()");
+					mCountdownTimes = mMaxCountdownTimes;
+					long deadline = mLockPatternUtils
+							.setLockoutAttemptDeadline(
+									KeyguardUpdateMonitor.getCurrentUser(),
+									timeoutMs);
+                    handleAttemptLockout(deadline);
+                }
+            }
+            if (timeoutMs == 0) {
+				showWrongPassword();
+			}
+			resetPasswordText(true, !matched);
+		}
+	}
+
+	protected void showWrongPassword() {
+		String msg = getContext().getString(getWrongPasswordStringId());
+		// if (mMaxCountdownTimes > 0) {
+		int remaining = getRemainingCount();
+		msg += " - "
+				+ getContext().getResources().getString(
+						R.string.kg_remaining_attempts, remaining);
+		// }
+		mSecurityMessageDisplay.setMessage(msg, true);
+	}
+
+	protected int getRemainingCount() {
+		return mCountdownTimes;
+	}
+
+    protected abstract void resetPasswordText(boolean animate, boolean announce);
+    protected abstract String getPasswordText();
+    protected abstract void setPasswordEntryEnabled(boolean enabled);
+    protected abstract void setPasswordEntryInputEnabled(boolean enabled);
+
+    // Prevent user from using the PIN/Password entry until scheduled deadline.
+    protected void handleAttemptLockout(long elapsedRealtimeDeadline) {
+        setPasswordEntryEnabled(false);
+        long elapsedRealtime = SystemClock.elapsedRealtime();
+        new CountDownTimer(elapsedRealtimeDeadline - elapsedRealtime, 1000) {
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+                int secondsRemaining = (int) (millisUntilFinished / 1000 - 1);
+                mSecurityMessageDisplay.setMessage(
+                        R.string.kg_too_many_failed_attempts_countdown, true, secondsRemaining);
+				if (secondsRemaining == 0) {
+					mSecurityMessageDisplay.setMessage(
+							R.string.kg_password_instructions, true);
+					resetState();
+                }
+            }
+
+            @Override
+            public void onFinish() {
+                mSecurityMessageDisplay.setMessage("", false);
+                resetState();
+            }
+        }.start();
+    }
+
+    protected String getMessageWithCount(int msgId) {
+        String msg = getContext().getString(msgId);
+        int remaining = mMaxCountdownTimes
+            - KeyguardUpdateMonitor.getInstance(mContext).getFailedUnlockAttempts(
+            KeyguardUpdateMonitor.getCurrentUser());
+        if (mMaxCountdownTimes > 0 && remaining > 0) {
+            msg += " - " + getContext().getResources().getString(
+                    R.string.kg_remaining_attempts, remaining);
+        }
+        return msg;
+    }
+    protected void onUserInput() {
+        if (mCallback != null) {
+            mCallback.userActivity();
+        }
+//        mSecurityMessageDisplay.setMessage("", false);
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        onUserInput();
+        return false;
+    }
+
+    @Override
+    public boolean needsInput() {
+        return false;
+    }
+
+    @Override
+    public void onPause() {
+        if (mPendingLockCheck != null) {
+            mPendingLockCheck.cancel(false);
+            mPendingLockCheck = null;
+        }
+    }
+
+    @Override
+    public void onResume(int reason) {
+        reset();
+    }
+
+    @Override
+    public KeyguardSecurityCallback getCallback() {
+        return mCallback;
+    }
+
+    @Override
+    public void showPromptReason(int reason) {
+        if (reason != PROMPT_REASON_NONE) {
+            int promtReasonStringRes = getPromtReasonStringRes(reason);
+            if (promtReasonStringRes != 0) {
+                mSecurityMessageDisplay.setMessage(promtReasonStringRes,
+                        true /* important */);
+            }
+        }
+    }
+
+    @Override
+    public void showMessage(String message, int color) {
+        mSecurityMessageDisplay.setNextMessageColor(color);
+        mSecurityMessageDisplay.setMessage(message, true /* important */);
+    }
+
+    protected abstract int getPromtReasonStringRes(int reason);
+
+    // Cause a VIRTUAL_KEY vibration
+    public void doHapticKeyClick() {
+        if (mEnableHaptics) {
+            performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY,
+                    HapticFeedbackConstants.FLAG_IGNORE_VIEW_SETTING
+                    | HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING);
+        }
+    }
+
+	@Override
+	public boolean startDisappearAnimation(Runnable finishRunnable) {
+		return false;
+	}
+	
+	private KeyguardUpdateMonitorCallback mUpdateCallBack = new KeyguardUpdateMonitorCallback(){
+		@Override
+		public void onFingerprintRunningStateChanged(boolean running) {
+			mFingerDetectionRunning = running;
+			showUsabilityHint();
+		};
+	};
+	
+	@Override
+	protected void onAttachedToWindow() {
+		super.onAttachedToWindow();
+		KeyguardUpdateMonitor.getInstance(mContext).registerCallback(mUpdateCallBack);
+	}
+
+	@Override
+	protected void onDetachedFromWindow() {
+		super.onDetachedFromWindow();
+		KeyguardUpdateMonitor.getInstance(mContext).removeCallback(mUpdateCallBack);
+	}
+}

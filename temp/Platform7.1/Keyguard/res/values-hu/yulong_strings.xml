@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="kg_slot_name">"<xliff:g id="number">%d</xliff:g>. nyílás: \u0020"</string>    <string name="fingerprint_error_lockout">"Túl sok próbálkozás, próbálkozzon újra 30 másodperc múlva."</string>
+    <string name="camera">"kamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"4-8 számjegy közötti SIM ZÁR kódot adjon meg"</string>
+    <string name="kg_password_sim_lock_failed">"Sikertelen SIM ZÁR művelet!"</string>
+    <string name="kg_sim_lock_instructions">"Adja meg a SIM ZÁR kódot"</string>
+    <string name="kg_sim_pin_unlock_succeed">"A SIM PIN helyes, kártya feloldva"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"A SIM kártya feloldása sikeres volt"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Adja meg a SIM ZÁR kódot, még <xliff:g id="number">%d</xliff:g> alkalommal próbálkozhat."</item>
+        <item quantity="other">"Adja meg a SIM ZÁR kódot, még <xliff:g id="number">%d</xliff:g> alkalommal próbálkozhat."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Téves SIM ZÁR kód, még <xliff:g id="number">%d</xliff:g> alkalommal próbálkozhat."</item>
+        <item quantity="other">"Téves SIM ZÁR kód, még <xliff:g id="number">%d</xliff:g> alkalommal próbálkozhat."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekingi idő"</string>
+    <string name="cooluipin_button_cancel">"Mégse"</string>
+    <string name="cooluipin_button_delete">"Törlés"</string>
+    <string name="cover_notification_clicked">"Kérem, nyissa meg a holsterét"</string>
+    <string name="fangdao_hint">"Kérem, adja meg a biztonsági jelszót:"</string>
+    <string name="find_password_text">"Elfelejtette a jelszavát?"</string>
+    <string name="fingerprint_error_hint">"Ujjlenyomat hitelesítése sikertelen, kérem, próbálja újra"</string>
+    <string name="fingerprint_recognized_hint">"Billentyűzár kioldva."</string>
+    <string name="keyguard_fangdao_input">"Vigyen be CoolManager jelszót"</string>
+    <string name="keyguard_fangdao_title">"Biztonság"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM-kártya zárolva"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Ellenőrizze az ujjlenyomatot, vagy vigyen be jelszót"</string>
+    <string name="kg_no_card">"Nem található SIM-kártya"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Ellenőrizze az ujjlenyomatot, vagy rajzolja le a mintát"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Ujjlenyomat hitelesítése sikertelen, kérem, próbálja újra"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Ellenőrizze az ujjlenyomatot, vagy vigyen PIN kódot"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Most repülés módban van"</string>
+    <string name="kg_remaining_attempts">"Hátralévő kísérletek száma: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="lockscreen_sim_error_message_short">"Érvénytelen kártya."</string>
+    <string name="new_mms">"Új üzenet"</string>
+    <string name="new_notify_hint">"Új esemény"</string>
+    <string name="no_answer_call">"nem fogadott hívások"</string>
+    <string name="Notify_no_info">"Nincs esemény"</string>
+    <string name="pass_check_hint">"Helytelen jelszó. %d próbálkozás marad."</string>
+    <string name="pass_check_hint_new">"Helytelen jelszó, kérem, indítsa újra a bevitelhez"</string>
+    <string name="password_cancel">"Törlés"</string>
+    <string name="password_error">"Helytelen jelszó"</string>
+    <string name="password_hint">"Bejelentkezés"</string>
+    <string name="starry_unlock_info">"Felfelé a kioldáshoz"</string>
+    <string name="touch_protect_content1">"Kilépés ez által:"</string>
+    <string name="touch_protect_content2">"Ne blokkolja a közelségérzékelőt"</string>
+    <string name="touch_protect_hint">"A kilépéshez nyomja meg bekapcsoló és a hangerőt növelő gombot"</string>
+    <string name="touch_protect_title">"Véletlen érintés megelőzése"</string>
+    <string name="user_switched_to_home_hint">"Átkapcsolva felhasználói tárhelyre"</string>
+    <string name="user_switched_to_primary_hint">"Átkapcsolva elsődleges felhasználói tárhelyre"</string>
+    <string name="user_switching_hint">"Felhasználó váltása…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Adja meg a SIM kártya PIN kódját, <xliff:g id="number">%d</xliff:g> próbálkozása maradt mielőtt az eszköz szolgáltatójához kellene fordulnia a feloldásért."</item>
+        <item quantity="other">"Adja meg a SIM kártya PIN kódját, <xliff:g id="number">%d</xliff:g> kísérlet maradt."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"A SIM most le van tiltva. Adja meg a PUK-kódot a folytatáshoz. Még <xliff:g id="number">%d</xliff:g> kísérlet maradt, mielőtt a SIM-kártya tartósan használhatatlanná válik. Részletekért vegye fel a kapcsolatot a szolgáltatóval."</item>
+        <item quantity="other">"A SIM most le van tiltva. Adja meg a PUK-kódot a folytatáshoz. Még <xliff:g id="number">%d</xliff:g> kísérlet maradt, mielőtt a SIM-kártya tartósan használhatatlanná válik. Részletekért vegye fel a kapcsolatot a szolgáltatóval."</item>
+    </plurals>
+
+</resources>

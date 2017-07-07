@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a view that shows double clock in Keyguard. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyguard_double_clock_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="5dp"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:id="@+id/keyguard_beijing_clock_container"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.android.keyguard.CoolUITextClock
+            android:id="@+id/beijing_clock_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-thin" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="start|center_vertical"
+            android:orientation="vertical" >
+
+            <TextClock
+                android:id="@+id/beijing_date_view"
+                style="@style/widget_label_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clock_gray"
+                android:timeZone="Asia/Shanghai" />
+
+            <TextView
+                android:id="@+id/city_name_beijing"
+                style="@style/widget_label_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/city_name_beijing"
+                android:textColor="@color/clock_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keyguard_local_clock_container"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.android.keyguard.CoolUITextClock
+            android:id="@+id/local_clock_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-thin" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="start|center_vertical"
+            android:orientation="vertical" >
+
+            <TextClock
+                android:id="@+id/local_date_view"
+                style="@style/widget_label_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clock_gray" />
+
+            <TextView
+                android:id="@+id/city_name_local"
+                style="@style/widget_label_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/city_name_beijing"
+                android:textColor="@color/clock_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

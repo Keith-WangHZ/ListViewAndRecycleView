@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="camera">"kamera"</string>
+    <string name="fangdao_hint">"Silakan masukkan kata sandi pengaman:"</string>
+    <string name="fingerprint_error_lockout">"Terlalu banyak percobaan, coba lagi setelah 30 detik."</string>
+    <string name="keyguard_fangdao_title">"Keamanan"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verifikasikan sidik jari atau ketikkan kata sandi"</string>
+    <string name="kg_no_card">"Tidak ada kartu SIM"</string>
+    <string name="kg_remaining_attempts">"Upaya tersisa: <xliff:g id="number">%d</xliff:g>"</string>
+    
+    <string name="pass_check_hint">"Kata sandi salah. %d percobaan tersisa."</string>
+    <string name="password_error">"Kata sandi salah"</string>
+    <string name="password_hint">"Login"</string>
+    <string name="keyboardview_keycode_alt">"Alt"</string>
+    <string name="keyboardview_keycode_shift">"Shift"</string>
+    <string name="kg_invalid_sim_lock_hint">"Ketikkan KUNCI SIM berupa 4 sampai 8 angka"</string>
+    <string name="kg_password_sim_lock_failed">"Operasi KUNCI SIM gagal!"</string>
+    <string name="kg_sim_lock_instructions">"Masukkan KUNCI SIM"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Masukkan KUNCI SIM, Anda memiliki <xliff:g id="number">%d</xliff:g> sisa upaya."</item>
+        <item quantity="other">"Masukkan KUNCI SIM, Anda memiliki <xliff:g id="number">%d</xliff:g> sisa upaya."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Kode KUNCI SIM salah, Anda memiliki <xliff:g id="number">%d</xliff:g> sisa upaya."</item>
+        <item quantity="other">"Kode KUNCI SIM salah, Anda memiliki <xliff:g id="number">%d</xliff:g> sisa upaya."</item>
+    </plurals>
+
+    <string name="password_cancel">Bersih</string>
+    <string name="keyguard_fangdao_input">Masukan kata sandi CoolManager</string>
+    <string name="find_password_text">Lupa kata sandi?</string>
+    <string name="pass_check_hint_new">"Sandi salah, restart dan masukkan"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verifikasikan sidik jari atau pola"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Autentikasi sidik jari gagal, harap coba lagi"</string>
+    <string name="fingerprint_error_hint">"Autentikasi sidik jari gagal, harap coba lagi"</string>
+    <string name="fingerprint_recognized_hint">"Keyguard dibuka."</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verifikasi sdk jari atau Ketik kode PIN"</string>
+    <string name="cooluipin_button_cancel">"Batal"</string>
+    <string name="cooluipin_button_delete">"Hapus"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Sekarang mode pesawat"</string>
+    <string name="starry_unlock_info">"Atas, Bka Kunci"</string>
+    <string name="new_notify_hint">"Acara Baru"</string>
+    <string name="new_mms">"Pesan Baru"</string>
+    <string name="Notify_no_info">"Acr Nihil"</string>
+    <string name="no_answer_call">"Panggilan tidak terjawab"</string>
+    <string name="cover_notification_clicked">"Buka holster Anda"</string>
+    <string name="city_name_beijing">"waktu Beijing"</string>
+    <string name="keyguard_perso_locked_message">"Jaringan terkunci"</string>
+    <string name="touch_protect_title">"Pencegahan salah sentuhan"</string>
+    <string name="touch_protect_content1">"Jangan halangi sensor kedekatan"</string>
+    <string name="touch_protect_content2">"dalam mode pencegahan salah sentuhan"</string>
+    <string name="touch_protect_hint">"Tekan tombol daya dan tombol volume naik untuk keluar"</string>
+    <string name="user_switching_hint">"Mengganti pengguna…"</string>
+    <string name="user_switched_to_primary_hint">"Beralih ke ruang pengguna utama"</string>
+    <string name="user_switched_to_home_hint">"Beralih ke ruang pengguna"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed" msgid="8950398016976865762">"Berhasil membuka kunci kartu SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed" msgid="8950398016976865762">"Kode PIN SIM benar, kartu dibuka kuncinya"</string>
+    <!-- Shown in the lock screen when there is SIM card IO error. -->
+    <string name="lockscreen_sim_error_message_short">Kartu Tidak Valid.</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_error_lockout">"Υπερβολικά πολλές προσπάθειες. Δοκιμάστε ξανά μετά από 30 δευτερόλεπτα."</string>
+    <string name="camera">"κάμερα"</string>
+    <string name="kg_invalid_sim_lock_hint">"Πληκτρολογήστε έναν κωδικό ΚΛΕΙΔΩΜΑΤΟΣ SIM, ο οποίος να αποτελείται από 4 έως 8 αριθμούς"</string>
+    <string name="kg_password_sim_lock_failed">"Η λειτουργία ΚΛΕΙΔΩΜΑΤΟΣ SIM απέτυχε!"</string>
+    <string name="kg_sim_lock_instructions">"Εισαγωγή κωδικού ΚΛΕΙΔΩΜΑΤΟΣ SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Σωστός κωδικός PIN κάρτας SIM, η κάρτα ξεκλειδώθηκε"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Το ξεκλείδωμα της κάρτας SIM ολοκληρώθηκε με επιτυχία"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Εισαγάγετε τον κωδικό ΚΛΕΙΔΩΜΑΤΟΣ SIM, απομένει <xliff:g id="number">%d</xliff:g> προσπάθεια."</item>
+        <item quantity="other">"Εισαγάγετε τον κωδικό ΚΛΕΙΔΩΜΑΤΟΣ SIM, απομένουν <xliff:g id="number">%d</xliff:g> προσπάθειες."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Λάθος κωδικός ΚΛΕΙΔΩΜΑΤΟΣ SIM, απομένει <xliff:g id="number">%d</xliff:g> προσπάθεια."</item>
+        <item quantity="other">"Λάθος κωδικός ΚΛΕΙΔΩΜΑΤΟΣ SIM, απομένουν <xliff:g id="number">%d</xliff:g> προσπάθειες."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Ώρα Πεκίνου"</string>
+    <string name="cooluipin_button_cancel">"Ακύρωση"</string>
+    <string name="cooluipin_button_delete">"Διαγραφή"</string>
+    <string name="cover_notification_clicked">"Ανοίξτε τη θήκη σας"</string>
+    <string name="fangdao_hint">"Εισάγετε τον κωδικό ασφαλείας:"</string>
+    <string name="find_password_text">"Ξεχάσατε τον κωδικό πρόσβασής σας;"</string>
+    <string name="fingerprint_error_hint">"Η επαλήθευση δακτυλικού αποτυπώματος απέτυχε, προσπαθήστε πάλι"</string>
+    <string name="fingerprint_recognized_hint">"Keyguard ξεκλειδώθηκε."</string>
+    <string name="keyguard_fangdao_input">"Καταχωρίστε κωδ. πρόσβασης CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Ασφάλεια"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM με κλείδωμα Perso"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Επαληθεύστε το δακτυλικό αποτύπωμα ή καταχωρίστε κωδικό πρόσβασης"</string>
+    <string name="kg_no_card">"Καμία κάρτα SIM"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Επαληθεύστε το δακτυλικό αποτύπωμα ή σχεδιάστε το μοτίβο σας"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Η επαλήθευση δακτυλικού αποτυπώματος απέτυχε, προσπαθήστε πάλι"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Επαληθεύστε το δακτυλικό αποτύπωμα ή καταχωρίστε κωδικό PIN"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Είναι σε λειτουργία πτήσης τώρα"</string>
+    <string name="kg_remaining_attempts">"Υπολειπόμενες προσπάθειες: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Υποδοχή <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Μη έγκυρη κάρτα."</string>
+    <string name="new_mms">"Νέο μήνυμα"</string>
+    <string name="new_notify_hint">"Νέο συμβάν"</string>
+    <string name="no_answer_call">"αναπάντητες κλήσεις"</string>
+    <string name="Notify_no_info">"Κανένα συμβάν"</string>
+    <string name="pass_check_hint">"Λανθασμένος κωδικός πρόσβασης. %d προσπάθειες υπολείπονται."</string>
+    <string name="pass_check_hint_new">"Λανθασμένος κωδικός πρόσβασης, επανεκκινήστε για εισαγωγή"</string>
+    <string name="password_cancel">"Εκκαθάριση"</string>
+    <string name="password_error">"Λανθασμένος κωδικός πρόσβασης"</string>
+    <string name="password_hint">"Σύνδεση"</string>
+    <string name="starry_unlock_info">"Πάνω για ξεκλείδωμα"</string>
+    <string name="touch_protect_content1">"Έξοδος με:"</string>
+    <string name="touch_protect_content2">"Μην εμποδίζετε τον αισθητήρα προσέγγισης"</string>
+    <string name="touch_protect_hint">"Πιέστε το πλήκτρο τροφοδοσίας και το πλήκτρο αύξησης έντασης ήχου για έξοδο"</string>
+    <string name="touch_protect_title">"Αποτροπή λάθους αφής"</string>
+    <string name="user_switched_to_home_hint">"Έγινε μετάβαση στο χώρο του χρήστη"</string>
+    <string name="user_switched_to_primary_hint">"Έγινε μετάβαση στον πρωτεύοντα χώρο του χρήστη"</string>
+    <string name="user_switching_hint">"Γίνεται αλλαγή χρήστη…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Εισάγετε τον PIN της SIM, έχετε <xliff:g id="number">%d</xliff:g> υπολειπόμενη προσπάθεια, πριν χρειαστεί να απευθυνθείτε στον πάροχό σας για να ξεκλειδώσει τη συσκευή σας."</item>
+        <item quantity="other">"Εισάγετε τον PIN της SIM, απομένουν <xliff:g id="number">%d</xliff:g> προσπάθειες."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"Η SIM τώρα είναι απενεργοποιημένη. Εισάγετε τον κωδικό PUK για να συνεχίσετε. Έχετε <xliff:g id="number">%d</xliff:g> υπολειπόμενη προσπάθεια, πριν η SIM αχρηστευθεί οριστικά. Επικοινωνήστε με τον πάροχό σας για λεπτομέρειες."</item>
+        <item quantity="other">"Η SIM τώρα είναι απενεργοποιημένη. Εισάγετε τον κωδικό PUK για να συνεχίσετε. Έχετε <xliff:g id="number">%d</xliff:g> υπολειπόμενες προσπάθειες, πριν η SIM αχρηστευθεί οριστικά. Επικοινωνήστε με τον πάροχό σας για λεπτομέρειες."</item>
+    </plurals>
+
+</resources>

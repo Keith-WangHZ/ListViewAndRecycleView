@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.covermode.StarryTimeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/starry_time_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center" >
+
+    <com.android.covermode.YLTimeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/yl_time_view">        
+    </com.android.covermode.YLTimeView>
+    <com.android.covermode.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/time_circle_view">
+    </com.android.covermode.CircleView>
+    
+</com.android.covermode.StarryTimeView>

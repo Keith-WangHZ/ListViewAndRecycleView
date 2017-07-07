@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Sapulces režīms</string>
+    <string name="accessibility_quick_settings_data_on">"Mobilie dati izslēgti."</string>
+    <string name="qs_label_vibrate_ring">Vibrēt</string>
+    <string name="qs_label_softap">Tīklājs</string>
+    <string name="accessibility_ime_switch_button">"Ieslēgt ievades metodes pogu."</string>
+    <string name="accessibility_no_wifi">"Wi-Fi atvienots."</string>
+    <string name="accessibility_wifi_off">"Izslēgt Wi-Fi."</string>
+    <string name="accessibility_wifi_one_bar">"Viena Wi-Fi josla."</string>
+    <string name="accessibility_wifi_signal_full">"Pilns Wi-Fi signāls."</string>
+    <string name="accessibility_wifi_three_bars">"Trīs Wi-Fi joslas."</string>
+    <string name="accessibility_wifi_two_bars">"Divas Wi-Fi joslas."</string>
+    <string name="guide_click_txt">"Noklikšķiniet uz taustiņslēga žurnāla iestatījumiem"</string>
+    <string name="guide_sliding_txt">"Velciet, lai mainītu ekrānu"</string>
+    <string name="guide_swipe_up_txt">"Pavelciet uz augšu, lai atbloķētu"</string>
+    <string name="guide_title">"Laipni lūdzam taustiņslēga žurnālā"</string>
+    <string name="header_name_detail_top">"Rādīt paziņojumus statusa joslā"</string>
+    <string name="header_name_top">"Statusa joslas paziņojums"</string>
+    <string name="header_name0">"Statusa josla"</string>
+    <string name="header_name1">"Taustiņslēgs"</string>
+    <string name="header_top">"Paziņojumu paketes pārvaldība"</string>
+    <string name="interruption_level_all">"Visi"</string>
+    <string name="keyguard_guide_enter">"Mēģiniet"</string>
+    <string name="lockscreen_airplane_mode_on">"Lidmašīnas režīms ir ieslēgts."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM kartes nav."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Nelietojama SIM karte."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM kartes kļūda."</string>
+    <string name="lockscreen_sim_locked_message">"SIM karte ir bloķēta."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM kartes PUK kods ir bloķēts."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Šo ierīci pārvalda:\n<xliff:g id="organization">%1$s</xliff:g>\nJūsu profilu pārvalda:\n<xliff:g id="organization">%2$s</xliff:g>\n\nJūsu administrators var uzraudzīt jūsu ierīci un tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes.\n\nLai iegūtu papildu informāciju, sazinieties ar savu administratoru."</string>
+    <string name="monitoring_description_legacy_vpn">"Esat izveidojis savienojumu ar VPN (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nJūsu VPN pakalpojumu sniedzējs var uzraudzīt jūsu ierīci un tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Šo ierīci pārvalda:\n<xliff:g id="organization">%1$s</xliff:g>\nJūsu profilu pārvalda:\n<xliff:g id="organization">%2$s</xliff:g>\n\nJūsu administrators var uzraudzīt jūsu tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes. Lai iegūtu papildu informāciju, sazinieties ar savu administratoru.\n\nJums ir arī savienojums ar VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Jūsu VPN pakalpojumu sniedzējs var arī uzraudzīt tīkla darbību."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Šo ierīci pārvalda:\n<xliff:g id="organization">%1$s</xliff:g>\n\nJūsu administrators var uzraudzīt jūsu tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes. Lai iegūtu papildu informāciju, sazinieties ar savu administratoru.\n\nJums ir arī savienojums ar VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Jūsu VPN pakalpojumu sniedzējs var arī uzraudzīt tīkla darbību."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Šo profilu pārvalda:\n<xliff:g id="organization">%1$s</xliff:g>\n\nJūsu administrators var uzraudzīt jūsu tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes. Lai iegūtu papildu informāciju, sazinieties ar savu administratoru.\n\nJums ir arī savienojums ar VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Jūsu VPN pakalpojumu sniedzējs var arī uzraudzīt tīkla darbību."</string>
+    <string name="monitoring_description_profile_owned">"Šo profilu pārvalda:\n<xliff:g id="organization">%1$s</xliff:g>\n\nJūsu administrators var uzraudzīt jūsu ierīci un tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes.\n\nLai iegūtu papildu informāciju, sazinieties ar savu administratoru."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Šo ierīci pārvalda:\n<xliff:g id="organization">%1$s</xliff:g>\nJūsu profilu pārvalda:\n<xliff:g id="organization">%2$s</xliff:g>\n\nJūsu administrators var uzraudzīt jūsu tīkla darbību, tostarp e-pastu, lietotnes un drošas tīmekļa vietnes. Lai iegūtu papildu informāciju, sazinieties ar savu administratoru.\n\nJūs arī sniedzāt \"<xliff:g id="application">%3$s</xliff:g>\" atļauju iestatīt VPN savienojumu. Šī lietotne var uzraudzīt arī tīkla darbību."</string>
+    <string name="please_select_phase2">"2. fāzes autentifikācija"</string>
+    <string name="proxy_exclusionlist_label">"Apiet starpniekserveri:"</string>
+    <string name="proxy_hostname_label">"Starpniekservera resursdatora nosaukums"</string>
+    <string name="proxy_port_label">"Starpniekservera ports"</string>
+    <string name="proxy_settings_title">"Starpniekserveris"</string>
+    <string name="proxy_warning_limited_support">"Pārlūks izmanto HTTP starpniekserveri, bet, iespējams, to neizmanto citas lietotnes."</string>
+    <string name="qs_bottom_first_btn">"Es zinu"</string>
+    <string name="qs_bottom_first_notice">"Pavelciet augšup no ekrāna apakšas, lai piekļūtu ātro iestatījumu panelim"</string>
+    <string name="qs_label_cbutton">"C poga"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Lidmašīnas režīms"</string>
+    <string name="sim_slot">"SIM kartes slots"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>ziņojumi]"</string>
+    <string name="status_bar_settings_airplane">"Lidmašīnas režīms"</string>
+    <string name="sub_switch_name0">"Iespējot paziņojumus"</string>
+    <string name="sub_switch_name1">"Peldošie paziņojumi"</string>
+    <string name="sub_switch_name1_sub">"Rādīt paziņojumus augšējā ekrānā, pēc tam tiem automātiski pazūdot"</string>
+    <string name="sub_switch_name2">"Bloķēta ekrāna paziņojumi"</string>
+    <string name="sub_switch_name2_sub">"Rādīt paziņojumus statusa joslā"</string>
+    <string name="sub_switch_name3">"Rādīt detalizētu informāciju par paziņojumu"</string>
+    <string name="sub_switch_name4">"Rādīt paziņojumus statusa joslā"</string>
+    <string name="title_activity_package_list_batch">"Paziņojumu pakešveida apstrāde"</string>
+    <string name="wapi_as_certificate">"ASE sertifikāts"</string>
+    <string name="wapi_user_certificate">"Lietotāja sertifikāts"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anonīma identitāte"</string>
+    <string name="wifi_eap_ca_cert">"CA sertifikāts"</string>
+    <string name="wifi_eap_identity">"Identitāte"</string>
+    <string name="wifi_eap_method">"EAP metode"</string>
+    <string name="wifi_eap_user_cert">"Lietotāja sertifikāts"</string>
+    <string name="wifi_gateway">"Vārteja"</string>
+    <string name="wifi_hex_password">"Heksadecimāla parole."</string>
+    <string name="wifi_info_cancal_btn">"Atcelt"</string>
+    <string name="wifi_info_connect_btn">"Izveidot savienojumu"</string>
+    <string name="wifi_ip_address">"IP adrese"</string>
+    <string name="wifi_ip_settings">"IP iestatījumi"</string>
+    <string name="wifi_network_prefix_length">"Tīkla prefiksa garums"</string>
+    <string name="wifi_password">"Parole"</string>
+    <string name="wifi_password_text">"Parole (8–63 rakstzīmes)"</string>
+    <string name="wifi_security">"Drošība"</string>
+    <string name="wifi_security_none">"Nav"</string>
+    <string name="wifi_show_advanced">"Rādīt papildu opcijas"</string>
+    <string name="wifi_show_password">"Rādīt paroli"</string>
+    <string name="wifi_signal">"Signāla stiprums"</string>
+    <string name="wifi_ssid">"Tīkla SSID"</string>
+    <string name="wifi_ssid_hint">"Ievadiet SSID"</string>
+    <string name="wifi_status">"Statuss"</string>
+    <string name="wifi_unchanged">"(nemainīti)"</string>
+    <string name="wifi_WEP_secury_key">"Drošības taustiņš"</string>
+    <string name="wifi_WEP_transmit_key">"Pārsūtīšanas taustiņš"</string>
+    <string name="zen_alarm_information_day_time">"Nākamais modinātājs: <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Nākamais modinātājs: <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Tikai prioritāra pārtraukšana"</string>
+    <string name="zen_no_interruptions">"Bez pārtraukšanas"</string>
+    <string name="zen_no_interruptions_with_warning">"Bez pārtraukšanas Pat bez modinātājiem."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/ārkārtas"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Izlase"</string>
+    <string name="keyguard_magzine_cancel_collect">"Pievienots izlasei"</string>
+    <string name="keyguard_magazine_resident">"Rezidents"</string>
+    <string name="keyguard_magazine_cancel_resident">"Atcelt rezidentu"</string>
+    <string name="keyguard_magazine_share">"Kopīgot"</string>
+    <string name="keyguard_magazine_link">"Saite"</string>
+    <string name="keyguard_magazine_more">"Iestatījums"</string>
+    <string name="keyguard_magzine_collect_toast">"Saglabāt fotoattēlu albumā vietējā galerijā"</string>
+    <string name="keyguard_magazine_resident_toast">"Pēc noklusējuma vienmēr tiks rādīta fona tapete, kad ir ieslēgts ekrāns"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Pēc noklusējuma netiks rādīta fona tapete vienmēr, kad ir ieslēgts ekrāns"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Albuma fotoattēlu kolekcija"</string>
+    <string name="qs_label_calculator">"Kalkulators"</string>
+    <string name="qs_label_blaster">"Ierakstītājs"</string>
+    <string name="qs_label_magical">"Maģiska"</string>
+    <string name="qs_label_camera">"Kamera"</string>
+    <string name="qs_label_recording">"Ierakstīšana"</string>
+    <string name="qs_label_controlcentor">"Vadības centrs"</string>
+    <string name="qs_label_slience">"Ekrānuzņēmums"</string>
+    <string name="header_name">"iespējot paziņojumu"</string>
+    <string name="header_name_detail">"Parādīts paziņojumu panelī"</string>
+    <string name="title_show_locksreen">"Parādīt bloķētā ekrānā"</string>
+    <string name="recents_app_shendu">"pamatīgi"</string>
+    <string name="recents_app_liuliang">"Šodien:"</string>
+    <string name="recents_app_memory">"Atmiņa:"</string>
+    <string name="recents_app_battary">"Akumulators:"</string>
+    <string name="recents_app_running_empty">"nav nesenu uzdevumu"</string>
+    <string name="recents_app_best_already">"ir jau labi iztīrīts"</string>
+    <string name="recents_app_release_memory">"atbrīvot atmiņu <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"vispirms palaist drošības centra lietotni"</string>
+    <string name="recents_app_memory_cleaned">"iztīrīts"</string>
+    <string name="preference_detail_show">"Rādīt"</string>
+    <string name="preference_detail_hide">"Paslēpt"</string>
+    <string name="item_show_notifcaiton">"Paziņojums"</string>
+    <string name="item_show_lockscreen">"bloķētā ekrānā"</string>
+    <string name="item_show_floating">"peldošs"</string>
+    <string name="item_show_detail">"Rādīt detalizētu informāciju"</string>
+    <string name="manage_notification_access_title">"Piekļuve paziņojumiem"</string>
+    <string name="notification_hide_system_app">"Paslēpt sistēmas lietotnes"</string>
+    <string name="notification_show_system_app">"Rādīt sistēmas lietotnes"</string>
+    <string name="ctrl_center_shown_1page">"Parādītie īsceļi-1. lapa"</string>
+    <string name="ctrl_center_shown_2page">"Parādītie īsceļi-2. lapa"</string>
+    <string name="ctrl_center_non_shown">"Īsceļi nav parādīti"</string>
+    <string name="ctrl_center_hint">"Piezīme: Pieskarieties īsceļam un turiet to, lai pārvietotu. Varat to parādīt vai slēpt tā parādīšanu, kā arī pārvietot tā atrašanās vietu\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Balss zvanu skaļums"</item>
+        <item>"Sistēmas skaļums"</item>
+        <item>"Zvana toņa un paziņojumu skaļums"</item>
+        <item>"Datu nesēja skaļums"</item>
+        <item>"Trauksmes skaļums"</item>
+        <item></item>
+        <item>"Bluetooth zvanu skaļums"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"Pārskatā 1 ekrāns"</item>
+        <item quantity="other">"Pārskatā %d ekrāni"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Slēpt"</string>
+    <string name="clear_memory_notice">"Apsveicam, esat veiksmīgi notīrījis"</string>
+    <string name="data_no_connected_error">"Lūdzu, pārbaudiet, vai Iestatījumi-&gt;SIM kartes pārvaldība-&gt;Starptautiskā viesabonēšana, datu viesabonēšana ir atļauta!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Iespējota pavilkšana uz leju pie bloķēta ekrāna"</string>
+    <string name="item_center_notifcaiton_obsessive">"OCD opcijas"</string>
+    <string name="qs_label_dataportection_mode">"Datu aizsardzība"</string>
+    <string name="qs_label_ringer">"Zvanītājs"</string>
+    <string name="qs_label_rotation">"Ekrāna pagriešana"</string>
+    <string name="qs_label_speed">"Paātrināt"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> izmantojams |kopā <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Nav SIM kartes. Lūdzu, mēģiniet vēlreiz pēc kartes ievietošanas!"</string>
+    <string name="status_bar_screenshot_interesting">"Interesants"</string>
+    <string name="status_bar_screenshot_long">"Garš"</string>
+    <string name="status_bar_super_secure_system_mode">"Pašlaik ir drošības režīms, lūdzu, izejiet no drošības režīma, lai iespējotu funkciju"</string>
+    <string name="title_show_floating_sub">"Kad atbloķējat ekrānu, paziņojumi parādās ekrāna augšējā daļā, pēc tam automātiski pazūd"</string>
+    <string name="yl_volume_ring_icon_description">"Zvana signāla &amp; paziņojumus skaļums"</string>
+    <string name="accessibility_quick_settings_data_off">"Mobilie dati izslēgti."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobilie dati ieslēgti."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Viesabonēšana izslēgta."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Viesabonēšana ieslēgta."</string>
+    <string name="brightness_dlg_adjust">"(Noregulēt)"</string>
+    <string name="brightness_dlg_auto">"Automātiski"</string>
+    <string name="brightness_dlg_brightness">"Spilgtums"</string>
+    <string name="clear_notify_all_oldman">"Notīrīt paziņojumus"</string>
+    <string name="dateview_day">"Diena"</string>
+    <string name="dateview_month">"Mēnesis"</string>
+    <string name="domain_switch_toast">"Paziņojums nāk no citas vietas."</string>
+    <string name="item_center_notifcaiton_ccm">"Rādīt operatora nosaukumu"</string>
+    <string name="item_center_notifcaiton_control">"Kontroles centrs"</string>
+    <string name="item_center_notifcaiton_management">"Paziņojumu pārvaldīšana"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Pakratot notīrīt ikonas etiķeti"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Slēpt ikonas etiķeti"</string>
+    <string name="item_center_notifcaiton_other">"Citi"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Ātrie iestatījumi"</string>
+    <string name="item_center_notifcaiton_sub">"“Paziņojums”"</string>
+    <string name="item_center_notifcaiton_title">"Iestatījumi"</string>
+    <string name="item_show_none">"Nav"</string>
+    <string name="item_show_other">"Citi"</string>
+    <string name="item_show_statusbar">"Panelis"</string>
+    <string name="keyguard_magazine_enter">"Pavelciet uz leju uz taustiņslēga kaseti"</string>
+    <string name="kg_no_service">"Nav pakalpojuma."</string>
+    <string name="kg_no_uim">"Nav UIM vai pakalpojuma"</string>
+    <string name="kg_no_usim">"Nav SIM kartes vai pakalpojuma"</string>
+    <string name="kg_none_carrier">"Nav pakalpojuma."</string>
+    <string name="message_keep_one_launcher">"Ieteicams saglabāt vismaz vienu sākuma aktivitāti!"</string>
+    <string name="message_switch_fail">"Nevar pāriet uz šo uzdevumu, jo tam nav interfeisa."</string>
+    <string name="other_notification_expand">"pieskarieties, lai visus aplūkotu."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> pārējie paziņojumi"</string>
+    <string name="qs_label_airplane">"Lidmašīnas režīms"</string>
+    <string name="qs_label_blacklist">"Bloķētājs"</string>
+    <string name="qs_label_blacklist2">"Bloķētājs"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Spilgtums"</string>
+    <string name="qs_label_data_roaming">"Viesabonēšana"</string>
+    <string name="qs_label_doublecard">"Divu karšu iestatījumi"</string>
+    <string name="qs_label_driving_mode">"Automašīnas režīms"</string>
+    <string name="qs_label_flashlight">"Lukturītis"</string>
+    <string name="qs_label_flow_monitor">"Datu lietojums"</string>
+    <string name="qs_label_location">"Izmantotā atrašanās vieta"</string>
+    <string name="qs_label_multiple_accounts_name">"Īpašnieks"</string>
+    <string name="qs_label_mutlwindow">"Vairākuzdevumu"</string>
+    <string name="qs_label_saving">"Enerģiju taupošs"</string>
+    <string name="qs_label_scenemode">"Ainas režīms"</string>
+    <string name="qs_label_sdcard_install">"Instalēt SD karti"</string>
+    <string name="qs_label_sdcard_uninstall">"Atinstalēt SD karti"</string>
+    <string name="qs_label_secure_mode">"Aizsargāt datus"</string>
+    <string name="qs_label_setting">"Iestatījumi"</string>
+    <string name="qs_label_shrink_screen">"Ekrāna mērogs"</string>
+    <string name="qs_label_silence">"Klusums"</string>
+    <string name="qs_label_sound">"Signāls"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Īpaši drošs režīms"</string>
+    <string name="qs_label_switching">"Pārslēgties"</string>
+    <string name="qs_label_ttwindow_mode">"Ziņu straume"</string>
+    <string name="qs_label_turning_off">"Aizveras"</string>
+    <string name="qs_label_turning_on">"Atvēršana"</string>
+    <string name="qs_label_viplist">"Vēlamo saraksts"</string>
+    <string name="qs_label_viplist2">"Vēlamo saraksts"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Rādīt paziņojumu panelī (maks. 10)"</string>
+    <string name="qs_minor_bar_tips">"Nerādīt paziņojumu panelī"</string>
+    <string name="quick_settings_apn_switch_label">"APN slēdzis"</string>
+    <string name="quick_settings_data_off">"Dati izslēgti"</string>
+    <string name="quick_settings_dds_sub">"Kartes<xliff:g id="number">%d</xliff:g> dati"</string>
+    <string name="quick_settings_mobile_data_label">"Mobilie dati"</string>
+    <string name="quick_settings_roaming_label">"Viesabonēšana"</string>
+    <string name="quicksettings_edit_disable">"Rediģēt"</string>
+    <string name="quicksettings_edit_enable">"Iziet"</string>
+    <string name="quicksettings_more">"Vairāk"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Nevar savienoties ar tīklu lidmašīnas režīmā."</string>
+    <string name="status_bar_disable_data_roaming">"Viesabonēšanas režīms deaktivizēts."</string>
+    <string name="status_bar_earphones_connected_text">"Pievienotas austiņas."</string>
+    <string name="status_bar_earphones_connected_ticker">"Pievienotas austiņas."</string>
+    <string name="status_bar_earphones_connected_title">"Austiņas"</string>
+    <string name="status_bar_enable_data_roaming">"Viesabonēšanas režīms aktivizēts."</string>
+    <string name="status_bar_expand_autobright">"Automātiski noregulēt spilgtumu"</string>
+    <string name="status_bar_expanded_airplane_mode">"Lidmašīnas režīms"</string>
+    <string name="status_bar_expanded_check_sim">"No SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Nav UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Nav SIM kartes"</string>
+    <string name="status_bar_expanded_data_net_status">"Nezināms"</string>
+    <string name="status_bar_expanded_mms_send_note">"Savienojas ar tīklu... Mēģiniet vēlreiz vēlāk."</string>
+    <string name="status_bar_expanded_net_using_card">"Datu savienojumam izmanto tālruņa karti <xliff:g id="number">%d</xliff:g> . Vēlāk jūs manuāli varat pārslēgties uz citu tīklu."</string>
+    <string name="status_bar_expanded_network_forbid">"Pakalpojums atspējots"</string>
+    <string name="status_bar_expanded_network_off">"Nav pakalpojuma."</string>
+    <string name="status_bar_expanded_start_network">"Mobilie dati"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobilie dati"</string>
+    <string name="status_bar_expanded_stop_network">"Mobilie dati"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobilie dati"</string>
+    <string name="status_bar_no_running_apps">"Neviena lietotne patlaban nedarbojas"</string>
+    <string name="status_bar_notification_manager">"pārvaldnieks"</string>
+    <string name="status_bar_notify_interception_disable">"Aizliegt"</string>
+    <string name="status_bar_notify_interception_enable">"Atļaut"</string>
+    <string name="status_bar_other_notify">"Vairāk"</string>
+    <string name="status_bar_other_notify_back">"Atpakaļ"</string>
+    <string name="status_bar_recent_delete">"Notīrīt"</string>
+    <string name="status_bar_recent_historical">"Vēsturisks uzdevums"</string>
+    <string name="status_bar_recent_memory">"Atmiņa"</string>
+    <string name="status_bar_recent_memory_free">"brīva|"</string>
+    <string name="status_bar_recent_memory_item_used">"Izmantots:"</string>
+    <string name="status_bar_recent_memory_used">"Izmantots:"</string>
+    <string name="status_bar_recent_optimize">"Detalizēta informācija"</string>
+    <string name="status_bar_recent_running">"Aktīvs uzdevums"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Nokopēts starpliktuvē."</string>
+    <string name="status_bar_screenshot_edit">"Rediģēt"</string>
+    <string name="status_bar_screenshot_exit">"Atcelt"</string>
+    <string name="status_bar_screenshot_save">"Saglabāt"</string>
+    <string name="status_bar_screenshot_share">"Kopīgot"</string>
+    <string name="status_bar_select_network1">"Net 1"</string>
+    <string name="status_bar_select_network2">"Net 2"</string>
+    <string name="tasklist_killall">"Iznīcināt visu"</string>
+    <string name="tasklist_memory_usage">"Brīvā/kopējā atmiņa: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Uzdevumu pārvaldnieks"</string>
+    <string name="title_activity_package_list">"Paziņojumu centrs"</string>
+    <string name="title_show_effect_preview">"Attēla priekšskatījums"</string>
+    <string name="title_show_notifcaiton">"Atļaut"</string>
+    <string name="title_show_notification_center">"Paziņojumu centrs"</string>
+    <string name="title_show_other">"Rādīt citur"</string>
+    <string name="title_show_statusbar">"Rādīt panelī"</string>
+    <string name="gps_notification_searching_text_content">"Var ietaupīt enerģiju, ja tiks aizvērts GPS."</string>
+    <string name="quick_settings_battery_charging_label">"Notiek uzlāde, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Uzlādēts"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Skaņu izslēdza: <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Navigācijas joslas rādīšana, velkot uz augšu no ekrāna apakšdaļas"</string>
+    <string name="title_show_floating">"Mainīgie paziņojumi"</string>
+
+</resources>

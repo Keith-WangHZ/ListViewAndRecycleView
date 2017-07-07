@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="#cc707682" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#cc707682"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:id="@+id/brightness_container">
+
+    
+    <ImageView 
+        android:id="@+id/brightness_icon"
+        android:layout_height="24dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/status_bar_brightness_value1"/>
+    
+    <com.android.systemui.settings.ToggleSlider
+        android:id="@+id/brightness_slider"
+        android:paddingLeft="8dp"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:contentDescription="@string/accessibility_brightness"
+        android:importantForAccessibility="no"
+        systemui:text="@string/status_bar_settings_auto_brightness_label" />
+    
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <CheckBox
+        android:id="@+id/brightAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/bright_auto"
+        android:text="@string/brightness_dlg_auto"
+        android:paddingLeft="4dp"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        />
+</LinearLayout>

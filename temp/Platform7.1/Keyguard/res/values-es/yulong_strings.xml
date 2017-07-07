@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_error_lockout">"Demasiados intentos, inténtelo de nuevo después de 30 segundos."</string>
+    <string name="camera">"cámara"</string>
+    <string name="kg_invalid_sim_lock_hint">"Escriba un BLOQUEO de SIM que tenga de 4 a 8 números"</string>
+    <string name="kg_password_sim_lock_failed">"Error en la operación de BLOQUEO de SIM."</string>
+    <string name="kg_sim_lock_instructions">"Introducir BLOQUEO de SIM"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Código PIN de SIM correcto, tarjeta desbloqueada"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Tarjeta SIM desbloqueada correctamente"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Introducir BLOQUEO de SIM, queda <xliff:g id="number">%d</xliff:g> intento."</item>
+        <item quantity="other">"Introducir BLOQUEO de SIM, quedan <xliff:g id="number">%d</xliff:g> intentos."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Código de BLOQUEO de SIM incorrecto, queda <xliff:g id="number">%d</xliff:g> intento."</item>
+        <item quantity="other">"Código de BLOQUEO de SIM incorrecto, quedan <xliff:g id="number">%d</xliff:g> intentos."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Hora de Pekín"</string>
+    <string name="cooluipin_button_cancel">"Cancelar"</string>
+    <string name="cooluipin_button_delete">"Eliminar"</string>
+    <string name="cover_notification_clicked">"Por favor, abra la funda"</string>
+    <string name="fangdao_hint">"Introduzca su contraseña de seguridad:"</string>
+    <string name="find_password_text">"¿Ha olvidado su contraseña?"</string>
+    <string name="fingerprint_error_hint">"Error de verificación de huella dactilar, vuelva a intentarlo"</string>
+    <string name="fingerprint_recognized_hint">"Bloqueo del teclado desbloqueado."</string>
+    <string name="keyguard_fangdao_input">"Introduzca la contraseña CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Seguridad"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM con bloqueo personalizado"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Verificar la huella digital o introducir la contraseña"</string>
+    <string name="kg_no_card">"No hay tarjeta SIM"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Verificar la huella digital o dibujar su patrón"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Error de verificación de huella dactilar, vuelva a intentarlo"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Verificar la huella digital o introducir código PIN"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Está ahora en modo avión"</string>
+    <string name="kg_remaining_attempts">"Intentos restantes: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Ranura <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Tarjeta no válida."</string>
+    <string name="new_mms">"Nuevo mensaje"</string>
+    <string name="new_notify_hint">"Nuevo evento"</string>
+    <string name="no_answer_call">"llamadas perdidas"</string>
+    <string name="Notify_no_info">"No hay ningún evento"</string>
+    <string name="pass_check_hint">"Contraseña incorrecta. Quedan %d intentos."</string>
+    <string name="pass_check_hint_new">"Contraseña incorrecta, por favor, reinicie para introducirla"</string>
+    <string name="password_cancel">"Borrar"</string>
+    <string name="password_error">"Contraseña incorrecta"</string>
+    <string name="password_hint">"Iniciar sesión"</string>
+    <string name="starry_unlock_info">"Arriba para desbloquear"</string>
+    <string name="touch_protect_content1">"Salir por:"</string>
+    <string name="touch_protect_content2">"No bloquear el sensor de proximidad"</string>
+    <string name="touch_protect_hint">"Pulse la tecla de encendido y la tecla de subir volumen para salir"</string>
+    <string name="touch_protect_title">"Prevención de pulsaciones incorrectas"</string>
+    <string name="user_switched_to_home_hint">"Cambiado a espacio de usuario"</string>
+    <string name="user_switched_to_primary_hint">"Cambiado a espacio de usuario principal"</string>
+    <string name="user_switching_hint">"Cambiando usuario..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Introduzca el PIN de la SIM; tiene intentos <xliff:g id="number">%d</xliff:g> restantes antes de que tenga que ponerse en contacto con su operador para desbloquear su dispositivo."</item>
+        <item quantity="other">"Introduzca el PIN de su SIM; tiene <xliff:g id="number">%d</xliff:g> intentos restantes."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"La tarjeta SIM ha quedado bloqueada. Introduzca el código PUK para continuar. Le quedan<xliff:g id="number">%d</xliff:g> intentos restantes antes de que la SIM se bloquee de forma permanente. Póngase en contacto con el operador para obtener información."</item>
+        <item quantity="other">"La tarjeta SIM ha quedado bloqueada. Introduzca el código PUK para continuar. Le quedan<xliff:g id="number">%d</xliff:g> intentos restantes antes de que la SIM se bloquee de forma permanente. Póngase en contacto con el operador para obtener información."</item>
+    </plurals>
+
+</resources>

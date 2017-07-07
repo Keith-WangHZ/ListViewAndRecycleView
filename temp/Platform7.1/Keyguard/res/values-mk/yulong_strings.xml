@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"Премногу обиди, обидете се повторно по 30 секунди."</string>
+    <string name="camera">"камера"</string>
+    <string name="kg_invalid_sim_lock_hint">"Внесете код за заклучување на SIM картичката со 4 до 8 бројки"</string>
+    <string name="kg_password_sim_lock_failed">"Операцијата за заклучување на SIM картичката беше неуспешна!"</string>
+    <string name="kg_sim_lock_instructions">"Внесете код за заклучување на SIM картичката"</string>
+    <string name="kg_sim_pin_unlock_succeed">"PIN кодот на SIM картичката е точен, картичката е отклучена"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Отклучувањето на SIM картичката беше успешно"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Внесете код за заклучување на SIM картичката, ви преостанува уште <xliff:g id="number">%d</xliff:g> обид."</item>
+        <item quantity="other">"Внесете код за заклучување на SIM картичката, ви преостануваат уште <xliff:g id="number">%d</xliff:g> обиди."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Неточен код за заклучување на SIM картичката, ви преостанува уште <xliff:g id="number">%d</xliff:g> обид."</item>
+        <item quantity="other">"Неточен код за заклучување на SIM картичката, ви преостануваат уште <xliff:g id="number">%d</xliff:g> обиди."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Пекиншко време"</string>
+    <string name="cooluipin_button_cancel">"Откажи"</string>
+    <string name="cooluipin_button_delete">"Бришење"</string>
+    <string name="cover_notification_clicked">"Ве молиме отворете ја вашата футрола"</string>
+    <string name="fangdao_hint">"Ве молиме внесете безбедносна лозинка:"</string>
+    <string name="find_password_text">"Ја заборавивте вашата лозинка?"</string>
+    <string name="fingerprint_error_hint">"Неуспешна автентикација со отпечаток, ве молиме обидете се повторно"</string>
+    <string name="fingerprint_recognized_hint">"Блокирањето на тастатура е отклучено."</string>
+    <string name="keyguard_fangdao_input">"Внесете ја лозинката за CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Безбедност"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM е Perso заклучена"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Потврди отпечаток или внеси лозинка"</string>
+    <string name="kg_no_card">"Нема SIM картичка"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Потврди отпечаток или нацртај ја шемата"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Неуспешна автентикација со отпечаток, ве молиме обидете се повторно"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Потврди отпечаток или внеси PIN код"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Сега е во авионски режим"</string>
+    <string name="kg_remaining_attempts">"Преостанати обиди: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Лежиште <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Неважечка картичка."</string>
+    <string name="new_mms">"Нова порака"</string>
+    <string name="new_notify_hint">"Нов настан"</string>
+    <string name="no_answer_call">"пропуштени повици"</string>
+    <string name="Notify_no_info">"Нема настан"</string>
+    <string name="pass_check_hint">"Грешна лозинка. Остануваат %d обиди."</string>
+    <string name="pass_check_hint_new">"Грешна лозинка, ве молиме престартирајте за да внесете"</string>
+    <string name="password_cancel">"Исчистете"</string>
+    <string name="password_error">"Грешна лозинка"</string>
+    <string name="password_hint">"Најавете се"</string>
+    <string name="starry_unlock_info">"Нагоре за отклучување"</string>
+    <string name="touch_protect_content1">"Излез преку:"</string>
+    <string name="touch_protect_content2">"Не го блокирај сензорот за близина"</string>
+    <string name="touch_protect_hint">"Притиснете го копчето за напојување и копчето за појачување на јачина на звук за да излезете"</string>
+    <string name="touch_protect_title">"Заштита од допирање по грешка"</string>
+    <string name="user_switched_to_home_hint">"Менување до простор на корисник"</string>
+    <string name="user_switched_to_primary_hint">"Менување до првичен простор на корисник"</string>
+    <string name="user_switching_hint">"Менување на корисник..."</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Внесете PIN на SIM картичка, имате <xliff:g id="number">%d</xliff:g> обиди останато пред да морате да го контактирате вашиот оператор за отклучување на вашиот уред."</item>
+        <item quantity="other">"Внесете PIN на SIM картичка, имате <xliff:g id="number">%d</xliff:g> обиди останато."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM картичката сега е деактивирана. Внесете го PUK кодот за да продолжите. Имате <xliff:g id="number">%d</xliff:g> обид останато пред SIM картичката да стане трајно неупотреблива. Контактирајте го операторот за детали."</item>
+        <item quantity="other">"SIM картичката сега е деактивирана. Внесете го PUK кодот за да продолжите. Имате <xliff:g id="number">%d</xliff:g> обиди останато пред SIM картичката да стане трајно неупотреблива. Контактирајте го операторот за детали."</item>
+    </plurals>
+
+</resources>

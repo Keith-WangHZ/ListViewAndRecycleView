@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_gravity="right|center_vertical"
+    android:background="@color/yl_list_selector_background_color"
+    android:orientation="vertical"
+    android:clickable="false" >
+
+    <View 
+         android:id="@+id/package_list_divider"
+         android:layout_width="fill_parent" 
+         android:layout_height="2px" 
+         android:visibility="gone"
+         android:background="@drawable/yl_list_divider_background"/>
+    
+     <LinearLayout
+             android:id="@+id/package_list_head"
+             android:layout_width="wrap_content"
+             android:layout_height="32dp"
+             android:layout_gravity="right|center"
+             android:gravity="right|center"
+             android:orientation="horizontal"
+             android:paddingLeft="0dp"
+              >
+             
+            
+                  <TextView
+                     android:id="@+id/header_name0"
+                android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingRight="10dp"
+                     android:text="@string/header_name0"
+                     android:textColor="#FF0C0C0C"
+                android:layout_gravity="center"
+                     android:textSize="16sp" />
+
+                  <TextView
+                     android:id="@+id/header_name1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingRight="20dp"
+                     android:text="@string/header_name1"
+                     android:textColor="#FF0C0C0C"
+                     android:layout_gravity="center"
+                     android:textSize="16sp" />
+                 
+        </LinearLayout>
+     <LinearLayout
+             android:id="@+id/package_list_head1"
+             android:layout_width="wrap_content"
+             android:layout_height="32dp"
+             android:layout_gravity="right|center"
+             android:gravity="right|center"
+             android:orientation="horizontal"
+             android:paddingLeft="0dp"
+              >
+                <CheckBox
+                    android:id="@+id/sub_switch_widget0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:button="@null"
+                   android:drawableRight="@drawable/yl_btn_check_holo_light"
+            
+                    />
+
+                 
+                <CheckBox
+                    android:id="@+id/sub_switch_widget1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingRight="@dimen/preference_padding_left"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:button="@null"
+                   android:drawableRight="@drawable/yl_btn_check_holo_light"
+                   android:paddingLeft="16dp"  /> 
+             
+        </LinearLayout>
+</LinearLayout>

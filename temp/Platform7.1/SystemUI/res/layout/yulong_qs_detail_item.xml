@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/qs_detail_item_height_p"
+    android:background="@drawable/btn_borderless_rect"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="24dp"
+        android:clickable="false"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:clickable="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"  
+        android:clickable="false"
+        android:gravity="center_vertical|center_horizontal|right"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <!--
+    <LinearLayout
+        android:layout_marginLeft="6dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/qs_detail_item_primary_text_size"
+            android:textAppearance="@style/TextAppearance.QS.DetailItemPrimary" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="@dimen/qs_detail_item_secondary_text_size"
+            android:textAppearance="@style/TextAppearance.QS.YulongDetailItemSecondary" />
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_marginRight="24dp"
+        android:id="@android:id/icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp" />
+    -->
+
+    <ImageView
+        android:id="@android:id/icon2"
+        style="@style/QSBorderlessButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_qs_cancel"
+        android:visibility="gone" />
+
+</LinearLayout>

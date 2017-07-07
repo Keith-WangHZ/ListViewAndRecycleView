@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<com.android.keyguard.CoolUIPINView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyguard_pin_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/keyguard_accessibility_pin_unlock"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        layout="@layout/keyguard_message_area" />
+
+    <LinearLayout
+        android:id="@+id/keyguard_bouncer_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="15dp" >
+
+        <com.android.keyguard.CoolUIEditView
+            android:id="@+id/cooluipinEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dip" />
+
+        <LinearLayout
+            android:id="@+id/childView"
+            android:layout_width="match_parent"
+            android:layout_height="349dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/left"
+                android:layout_width="40dp"
+                android:layout_height="235dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/leftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:clickable="true"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/left_move" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/keyguard_bouncer_frame_child"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|bottom"
+                android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="1"
+                androidprv:textView="@+id/cooluipinEntry" />
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="2"
+                androidprv:textView="@+id/cooluipinEntry" />
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="3"
+                androidprv:textView="@+id/cooluipinEntry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="4"
+                androidprv:textView="@+id/cooluipinEntry" />
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="5"
+                androidprv:textView="@+id/cooluipinEntry" />
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key6"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="6"
+                androidprv:textView="@+id/cooluipinEntry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key7"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="7"
+                androidprv:textView="@+id/cooluipinEntry" />
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key8"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="8"
+                androidprv:textView="@+id/cooluipinEntry" />
+
+            <com.android.keyguard.CoolUINumPadKey
+                android:id="@+id/key9"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="9"
+                androidprv:textView="@+id/cooluipinEntry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+                    <com.android.keyguard.CoolUINumPadKey
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        androidprv:digit="0"
+                        androidprv:textView="@+id/cooluipinEntry" />
+
+                    <com.android.keyguard.CoolUINumPadKey
+                        android:id="@+id/key0"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        androidprv:digit="0"
+                        androidprv:textView="@+id/cooluipinEntry" />
+
+                    <com.android.keyguard.CoolUINumPadKey
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        androidprv:digit="0"
+                        androidprv:textView="@+id/cooluipinEntry" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/row5"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <include
+                        android:id="@+id/keyguard_selector_fade_container"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        layout="@layout/keyguard_eca"
+                        android:gravity="center"
+                        android:orientation="vertical" />
+
+                    <com.android.keyguard.CoolUINumPadKey
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:clickable="true"
+                        android:visibility="invisible"
+                        androidprv:digit="0"
+                        androidprv:textView="@+id/cooluipinEntry" />
+
+                    <TextView
+                        android:id="@+id/key_coc"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:textColor="?android:attr/textColorSecondary"
+                        android:textSize="12dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right"
+                android:layout_width="40dp"
+                android:layout_height="235dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/rightText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:clickable="true"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/right_move"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout 
+                android:id="@+id/navigateHeight"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+
+</com.android.keyguard.CoolUIPINView>

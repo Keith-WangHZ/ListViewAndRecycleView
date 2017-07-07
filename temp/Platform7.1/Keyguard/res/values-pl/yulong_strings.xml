@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="fingerprint_error_lockout">"Zbyt dużo prób. Spróbuj ponownie po upływie 30 sekund."</string>
+    <string name="camera">"aparat"</string>
+    <string name="kg_invalid_sim_lock_hint">"Wpisz kod PUK składający się z 4–8 cyfr"</string>
+    <string name="kg_password_sim_lock_failed">"Operacja z kodem PUK nie powiodła się!"</string>
+    <string name="kg_sim_lock_instructions">"Wpisz kod PUK"</string>
+    <string name="kg_sim_pin_unlock_succeed">"Prawidłowy kod PIN karty SIM. Karta odblokowana"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"Pomyślnie odblokowano kartę SIM"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Wpisz kod PUK karty SIM. Pozostało prób: <xliff:g id="number">%d</xliff:g>."</item>
+        <item quantity="other">"Wpisz kod PUK karty SIM. Pozostało prób: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Nieprawidłowy kod PUK karty SIM. Pozostało prób: <xliff:g id="number">%d</xliff:g>."</item>
+        <item quantity="other">"Nieprawidłowy kod PUK karty SIM. Pozostało prób: <xliff:g id="number">%d</xliff:g>."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Czas w Pekinie"</string>
+    <string name="cooluipin_button_cancel">"Anuluj"</string>
+    <string name="cooluipin_button_delete">"Usuń"</string>
+    <string name="cover_notification_clicked">"Otwórz etui"</string>
+    <string name="fangdao_hint">"Podaj hasło zabezpieczające:"</string>
+    <string name="find_password_text">"Nie pamiętasz hasła?"</string>
+    <string name="fingerprint_error_hint">"Uwierzytelnianie odciskiem palca nie powiodło się. Spróbuj ponownie."</string>
+    <string name="fingerprint_recognized_hint">"Ochrona klawiatury odblokowana."</string>
+    <string name="keyguard_fangdao_input">"Wpisz hasło CoolManager"</string>
+    <string name="keyguard_fangdao_title">"Zabezpieczenia"</string>
+    <string name="keyguard_perso_locked_message">"Karta SIM/RUIM ma blokadę osobistą"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Zweryfikuj odcisk palca albo wpisz hasło"</string>
+    <string name="kg_no_card">"Brak karty SIM"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Zweryfikuj odcisk palca albo narysuj wzór"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Uwierzytelnianie odciskiem palca nie powiodło się. Spróbuj ponownie."</string>
+    <string name="kg_pin_finger_config_enabled_message">"Zweryfikuj odcisk palca albo wpisz kod PIN"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Jest teraz w trybie samolotowym"</string>
+    <string name="kg_remaining_attempts">"Liczba pozostałych prób: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Gniazdo <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Nieprawidłowa karta."</string>
+    <string name="new_mms">"Nowa wiadomość"</string>
+    <string name="new_notify_hint">"Nowe zdarzenie"</string>
+    <string name="no_answer_call">"nieodebrane połączenia"</string>
+    <string name="Notify_no_info">"Brak wydarzeń"</string>
+    <string name="pass_check_hint">"Błędne hasło. Pozostałe próby: %."</string>
+    <string name="pass_check_hint_new">"Błędne hasło, zrestartuj, aby wpisać ponownie"</string>
+    <string name="password_cancel">"Wyczyść"</string>
+    <string name="password_error">"Błędne hasło"</string>
+    <string name="password_hint">"Zaloguj się"</string>
+    <string name="starry_unlock_info">"Przesuń, aby odblokować"</string>
+    <string name="touch_protect_content1">"Zakończ:"</string>
+    <string name="touch_protect_content2">"Nie blokuj czujnika zbliżeniowego"</string>
+    <string name="touch_protect_hint">"Naciśnij jednocześnie klawisz zasilania i klawisz zwiększania głośności, aby zamknąć"</string>
+    <string name="touch_protect_title">"Zapobieganie nieprawidłowym kliknięciom"</string>
+    <string name="user_switched_to_home_hint">"Przełączono na przestrzeń użytkownika"</string>
+    <string name="user_switched_to_primary_hint">"Przełączono na główną przestrzeń użytkownika"</string>
+    <string name="user_switching_hint">"Przełączanie użytkownika…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Wpisz numer PIN karty SIM, liczba pozostałych prób <xliff:g id="number">%d</xliff:g>. Po jej przekroczeniu musisz skontaktować się z operatorem sieci w celu odblokowania urządzenia."</item>
+        <item quantity="other">"Wpisz numer PIN karty SIM, liczba pozostałych prób <xliff:g id="number">%d</xliff:g>"</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"Karta SIM jest teraz wyłączona. Wprowadź kod PUK, aby kontynuować. Liczba pozostałych prób <xliff:g id="number">%d</xliff:g>. Po jej przekroczeniu karta SIM będzie trwałe niezdatna do użytku. Skontaktuj się z operatorem sieci w celu uzyskania szczegółowych informacji."</item>
+        <item quantity="other">"Karta SIM jest teraz wyłączona. Wprowadź kod PUK, aby kontynuować. Liczba pozostałych prób <xliff:g id="number">%d</xliff:g>. Po jej przekroczeniu karta SIM będzie trwałe niezdatna do użytku. Skontaktuj się z operatorem sieci w celu uzyskania szczegółowych informacji."</item>
+    </plurals>
+
+</resources>

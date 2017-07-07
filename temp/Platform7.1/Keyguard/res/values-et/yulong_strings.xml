@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_error_lockout">"Liiga palju katseid, proovi 30 sekundi pärast uuesti."</string>
+    <string name="camera">"kaamera"</string>
+    <string name="kg_invalid_sim_lock_hint">"Sisesta 4–8-numbriline SIM LUKK.""</string>
+    <string name="kg_password_sim_lock_failed">"SIM LUKU toiming ebaõnnestus!"</string>
+    <string name="kg_sim_lock_instructions">"Sisesta SIM LUKK"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIMi PIN-kood õige, kaart avati lukust"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM-kaardi lukust avamine õnnestus"</string>
+
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"Sisesta SIM LUKK, jäänud on <xliff:g id="number">%d</xliff:g> katse."</item>
+        <item quantity="other">"Sisesta SIM LUKK, jäänud on <xliff:g id="number">%d</xliff:g> katset."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"Vale SIM LUKU kood, jäänud on <xliff:g id="number">%d</xliff:g> katse."</item>
+        <item quantity="other">"Vale SIM LUKU kood, jäänud on <xliff:g id="number">%d</xliff:g> katset."</item>
+    </plurals>
+
+    <string name="city_name_beijing">"Pekingi aeg"</string>
+    <string name="cooluipin_button_cancel">"Tühista"</string>
+    <string name="cooluipin_button_delete">"Kustuta"</string>
+    <string name="cover_notification_clicked">"Avage ümbris"</string>
+    <string name="fangdao_hint">"Sisestage turvaparool:"</string>
+    <string name="find_password_text">"Kas unustasite parooli?"</string>
+    <string name="fingerprint_error_hint">"Sõrmejälje autentimine ebaõnnestus, proovige uuesti"</string>
+    <string name="fingerprint_recognized_hint">"Klahvilukk avatud."</string>
+    <string name="keyguard_fangdao_input">"Sisestage CoolManageri parool"</string>
+    <string name="keyguard_fangdao_title">"Turvalisus"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM on lukus"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"Kinnitage sõrmejälg või sisestage parool"</string>
+    <string name="kg_no_card">"SIM-kaarti pole"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"Kinnitage sõrmejälg või joonistage muster"</string>
+    <string name="kg_pattern_finger_config_failed_message">"Sõrmejälje autentimine ebaõnnestus, proovige uuesti"</string>
+    <string name="kg_pin_finger_config_enabled_message">"Kinnitage sõrmejälg või sisestage PIN-kood"</string>
+    <string name="kg_pinlock_airplanemode_alert">"Praegu töötab lennurežiim"</string>
+    <string name="kg_remaining_attempts">"Katseid jäänud: <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_slot_name">"Pesa <xliff:g id="number">%d</xliff:g>: \u0020"</string>
+    <string name="lockscreen_sim_error_message_short">"Kehtetu kaart."</string>
+    <string name="new_mms">"Uus sõnum"</string>
+    <string name="new_notify_hint">"Uus sündmus"</string>
+    <string name="no_answer_call">"vastamata kõned"</string>
+    <string name="Notify_no_info">"Sündmust pole"</string>
+    <string name="pass_check_hint">"Vale parool. Katseid jäänud %d."</string>
+    <string name="pass_check_hint_new">"Vale parool, taaskäivitage sisestamiseks"</string>
+    <string name="password_cancel">"Kustuta"</string>
+    <string name="password_error">"Vale parool"</string>
+    <string name="password_hint">"Logi sisse"</string>
+    <string name="starry_unlock_info">"Avamiseks üles"</string>
+    <string name="touch_protect_content1">"Väljuda hiljemalt:"</string>
+    <string name="touch_protect_content2">"Ärge blokeerige lähedusandurit"</string>
+    <string name="touch_protect_hint">"Väljumiseks vajutage toitenuppu ja helitugevuse suurendamise nuppu."</string>
+    <string name="touch_protect_title">"Vale puudutuse vältimine"</string>
+    <string name="user_switched_to_home_hint">"Lülituti kasutaja ruumile"</string>
+    <string name="user_switched_to_primary_hint">"Lülituti peamise kasutaja ruumile"</string>
+    <string name="user_switching_hint">"Kasutaja vahetamine…"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"Sisestage SIM-kaardi PIN-kood, teil on jäänud <xliff:g id="number">%d</xliff:g> katse, mille ebaõnnestumisel peate seadme avamiseks pöörduma operaatori poole."</item>
+        <item quantity="other">"Sisestage SIM-kaardi PIN-kood, teil on jäänud <xliff:g id="number">%d</xliff:g> katset."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"SIM on nüüd keelatud. Jätkamiseks sisestage PUK-kood. Teil on jäänud <xliff:g id="number">%d</xliff:g> katse, pärast mida ei saa SIM-kaarti enam kasutada. Üksikasju küsige operaatorilt."</item>
+        <item quantity="other">"SIM on nüüd keelatud. Jätkamiseks sisestage PUK-kood. Teil on jäänud <xliff:g id="number">%d</xliff:g> katset, pärast mida ei saa SIM-kaarti enam kasutada. Üksikasju küsige operaatorilt."</item>
+    </plurals>
+
+</resources>

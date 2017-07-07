@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="fingerprint_error_lockout">"ႀကိဳးပမ္းမႈမ်ား မ်ားလြန္းပါသည္။ စကၠန္႔ 30 ေနာက္ပိုင္းမွ ထပ္ႀကိဳးစားပါ။"</string>
+    <string name="accessibility_ime_switch_button">"အသြင္းစနစ္ခလုတ္ကို ေျပာင္းပါ။"</string>
+    <string name="airplane_mode">"ေလယာဥ္မုဒ္"</string>
+    <string name="app_name">"ကီးဂတ္"</string>
+    <string name="camera">"ကင္မရာ"</string>
+    <string name="city_name_beijing">"ဘီဂ်င္းအခ်ိန္"</string>
+    <string name="cooluipin_button_cancel">"ပယ္ဖ်က္ရန္"</string>
+    <string name="cooluipin_button_delete">"ဖ်က္ရန္"</string>
+    <string name="cover_notification_clicked">"ေက်းဇူးျပဳ၍ ကာဗာကို ဖြင့္ပါ"</string>
+    <string name="keyguard_missing_sim_message" product="default">"ဖုန္းထဲတြင္ SIM ကတ္ မရွိပါ။"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">"ဖုန္းကုိေသာ့ဖြင့္ရန္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ႀကိဳးစားခဲ့ပါသည္။
+       ေနာက္ထပ္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မေအာင္ျမင္ပါက
+        အလုပ္ ပ႐ုိဖုိင္ကုိ ဖယ္ရွားပစ္မည္ျဖစ္ၿပီး ၎က ပ႐ုိဖုိင္ေဒတာအားလံုးကုိ ပ်က္သြားေစမည္။"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" product="default">"ဖုန္းကုိေသာ့ဖြင့္ရန္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ႀကိဳးစားခဲ့ပါသည္။
+       ေနာက္ထပ္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မေအာင္ျမင္ပါက
+       ဤအသံုးျပဳသူကုိ ဖယ္ရွားပါမည္၊ ၎က အသံုးျပဳသူ၏ ေဒတာအားလံုးကုိ ပ်က္သြားေစမည္။"</string>
+    <string name="kg_failed_attempts_almost_at_login" product="default">"သင္ ပုံေဖာ္၍ေသာ့ဖြင့္ျခင္းကို <xliff:g id="NUMBER_0">%d</xliff:g> အျကိမ္ မွန္ကန္စြာ မျပုလုပ္နိုင္ပါ။ ေနာက္ထပ္ <xliff:g id="NUMBER_1">%d</xliff:g> အျကိမ္ မမွန္ကန္ပါက သင့္ဖုန္းအား အီးေမးလ္အသုံးျပု၍ ေသာ့ဖြင့္ရန္ ေတာင္းဆိုပါလိမ့္မည္။ \n\n <xliff:g id="NUMBER_2">%d</xliff:g> စက္ကန့္အျကာတြင္ ျပန္လည္ ျကိုးစားပါ"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">"ဖုန္းကုိေသာ့ဖြင့္ရန္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ႀကိဳးစားခဲ့ပါသည္။
+       ေနာက္ထပ္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မေအာင္ျမင္ပါက
+       ဤဖုန္းကုိ ျပန္သတ္မွတ္မည္ျဖစ္ကာ ေဒတာအားလံုးကုိ ဖ်က္ပစ္ပါမည္။"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" product="default">"ဖုန္းကုိေသာ့ဖြင့္ရန္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ႀကိဳးစားခဲ့ပါသည္။
+       အလုပ္ ပ႐ုိဖုိင္ကုိ ဖယ္ရွားပစ္မည္ျဖစ္ၿပီး ၎က ပ႐ုိဖုိင္ေဒတာအားလံုးကုိ ပ်က္သြားေစမည္။"</string>
+    <string name="kg_failed_attempts_now_erasing_user" product="default">"ဖုန္းကုိေသာ့ဖြင့္ရန္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ႀကိဳးစားခဲ့ပါသည္။
+       ဤအသံုးျပဳသူကုိ ဖယ္ရွားမည္ျဖစ္ကာ ၎က အသံုးျပဳသူ ေဒတာအားလံုးကုိ ပ်က္သြားေစမည္။"</string>
+    <string name="kg_failed_attempts_now_wiping" product="default">"ဖုန္းကုိေသာ့ဖြင့္ရန္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ႀကိဳးစားခဲ့ပါသည္။
+       ဤဖုန္းကုိ ျပန္သတ္မွတ္မည္ျဖစ္ကာ ၎က ေဒတာအားလံုးကုိ ပ်က္သြားေစမည္။"</string>
+    <string name="kg_invalid_confirm_pin_hint" product="default">"PIN ကုဒ္မ်ား မကိုက္ညီပါ"</string>
+    <string name="fangdao_hint">"ေက်းဇူးျပဳ၍ လံုၿခံဳေရးစကားဝွက္ကို ထည့္ပါ-"</string>
+    <string name="find_password_text">"သင့္စကားဝွက္ကို ေမ့ေနပါသလား။"</string>
+    <string name="fingerprint_error_hint">"လက္ေဗြအေထာက္အထားျပျခင္းမေအာင္ျမင္ပါ။ ထပ္ႀကိဳးစားပါ"</string>
+    <string name="fingerprint_not_recognized">"အသိအမွတ္မျပုပါ"</string>
+    <string name="fingerprint_recognized_hint">"ကီးဂတ္ကို ေသာ့ဖြင့္လိုက္ပါျပီ။"</string>
+    <string name="keyboardview_keycode_delete">"ဖ်က္ရန္"</string>
+    <string name="keyboardview_keycode_enter">"ရိုက္ထည့္ရန္"</string>
+    <string name="keyguard_accessibility_next_alarm">"ေနာက္ႏိႈးစက္ကုိ <xliff:g id="alarm" example="Fri 8:30 AM">%1$s</xliff:g> အတြက္ သတ္မွတ္ထားသည္"</string>
+    <string name="keyguard_accessibility_password_unlock">"စကားဝွက္ျဖင့္ ေသာ့ဖြင့္ပါ။"</string>
+    <string name="keyguard_accessibility_pattern_area">"ပံုစံ ဧရိယာ။"</string>
+    <string name="keyguard_accessibility_pattern_unlock">"ပံုစံျဖင့္ ေသာ့ဖြင့္ပါ။"</string>
+    <string name="keyguard_accessibility_pin_area">"PIN ဧရိယာ"</string>
+    <string name="keyguard_accessibility_pin_unlock">"Pin ျဖင့္ေသာ့ဖြင့္ပါ။"</string>
+    <string name="keyguard_accessibility_sim_pin_area">"SIM PIN ဧရိယာ"</string>
+    <string name="keyguard_accessibility_sim_puk_area">"SIM PUK ဧရိယာ"</string>
+    <string name="keyguard_accessibility_slide_area">"ပြတ္ဆြဲ ဧရိယာ။"</string>
+    <string name="keyguard_carrier_default">"ဝန္ေဆာင္မႈ မရွိပါ။"</string>
+    <string name="keyguard_charged">"အားသြင္းၿပီး"</string>
+    <string name="keyguard_fangdao_input">"Cool Manager စကားဝွက္ကိုရိုက္ပါ"</string>
+    <string name="keyguard_fangdao_title">"လံုၿခံဳေရး"</string>
+    <string name="keyguard_instructions_when_pattern_disabled">"ေသာ့ဖြင့့္ရန္ မီႏူးကို ႏွိပ္ပါ။"</string>
+    <string name="keyguard_low_battery">"အားသြင္း ကိရိယာႏွင့္ ခ်ိတ္ဆက္ပါ။"</string>
+    <string name="keyguard_missing_sim_instructions">"SIM ကတ္တစ္ခု ထည့္သြင္းပါ။"</string>
+    <string name="keyguard_missing_sim_instructions_long">"SIM ကတ္ လြတ္ေနသည္ (သို႔) ဖတ္မရပါ။ SIM ကတ္တစ္ခု ထည့္သြင္းပါ။"</string>
+    <string name="keyguard_missing_sim_message_short">"ဆင္းမ္ကတ္ မရွိပါ"</string>
+    <string name="keyguard_network_locked_message">"ကြန္ရက္ ေသာ့ခတ္ထားသည္"</string>
+    <string name="keyguard_password_enter_password_code">"ေသာ့ဖြင့့္ရန္ စကားဝွက္ ႐ုိက္ထည့္ပါ"</string>
+    <string name="keyguard_password_enter_pin_code">"PIN ကုဒ္ ႐ုိက္ထည့္ပါ"</string>
+    <string name="keyguard_password_enter_pin_password_code">"ေသာ့ဖြင့့္ရန္ PIN ႐ိုက္ထည့္ပါ"</string>
+    <string name="keyguard_password_enter_pin_prompt">"SIM PIN ကုဒ္ အသစ္"</string>
+    <string name="keyguard_password_enter_puk_code">"SIM PUK ႏွင့္ PIN ကုဒ္အသစ္ကို ႐ုိက္ထည့္ပါ"</string>
+    <string name="keyguard_password_enter_puk_prompt">"SIM PUK ကုဒ္"</string>
+    <string name="keyguard_password_entry_touch_hint">"<font size="17">"စကားဝွက္ ရိုက္ရန္ ထိပါ"</font>ဈ"</string>
+    <string name="keyguard_password_wrong_pin_code">"မမွန္ေသာ PIN ကုဒ္။"</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM ကတ္ကို အၿပီးသတ္ ပိတ္ထားလုိက္ပါၿပီ။\n
+    အျခား SIM ကတ္ကုိသံုးရန္ သင္၏ ႀကိဳးမဲ့စနစ္ ဝန္ေဆာင္မႈေပးသူထံ ဆက္သြယ္ပါ။"</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">"သံုးမရေတာ့ေသာ SIM ကတ္။"</string>
+    <string name="keyguard_plugged_in">"ဲ<xliff:g id="BATTERY_LEVEL">%s</xliff:g> ကုိ အားသြင္းေနသည္"</string>
+    <string name="keyguard_sim_locked_message">"SIM ကတ္ကို ေသာ့ခတ္ထားသည္။"</string>
+    <string name="keyguard_sim_puk_locked_message">"SIM ကတ္ကုိ PUK-ေသာ့ခတ္ထားသည္။"</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">"SIM ကတ္ကို ေသာ့ဖြင့္ေနသည္\u2026"</string>
+    <string name="kg_cooluipin_finger_config_enabled_message">"လက္ေဗြ အတည္ျပဳ (သို႔) စကားဝွက္ထည့္ပါ"</string>
+    <string name="kg_enter_confirm_pin_hint">"စိတ္ႀကိဳက PIN ကုဒ္ကို အတည္ျပဳပါ"</string>
+    <string name="kg_forgot_pattern_button_text">"ပံုစံကုိ ေမ့ပစ္ပါ"</string>
+    <string name="kg_invalid_puk">"မွန္ကန္ေသာ PUK စကား၀ွက္ကို ျပန္ထည့္သြင္းပါ။ ထပ္ခါတလဲလဲ ႀကိဳးပမ္းမႈမ်ားက SIM ကို အျမဲတမ္း ပိတ္သြားေစႏိုင္ပါသည္။"</string>
+    <string name="kg_invalid_sim_pin_hint">"ဂဏန္း ၄ မွ ၈ လံုးထိ ရွိေသာ PIN တစ္ခု ထည့္သြင္းပါ။"</string>
+    <string name="kg_invalid_sim_puk_hint">"PUK ကုဒ္သည္ ဂဏန္း ၈ လံုး (သို႔) အထက္ ရွိသင့္သည္။"</string>
+    <string name="kg_login_too_many_attempts">"ပတ္တန္ အေျမာက္အျမားျဖင့္ ႀကိဳးပမ္းျခင္းမ်ား"</string>
+    <string name="kg_no_card">"ဆင္းမ္ကတ္ မရွိပါ"</string>
+    <string name="kg_password_instructions">"စကားဝွက္ထည့္ပါ"</string>
+    <string name="kg_password_pin_failed">"SIM PIN ေဆာင္ရြက္မႈ မေအာင္ျမင္ပါ။"</string>
+    <string name="kg_password_puk_failed">"SIM PUK လုပ္ေဆာင္ခ်က္ မေအာင္ျမင္ပါ။"</string>
+
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">"SIM PIN ကုဒ္မွားေနပါသည္၊ သင့္စက္ကို ေသာ့ဖြင့္ရန္ ဖုန္းလိုင္းကုမၸဏီႏွင့္ မခ်ိတ္ဆက္ရမီ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+        <item quantity="other">"SIM PIN ကုဒ္မွားေနပါသည္၊ သင္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+    </plurals>
+
+    <string name="kg_password_wrong_pin_code_pukked">"SIM PIN ကုဒ္မမွန္ေသာေၾကာင့္ သင့္ကိရိယာကို ေသာ့ျပန္ဖြင့္ရန္ သင္၏ မိုဘိုင္းကြန္ရက္သို႔ ယခုဆက္သြယ္ရမည္။"</string>
+
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">"SIM PUK ကုဒ္မွားေနပါသည္၊ SIM ကုိ အၿပီးသတ္ သံုးမရေအာင္ မလုပ္မီ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+        <item quantity="other">"SIM PUK ကုဒ္မွားေနပါသည္၊ SIM ကုိ အၿပီးသတ္ သံုးမရေအာင္ မလုပ္မီ <xliff:g id="number">%d</xliff:g>  ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+    </plurals>
+
+    <string name="kg_password_wrong_puk_code_dead">"SIM ကုိ အသံုးျပဳ၍ မရပါ။ သင့္ ဖုန္းလုိင္းကုမၸဏီထံ ဆက္သြယ္ပါ။"</string>
+    <string name="kg_pattern_finger_config_enabled_message">"လက္ေဗြ အတည္ျပဳ (သို႔) ပတ္တန္ဆြဲပါ။"</string>
+    <string name="kg_pattern_finger_config_failed_message">"လက္ေဗြအေထာက္အထားျပျခင္းမေအာင္ျမင္ပါ။ ထပ္ႀကိဳးစားပါ"</string>
+    <string name="kg_pattern_instructions">"သင့္ ပံုစံကုိ ဆြဲပါ"</string>
+    <string name="kg_pin_accepted">"ကုဒ္ကို လက္ခံၿပီးၿပီ/"</string>
+    <string name="kg_pin_finger_config_enabled_message">"လက္ေဗြ အတည္ျပဳ (သို႔) PIN ကုဒ္ထည့္ပါ"</string>
+    <string name="kg_pin_instructions">"PIN ထည့္သြင္းပါ"</string>
+    <string name="kg_pinlock_airplanemode_alert">"ယခု ေလယာဥ္မုဒ္တြင္ ျဖစ္သည္"</string>
+    <string name="kg_prompt_reason_restart_password">"သင့္ စက္ကိရိယာအား ျပန္စဖြင့္လ်ွင္ စကားဝွက္ လို၏။"</string>
+    <string name="kg_prompt_reason_restart_pattern">"သင့္ စက္ကိရိယာအား ျပန္စဖြင့္လ်ွင္ ပုံစံ လို၏။"</string>
+    <string name="kg_prompt_reason_restart_pin">"သင့္ စက္ကိရိယာအား ျပန္စဖြင့္လ်ွင္ PIN လို၏။"</string>
+    <string name="kg_prompt_reason_switch_profiles_password">"ပရိုဖိုင္းမ်ား သင္ျေပာင္းလ်ွင္ စကားဝွက္ လို၏။"</string>
+    <string name="kg_prompt_reason_switch_profiles_pattern">"ပရိုဖိုင္းမ်ား သင္ျေပာင္းလ်ွင္ ပုံစံ လို၏။"</string>
+    <string name="kg_prompt_reason_switch_profiles_pin">"ပရိုဖိုင္းမ်ား သင္ျေပာင္းလ်ွင္ PIN လို၏။"</string>
+
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">"စက္ကိရိယာအား <xliff:g id="NUMBER_0">%d</xliff:g> နာရီျကာ ေသာ့ပိတ္ထား၏။ စကားဝွက္အား အတည္ျပုပါ။"</item>
+        <item quantity="other">"စက္ကိရိယာအား <xliff:g id="NUMBER_1">%d</xliff:g> နာရီျကာ ေသာ့ပိတ္ထား၏။ စကားဝွက္အား အတည္ျပုပါ။"</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">"စက္ကိရိယာအား <xliff:g id="NUMBER_0">%d</xliff:g> နာရီျကာ ေသာ့ပိတ္ထား၏။ ပုံစံအား အတည္ျပုပါ။"</item>
+        <item quantity="other">"စက္ကိရိယာအား <xliff:g id="NUMBER_1">%d</xliff:g> နာရီျကာ ေသာ့ပိတ္ထား၏။ ပုံစံအား အတည္ျပုပါ။"</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">"စက္ကိရိယာအား <xliff:g id="NUMBER_0">%d</xliff:g> နာရီျကာ ေသာ့ပိတ္ထား၏။ PIN အား အတည္ျပုပါ။"</item>
+        <item quantity="other">"စက္ကိရိယာအား <xliff:g id="NUMBER_1">%d</xliff:g> နာရီျကာ ေသာ့ပိတ္ထား၏။ PIN အား အတည္ျပုပါ။"</item>
+    </plurals>
+
+    <string name="kg_puk_enter_pin_hint">"စိတ္ႀကိဳက္ PIN ကုဒ္ကို ထည့္သြင္းပါ"</string>
+    <string name="kg_puk_enter_puk_hint">"ယခု SIM ကို ပိတ္ထားသည္။ ဆက္လုပ္ရန္ PUK ကုဒ္ကို ထည့္ပါ။ အေသးစိတ္အတြက္ ဖုန္းလိုင္းကုမၸဏီကို ဆက္သြယ္ပါ။"</string>
+    <string name="kg_puk_enter_puk_hint_multi">"SIM \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" ကို ပိတ္ထားသည္။ ဆက္လုပ္ရန္ PUK ကုဒ္ကို ထည့္ပါ။ အေသးစိတ္အတြက္ ဖုန္းလိုင္းကုမၸဏီကို ဆက္သြယ္ပါ။"</string>
+    <string name="kg_remaining_attempts">"ႀကိဳးစားရန္ က်န္ေသာ ႀကိမ္ေရ- <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="kg_sim_pin_instructions">"SIM PIN ထည့္သြင္းပါ"</string>
+    <string name="kg_sim_pin_instructions_multi">"\"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" အတြက္ SIM PIN ထည့္သြင္းပါ"</string>
+    <string name="kg_sim_pin_unlock_succeed">"SIM PIN ကုဒ္ မွန္ပါသည္၊ ကတ္ကုိ ေသာ့ဖြင့္လုိက္ပါၿပီ"</string>
+    <string name="kg_sim_unlock_progress_dialog_message">"SIM ကတ္ကို ေသာ့ဖြင့္ေနသည္\u2026"</string>
+    <string name="kg_sim_unlock_progress_dialog_message_succeed">"SIM ကတ္ကုိ ျပန္ဖြင့္ႏုိင္ပါၿပီ"</string>
+    <string name="kg_slot_name">"ကတ္ေပါက္ <xliff:g id="number">%d</xliff:g>- \u0020"</string>
+    <string name="kg_too_many_failed_attempts_countdown">"<xliff:g id="number">%d</xliff:g> စကၠန္႔ၿပီးေနာက္ ျပန္ႀကိဳးစားပါ။"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"စကားဝွက္ကုိ <xliff:g id="number">%d</xliff:g> ႀကိမ္တုိင္တုိင္ မွားယြင္းစြာ ထည့္ၿပီးပါၿပီ။
+        \n\n<xliff:g id="number">%d</xliff:g> စကၠန္႔ၿပီးေနာက္ ျပန္ႀကိဳးစားပါ။"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"ေသာ့ဖြင့္သည့္ပံုစံကုိ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ဆြဲခဲ့ပါသည္။
+        \n\n<xliff:g id="number">%d</xliff:g> စကၠန္႔ၿပီးေနာက္ ျပန္ႀကိဳးစားပါ။"</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"PIN ကုိ <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ဆြဲခဲ့ပါသည္။
+        \n\n<xliff:g id="number">%d</xliff:g> စကၠန္႔ၿပီးေနာက္ ျပန္ႀကိဳးစားပါ။"</string>
+    <string name="kg_wrong_password">"စကားဝွက္ မွားသည္"</string>
+    <string name="kg_wrong_pattern">"ပံုစံ မွားသည္"</string>
+    <string name="kg_wrong_pin">"PIN မွားသည္"</string>
+    <string name="lockscreen_sim_error_message_short">"ကတ္ မွားေနပါသည္။"</string>
+    <string name="new_mms">"မက္ေဆ့ခ်္အသစ္"</string>
+    <string name="new_notify_hint">"အစီအစဥ္သစ္"</string>
+    <string name="no_answer_call">"လြဲသြားေသာ ဖုန္း"</string>
+    <string name="Notify_no_info">"အစီအစဥ္ မရွိပါ"</string>
+    <string name="pass_check_hint">"စကားဝွက္ မွားေနသည္။ %d ႀကိမ္ ႀကိဳးစားရန္ က်န္ေသးသည္။"</string>
+    <string name="pass_check_hint_new">"စကားဝွက္မွားေနသည္၊ ထည့္သြင္းရန္ ျပန္စတင္ပါ"</string>
+    <string name="password_cancel">"ရွင္းရန္"</string>
+    <string name="password_error">"စကားဝွက္မွားေနသည္"</string>
+    <string name="password_hint">"အေကာင့္ထဲဝင္ရန္"</string>
+    <string name="starry_unlock_info">"ေသာ့ဖြင့္ရန္ အေပၚ"</string>
+    <string name="touch_protect_content1">"ထြက္ရန္ နည္းလမ္းမွာ-"</string>
+    <string name="touch_protect_content2">"၁။ အနီးရွိ ဆင္ဆာကို မပိတ္ဆို႔ပါႏွင့္"</string>
+    <string name="touch_protect_hint">"၂။ ထြက္ရန္ ပါဝါႏွင့္ အသံျမွင့္ခလုတ္"</string>
+    <string name="touch_protect_title">"တလြဲတို႔ထိျခင္း ကာကြယ္မႈ"</string>
+    <string name="user_switched_to_home_hint">"အသံုးျပဳသူေနရာသို႔ ကူးေျပာင္းၿပီးပါျပီ"</string>
+    <string name="user_switched_to_primary_hint">"အဓိက အသံုးျပဳသူေနရာသို႔ ကူးေျပာင္းၿပီးပါျပီ"</string>
+    <string name="user_switching_hint">"အသံုးျပဳသူ ကူးေျပာင္းေနသည္…"</string>
+    <string name="keyguard_label_text">"ေသာ့ဖြင့္ရန္၊ မီႏူးကို ႏွိပ္ၿပီးေနာက္ ၀ ကို ဆက္ႏွိပ္ပါ။"</string>
+    <string name="faceunlock_multiple_failures">"မ်က္ႏွာျပ ေသာ့ဖြင့့္ရန္ အမ်ားဆံုး ႀကိဳးပမ္းႏိုင္ေသာ အေရအတြက္ထက္ ေက်ာ္လြန္သြားၿပီ"</string>
+    <string name="keyguard_perso_locked_message">"SIM/RUIM ကို Perso ေသာ့ခတ္ထားသည္"</string>
+    <string name="keyguard_accessibility_widget_changed">"%1$s။ ဝစ္ဂ်စ္ %3$d ခုအနက္ %2$d"</string>
+    <string name="keyguard_accessibility_add_widget">"ဝစ္ဂ်စ္ ထည့္ပါ။"</string>
+    <string name="keyguard_accessibility_widget_empty_slot">"အလြတ္"</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">"ေသာ့ခတ္မထားေသာ ဧရိယာကို ျဖန္႔ထုတ္ထားသည္။"</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">"ေသာ့ခတ္မထားေသာ ဧရိယာကို ေခါက္သိမ္းလိုက္သည္။"</string>
+    <string name="keyguard_accessibility_widget">"ဝစ္ဂ်စ္ <xliff:g id="widget_index">%1$s</xliff:g> ခု။"</string>
+    <string name="keyguard_accessibility_user_selector">"အသံုးျပဳသူ ေရြးခ်ယ္ကိရိယာ"</string>
+    <string name="keyguard_accessibility_camera">"ကင္မရာ"</string>
+    <string name="keygaurd_accessibility_media_controls">"မီဒီယာ ထိန္းခ်ဳပ္မႈမ်ား"</string>
+    <string name="keyguard_accessibility_widget_reorder_start">"ဝစ္ဂ်စ္ ျပန္စီစဥ္ျခင္းကို စတင္ေနပါၿပီ။"</string>
+    <string name="keyguard_accessibility_widget_reorder_end">"ဝစ္ဂ်စ္ ျပန္စီစဥ္ျခင္း ၿပီးပါၿပီ။"</string>
+    <string name="keyguard_accessibility_widget_deleted">"ဝစ္ဂ်စ္ <xliff:g id="widget_index">%1$s</xliff:g> ကုိ ဖ်က္လုိက္ပါၿပီ။"</string>
+    <string name="keyguard_accessibility_expand_lock_area">"ေသာ့ဖြင့္ ဧရိယာကို ျဖန္႔ထုတ္ပါ။"</string>
+    <string name="keyguard_accessibility_slide_unlock">"ပြတ္ဆြဲ၍ ေသာ့ဖြင့္ပါ။"</string>
+    <string name="keyguard_accessibility_face_unlock">"မ်က္ႏွာျဖင့္ ေသာ့ဖြင့္ပါ။"</string>
+    <string name="keyguard_accessibility_transport_prev_description">"ယခင္အပုဒ္သို႔ ခလုတ္"</string>
+    <string name="keyguard_accessibility_transport_next_description">"ေနာက္တစ္ပုဒ္သို႔ ခလုတ္"</string>
+    <string name="keyguard_accessibility_transport_pause_description">"ခဏရပ္ခလုတ္"</string>
+    <string name="keyguard_accessibility_transport_play_description">"ဖြင့္ခလုတ္"</string>
+    <string name="keyguard_accessibility_transport_stop_description">"ရပ္ခလုတ္"</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">"သေဘာတူေၾကာင္းလက္မေထာင္ျပျခင္း"</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">"ကန္႔ကြက္ေၾကာင္းလက္မေအာက္စိုက္ျပျခင္း"</string>
+    <string name="keyguard_accessibility_transport_heart_description">"အသည္းပံု"</string>
+    <string name="keyguard_accessibility_show_bouncer">"ဆက္လုပ္ရန္ ေသာ့ဖြင့့္ပါ"</string>
+    <string name="keyguard_accessibility_hide_bouncer">"စတင္လုပ္ေဆာင္မႈကို ပယ္ဖ်က္လိုက္သည္"</string>
+    <string name="keyguard_accessibility_delete_widget_start">"ဖ်က္ရန္ <xliff:g id="widget_index">%1$s</xliff:g> ကုိလႊတ္ခ်ပါ။"</string>
+    <string name="keyguard_accessibility_delete_widget_end">"<xliff:g id="widget_index">%1$s</xliff:g> ကုိ ဖ်က္ပစ္မည္မဟုတ္ပါ။"</string>
+    <string name="password_keyboard_label_symbol_key">"\?123"</string>
+    <string name="password_keyboard_label_alpha_key">"ABC"</string>
+    <string name="password_keyboard_label_alt_key">"ALT"</string>
+    <string name="keyboardview_keycode_alt">"Alt"</string>
+    <string name="keyboardview_keycode_cancel">"ပယ္ဖ်က္ရန္"</string>
+    <string name="keyboardview_keycode_done">"လုပ္ၿပီးပါၿပီ"</string>
+    <string name="keyboardview_keycode_mode_change">"မုဒ္ေျပာင္းရန္"</string>
+    <string name="keyboardview_keycode_shift">"ေျပာင္း ခလုတ္"</string>
+    <string name="description_target_unlock">"ေသာ့ဖြင့္ရန္"</string>
+    <string name="description_target_camera">"ကင္မရာ"</string>
+    <string name="description_target_silent">"အသံတိတ္ရန္"</string>
+    <string name="description_target_soundon">"အသံဖြင့္ထားသည္"</string>
+    <string name="description_target_search">"ရွာေဖြပါ"</string>
+    <string name="description_direction_up">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> အတြက္ အေပၚသုိ႔ ပြတ္ဆြဲပါ။"</string>
+    <string name="description_direction_down">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> အတြက္ ေအာက္သုိ႔ ပြတ္ဆြဲပါ။"</string>
+    <string name="description_direction_left">""<xliff:g id="target_description" example="Unlock">%s</xliff:g> အတြက္ ဘယ္သုိ႔ ပြတ္ဆြဲပါ။"</string>
+    <string name="description_direction_right">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> အတြက္ ညာသုိ႔ ပြတ္ဆြဲပါ။"</string>
+    <string name="user_switched">"လက္ရွိအသံုးျပဳသူ <xliff:g id="name" example="Bob">%1$s</xliff:g>."</string>
+    <string name="kg_emergency_call_label">"အေရးေပၚ ဖုန္းေခၚဆိုမႈ"</string>
+    <string name="kg_sim_lock_instructions">"SIM ေသာ့ ထည့္သြင္းပါ"</string>
+    <string name="kg_login_instructions">"ေသာ့ဖြင့့္ရန္၊ သင့္ Google ​အေကာင့္ႏွင့္ စာရင္းသြင္းဝင္ပါ။"</string>
+    <string name="kg_login_username_hint">"သံုးသူအမည္ (အီးေမးလ္)"</string>
+    <string name="kg_login_password_hint">"စကားဝွက္"</string>
+    <string name="kg_login_submit_button">"ဝင္ေရာက္ရန္"</string>
+    <string name="kg_login_invalid_input">"အက်ံဳးမဝင္ေသာ သံုးသူအမည္ (သို႔) စကားဝွက္။"</string>
+    <string name="kg_login_account_recovery_hint">"သင့္သံုးသူအမည္ (သို႔) စကားဝွက္ ေမ့သြားပါသလား။\n<b>google.com/accounts/recovery</b> သို႔ သြားၾကည့္ပါ။"</string>
+    <string name="kg_login_checking_password">"အေကာင့္ကုိ စစ္ေဆးေနသည္\u2026"</string>
+    <string name="kg_reordering_delete_drop_target_text">"ဖယ္ရွားရန္"</string>
+    <string name="kg_password_sim_lock_failed">"SIM LOCK လုပ္ေဆာင္ခ်က္ မေအာင္ျမင္ပါ။"</string>
+    <string name="keyguard_transport_prev_description">"ယခင္အပုဒ္သို႔ ခလုတ္"</string>
+    <string name="keyguard_transport_next_description">"ေနာက္တစ္ပုဒ္သို႔ ခလုတ္"</string>
+    <string name="keyguard_transport_pause_description">"ခဏရပ္ခလုတ္"</string>
+    <string name="keyguard_transport_play_description">"ဖြင့္ခလုတ္"</string>
+    <string name="keyguard_transport_stop_description">"ရပ္ခလုတ္"</string>
+
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">"SIM PIN ကို ရိုက္ပါ။ သင့္စက္ကိုေသာ့ဖြင့္ရန္ ဖုန္းလိုင္းကုမၸဏီႏွင့္ မခ်ိတ္ဆက္ရမီ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္"</item>
+        <item quantity="other">"SIM PIN ကို ရိုက္ပါ။ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္"</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">"ယခု SIM ကို ပိတ္ထားသည္။ ဆက္လုပ္ရန္ PUK ကုဒ္ကို ထည့္ပါ။ SIM ကုိ အၿပီးသတ္ သံုးမရေအာင္ မလုပ္မီ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။ အေသးစိတ္အတြက္ ဖုန္းလိုင္းကုမၸဏီကို ဆက္သြယ္ပါ။"</item>
+        <item quantity="other">"ယခု SIM ကို ပိတ္ထားသည္။ ဆက္လုပ္ရန္ PUK ကုဒ္ကို ထည့္ပါ။ SIM ကုိ အၿပီးသတ္ သံုးမရေအာင္ မလုပ္မီ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။ အေသးစိတ္အတြက္ ဖုန္းလိုင္းကုမၸဏီကို ဆက္သြယ္ပါ။"</item>
+    </plurals>
+    <plurals name="kg_password_default_sim_lock_message">
+        <item quantity="one">"SIM LOCK ကို ရိုက္ပါ။ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+        <item quantity="other">"SIM LOCK ကို ရိုက္ပါ။ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_sim_lock_code">
+        <item quantity="one">"SIM LOCK ကုဒ္မွားေနပါသည္၊ သင္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+        <item quantity="other">"SIM LOCK ကုဒ္မွားေနပါသည္၊ သင္ <xliff:g id="number">%d</xliff:g> ႀကိမ္ ႀကိဳးစားရန္က်န္သည္။"</item>
+    </plurals>
+
+</resources>

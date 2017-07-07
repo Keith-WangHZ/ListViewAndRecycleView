@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/preference_single_line_distance"
+    android:layout_gravity="right|center_vertical"
+    android:background="@color/yl_list_selector_background_color"
+    android:orientation="vertical"
+    android:clickable="false" >
+
+    <View 
+         android:id="@+id/package_list_divider_top"
+         android:layout_width="fill_parent" 
+         android:layout_height="2px" 
+         android:visibility="gone"
+         android:background="@color/yl_list_selector_background_color"
+         android:paddingLeft="@dimen/preference_padding_left"
+         android:paddingRight="@dimen/preference_padding_left" />
+    
+    <RelativeLayout
+        android:id="@+id/package_list_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/preference_single_line_distance"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/preference_padding_left"
+        android:paddingRight="@dimen/preference_padding_left"
+        android:clickable="true"
+        android:background="@color/yl_list_selector_background_color" >
+
+        <TextView
+            android:id="@+id/top_header_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/header_top"
+            android:textColor="#FF0C0C0C"
+            android:textSize="16sp" />
+         <ImageView
+            android:id="@+id/preference_detail_next_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/preference_detail_next_black" />
+    </RelativeLayout>
+        
+      <ImageView 
+         android:id="@+id/package_list_divider"
+         android:layout_width="fill_parent" 
+         android:layout_height="1px" 
+         android:background="@color/yl_list_content_line_color"/>
+      
+     <LinearLayout
+             android:id="@+id/package_list_head"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/preference_double_line_distance"
+             android:layout_gravity="right|center_vertical"
+             android:orientation="horizontal"
+             android:paddingLeft="@dimen/preference_padding_left"
+             android:paddingRight="@dimen/preference_padding_left" >
+             <LinearLayout
+                 android:id="@+id/package_list_app0"
+                 android:layout_width="wrap_content"
+                 android:layout_height="@dimen/preference_double_line_distance"
+                 android:gravity="left|center_vertical"
+                 android:orientation="vertical" >
+
+                 <TextView
+                     android:id="@+id/header_name"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="left|top"
+                     android:text="@string/header_name_top"
+                     android:textColor="#FF0C0C0C"
+                     android:textSize="16sp" />
+
+                 <TextView
+                     android:id="@+id/header_detail"
+                     android:layout_width="267dp"
+                     android:layout_height="wrap_content"
+                     android:gravity="left|bottom"
+                     android:text="@string/header_name_detail_top"
+                     android:textColor="#FF7B7B7B"
+                     android:textSize="14sp" />
+             </LinearLayout>
+
+             <!--Space
+                 android:layout_width="16dp"
+                 android:layout_height="54dp"/-->
+             <LinearLayout
+                android:id="@+id/one_switchnet_button_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical" >
+
+                <com.yulong.android.common.widget.CommonSwitch
+                      android:id="@+id/sub_switch_widget0"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                      android:layout_gravity="right"
+                      android:background="@null"
+                      android:clickable="true"
+                      android:colorAccent="#ff7fcac3"
+                      android:focusable="false"
+                      android:gravity="center_vertical" />
+
+                <!--CheckBox
+                    android:id="@+id/sub_switch_widget0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:button="@null"
+                   android:drawableRight="@drawable/yl_btn_check_holo_light" /-->
+            </LinearLayout>
+        </LinearLayout>
+        
+     <ImageView 
+         android:id="@+id/package_list_divider"
+         android:layout_width="fill_parent" 
+         android:layout_height="1px" 
+         android:background="@color/yl_list_content_line_color"/>
+      <View 
+         android:id="@+id/package_list_divider_content"
+         android:layout_width="fill_parent" 
+         android:layout_height="@dimen/preference_no_character_gap" 
+         android:background="#f7f7f7"/>
+</LinearLayout>

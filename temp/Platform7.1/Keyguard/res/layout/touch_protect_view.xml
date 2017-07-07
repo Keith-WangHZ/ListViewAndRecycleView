@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:gravity="center"
+        android:text="@string/touch_protect_title"
+        android:textColor="#80ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="@string/touch_protect_content2"
+        android:textColor="#ccffffff"
+        android:textSize="20sp" />
+
+    
+    <ImageView 
+        android:layout_width="150.3dp"
+        android:layout_height="263dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/touch_protect_hint_drawable"/>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#ccffffff"
+        android:text="@string/touch_protect_hint"
+        android:textSize="12sp" />
+    
+    
+    
+  <!--   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="@string/touch_protect_content1"    "通过以下任意方式退出："
+        android:textSize="14sp" /> -->
+    
+    
+
+</LinearLayout>

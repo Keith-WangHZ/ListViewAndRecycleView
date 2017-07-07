@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bobobo"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="#808694"
+     android:src="@drawable/ic_qs_spread">
+    
+<!--  android:background="@drawable/corner_blue"  -->
+</ImageView>

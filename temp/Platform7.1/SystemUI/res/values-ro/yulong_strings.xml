@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Mod Întâlnire</string>
+    <string name="qs_label_vibrate_ring">Vibrare</string>
+    <string name="qs_label_softap">Hotspot</string>
+    <string name="accessibility_ime_switch_button">"Buton pentru comutarea metodei de introducere."</string>
+    <string name="accessibility_no_wifi">"Wifi deconectat."</string>
+    <string name="accessibility_wifi_off">"Wifi oprit."</string>
+    <string name="accessibility_wifi_one_bar">"Wifi o bară."</string>
+    <string name="accessibility_wifi_signal_full">"Semnal Wifi integral."</string>
+    <string name="accessibility_wifi_three_bars">"Wifi trei bare."</string>
+    <string name="accessibility_wifi_two_bars">"Wifi două bare."</string>
+    <string name="guide_click_txt">"Faceţi clic pe setările revistei keyguard"</string>
+    <string name="guide_sliding_txt">"Glisaţi pentru a schimba ecranul"</string>
+    <string name="guide_swipe_up_txt">"Trageţi cu degetul în sus pentru a debloca"</string>
+    <string name="guide_title">"Bine aţi venit la Revista Keyguard"</string>
+    <string name="header_name_detail_top">"Afişare notificări în bara de stare"</string>
+    <string name="header_name_top">"Notificare bară de stare"</string>
+    <string name="header_name0">"Bară de stare"</string>
+    <string name="header_name1">"Protecţie taste"</string>
+    <string name="header_top">"Gestionare lot de notificări"</string>
+    <string name="interruption_level_all">"Toate"</string>
+    <string name="keyguard_guide_enter">"Încercaţi"</string>
+    <string name="lockscreen_airplane_mode_on">"Modul avion este activat."</string>
+    <string name="lockscreen_missing_sim_message_short">"Cartela SIM lipseşte."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Cartelă SIM neutilizabilă."</string>
+    <string name="lockscreen_sim_error_message_short">"Eroare SIM."</string>
+    <string name="lockscreen_sim_locked_message">"Cartela SIM este blocată."</string>
+    <string name="lockscreen_sim_puk_locked_message">"Cartela SIM este blocată cu codul PUK."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Acest dispozitiv este gestionat de:\n<xliff:g id="organization">%1$s</xliff:g>\nProfilul dvs. este gestionat de:\n<xliff:g id="organization">%2$s</xliff:g>\n\nAdministratorul dvs. vă poate monitoriza activitatea dispozitivului şi a reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate.\n\nPentru mai multe informaţii, contactaţi administratorul dvs."</string>
+    <string name="monitoring_description_legacy_vpn">"Sunteţi conectat(ă) la un VPN (\”\”<xliff:g id="application">%1$s</xliff:g>\”).\n\nFurnizorul dvs. de servicii VPN vă poate monitoriza activitatea dispozitivului şi a reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Acest dispozitiv este gestionat de:\n<xliff:g id="organization">%1$s</xliff:g>\nProfilul dvs. este gestionat de:\n<xliff:g id="organization">%2$s</xliff:g>\n\nAdministratorul dvs. vă poate monitoriza activitatea reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate. Pentru mai multe informaţii, contactaţi administratorul dvs.\n\nDe asemenea,sunteţi conectat(ă) la un VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Furnizorul dvs. de servicii VPN vă poate monitoriza şi activitatea reţelei."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Acest dispozitiv este gestionat de:\n<xliff:g id="organization">%1$s</xliff:g>\n\nAdministratorul dvs. vă poate monitoriza activitatea reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate. Pentru mai multe informaţii, contactaţi administratorul dvs.\n\nDe asemenea,sunteţi conectat(ă) la un VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Furnizorul dvs. de servicii VPN vă poate monitoriza şi activitatea reţelei."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Acest profil este gestionat de:\n<xliff:g id="organization">%1$s</xliff:g>\n\nAdministratorul dvs. vă poate monitoriza activitatea reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate. Pentru mai multe informaţii, contactaţi administratorul dvs.\n\nDe asemenea,sunteţi conectat(ă) la un VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Furnizorul dvs. de servicii VPN vă poate monitoriza şi activitatea reţelei."</string>
+    <string name="monitoring_description_profile_owned">"Acest profil este gestionat de:\n<xliff:g id="organization">%1$s</xliff:g>\n\nAdministratorul dvs. vă poate monitoriza activitatea dispozitivului şi a reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate.\n\nPentru mai multe informaţii, contactaţi administratorul dvs."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Acest dispozitiv este gestionat de:\n<xliff:g id="organization">%1$s</xliff:g>\nProfilul dvs. este gestionat de:\n<xliff:g id="organization">%2$s</xliff:g>\n\nAdministratorul dvs. vă poate monitoriza activitatea reţelei, inclusiv e-mailuri, aplicaţii şi site-uri web securizate. Pentru mai multe informaţii, contactaţi administratorul.\n\nDe asemenea, aţi acordat \"<xliff:g id="application">%3$s</xliff:g>\" permisiunea de a configura o conexiune VPN. Această aplicaţie poate monitoriza şi activitatea reţelei."</string>
+    <string name="please_select_phase2">"Autentificare faza 2"</string>
+    <string name="proxy_exclusionlist_label">"Evitare proxy pentru"</string>
+    <string name="proxy_hostname_label">"Nume gazdă proxy"</string>
+    <string name="proxy_port_label">"Port proxy"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"Proxy HTTP este utilizat de browser, dar nu poate fi utilizat de celelalte aplicaţii."</string>
+    <string name="qs_bottom_first_btn">"Ştiu"</string>
+    <string name="qs_bottom_first_notice">"Glisaţi în sus din partea de jos a ecranului pentru a accesa panoul Setări rapide"</string>
+    <string name="qs_label_cbutton">"Buton C"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Mod avion"</string>
+    <string name="sim_slot">"Slot SIM"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>mesaje]"</string>
+    <string name="status_bar_settings_airplane">"Mod avion"</string>
+    <string name="sub_switch_name0">"Activare notificări"</string>
+    <string name="sub_switch_name1">"Notificări flotante"</string>
+    <string name="sub_switch_name1_sub">"Afişaţi notificările în ecranul superior, apoi dispar automat"</string>
+    <string name="sub_switch_name2">"Notificări ecran de blocare"</string>
+    <string name="sub_switch_name2_sub">"Afişare notificări în bara de stare"</string>
+    <string name="sub_switch_name3">"Afişare detalii notificări"</string>
+    <string name="sub_switch_name4">"Afişare notificări în bara de stare"</string>
+    <string name="title_activity_package_list_batch">"Procesare lot de notificări"</string>
+    <string name="wapi_as_certificate">"Certificat ASE"</string>
+    <string name="wapi_user_certificate">"Certificat utilizator"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Identitate anonimă"</string>
+    <string name="wifi_eap_ca_cert">"Certificat CA"</string>
+    <string name="wifi_eap_identity">"Identitate"</string>
+    <string name="wifi_eap_method">"Metodă EAP"</string>
+    <string name="wifi_eap_user_cert">"Certificat utilizator"</string>
+    <string name="wifi_gateway">"Portal"</string>
+    <string name="wifi_hex_password">"Parolă hexazecimală."</string>
+    <string name="wifi_info_cancal_btn">"Anulare"</string>
+    <string name="wifi_info_connect_btn">"Conectare"</string>
+    <string name="wifi_ip_address">"Adresă IP"</string>
+    <string name="wifi_ip_settings">"Setări IP"</string>
+    <string name="wifi_network_prefix_length">"Lungime prefix reţea"</string>
+    <string name="wifi_password">"Parolă"</string>
+    <string name="wifi_password_text">"Parolă (8 - 63 caractere)"</string>
+    <string name="wifi_security">"Securitate"</string>
+    <string name="wifi_security_none">"Niciunul"</string>
+    <string name="wifi_show_advanced">"Afişare opţiuni avansate"</string>
+    <string name="wifi_show_password">"Afişare parolă"</string>
+    <string name="wifi_signal">"Putere semnal"</string>
+    <string name="wifi_ssid">"SSID reţea"</string>
+    <string name="wifi_ssid_hint">"Introduceţi SSID"</string>
+    <string name="wifi_status">"Stare"</string>
+    <string name="wifi_unchanged">"(neschimbate)"</string>
+    <string name="wifi_WEP_secury_key">"Cheie de securitate"</string>
+    <string name="wifi_WEP_transmit_key">"Cheie de transmitere"</string>
+    <string name="zen_alarm_information_day_time">"Următoarea alarmă este <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Următoarea alarmă este la <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Numai întreruperi prioritare"</string>
+    <string name="zen_no_interruptions">"Fără întreruperi"</string>
+    <string name="zen_no_interruptions_with_warning">"Fără întreruperi. Nici măcar alarme."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Urgenţă"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Preferate"</string>
+    <string name="keyguard_magzine_cancel_collect">"Adăugare la preferate"</string>
+    <string name="keyguard_magazine_resident">"Rezident"</string>
+    <string name="keyguard_magazine_cancel_resident">"Rezident canal"</string>
+    <string name="keyguard_magazine_share">"Partajaţi"</string>
+    <string name="keyguard_magazine_link">"Link"</string>
+    <string name="keyguard_magazine_more">"Setare"</string>
+    <string name="keyguard_magzine_collect_toast">"Salvaţi în fotografiile în albumul din galeria locală"</string>
+    <string name="keyguard_magazine_resident_toast">"De fiecare dată când ecranul este pornit va afişa în mod prestabilit acest fundal"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"De fiecare dată când ecranul este pornit nu va afişa în mod prestabilit acest fundal"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Colecţia de albume foto"</string>
+    <string name="qs_label_calculator">"Calculator"</string>
+    <string name="qs_label_blaster">"Reportofon"</string>
+    <string name="qs_label_magical">"Magic"</string>
+    <string name="qs_label_camera">"Cameră foto"</string>
+    <string name="qs_label_recording">"Înregistrare"</string>
+    <string name="qs_label_controlcentor">"Centru de comandă"</string>
+    <string name="qs_label_slience">"Captură de ecran"</string>
+    <string name="header_name">"activaţi notificarea"</string>
+    <string name="header_name_detail">"Afişaţi în panoul de notificări"</string>
+    <string name="title_show_locksreen">"Afişaţi pe ecranul de blocare"</string>
+    <string name="recents_app_shendu">"adâncime"</string>
+    <string name="recents_app_liuliang">"Astăzi:"</string>
+    <string name="recents_app_memory">"Memorie:"</string>
+    <string name="recents_app_battary">"Baterie:"</string>
+    <string name="recents_app_running_empty">"nicio activitate recentă"</string>
+    <string name="recents_app_best_already">"curăţare optimă"</string>
+    <string name="recents_app_release_memory">"goliţi memoria <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"porniţi mai întâi Centrul de siguranţă"</string>
+    <string name="recents_app_memory_cleaned">"curăţat"</string>
+    <string name="preference_detail_show">"Afişaţi"</string>
+    <string name="preference_detail_hide">"Ascundeţi"</string>
+    <string name="item_show_notifcaiton">"Notificare"</string>
+    <string name="item_show_lockscreen">"pe ecranul de blocare"</string>
+    <string name="item_show_floating">"plutitor"</string>
+    <string name="item_show_detail">"Afişaţi detalii"</string>
+    <string name="manage_notification_access_title">"Acces la notificări"</string>
+    <string name="notification_hide_system_app">"Ascundeţi aplicaţiile sistemului"</string>
+    <string name="notification_show_system_app">"Afişaţi aplicaţiile sistemului"</string>
+    <string name="ctrl_center_shown_1page">"Scurtături afişate - Pagina 1"</string>
+    <string name="ctrl_center_shown_2page">"Scurtături afişate - Pagina 2"</string>
+    <string name="ctrl_center_non_shown">"Scurtăturile nu sunt afişate"</string>
+    <string name="ctrl_center_hint">"Notă: Atingeţi lung pe o scurtătură pentru a o muta. Puteţi să influenţaţi afişarea şi locaţia acesteia\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Volumul apelurilor vocale"</item>
+        <item>"Volumul sistemului"</item>
+        <item>"Volumul tonurilor de apel şi al notificărilor"</item>
+        <item>"Volumul media"</item>
+        <item>"Volumul alarmelor"</item>
+        <item></item>
+        <item>"Volumul apelurilor Bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 ecran în Prezentare generală"</item>
+        <item quantity="other">"%d ecrane în Prezentare generală"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Ascunde"</string>
+    <string name="clear_memory_notice">"Felicitări, ați șters cu succes sarcinile"</string>
+    <string name="data_no_connected_error">"Vă rugăm să verificaţi dacă roaming-ul de date este permis în Setări-&gt;Gestionare cartelă SIM-&gt;Roaming internaţional!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Tragerea în jos este activată în ecranul de blocare"</string>
+    <string name="item_center_notifcaiton_obsessive">"Opţiuni OCD"</string>
+    <string name="qs_label_dataportection_mode">"Protecţie date"</string>
+    <string name="qs_label_ringer">"Sonerie"</string>
+    <string name="qs_label_rotation">"Rotire ecran"</string>
+    <string name="qs_label_speed">"Accelerează"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> utilizabil |total <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Nicio cartelă SIM. Încercaţi din nou după ce introduceţi cartela!"</string>
+    <string name="status_bar_screenshot_interesting">"interesantă"</string>
+    <string name="status_bar_screenshot_long">"lungă"</string>
+    <string name="status_bar_super_secure_system_mode">"Momentan sunteţi în modul Sigur. Ieşiţi din modul Sigur pentru a activa funcţia"</string>
+    <string name="title_show_floating_sub">"După deblocarea ecranului, notificările sunt afişate deasupra ecranului, apoi dispar automat"</string>
+    <string name="yl_volume_ring_icon_description">"Ton de apel &amp; volum notificări"</string>
+    <string name="accessibility_quick_settings_data_off">"Date mobile dezactivate."</string>
+    <string name="accessibility_quick_settings_data_on">"Date mobile activate."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Roaming dezactivat."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Roaming activat."</string>
+    <string name="brightness_dlg_adjust">"(Reglare)"</string>
+    <string name="brightness_dlg_auto">"Automat"</string>
+    <string name="brightness_dlg_brightness">"Luminozitate"</string>
+    <string name="clear_notify_all_oldman">"Ştergere notificări"</string>
+    <string name="dateview_day">"Zi"</string>
+    <string name="dateview_month">"Lună"</string>
+    <string name="domain_switch_toast">"Notificarea este din alt spațiu."</string>
+    <string name="item_center_notifcaiton_ccm">"Afişare nume operator"</string>
+    <string name="item_center_notifcaiton_control">"Centru de control"</string>
+    <string name="item_center_notifcaiton_management">"Gestionare notificare"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Şterge eticheta pictogramei când este scuturat"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Ascundere etichetă pictogramă"</string>
+    <string name="item_center_notifcaiton_other">"Altele"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Setări rapide"</string>
+    <string name="item_center_notifcaiton_sub">"Notificare"</string>
+    <string name="item_center_notifcaiton_title">"Setări"</string>
+    <string name="item_show_none">"Niciunul"</string>
+    <string name="item_show_other">"Altele"</string>
+    <string name="item_show_statusbar">"Panou"</string>
+    <string name="keyguard_magazine_enter">"Glisați în jos pentru a bloca tastatura"</string>
+    <string name="kg_no_service">"Lipsă serviciu"</string>
+    <string name="kg_no_uim">"Niciun UIM sau serviciu"</string>
+    <string name="kg_no_usim">"Lipsă cartelă SIM sau serviciu"</string>
+    <string name="kg_none_carrier">"Lipsă serviciu"</string>
+    <string name="message_keep_one_launcher">"Trebuie păstrată cel puţin o activitate!"</string>
+    <string name="message_switch_fail">"Nu se poate comuta la această sarcină deoarece nu are nicio interfaţă."</string>
+    <string name="other_notification_expand">"atingeţi pentru a le vedea pe toate."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> alte notificări"</string>
+    <string name="qs_label_airplane">"Mod Avion"</string>
+    <string name="qs_label_blacklist">"Program blocare"</string>
+    <string name="qs_label_blacklist2">"Program blocare"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Luminozitate"</string>
+    <string name="qs_label_data_roaming">"Roaming"</string>
+    <string name="qs_label_doublecard">"Setări cartelă duală"</string>
+    <string name="qs_label_driving_mode">"Mod Maşină"</string>
+    <string name="qs_label_flashlight">"Lanternă"</string>
+    <string name="qs_label_flow_monitor">"Utilizarea datelor"</string>
+    <string name="qs_label_location">"Locaţia dvs."</string>
+    <string name="qs_label_multiple_accounts_name">"Posesor"</string>
+    <string name="qs_label_mutlwindow">"Sarcini multiple"</string>
+    <string name="qs_label_saving">"Economisire energie"</string>
+    <string name="qs_label_scenemode">"Mod Scenă"</string>
+    <string name="qs_label_sdcard_install">"Instalare card SD"</string>
+    <string name="qs_label_sdcard_uninstall">"Dezinstalare card SD"</string>
+    <string name="qs_label_secure_mode">"Protejare date"</string>
+    <string name="qs_label_setting">"Setări"</string>
+    <string name="qs_label_shrink_screen">"Scalare ecran"</string>
+    <string name="qs_label_silence">"Dezactivaţi sunetul"</string>
+    <string name="qs_label_sound">"Sunet"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Mod super sigur"</string>
+    <string name="qs_label_switching">"Comutare"</string>
+    <string name="qs_label_ttwindow_mode">"Flux de ştiri"</string>
+    <string name="qs_label_turning_off">"Se închide"</string>
+    <string name="qs_label_turning_on">"Deschidere"</string>
+    <string name="qs_label_viplist">"Lista albă"</string>
+    <string name="qs_label_viplist2">"Lista albă"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_major_bar_tips">"Afişat în panoul de notificare (cel mult 10)"</string>
+    <string name="qs_minor_bar_tips">"Neafişat în panoul de notificare"</string>
+    <string name="quick_settings_apn_switch_label">"Comutator APN"</string>
+    <string name="quick_settings_data_off">"Date dezactivate"</string>
+    <string name="quick_settings_dds_sub">"Date cartelă <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="quick_settings_mobile_data_label">"Date mobile"</string>
+    <string name="quick_settings_roaming_label">"Roaming"</string>
+    <string name="quicksettings_edit_disable">"Editaţi"</string>
+    <string name="quicksettings_edit_enable">"Ieşire"</string>
+    <string name="quicksettings_more">"Mai multe"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Nu se poate conecta la reţea în modul Avion."</string>
+    <string name="status_bar_disable_data_roaming">"Roaming-ul este dezactivat."</string>
+    <string name="status_bar_earphones_connected_text">"Căştile sunt conectate."</string>
+    <string name="status_bar_earphones_connected_ticker">"Căştile sunt conectate."</string>
+    <string name="status_bar_earphones_connected_title">"Set cu căşti"</string>
+    <string name="status_bar_enable_data_roaming">"Roaming-ul este activat."</string>
+    <string name="status_bar_expand_autobright">"Reglare automată luminozitate"</string>
+    <string name="status_bar_expanded_airplane_mode">"Mod Avion"</string>
+    <string name="status_bar_expanded_check_sim">"Niciun SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Niciun UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Nicio cartelă SIM"</string>
+    <string name="status_bar_expanded_data_net_status">"Necunoscut"</string>
+    <string name="status_bar_expanded_mms_send_note">"Se conectează la reţea... Încercaţi mai târziu."</string>
+    <string name="status_bar_expanded_net_using_card">"Utilizarea cartelei telefonului <xliff:g id="number">%d</xliff:g> pentru conexiunea de date. Puteţi comuta manual reţeaua mai târziu."</string>
+    <string name="status_bar_expanded_network_forbid">"Serviciu dezactivat"</string>
+    <string name="status_bar_expanded_network_off">"Lipsă serviciu"</string>
+    <string name="status_bar_expanded_start_network">"Date mobile"</string>
+    <string name="status_bar_expanded_start_network_g">"Date mobile"</string>
+    <string name="status_bar_expanded_stop_network">"Date mobile"</string>
+    <string name="status_bar_expanded_stop_network_g">"Date mobile"</string>
+    <string name="status_bar_no_running_apps">"Nu rulează nicio aplicaţie"</string>
+    <string name="status_bar_notification_manager">"director"</string>
+    <string name="status_bar_notify_interception_disable">"Interzicere"</string>
+    <string name="status_bar_notify_interception_enable">"Permiteţi"</string>
+    <string name="status_bar_other_notify">"Mai multe"</string>
+    <string name="status_bar_other_notify_back">"Înapoi"</string>
+    <string name="status_bar_recent_delete">"Ştergeţi"</string>
+    <string name="status_bar_recent_historical">"Sarcină istorică"</string>
+    <string name="status_bar_recent_memory">"Memorie"</string>
+    <string name="status_bar_recent_memory_free">"liber|"</string>
+    <string name="status_bar_recent_memory_item_used">"Utilizat:"</string>
+    <string name="status_bar_recent_memory_used">"Utilizat:"</string>
+    <string name="status_bar_recent_optimize">"Detalii"</string>
+    <string name="status_bar_recent_running">"Sarcină activă"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Copiat pe clipboard."</string>
+    <string name="status_bar_screenshot_edit">"Editaţi"</string>
+    <string name="status_bar_screenshot_exit">"Anulaţi"</string>
+    <string name="status_bar_screenshot_save">"Salvare"</string>
+    <string name="status_bar_screenshot_share">"Partajaţi"</string>
+    <string name="status_bar_select_network1">"Net 1"</string>
+    <string name="status_bar_select_network2">"Net 2"</string>
+    <string name="tasklist_killall">"Închidere toate"</string>
+    <string name="tasklist_memory_usage">"Memorie liberă/totală: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Manager sarcină"</string>
+    <string name="title_activity_package_list">"Centru de notificare"</string>
+    <string name="title_show_effect_preview">"Previzualizare imagine"</string>
+    <string name="title_show_floating">"Notificări plutitoare"</string>
+    <string name="title_show_notifcaiton">"Permiteţi"</string>
+    <string name="title_show_notification_center">"Centru de notificare"</string>
+    <string name="title_show_other">"Afişează în altele"</string>
+    <string name="title_show_statusbar">"Afişează pe panou"</string>
+    <string name="gps_notification_searching_text_content">"Economisiţi energie închizând GPS."</string>
+    <string name="quick_settings_battery_charging_label">"În curs de încărcare, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Încărcat"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Sunet dezactivat de <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Afişaţi bara de navigare glisând în sus din josul ecranului"</string>
+
+</resources>

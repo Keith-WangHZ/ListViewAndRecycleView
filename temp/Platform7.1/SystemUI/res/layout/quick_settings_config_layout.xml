@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quickSettingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.systemui.statusbar.phone.QuickSettingsConfigView
+        xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+        android:id="@+id/setting_config_container0"
+        android:layout_width="match_parent"
+        systemui:quickSettingsViewItemLayout="@layout/quick_setting_config_edit"
+        android:layout_height="wrap_content">
+    </com.android.systemui.statusbar.phone.QuickSettingsConfigView>
+
+	 <include layout="@layout/quick_setting_config_edit"
+	    android:id="@+id/quick_settings_edit"
+	    android:layout_width="64dp"
+	    android:layout_height="64dp"
+	    android:visibility="gone"
+	    android:layout_gravity="bottom|center"/>    
+</FrameLayout>

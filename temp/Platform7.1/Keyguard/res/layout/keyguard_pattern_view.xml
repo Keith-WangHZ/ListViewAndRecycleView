@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- This is the screen that shows the 9 circle unlock widget and instructs
+     the user how to unlock their device, or make an emergency call.  This
+     is the portrait layout.  -->
+<com.android.keyguard.KeyguardPatternView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyguard_pattern_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="bottom">
+
+   <!--  <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"> -->
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal|bottom"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <include layout="@layout/keyguard_message_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+
+            <LinearLayout
+                android:id="@+id/childView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:gravity="center|bottom"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/left"
+                    android:layout_width="36dp"
+                    android:layout_height="356dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/leftText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="150dp"
+                        android:clickable="true"
+                        android:gravity="center_horizontal"
+                        android:src="@drawable/left_move" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/patternContainer"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical" >
+
+                    <com.android.internal.widget.LockPatternView
+                        android:id="@+id/lockPatternView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <include
+                            android:id="@+id/keyguard_selector_fade_container"
+                            style="?android:attr/buttonBarButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="11"
+                            layout="@layout/keyguard_eca"
+                            android:gravity="center"
+                            android:orientation="vertical" />
+
+                        <TextView
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/key_cancel"
+                            style="?android:attr/buttonBarButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="11"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="12dip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/right"
+                    android:layout_width="36dp"
+                    android:layout_height="356dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/rightText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="150dp"
+                        android:clickable="true"
+                        android:gravity="center_horizontal"
+                        android:src="@drawable/right_move" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout 
+                android:id="@+id/navigateHeight"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+            </LinearLayout>
+            
+            <!-- <com.android.internal.widget.LockPatternView
+                android:id="@+id/lockPatternView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dip"
+                android:layout_marginBottom="4dip"
+                android:layout_marginStart="8dip"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:clipChildren="false"
+                android:clipToPadding="false" />
+
+          <include layout="@layout/keyguard_eca"
+              android:id="@+id/keyguard_selector_fade_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_gravity="bottom|center_horizontal"
+              android:gravity="center_horizontal" /> -->
+        </LinearLayout>
+
+</com.android.keyguard.KeyguardPatternView>

@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] -->
+    <string name="app_label">ระบบ UI</string>
+
+    <!--
+         The text for the button in the notification window-shade that clears
+         all of the currently visible notifications. [CHAR LIMIT=10]
+    -->
+    <string name="status_bar_clear_all_button">ล้าง</string>
+
+    <!-- Title shown in recents popup for removing an application from the list -->
+    <string name="status_bar_recent_remove_item_title">ลบออกจากรายการ</string>
+
+    <!-- Title shown in recents popup for inspecting an application's properties -->
+    <string name="status_bar_recent_inspect_item_title">ข้อมูลแอป</string>
+
+    <!--
+         Message shown in the middle of the screen after clicking on the recent apps button
+         when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]
+    -->
+    <string name="status_bar_no_recent_apps">หน้าจอล่าสุดของคุณแสดงที่นี่</string>
+
+    <!--
+         Content description for the button to dismiss Recent Apps (only present on large
+         devices)
+    -->
+    <string name="status_bar_accessibility_dismiss_recents">ยกเลิกแอปล่าสุด</string>
+
+    <!-- Message that is read when you enter recent apps in TalkBack -->
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">1 หน้าจอในภาพรวม</item>
+        <item quantity="other">มี %d หน้าจอในภาพรวม</item>
+    </plurals>
+
+    <!--
+         The label in the bar at the top of the status bar when there are no notifications
+         showing.  [CHAR LIMIT=40]
+    -->
+    <string name="status_bar_no_notifications_title">ไม่มีการแจ้งเตือน</string>
+
+    <!--
+         The label for the group of notifications for ongoing events in the opened version of
+         the status bar.  An ongoing call is the prime example of this.  The MP3 music player
+         might be another example.   [CHAR LIMIT=40]
+    -->
+    <string name="status_bar_ongoing_events_title">อย่างต่อเนื่อง</string>
+
+    <!--
+         The label for the group of notifications for recent events in the opened version of
+         the status bar.  Recently received text messsages (SMS), emails, calendar alerts, etc.
+         [CHAR LIMIT=40]
+    -->
+    <string name="status_bar_latest_events_title">การแจ้งเตือน</string>
+
+    <!-- When the battery is low, this is displayed to the user in a dialog.  The title of the low battery alert.  [CHAR LIMIT=NONE] -->
+    <string name="battery_low_title">แบตเตอรี่ต่ำ</string>
+
+    <!--
+         A message that appears when the battery level is getting low in a dialog.  This is
+        appened to the subtitle of the low battery alert.  "number" is the percentage of battery
+        remaining [CHAR LIMIT=none]
+    -->
+    <string name="battery_low_percent_format"><xliff:g id="number">%d%%</xliff:g> ที่เหลืออยู่</string>
+
+    <!-- Same as battery_low_percent_format, with a notice about battery saver if on. [CHAR LIMIT=none] -->
+    <string name="battery_low_percent_format_saver_started"><xliff:g id="number">%d%%</xliff:g> ที่เหลืออยู่ ใช้งานการประหยัดแบตเตอรี่อยู่</string>
+
+    <!--
+    A message that appears when a USB charger is plugged in and the device does not
+    support charging on it.  That is, a charger that fits into the USB port and goes into
+    a wall socket, not into a computer. (This happens because some devices require more
+    current than the USB spec allows.  [CHAR LIMIT=NONE]
+    -->
+    <string name="invalid_charger">ไม่รองรับสายชาร์จ USB\nโปรดใช้เฉพาะสายชาร์จที่มาจากผู้ผลิตเท่านั้น</string>
+
+    <!-- First line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE] -->
+    <string name="invalid_charger_title">ไม่รองรับสายชาร์จ USB</string>
+
+    <!-- Second line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE] -->
+    <string name="invalid_charger_text">โปรดใช้เฉพาะสายชาร์จที่มาจากผู้ผลิตเท่านั้น</string>
+
+    <!--
+         When the battery is low, this is the label of the button to go to the
+         power usage activity to find out what drained the battery.  [CHAR LIMIT=30]
+    -->
+    <string name="battery_low_why">การตั้งค่า</string>
+
+    <!-- Battery saver confirmation dialog title [CHAR LIMIT=NONE] -->
+    <string name="battery_saver_confirmation_title">เปิดใช้งานการประหยัดแบตเตอรี่หรือไม่</string>
+
+    <!-- Battery saver confirmation dialog ok text [CHAR LIMIT=40] -->
+    <string name="battery_saver_confirmation_ok">เปิด</string>
+
+    <!-- Battery saver notification action [CHAR LIMIT=NONE] -->
+    <string name="battery_saver_start_action">เปิดการใช้งานการประหยัดแบตเตอรี่</string>
+
+    <!-- Name of the button that links to the Settings app. [CHAR LIMIT=NONE] -->
+    <string name="status_bar_settings_settings_button">การตั้งค่า</string>
+
+    <!-- Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] -->
+    <string name="status_bar_settings_wifi_button">ไวไฟ</string>
+
+    <!-- Label in the system panel for airplane mode (all radios are turned off)[CHAR LIMIT=30] -->
+    <string name="status_bar_settings_airplane">โหมดเครื่องบิน</string>
+
+    <!-- Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] -->
+    <string name="status_bar_settings_auto_rotation">หมุนหน้าจออัตโนมัติ</string>
+
+    <!-- Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
+    <string name="status_bar_settings_mute_label">ปิดเสียง</string>
+
+    <!-- Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
+    <string name="status_bar_settings_auto_brightness_label">อัตโนมัติ</string>
+
+    <!-- Label in system panel saying the device will show notifications [CHAR LIMIT=30] -->
+    <string name="status_bar_settings_notifications">การแจ้งเตือน</string>
+
+    <!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->
+   <!--  <string name="status_bar_settings_battery_meter_format" translatable="false"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string> -->
+
+    <!-- Separator for PLMN and SPN in network name. -->
+   <!--  <string name="status_bar_network_name_separator" translatable="false">|</string> -->
+
+    <!-- Network connection string for Bluetooth Reverse Tethering -->
+    <string name="bluetooth_tethered">เชื่อมต่อบลูทูธ</string>
+    <!-- Title of a button to open the settings for input methods [CHAR LIMIT=30] -->
+    <string name="status_bar_input_method_settings_configure_input_methods">ติดตั้งวิธีการป้อนข้อมูล</string>
+
+    <!-- Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] -->
+    <string name="status_bar_use_physical_keyboard">คีย์บอร์ดจริง</string>
+
+    <!-- Prompt for the USB device permission dialog [CHAR LIMIT=80] -->
+    <string name="usb_device_permission_prompt">อนุญาตให้แอป <xliff:g id="application">%1$s</xliff:g> เข้าถึงอุปกรณ์ USB หรือไม่</string>
+
+    <!-- Prompt for the USB accessory permission dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_permission_prompt">อนุญาตให้แอป <xliff:g id="application">%1$s</xliff:g> เข้าถึงอุปกรณ์เสริม USB หรือไม่</string>
+
+    <!-- Prompt for the USB device confirm dialog [CHAR LIMIT=80] -->
+    <string name="usb_device_confirm_prompt">เปิด <xliff:g id="activity">%1$s</xliff:g> เมื่ออุปกรณ์ USB นี้ถูกเชื่อมต่อหรือไม่</string>
+
+    <!-- Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_confirm_prompt">เปิด <xliff:g id="activity">%1$s</xliff:g> เมื่ออุปกรณ์เสริม USB นี้ถูกเชื่อมต่อหรือไม่</string>
+
+    <!-- Prompt for the USB accessory URI dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_uri_prompt">ไม่มีแอปที่ติดตั้งแล้วตัวไหนที่สามารถใช้งานได้กับอุปกรณ์เสริม USB นี้ เรียนรู้เพิ่มเติมเกี่ยวกับอุปกรณ์เสริมได้ที่ <xliff:g id="url">%1$s</xliff:g></string>
+
+    <!-- Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] -->
+    <string name="title_usb_accessory">อุปกรณ์เสริม USB</string>
+
+    <!-- View button label for USB dialogs.  [CHAR LIMIT=15] -->
+    <string name="label_view">ดู</string>
+
+    <!-- Checkbox label for USB device dialogs.  [CHAR LIMIT=50] -->
+    <string name="always_use_device">ใช้เป็นค่าเริ่มต้นสำหรับอุปกรณ์ USB นี้</string>
+
+    <!-- Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] -->
+    <string name="always_use_accessory">ใช้เป็นค่าเริ่มต้นสำหรับอุปกรณ์เสริม USB นี้</string>
+
+    <!-- Title of confirmation dialog for USB debugging -->
+    <string name="usb_debugging_title">อนุญาตให้มีการแก้จุดบกพร่องทาง USB หรือไม่</string>
+
+    <!-- Message of confirmation dialog for USB debugging -->
+    <string name="usb_debugging_message">ลายนิ้วมือ key RSA ของคอมพิวเตอร์เครื่องนี้คือ:\n<xliff:g id="fingerprint">%1$s</xliff:g></string>
+
+    <!-- Option to always allow USB debugging from the attached computer -->
+    <string name="usb_debugging_always">อนุญาตคอมพิวเตอร์เครื่องนี้เสมอ</string>
+    <!-- Title of notification shown when trying to enable USB debugging but a secondary user is the current foreground user. -->
+    <string name="usb_debugging_secondary_user_title">ไม่อนุญาตให้มีการแก้จุดบกพร่อง USB</string>
+
+    <!-- Message of notification shown when trying to enable USB debugging but a secondary user is the current foreground user. -->
+    <string name="usb_debugging_secondary_user_message">ผู้ใช้ที่เพิ่งลงชื่อเข้าใช้ในอุปกรณ์นี้ ไม่สามารถเปิดการแก้จุดบกพร่องทาง USB เพื่อใช้ฟังก์ชั่นนี้ เปลี่ยนไปที่ผู้ใช้งานหลัก \u201C<xliff:g id="name" example="John Doe">%s</xliff:g>\u201D</string>
+
+    <!--
+         Checkbox label for application compatibility mode ON (zooming app to look like it's running
+         on a phone).  [CHAR LIMIT=25]
+    -->
+    <string name="compat_mode_on">ขยายให้เต็มหน้าจอ</string>
+
+    <!--
+         Checkbox label for application compatibility mode OFF (normal mode on tablets).
+         [CHAR LIMIT=25]
+    -->
+    <string name="compat_mode_off">ยืดให้เต็มหน้าจอ</string>
+
+    <!-- Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] -->
+    <string name="screenshot_saving_ticker">กำลังบันทึกภาพหน้าจอ\u2026</string>
+    <!-- Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] -->
+    <string name="screenshot_saving_title">กำลังบันทึกภาพหน้าจอ\u2026</string>
+    <!-- Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] -->
+    <string name="screenshot_saving_text">ภาพหน้าจอกำลังถูกบันทึก</string>
+    <!-- Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] -->
+    <string name="screenshot_saved_title">ภาพหน้าจอถูกจับภาพแล้ว</string>
+    <!-- Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] -->
+    <string name="screenshot_saved_text">แตะเพื่อที่จะดูภาพหน้าจอ</string>
+    <!-- Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] -->
+    <string name="screenshot_failed_title">ไม่สามารถแคปภาพหน้าจอได้</string>
+    <!-- Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] -->
+    <string name="screenshot_failed_text">ไม่สามารถถ่ายภาพหน้าจอได้เนื่องจากพื้นที่จัดเก็บข้อมูลจำกัด หรือไม่ได้รับอนุญาตโดย แอปหรือองค์กรของคุณ</string>
+
+    <!-- Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] -->
+    <string name="usb_preference_title">ตัวเลือกการถ่ายโอนไฟล์ทาง USB</string>
+    <!-- Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] -->
+    <string name="use_mtp_button_title">เชื่อมต่อด้วยเครื่องเล่นสื่อ (MTP)</string>
+    <!-- Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] -->
+    <string name="use_ptp_button_title">เชื่อมต่อด้วยกล้อง (PTP)</string>
+    <!-- Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] -->
+    <string name="installer_cd_button_title">ติดตั้งแอป Android File Transfer สำหรับเครื่อง Mac</string>
+
+    <!-- Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_back">กลับ</string>
+    <!-- Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_home">หน้าหลัก</string>
+    <!-- Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_menu">เมนู</string>
+    <!-- Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_recent">ภาพรวม</string>
+    <!-- Content description of the search button for accessibility. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_search_light">การค้นหา</string>
+    <!-- Content description of the camera button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_camera_button">กล้อง</string>
+    <!-- Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_button">โทรศัพท์</string>
+    <!-- Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_voice_assist_button">ตัวช่วยเสียง</string>
+    <!-- Content description of the unlock button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_unlock_button">ปลดล็อค</string>
+    <!-- Content description of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_unlock_button_fingerprint">ปลดล็อคปุ่มกด รอลายนิ้วมือ</string>
+    <!-- Accessibility action of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_unlock_without_fingerprint">ปลดล็อคโดยไม่ใช้ลายนิ้วมือ</string>
+    <!-- Click action label for accessibility for the unlock button. [CHAR LIMIT=NONE] -->
+    <string name="unlock_label">ปลดล็อค</string>
+    <!-- Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] -->
+    <string name="phone_label">เปิดโทรศัพท์</string>
+    <!-- Click action label for accessibility for the voice assist button. This is not shown on-screen and is an accessibility label for the icon which launches the voice assist from the lock screen.[CHAR LIMIT=NONE] -->
+    <string name="voice_assist_label">เปิดใช้งานตัวช่วยเสียง</string>
+    <!-- Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] -->
+    <string name="camera_label">เปิดใช้งานกล้อง</string>
+
+    <!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ime_switch_button">เปลี่ยนปุ่มวิธีการป้อนข้อมูล</string>
+    <!-- Content description of the compatibility zoom button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_compatibility_zoom_button">ปุ่มซูมที่ใช้ร่วมกันได้</string>
+
+    <!-- Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_compatibility_zoom_example">ซูมหน้าจอจากเล็กไปใหญ่</string>
+
+    <!-- Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_connected">เชื่อมต่อบลูทูธ</string>
+    <!-- Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_disconnected">ตัดการเชื่อมต่อบลูทูธ</string>
+
+    <!-- Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_battery">ไม่มีแบตเตอรี่</string>
+    <!-- Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_battery_one_bar">แบตเตอรี่มีหนึ่งแถบ</string>
+    <!-- Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_battery_two_bars">แบตเตอรี่มีสองแถบ</string>
+    <!-- Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_battery_three_bars">แบตเตอรี่มีสามแถบ</string>
+    <!-- Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_battery_full">แบตเตอรี่เต็ม</string>
+
+    <!-- Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_phone">ไม่มีโทรศัพท์</string>
+    <!-- Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_one_bar">โทรศัพท์มีหนึ่งแถบ</string>
+    <!-- Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_two_bars">โทรศัพท์มีสองแถบ</string>
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_three_bars">โทรศัพท์มีสามแถบ</string>
+    <!-- Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_signal_full">สัญญาณโทรศัพท์เต็ม</string>
+
+    <!-- Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_data">ไม่มีข้อมูล</string>
+    <!-- Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_one_bar">ข้อมูลมีหนึ่งแถบ</string>
+    <!-- Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_two_bars">ข้อมูลมีสองแถบ</string>
+    <!-- Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_three_bars">ข้อมูลมีสามแถบ</string>
+    <!-- Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_signal_full">สัญญาณข้อมูลเต็ม</string>
+
+    <!-- Content description of the WIFI signal when WIFI is disabled for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_off">Wi-Fi ถูกปิด</string>
+    <!-- Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_wifi">Wi-Fi ถูกตัดสัญญาณ</string>
+    <!-- Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_one_bar">Wi-Fi มีหนึ่งแถบ</string>
+    <!-- Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_two_bars">Wi-Fi มีสองแถบ</string>
+    <!-- Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_three_bars">Wi-Fi มีสามแถบ</string>
+    <!-- Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_signal_full">สัญญาณ Wi-Fi เต็ม</string>
+
+    <!-- Content description of the wifi label showing what we are connected to. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_name">เชื่อมต่อกับ <xliff:g id="wifi" example="Home Network">%s</xliff:g></string>
+
+    <!-- Content description of the bluetooth label showing what we are connected to. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_name">เชื่อมต่อกับ <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g></string>
+
+    <!-- Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_wimax">ไม่มี WiMAX</string>
+    <!-- Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_one_bar">WiMAX หนึ่งแถบ</string>
+    <!-- Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_two_bars">WiMAX สองแถบ</string>
+    <!-- Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_three_bars">WiMAX สามแถบ</string>
+    <!-- Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_signal_full">WiMAX สัญญาณเต็ม</string>
+
+    <!-- Content description of the Ethernet connection when disconnected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ethernet_disconnected">อีเทอร์เน็ตไม่ถูกเชื่อมต่อ</string>
+    <!-- Content description of the Ethernet connection when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ethernet_connected">อีเทอร์เน็ตถูกเชื่อมต่อ</string>
+
+    <!-- Content description of an item with no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_signal">ไม่มีสัญญาณ</string>
+    <!-- Content description of an item with no signal and no connection for accessibility (not shown on the screen) [CHAR LIMIT=NONE] -->
+    <string name="accessibility_not_connected">ไม่ได้เชื่อมต่อ</string>
+    <!-- Content description of an item with zero signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_zero_bars">แบตเตอรี่เป็นศูนย์</string>
+    <!-- Content description of an item with one signal bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_one_bar">หนึ่งแถบ</string>
+    <!-- Content description of an item with two signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_two_bars">สองแถบ</string>
+    <!-- Content description of an item with three signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_three_bars">สามแถบ</string>
+    <!-- Content description of an item with full signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_signal_full">สัญญาณเต็ม</string>
+
+    <!-- Content description of an item that is turned on for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_on">เปิด</string>
+    <!-- Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_off">ปิด</string>
+    <!-- Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_connected">เชื่อมต่อ</string>
+    <!-- Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_connecting">กำลังเชื่อมต่อ</string>
+
+    <!-- Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+
+    <!-- Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_1x">1 X</string>
+
+    <!-- Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+
+    <!-- Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_3g">3G</string>
+
+    <!-- Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+
+    <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_4g">4G</string>
+
+    <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_4g_plus">4G+</string>
+
+    <!-- Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_lte">LTE</string>
+
+    <!-- Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+
+    <!-- Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_roaming">โรมมิ่ง</string>
+
+    <!-- Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_edge">เอดจ์</string>
+
+    <!-- Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_wifi">ไวไฟ</string>
+
+    <!-- Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_sim">ไม่มี SIM</string>
+
+    <!-- Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_tether">การเชื่อมต่อบลูทูธ</string>
+
+    <!-- Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_airplane_mode">โหมดการบิน</string>
+
+    <!-- Content description of the no sim icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_sims">ไม่มี SIM การ์ด</string>
+
+    <!-- Content description of the carrier network changing icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_carrier_network_change_mode">เปลี่ยนเครือข่ายผู้ให้บริการ</string>
+
+    <!-- Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_battery_level">แบตเตอรี่ <xliff:g id="number">%d</xliff:g> เปอร์เซ็นต์</string>
+
+    <!-- Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_settings_button">การตั้งค่าระบบ</string>
+
+    <!-- Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_notifications_button">การแจ้งเตือน</string>
+
+    <!-- Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_remove_notification">ล้างการแจ้งเตือน</string>
+
+    <!-- Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_gps_enabled">เปิดใช้งาน GPS แล้ว</string>
+
+    <!-- Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_gps_acquiring">การแสวงหา GPS</string>
+
+    <!-- Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_tty_enabled">เปิดการใช้งาน TeleTypewriter</string>
+
+    <!-- Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ringer_vibrate">เสียงเรียกเข้า สั่น</string>
+
+    <!-- Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ringer_silent">เสียงเรียกเข้า เงียบ</string>
+
+    <!-- Content description of the cast icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
+
+    <!-- Content description to tell the user that this button will remove an application from recents -->
+    <string name="accessibility_recents_item_will_be_dismissed">ยกเลิก <xliff:g id="app" example="Calendar">%s</xliff:g></string>
+    <!-- Content description to tell the user an application has been removed from recents -->
+    <string name="accessibility_recents_item_dismissed"><xliff:g id="app" example="Calendar">%s</xliff:g> ถูกยกเลิก</string>
+    <!-- Content description to tell the user all applications has been removed from recents -->
+    <string name="accessibility_recents_all_items_dismissed">การใช้งานล่าสุดทั้งหมดถูกยกเลิก</string>
+    <!-- Content description to tell the user an application has been launched from recents -->
+    <string name="accessibility_recents_item_launched">เริ่มต้น <xliff:g id="app" example="Calendar">%s</xliff:g></string>
+    <!-- Content description of individual recents task. -->
+    <string name="accessibility_recents_task_header"><xliff:g id="app" example="Chrome">%1$s</xliff:g> <xliff:g id="activity_label" example="www.google.com">%2$s</xliff:g></string>
+    <!-- Content description to tell the user a notification has been removed from the notification shade -->
+    <string name="accessibility_notification_dismissed">การแจ้งเตือนถูกยกเลิก</string>
+
+    <!-- Content description for the notification shade panel (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_notification_shade">หน้าต่างแจ้งเตือน</string>
+    <!-- Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_quick_settings">การตั้งค่าด่วน</string>
+    <!-- Content description for the lock screen (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_lock_screen">ล็อคหน้าจอ</string>
+    <!-- Content description for the settings button in the status bar header. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_settings">การตั้งค่า</string>
+    <!-- Content description for the recent apps panel (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_recent_apps">ภาพรวม</string>
+    <!-- Content description for the close button in the zen mode panel introduction message. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_desc_close">ปิด</string>
+
+    <!-- Content description of the user tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_user">ผู้ใช้ <xliff:g id="user" example="John Doe">%s</xliff:g></string>
+    <!-- Content description of the wifi tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_wifi"><xliff:g id="signal" example="Three bars">%1$s</xliff:g></string>
+    <!-- Announcement made when the wifi is turned off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi ถูกปิด</string>
+    <!-- Announcement made when the wifi is turned on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi ถูกเปิด</string>
+    <!-- Content description of the mobile data tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_mobile">โทรศัพท์ <xliff:g id="signal" example="Three bars">%1$s</xliff:g> <xliff:g id="type" example="4G">%2$s</xliff:g> <xliff:g id="network" example="T-Mobile">%3$s</xliff:g></string>
+    <!-- Content description of the battery tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_battery">แบตเตอรี่ <xliff:g id="state" example="50% charging">%s</xliff:g></string>
+    <!-- Content description of the airplane mode tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_airplane_off">ปิดโหมดการบิน</string>
+    <!-- Content description of the airplane mode tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_airplane_on">เปิดโหมดการบิน</string>
+    <!-- Announcement made when the airplane mode changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_airplane_changed_off">โหมดการบินถูกปิด</string>
+    <!-- Announcement made when the airplane mode changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_airplane_changed_on">โหมดการบินถูกเปิด</string>
+    <!-- Content description of the do not disturb tile in quick settings when on in priority (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_dnd_priority_on">ห้ามรบกวน, ยกเว้นเรื่องสำคัญ</string>
+    <!-- Content description of the do not disturb tile in quick settings when on in none (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_dnd_none_on">ห้ามรบกวน, ในทุกกรณี</string>
+    <!-- Content description of the do not disturb tile in quick settings when on in alarms only (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_dnd_alarms_on">ห้ามรบกวน, ยกเว้นการตั้งปลุก</string>
+    <!-- Content description of the do not disturb tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_dnd_off">ห้ามรบกวน ปิด</string>
+    <!-- Announcement made when do not disturb changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_dnd_changed_off">ปิดการห้ามรบกวน</string>
+    <!-- Announcement made when do not disturb changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_dnd_changed_on">เปิดการห้ามรบกวน</string>
+    <!-- Content description of the mobile data tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_data_off">ปิดข้อมูลมือถือ</string>
+    <!-- Content description of the mobile data tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_data_on">เปิดข้อมูลมือถือ</string>
+    <!-- Content description of the roaming tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_roaming_off">โรมมิ่ง ปิด</string>
+    <!-- Content description of the roaming tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_roaming_on">โรมมิ่ง เปิด</string>
+    <!-- Content description of the bluetooth tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_bluetooth_off">บลูทูธ ปิด</string>
+    <!-- Content description of the bluetooth tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_bluetooth_on">บลูทูธ เปิด</string>
+    <!-- Content description of the bluetooth tile in quick settings when connecting (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_bluetooth_connecting">กำลังติดต่อบลูทูธ</string>
+    <!-- Content description of the bluetooth tile in quick settings when connected (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_bluetooth_connected">เชื่อมต่อบลูทูธ</string>
+    <!-- Announcement made when the bluetooth is turned off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_bluetooth_changed_off">ปิดบลูทูธ</string>
+    <!-- Announcement made when the bluetooth is turned on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_bluetooth_changed_on">เปิดบลูทูธ</string>
+    <!-- Content description of the location tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_off">รายงานสถานที่ ปิด</string>
+    <!-- Content description of the location tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_on">รายงานสถานที่ เปิด</string>
+    <!-- Announcement made when the location tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_changed_off">ปิดการรายงานสถานที่</string>
+    <!-- Announcement made when the location tile changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_changed_on">เปิดการรายงานสถานที่</string>
+    <!-- Content description of the alarm tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_alarm">ถูกตั้งปลุกสำหรับ <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g></string>
+    <!-- Content description of quick settings detail panel close button (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_close">ปิดแผงควบคุม</string>
+    <!-- Content description of zen mode time condition plus button (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_more_time">เวลามากขึ้น</string>
+    <!-- Content description of zen mode time condition minus button (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_less_time">เวลาน้อยลง</string>
+    <!-- Content description of the flashlight tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_flashlight_off">ไฟฉาย ปิด</string>
+    <!-- Content description of the flashlight tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_flashlight_on">ไฟฉาย เปิด</string>
+    <!-- Announcement made when the flashlight state changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_flashlight_changed_off">ปิดไฟฉาย</string>
+    <!-- Announcement made when the flashlight state changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_flashlight_changed_on">เปิดไฟฉาย</string>
+    <!-- Announcement made when the color inversion state changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_color_inversion_changed_off">ปิดการกลับสี</string>
+    <!-- Announcement made when the color inversion state changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_color_inversion_changed_on">เปิดการกลับสี</string>
+    <!-- Announcement made when the hotspot state changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_hotspot_changed_off">ปิดฮอตสปอตมือถือ</string>
+    <!-- Announcement made when the hotspot state changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_hotspot_changed_on">เปิดฮอตสปอตมือถือ</string>
+    <!-- Announcement made when the screen stopped casting (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_casting_turned_off">การบันทึกหน้าจอถูกหยุด</string>
+
+    <!-- Content description of the display brightness slider (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_brightness">ความสว่างของการแสดงผล</string>
+
+    <!-- Title of dialog shown when 2G-3G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_3g_title">การใช้งานข้อมูล 2G-3G ถูกปิด</string>
+    <!-- Title of dialog shown when 4G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_4g_title">การใช้งานข้อมูล 4G ถูกปิด</string>
+    <!-- Title of dialog shown when mobile data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_mobile_title">การใช้งานข้อมูลโทรศัพท์เคลื่อนที่ถูกปิด</string>
+    <!-- Title of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_title">การใช้งานข้อมูลถูกปิด</string>
+    <!-- Body of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_disabled_dialog">อุปกรณ์ของคุณได้ถูกปิดการใช้งานข้อมูลเนื่องจากถึงข้อจำกัดการใช้งานที่คุณตั้งไว้แล้ว\n\nการเปิดการใช้งานอีกครั้งอาจทำให้คุณถูกเก็บค่าบริการเพิ่มจากผู้ให้บริการ</string>
+    <!-- Dialog button indicating that data connection should be re-enabled. [CHAR LIMIT=28] -->
+    <string name="data_usage_disabled_dialog_enable">เปิดการใช้งานข้อมูล</string>
+
+    <!--
+         Text to display underneath the graphical signal strength meter when
+         no connection is available. [CHAR LIMIT=20]
+    -->
+    <string name="status_bar_settings_signal_meter_disconnected">        ไม่มีสัญญาณอินเทอร์เน็ต</string>
+
+    <!--
+         Text to display underneath the graphical signal strength meter when
+         it is displaying Wi-Fi status and Wi-Fi is connected to a network
+         whose SSID is not available.
+         [CHAR LIMIT=20]
+    -->
+    <string name="status_bar_settings_signal_meter_wifi_nossid">เชื่อมสัญญาณ Wi-Fi เรียบร้อย</string>
+
+    <!-- Notification text: when GPS is getting a fix [CHAR LIMIT=50] -->
+    <string name="gps_notification_searching_text">ค้นหา GPS</string>
+    <string name="gps_notification_searching_text_content">อาจประหยัดพลังงานหากปิด GPS</string>
+
+    <!-- Notification text: when GPS has found a fix [CHAR LIMIT=50] -->
+    <string name="gps_notification_found_text">ตำแหน่งถูกตั้งโดย GPS</string>
+
+    <!-- Accessibility text describing the presence of active location requests by one or more apps -->
+    <string name="accessibility_location_active">ดำเนินการขอตำแหน่ง</string>
+
+    <!-- Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_clear_all">ล้างการเตือนทั้งหมด</string>
+
+    <!--
+         Content description of button in notification inspector for system settings relating to
+         notifications from this application [CHAR LIMIT=NONE]
+    -->
+    <string name="status_bar_notification_inspect_item_title">ตั้งค่าการแจ้งเตือน</string>
+
+    <!--
+         Content description of button in notification inspetor for application-provided settings
+         for its own notifications [CHAR LIMIT=NONE]
+    -->
+    <string name="status_bar_notification_app_settings_title">การตั้งค่า <xliff:g id="app_name" example="Calendar">%s</xliff:g></string>
+
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_off">หน้าจอถูกหมุนอัตโนมัติ</string>
+
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_on_landscape">หน้าจอถูกล็อคในแนวนอน</string>
+
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_on_portrait">หน้าจอถูกล็อคในแนวตั้ง</string>
+
+    <!-- Announcement made when the screen is rotating automatically again (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_off_changed">หน้าจอจะถูกหมุนอัตโนมัติ</string>
+
+    <!-- Announcement made when the rotation lock state changes to landscape only (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_on_landscape_changed">หน้าจอได้ถูกล็อคในแนวนอน</string>
+
+    <!-- Announcement made when the rotation lock state changes to portrait only (not shown on the screen).  [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_on_portrait_changed">หน้าจอได้ถูกล็อคในแนวตั้ง</string>
+
+    <!-- Name of the K-release easter egg: a display case for all our tastiest desserts. [CHAR LIMIT=30] -->
+    <string name="dessert_case">ที่ใส่ของหวาน</string>
+
+    <!-- Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] -->
+    <string name="start_dreams">พักหน้าจอแบบโต้ตอบ</string>
+
+    <!-- Textual description of Ethernet connections -->
+    <string name="ethernet_label">Ethernet</string>
+
+    <!-- QuickSettings: Do not disturb [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_dnd_label">ห้ามรบกวน</string>
+    <!-- QuickSettings: Do not disturb - Priority only [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_dnd_priority_label">เรื่องสำคัญเท่านั้น</string>
+    <!-- QuickSettings: Do not disturb - Alarms only [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_dnd_alarms_label">การตั้งปลุกเท่านั้น</string>
+    <!-- QuickSettings: Do not disturb - Total silence [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_dnd_none_label">เงียบสนิท</string>
+    <!-- QuickSettings: Airplane mode [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_airplane_mode_label">โหมดเครื่องบิน</string>
+    <!-- QuickSettings: Mobile data [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_mobile_data_label">ข้อมูลโทรศัพท์</string>
+    <!-- QuickSettings: Roaming [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_roaming_label">โรมมิ่ง</string>
+    <!-- QuickSettings: Battery Charging [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_battery_charging_label">กำลังชาร์จ, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <!-- QuickSettings: Battery Charged [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_battery_charged_label">ชาร์จแล้ว</string>
+    <!-- QuickSettings: Bluetooth [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_bluetooth_label">บลูทูธ</string>
+    <!-- QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_bluetooth_multiple_devices_label">บลูทูธ (<xliff:g id="number">%d</xliff:g> อุปกรณ์)</string>
+    <!-- QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_bluetooth_off_label">บลูทูธปิดอยู่</string>
+    <!-- QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_bluetooth_detail_empty_text">ไม่มีการเชื่อมต่ออุปกรณ์ในขณะนี้</string>
+    <!-- QuickSettings: Brightness [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_brightness_label">ความสว่าง</string>
+    <!-- QuickSettings: Rotation Unlocked [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_rotation_unlocked_label">หมุนอัตโนมัติ</string>
+    <!-- QuickSettings: Rotation Locked [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_rotation_locked_label">ล็อคการหมุน</string>
+    <!-- QuickSettings: Locked to Portrait [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_rotation_locked_portrait_label">แนวตั้ง</string>
+    <!-- QuickSettings: Locked to Landscape [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_rotation_locked_landscape_label">แนวนอน</string>
+    <!-- QuickSettings: IME [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_ime_label">วิธีการป้อนข้อมูล</string>
+    <!-- QuickSettings: Location [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_label">ตำแหน่งที่ตั้ง</string>
+    <!-- QuickSettings: Location (Off) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_off_label">ตำแหน่งที่ตั้งถูกปิด</string>
+    <!-- QuickSettings: Media device [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_media_device_label">อุปกรณ์สื่อ</string>
+    <!-- QuickSettings: RSSI [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <!-- QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_rssi_emergency_only">โทรฉุกเฉินเท่านั้น</string>
+    <!-- QuickSettings: Settings [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_settings_label">การตั้งค่า</string>
+    <!-- QuickSettings: Time [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_time_label">เวลา</string>
+    <!-- QuickSettings: User [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_user_label">ฉัน</string>
+    <!-- QuickSettings: Title of the user detail panel [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_user_title">ผู้ใช้งาน</string>
+    <!-- QuickSettings: Label on the item for adding a new user [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_user_new_user">ผู้ใช้ใหม่</string>
+    <!-- QuickSettings: Wifi [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_wifi_label">ไวไฟ</string>
+    <!-- QuickSettings: Wifi (Not connected) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_wifi_not_connected">ไม่เชื่อมต่อ</string>
+    <!-- QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_wifi_no_network">ไม่มีเครือข่าย</string>
+    <!-- QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_wifi_off_label">Wi-Fi ถูกปิด</string>
+    <!-- QuickSettings: Wifi detail panel, text when there are no items [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_wifi_detail_empty_text">ไม่มีเครือข่ายที่บันทึกไว้</string>
+    <!-- QuickSettings: Cast title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cast_title">ถ่ายทอดหน้าจอ</string>
+    <!-- QuickSettings: Cast detail panel, status text when casting [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_casting">กำลังถ่ายทอด</string>
+    <!-- QuickSettings: Cast detail panel, default device name [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cast_device_default_name">อุปกรณ์ไม่มีชื่อ</string>
+    <!-- QuickSettings: Cast detail panel, default device description [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cast_device_default_description">พร้อมสำหรับการถ่ายทอด</string>
+    <!-- QuickSettings: Cast detail panel, text when there are no items [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cast_detail_empty_text">ไม่พบอุปกรณ์</string>
+    <!-- QuickSettings: Brightness dialog title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_brightness_dialog_title">ความสว่าง</string>
+    <!-- QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">อัตโนมัติ</string>
+    <!-- QuickSettings: Apn switch button label [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_apn_switch_label">สวิตช์ APN</string>
+    <!-- QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_inversion_label">กลับสี</string>
+    <!-- QuickSettings: Label for the toggle that controls whether display color correction is enabled. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_color_space_label">การแก้ไขสีให้ถูกต้อง</string>
+    <!-- QuickSettings: Control panel: Label for button that navigates to settings. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_more_settings">การตั้งค่าเพิ่มเติม</string>
+    <!-- QuickSettings: Control panel: Label for button that dismisses control panel. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_done">เสร็จ</string>
+    <!-- QuickSettings: Control panel: Label for connected device. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_connected">เชื่อมต่อแล้ว</string>
+    <!-- QuickSettings: Control panel: Label for connecting device. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_connecting">กำลังเชื่อมต่อ...</string>
+    <!-- QuickSettings: Tethering. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_tethering_label">การเชื่อมโนงเครือข่าย</string>
+    <!-- QuickSettings: Hotspot. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_hotspot_label">ฮอตสปอต</string>
+    <!-- QuickSettings: Notifications [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_notifications_label">การแจ้งเตือน</string>
+    <!-- QuickSettings: Flashlight [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_flashlight_label">ไฟฉาย</string>
+    <!-- QuickSettings: Cellular detail panel title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_title">ข้อมูลโทรศัพท์เคลื่อนที่</string>
+    <!-- QuickSettings: Cellular detail panel, data usage title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_data_usage">การใช้ข้อมูล</string>
+    <!-- QuickSettings: Cellular detail panel, remaining data title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_remaining_data">ข้อมูลที่เหลืออยู่</string>
+    <!-- QuickSettings: Cellular detail panel, over limit title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_over_limit">ถึงขีดจำกัด – หยุดการใช้งานข้อมูล</string>
+    <!-- QuickSettings: Cellular detail panel, data used format string [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_data_used"><xliff:g id="data_used" example="2.0 GB">%s</xliff:g> ถูกใช้งาน</string>
+    <!-- QuickSettings: Cellular detail panel, data limit format string [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_data_limit"><xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> ถูกจำกัด</string>
+    <!-- QuickSettings: Cellular detail panel, data warning format string [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_cellular_detail_data_warning"><xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> การเตือน</string>
+    <!-- QuickSettings: Dds [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_dds_sub">การ์ด <xliff:g id="number">%d</xliff:g> ข้อมูล</string>
+    <string name="quick_settings_data_off">การใช้งานข้อมูลถูกปิด</string>
+
+    <!-- Recents: The empty recents string. [CHAR LIMIT=NONE] -->
+    <string name="recents_empty_message">หน้าจอล่าสุดของคุณแสดงที่นี่</string>
+    <!-- Recents: The info panel app info button string. [CHAR LIMIT=NONE] -->
+    <string name="recents_app_info_button_label">ข้อมูลแอปพลิเคชัน</string>
+    <!-- Recents: The lock-to-app button. [CHAR LIMIT=NONE] -->
+    <string name="recents_lock_to_app_button_label">ล็อคสำหรับแอป</string>
+    <!-- Recents: Temporary string for the button in the recents search bar. [CHAR LIMIT=NONE] -->
+    <string name="recents_search_bar_label">ค้นหา</string>
+    <!-- Recents: Launch error string. [CHAR LIMIT=NONE] -->
+    <string name="recents_launch_error_message">ไม่สามารถเริ่มการทำงาน <xliff:g id="app" example="Calendar">%s</xliff:g></string>
+    <!-- Recents: Dismiss all button. [CHAR LIMIT=NONE] -->
+    <string name="recents_dismiss_all_message">ไม่สนใจทุกแอปพลิเคชัน</string>
+
+    <!-- Recents: MultiStack add stack split horizontal radio button. [CHAR LIMIT=NONE] -->
+    <string name="recents_multistack_add_stack_dialog_split_horizontal">แบ่งในแนวนอน</string>
+    <!-- Recents: MultiStack add stack split vertical radio button. [CHAR LIMIT=NONE] -->
+    <string name="recents_multistack_add_stack_dialog_split_vertical">แบ่งในแนวตั้ง</string>
+    <!-- Recents: MultiStack add stack split custom radio button. [CHAR LIMIT=NONE] -->
+    <string name="recents_multistack_add_stack_dialog_split_custom">แบ่งเลือกเอง</string>
+
+    <!-- Expanded Status Bar Header: Battery Charged [CHAR LIMIT=40] -->
+    <string name="expanded_header_battery_charged">ชาร์จแล้ว</string>
+
+    <!-- Expanded Status Bar Header: Charging, no known time [CHAR LIMIT=40] -->
+    <string name="expanded_header_battery_charging">กำลังชาร์จ</string>
+
+    <!-- Expanded Status Bar Header: Charging, showing time left until charged [CHAR LIMIT=40] -->
+    <string name="expanded_header_battery_charging_with_time"><xliff:g id="charging_time" example="2 hrs 25 min">%s</xliff:g> จนกว่าจะเต็ม</string>
+
+    <!-- Expanded Status Bar Header: Not charging [CHAR LIMIT=40] -->
+    <string name="expanded_header_battery_not_charging">ไม่ได้ชาร์จ</string>
+
+    <!-- Glyph to be overlaid atop the battery when the level is extremely low. Do not translate. -->
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+
+    <!--
+         Shows up when there is a user SSL CA Cert installed on the
+         device.  Indicates to the user that SSL traffic can be intercepted.
+         If the text fits on one line (~14 chars), it should start with a
+         linebreak to position it correctly.  [CHAR LIMIT=45]
+    -->
+    <string name="ssl_ca_cert_warning">เครือข่ายอาจถูกตรวจสอบ\n</string>
+
+    <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_search">การค้นหา</string>
+    <!-- Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_up">เลื่อนขึ้นเพื่อ <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    <!-- Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_left">"เลื่อนซ้ายเพื่อ <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+
+    <!-- Zen mode: No interruptions title, with a warning about alarms. [CHAR LIMIT=60] -->
+    <string name="zen_no_interruptions_with_warning">ไม่มีการรบกวน แม้กระทั่งการตั้งปลุก</string>
+
+    <!-- Zen mode: No interruptions. [CHAR LIMIT=40] -->
+    <string name="zen_no_interruptions">ไม่มีการรบกวน</string>
+
+    <!-- Zen mode: Only important interruptions. [CHAR LIMIT=40] -->
+    <string name="zen_important_interruptions">การรบกวนเรื่องสำคัญเท่านั้น</string>
+
+    <!-- Zen mode: Next alarm information - just a time. [CHAR LIMIT=40] -->
+    <string name="zen_alarm_information_time">การตั้งปลุกครั้งต่อไปที่ <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g></string>
+
+    <!-- Zen mode: Next alarm information - day and time. [CHAR LIMIT=40] -->
+    <string name="zen_alarm_information_day_time">การตั้งปลุกครั้งต่อไปคือ <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g></string>
+
+    <!-- Zen mode: Next alarm warning. [CHAR LIMIT=40] -->
+    <string name="zen_alarm_warning">คุณจะไม่ได้ยินการตั้งปลุกที่ <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g></string>
+
+    <!-- Text for overflow card on Keyguard when there is not enough space for all notifications on Keyguard. [CHAR LIMIT=1] -->
+    <string name="keyguard_more_overflow_text">+<xliff:g id="number_of_notifications" example="5">%d</xliff:g></string>
+
+    <!-- An explanation for the visual speed bump in the notifications, which will appear when you click on it. [CHAR LIMIT=50] -->
+    <string name="speed_bump_explanation">การเตือนที่ไม่สำคัญอยู่ข้างล่าง</string>
+
+    <!-- Shows to explain the double tap interaction with notifications: After tapping a notification on Keyguard, this will explain users to tap again to launch a notification. [CHAR LIMIT=60] -->
+    <string name="notification_tap_again">แตะอีกครั้งเพื่อเปิด</string>
+
+    <!-- Shows when people have pressed the unlock icon to explain how to unlock. [CHAR LIMIT=60] -->
+    <string name="keyguard_unlock">เลื่อนเพื่อปลดล็อค</string>
+    <!-- Shows when people have pressed the unlock icon to explain how to launch keyguard magazine. [CHAR LIMIT=60] -->
+    <string name="keyguard_magazine_enter">เลื่อนลงไปยัง keyguard นิตยสาร</string>
+    <string name="keyguard_magzine_collect">รวบรวม</string>
+    <string name="keyguard_magzine_cancel_collect">รวบรวม</string>
+    <string name="keyguard_magazine_share">แชร์</string>
+    <string name="keyguard_magazine_link">ลิงก์</string>
+    <string name="keyguard_magazine_resident">ผู้พักอาศัย</string>
+    <string name="keyguard_magazine_cancel_resident">Canel Resident</string>
+    <string name="keyguard_magazine_more">การตั้งค่า</string>
+    <string name="keyguard_magzine_collect_toast">"บันทึกไปยังรูปนิตยสารในอัลบั้มท้องถิ่น"</string>
+    <string name="keyguard_magazine_resident_toast">"ทุกครั้งที่หน้าจอเปิดจะโชว์วอลเปเปอร์นี้อัตโนมัติ"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"ทุกครั้งที่หน้าจอเปิดจะไม่โชว์วอลเปเปอร์นี้อัตโนมัติ"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"การรวบรวมรูปนิตยสาร"</string>
+    <string name="keyguard_guide_enter">"ลองดู"</string>
+    <string name="guide_title">"ยินดีต้อนรับสู่ Keyguard นิตยสาร"</string>
+    <string name="guide_swipe_up_txt">"เลื่อนเพื่อปลดล็อค"</string>
+    <string name="guide_sliding_txt">"เลื่อนเพื่อเปลี่ยนหน้าจอ"</string>
+    <string name="guide_click_txt">"กดเพื่อ Keyguard การตั้งค่านิตยสาร"</string>
+    <string name="keyguard_style_settings">"รูปแบบ Keyguard"</string>
+    <string-array name = "keyguard_style">
+        <item >"รูปแบบอย่างง่าย"</item>
+        <item >"รูปแบบนิตยสาร"</item>
+        <item >"รูปแบบแสงอาทิตย์"</item>
+        <item >"รูปแบบ Vlife"</item>
+    </string-array>
+    <!-- Shows when people have clicked at the left edge of the screen to explain how to open the phone. In right-to-left languages, this is the opposite direction. [CHAR LIMIT=60] -->
+    <string name="phone_hint">กดและเลื่อนขึ้นสำหรับโทรศัพท์</string>
+
+    <!-- Shows when people have clicked at the right edge of the screen to explain how to open the phone. In right-to-left languages, this is the opposite direction. [CHAR LIMIT=60] -->
+    <string name="camera_hint">กดและเลื่อนขึ้นสำหรับกล้อง</string>
+
+    <!-- Interruption level: None. [CHAR LIMIT=20] -->
+    <string name="interruption_level_none">ไม่มี</string>
+
+    <!-- Interruption level: Priority. [CHAR LIMIT=20] -->
+    <string name="interruption_level_priority">ความสำคัญ</string>
+
+    <!-- Interruption level: All. [CHAR LIMIT=20] -->
+    <string name="interruption_level_all">ทั้งหมด</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging. [CHAR LIMIT=40] -->
+    <string name="keyguard_indication_charging_time">ชาร์จ (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> จนกว่าจะเต็ม)</string>
+
+    <!-- Related to user switcher -->
+    <skip />
+
+    <!-- Accessibility label for the button that opens the user switcher. -->
+    <string name="accessibility_multi_user_switch_switcher">เปลี่ยนผู้ใช้งาน</string>
+
+    <!-- Accessibility label for the button that opens the user switcher and announces the current user. -->
+    <string name="accessibility_multi_user_switch_switcher_with_current">เปลี่ยนผู้ใช้งาน, ผู้ใช้งานปัจจุบัน <xliff:g id="current_user_name" example="John Doe">%s</xliff:g></string>
+
+    <!-- Accessibility label for the user icon on the lock screen. -->
+    <string name="accessibility_multi_user_switch_inactive">ผู้ใช้งานปัจจุบัน <xliff:g id="current_user_name" example="John Doe">%s</xliff:g></string>
+
+    <!-- Accessibility label for the button that opens the quick contact of the user. -->
+    <string name="accessibility_multi_user_switch_quick_contact">แสดงโปรไฟล์</string>
+
+    <!-- Label for the adding a new user in the user switcher [CHAR LIMIT=35] -->
+    <string name="user_add_user">เพิ่มผู้ใช้งาน</string>
+
+    <!-- Name for a freshly added user [CHAR LIMIT=30] -->
+    <string name="user_new_user_name">ผู้ใช้ใหม่</string>
+
+    <!-- Name for the guest user [CHAR LIMIT=35] -->
+    <string name="guest_nickname">ผู้เยี่ยมชม</string>
+
+    <!-- Label for adding a new guest in the user switcher [CHAR LIMIT=35] -->
+    <string name="guest_new_guest">เพิ่มผู้ใช้งานชั่วคราว</string>
+
+    <!-- Label for exiting and removing the  guest session in the user switcher [CHAR LIMIT=35] -->
+    <string name="guest_exit_guest">ลบผู้ใช้งานชั่วคราว</string>
+
+    <!-- Title of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] -->
+    <string name="guest_exit_guest_dialog_title">ลบผู้ใช้งานชั่วคราวหรือไม่</string>
+
+    <!-- Message of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] -->
+    <string name="guest_exit_guest_dialog_message">ทุกแอปและข้อมูลในเซสชันนี้จะถูกลบ</string>
+
+    <!-- Label for button in confirmation dialog when exiting guest session [CHAR LIMIT=35] -->
+    <string name="guest_exit_guest_dialog_remove">ลบออก</string>
+
+    <!-- Title of the notification when resuming an existing guest session [CHAR LIMIT=NONE] -->
+    <string name="guest_wipe_session_title">ยินดีต้อนรับการกลับมา, ผู้ใช้งานชั่วคราว</string>
+
+    <!-- Message of the notification when resuming an existing guest session [CHAR LIMIT=NONE] -->
+    <string name="guest_wipe_session_message">คุณต้องการใช้งานเซสชันต่อหรือไม่</string>
+
+    <!-- Notification when resuming an existing guest session: Action that starts a new session [CHAR LIMIT=35] -->
+    <string name="guest_wipe_session_wipe">เริ่มใหม่อีกครั้ง</string>
+
+    <!-- Notification when resuming an existing guest session: Action that continues with the current session [CHAR LIMIT=35] -->
+    <string name="guest_wipe_session_dontwipe">ใช่, ทำงานต่อ</string>
+
+    <!-- Title for add user confirmation dialog [CHAR LIMIT=30] -->
+    <string name="user_add_user_title" msgid="2108112641783146007">เพิ่มผู้ใช้งานใหม่หรือไม่</string>
+
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short" msgid="1511354412249044381">เมื่อคุณเพิ่มผู้ใช้งานใหม่ ผู้ใช้งานคนนั้นจะต้องตั้งค่าพื้นที่ของตน\n\nผู้ใช้งานทุกคนสามารถอัปเดตแอปสำหรับผู้ใช้งานคนอื่นได้ </string>
+
+    <!-- Battery saver notification title. [CHAR LIMIT=60] -->
+    <string name="battery_saver_notification_title">การประหยัดแบตเตอรี่ถูกเปิด</string>
+
+    <!-- Battery saver notification text. [CHAR LIMIT=60] -->
+    <string name="battery_saver_notification_text">ลดความสามารถและข้อมูลภูมิหลัง</string>
+
+    <!-- Battery saver notification action text. [CHAR LIMIT=60] -->
+    <string name="battery_saver_notification_action_text">ปิดการประหยัดแบตเตอรี่</string>
+
+    <!-- Battery level for expanded quick settings [CHAR LIMIT=2] -->
+    <string name="battery_level_template"><xliff:g id="level" example="45">%d</xliff:g>%%</string>
+
+    <!-- Text shown in place of notification contents when the notification is hidden on a secure lockscreen -->
+    <string name="notification_hidden_text">เนื้อหาถูกซ่อน</string>
+
+    <!-- Media projection permission dialog warning text. [CHAR LIMIT=NONE] -->
+    <string name="media_projection_dialog_text"><xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> จะเริ่มทำการบันทึกทุกสิ่งที่ปรากฏบนหน้าจอของคุณ</string>
+
+    <!-- Media projection permission dialog permanent grant check box. [CHAR LIMIT=NONE] -->
+    <string name="media_projection_remember_text">ไม่แสดงอีก</string>
+
+    <!-- The text to clear all notifications. [CHAR LIMIT=60] -->
+    <string name="clear_all_notifications_text">ลบทั้งหมด</string>
+
+    <!-- Media projection permission dialog action text. [CHAR LIMIT=60] -->
+    <string name="media_projection_action_text">เริ่มต้นตอนนี้</string>
+
+    <!-- Text which is shown in the notification shade when there are no notifications. [CHAR LIMIT=30] -->
+    <string name="empty_shade_text">ไม่มีการแจ้งเตือน</string>
+
+    <!-- Task Manager -->
+    <string name="tasklistview_title">ตัวจัดการงาน</string>
+    <string name="message_switch_fail">ไม่สามารถสลับมายังภารกิจนี้ได้เนื่องจากไม่มีการแสดงผล</string>
+    <string name="tasklist_killall">ฆ่าทั้งหมด</string>
+    <string name="tasklist_memory_usage">"หน่วยความจำ ฟรี/ทั้งหมด: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="message_keep_one_launcher">ควรเก็บอย่างน้อยหนึ่งกิจกรรมทางบ้าน</string>
+
+    <!-- Footer device owned text [CHAR LIMIT=50] -->
+    <string name="device_owned_footer">อุปกรณ์อาจถูกตรวจสอบ</string>
+
+    <!-- Footer profile owned text [CHAR LIMIT=50] -->
+    <string name="profile_owned_footer">โปรไฟล์อาจถูกตรวจสอบ</string>
+
+    <!-- Footer vpn present text [CHAR LIMIT=50] -->
+    <string name="vpn_footer">เครือข่ายอาจถูกตรวจสอบ</string>
+
+    <!-- Monitoring dialog title for device owned devices [CHAR LIMIT=35] -->
+    <string name="monitoring_title_device_owned">การตรวจสอบอุปกรณ์</string>
+
+    <!-- Monitoring dialog title for profile owned devices [CHAR LIMIT=35] -->
+    <string name="monitoring_title_profile_owned">การตรวจสอบโปรไฟล์</string>
+
+    <!-- Monitoring dialog title for normal devices  [CHAR LIMIT=35] -->
+    <string name="monitoring_title">การตรวจสอบเครือข่าย</string>
+
+    <!-- Monitoring dialog disable vpn button [CHAR LIMIT=30] -->
+    <string name="disable_vpn">ปิด VPN</string>
+
+    <!-- Monitoring dialog disconnect vpn button [CHAR LIMIT=30] -->
+    <string name="disconnect_vpn">หยุดการเชื่อมต่อ VPN</string>
+
+    <!-- Monitoring dialog device owner body text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_device_owned">อุปกรณ์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบอุปกรณ์และการใช้งานเครือข่าย, รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย \n\nสำหรับข้อมูลเพิ่มเติมโปรดติดต่อผู้ดูแลของคุณ</string>
+
+    <!-- Monitoring dialog non-legacy VPN text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_vpn">คุณอนุญาตให้ \"<xliff:g id="application">%1$s</xliff:g>\" ในการตั้งค่าเชื่อมต่อ VPN\n\nแอปนี้สามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย</string>
+
+    <!-- Monitoring dialog legacy VPN text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_legacy_vpn">คุณได้ทำการเชื่อมต่อไปยัง VPN (\"<xliff:g id="application">%1$s</xliff:g>\")\n\nผู้ให้บริการ VPN ของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย</string>
+
+    <!-- Monitoring dialog non-legacy VPN with device owner text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_vpn_device_owned">อุปกรณ์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย สำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล\n\nอีกทั้งคุณได้ให้อนุญาต \"<xliff:g id="application">%2$s</xliff:g>\" ในการตั้งค่าการเชื่อมต่อ VPN แอปนี้สามารถตรวจสอบการใช้งานเครือข่ายได้ด้วย</string>
+
+    <!-- Monitoring dialog legacy VPN with device owner text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_legacy_vpn_device_owned">อุปกรณ์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย สำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล\n\nอีกทั้งคุณได้เชื่อมต่อไปยัง VPN (\"<xliff:g id="application">%2$s</xliff:g>\") ผู้ให้บริการ VPN ของคุณสามารถตรวจสอบการใช้งานเครือข่ายได้ด้วย</string>
+
+    <!-- Monitoring dialog profile owner body text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_profile_owned">โปรไฟล์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย\n\nสำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล</string>
+
+    <!-- Monitoring dialog device and profile owner body text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_device_and_profile_owned">อุปกรณ์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\nโปรไฟล์ของคุณถูกจัดการโดย:\n<xliff:g id="organization">%2$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย \n\nสำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล</string>
+
+    <!-- Monitoring dialog non-legacy VPN with profile owner text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_vpn_profile_owned">โปรไฟล์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย สำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล\n\nอีกทั้งคุณได้ให้อนุญาต \"<xliff:g id="application">%2$s</xliff:g>\" ในการตั้งค่าการเชื่อมต่อ VPN แอปนี้สามารถตรวจสอบการใช้งานเครือข่ายได้ด้วย</string>
+
+    <!-- Monitoring dialog legacy VPN with profile owner text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_legacy_vpn_profile_owned">โปรไฟล์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย สำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล\n\nอีกทั้งคุณได้เชื่อมต่อไปยัง VPN (\"<xliff:g id="application">%2$s</xliff:g>\") ผู้ให้บริการ VPN ของคุณสามารถตรวจสอบการใช้งานเครือข่ายได้ด้วย</string>
+
+    <!-- Monitoring dialog non-legacy VPN with device and profile owner text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_vpn_device_and_profile_owned">อุปกรณ์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\nโปรไฟล์ของคุณถูกจัดการโดย:\n<xliff:g id="organization">%2$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย สำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล\n\nอีกทั้งคุณได้ให้อนุญาต \"<xliff:g id="application">%3$s</xliff:g>\" ในการตั้งค่าการเชื่อมต่อ VPN แอปนี้สามารถตรวจสอบการใช้งานเครือข่ายได้ด้วย</string>
+
+    <!-- Monitoring dialog legacy VPN with device and profile owner text [CHAR LIMIT=400] -->
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">อุปกรณ์นี้ถูกจัดการโดย:\n<xliff:g id="organization">%1$s</xliff:g>\nโปรไฟล์ของคุณถูกจัดการโดย:\n<xliff:g id="organization">%2$s</xliff:g>\n\nผู้ดูแลของคุณสามารถตรวจสอบการใช้งานอุปกรณ์และเครือข่ายของคุณ รวมทั้งอีเมล์, แอป และเว็บไซต์ที่ปลอดภัย สำหรับข้อมูลเพิ่มเติม ติดต่อผู้ดูแล\n\nอีกทั้งคุณได้เชื่อมต่อไปยัง VPN (\"<xliff:g id="application">%3$s</xliff:g>\") ผู้ให้บริการ VPN ของคุณสามารถตรวจสอบการใช้งานเครือข่ายได้ด้วย</string>
+
+    <!-- Indication on the keyguard that appears when the user disables trust agents until the next time they unlock manually. [CHAR LIMIT=NONE] -->
+    <string name="keyguard_indication_trust_disabled">อุปกรณ์จะถูกล็อคจนกว่าคุณจะปลดล็อคด้วยตัวเอง</string>
+
+    <!-- Title of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=40] -->
+    <string name="hidden_notifications_title">รับการเตือนเร็วขึ้น</string>
+
+    <!-- Body of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=60] -->
+    <string name="hidden_notifications_text">เห็นสิ่งเหล่านี้ก่อนที่จะปลดล็อค</string>
+
+    <!-- Cancel action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] -->
+    <string name="hidden_notifications_cancel">ไม่เป็นไร ขอบคุณ</string>
+
+    <!-- continue action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] -->
+    <string name="hidden_notifications_setup">การติดตั้ง</string>
+
+    <!-- Text for the button to expand the notifications to hide notification children [CHAR LIMIT=20] -->
+    <string name="notification_collapse_button_text">ซ่อนทั้งหมด</string>
+    <!-- Indication that the current volume and other effects (vibration) are being suppressed by a third party, such as a notification listener. [CHAR LIMIT=30] -->
+    <string name="muted_by">ปิดเสียงโดย <xliff:g id="third_party">%1$s</xliff:g></string>
+
+    <!-- Accessibility string for current zen mode and selected exit condition. A template that simply concatenates existing mode string and the current condition description. [CHAR LIMIT=20] -->
+    <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g> <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
+    <string name="volume_zen_end_now">จบตอนนี้</string>
+    <!-- Content description for accessibility (not shown on the screen): volume dialog expand button. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_volume_expand">ขยาย</string>
+
+    <!-- Content description for accessibility (not shown on the screen): volume dialog collapse button. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_volume_collapse">พับ</string>
+
+    <!-- Screen pinning dialog title. -->
+    <string name="screen_pinning_title">หน้าจอถูกปักหมุดไว้</string>
+    <!-- Screen pinning dialog description. -->
+    <string name="screen_pinning_description">นี่จะทำให้ถูกเก็บไว้ในวิวจนกว่าจะถูกถอนหมุด แตะค้างไว้และทำ Overview ในขณะเดียวกันเพื่อถอนหมุด</string>
+    <!-- Screen pinning dialog description when in accessibility mode. -->
+    <string name="screen_pinning_description_accessible">นี่จะทำให้ถูกเก็บไว้ในวิวจนกว่าจะถูกถอนหมุด แตะ Overview ค้างไว้เพื่อถอนหมุด</string>
+    <!-- Screen pinning positive response. -->
+    <!-- yulong begin add by huazhi -->
+    <string name="status_bar_expanded_start_network">ข้อมูลโทรศัพท์</string>
+    <string name="status_bar_expanded_stop_network">ข้อมูลโทรศัพท์</string>
+    <string name="qs_label_rotation">หมุนอัตโนมัติ</string>
+    <string name="qs_label_ringer">โหมดปิดเสียง</string>
+    <string name="qs_label_flow_monitor">ข้อมูล</string>
+    <string name="qs_label_slience">สกรีนช็อต</string>
+    <string name="qs_label_viplist">White List</string>
+    <string name="qs_label_viplist2">DND</string>
+<!--     <string name="qs_label_super_saving">Ultra</string> -->
+    <string name="qs_label_super_saving">แสตนด์บายเป็นเวลานาน</string>
+    <string name="qs_label_mutlwindow">ทำหลายอย่างพร้อมกัน</string>
+    <string name="qs_label_shrink_screen">ปรับขนาดหน้าจอ</string>
+    <string name="qs_label_4g">4G</string>
+    <string name="qs_label_saving">ประหยัดพลังงาน</string>
+    <string name="qs_label_doublecard">การ์ดคู่</string>
+    <string name="qs_label_super_secure_mode">ระบบปลอดภัยอย่างยิ่งยวด</string>
+    <string name="qs_label_data_roaming">การโรมมิ่งข้อมูล</string>
+    <string name="qs_label_dataportection_mode">การป้องกันข้อมูล</string>
+    <string name="qs_label_driving_mode">โหมดรถ</string>
+    <string name="qs_label_ttwindow_mode">สตรีมข่าว</string>
+    <string name="qs_label_secure_mode">การปกป้องข้อมูลด้วยกุญแจเดียว</string>
+    <string name="qs_label_calculator">เครื่องคิดเลข</string>
+    <string name="qs_label_blaster">เครื่องบันทึก</string>
+    <string name="qs_label_magical">เสียงเวทมนตร์</string>
+    <string name="qs_label_camera">กล้อง</string>
+    <string name="qs_label_recording">การบันทึกหน้าจอ</string>
+<!-- yulong begin add by zhangyang -->
+    <string name="status_bar_expanded_start_network_g">ข้อมูลโทรศัพท์</string>
+    <string name="status_bar_expanded_stop_network_g">ข้อมูลโทรศัพท์</string>
+    <string name="status_bar_expanded_data_net_status">ที่ไม่รู้จัก</string>
+    <string name="status_bar_expanded_check_uimsim">ไม่มี USIM</string>
+    <string name="status_bar_expanded_check_sim">ไม่มี SIM</string>
+    <string name="status_bar_expanded_check_uim">ไม่มี UIM</string>
+    <string name="status_bar_expanded_network_off">ไม่มีบริการ</string>
+    <string name="status_bar_expanded_network_forbid">ปิดการใช้งานบริการ</string>
+    <string name="status_bar_expanded_airplane_mode">โหมดเครื่องบิน</string>
+    <string name="status_bar_expanded_mms_send_note">การเชื่อมต่อกับเครือข่าย... ลองอีกครั้งในภายหลัง</string>
+    <string name="status_bar_airplane_mode_send_note">ไม่สามารถเชื่อมต่อกับเครือข่ายในโหมดเครื่องบินได้</string>
+    <string name="china_telecom">China Telecom</string>
+    <string name="china_unicom">China Unicom</string>
+    <string name="china_mobile">China Mobile</string>
+    <string name="china_mobile_3g">มือถือจีน 3G</string>
+    <string name="china_mobile_4g">มือถือจีน 4G</string>
+    <string name="china_mobile_4g_2g">มือถือจีน 4G/มือถือจีน</string>
+    <string name="china_mobile_4g_3g">มือถือจีน 4G/มือถือจีน 3G</string>
+    <string name="china_mobile_4g_emergency">มือถือจีน 4G/ฉุกเฉิน</string>
+    <string name="kg_no_uim">ไม่มี UIM หรือบริการ</string>
+    <string name="kg_no_usim">ไม่มี SIM การ์ด หรือ บริการ</string>
+    <string name="kg_none_carrier">ไม่มีบริการ </string>
+    <string name="kg_no_service">ไม่มีบริการ </string>
+    <string name="status_bar_expanded_net_using_card">การใช้บัตรโทรศัพท์ <xliff:g id="number">%d</xliff:g> สำหรับการเชื่อมต่อข้อมูล คุณสามารถปรับเปลี่ยนเครือข่ายด้วยตนเองภายหลังได้</string>
+    <string name="screen_pinning_positive">รับทราบ</string>
+    <!-- Screen pinning negative response. -->
+    <string name="screen_pinning_negative">ไม่เป็นไร ขอบคุณ</string>
+
+    <!-- VolumeUI activation dialog: warning message -->
+    <string name="volumeui_prompt_message"><xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> ต้องการเป็นตัวปรับการโต้ตอบ</string>
+
+    <!-- VolumeUI activation dialog: allow button label -->
+    <string name="volumeui_prompt_allow">อนุญาต</string>
+
+    <!-- VolumeUI activation dialog: deny button label -->
+    <string name="volumeui_prompt_deny">ปฏิเสธ</string>
+
+    <!-- VolumeUI restoration notification: title -->
+    <string name="volumeui_notification_title"><xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> เป็นตัวปรับการโต้ตอบ</string>
+
+    <!-- VolumeUI restoration notification: text -->
+    <string name="volumeui_notification_text">แตะเพื่อฟื้นกลับไปยังแบบดั้งเดิม</string>
+
+    <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
+    <string name="managed_profile_foreground_toast">คุณกำลังใช้โปรไฟล์การทำงานของท่านอยู่</string>
+    <!-- yulong begin modify -->
+    <!-- for change volume panel style, pengbin, 2016.1.13 -->
+    <string-array name="volume_stream_titles">
+        <item>ความดังเสียงเรียกเข้า</item>
+ <!-- STREAM_VOICE_CALL -->
+        <item>ระดับเสียงของระบบ</item>
+ <!-- STREAM_SYSTEM -->
+        <item>ความดังเสียงเสียงเรียกเข้าและการแจ้งเตือนต่าง ๆ</item>
+ <!-- STREAM_RING -->
+        <item>ระดับเสียงสื่อ</item>
+ <!-- STREAM_MUSIC -->
+        <item>เสียงสัญญาณเตือน</item>
+ <!-- STREAM_ALARM -->
+        <item></item>
+ <!-- STREAM_NOTIFICATION -->
+        <item>ความดังเสียงบลูทูธ</item>
+ <!-- STREAM_BLUETOOTH_SCO -->
+        <item></item>
+ <!-- STREAM_SYSTEM_ENFORCED -->
+        <item></item>
+ <!-- STREAM_DTMF -->
+        <item></item>
+ <!-- STREAM_TTS -->
+    </string-array>
+    <!-- yulong end -->
+    <!-- yulong beging add by zhangyang for yulong quick setting -->
+    <string name="qs_label_wlan">ไวไฟ</string>
+    <string name="qs_label_brightness">ความสว่าง</string>
+    <string name="qs_label_bluetooth">บลูทูธ</string>
+    <string name="qs_label_location">ตำแหน่งที่ตั้ง</string>
+    <string name="qs_label_scenemode">โหมด</string>
+    <string name="qs_label_standard">ทั่วไป</string>
+    <string name="qs_label_flight">เครื่องบิน</string>
+    <string name="qs_label_meeting">การประชุม</string>
+    <string name="qs_label_external">กลางแจ้ง</string>
+    <string name="qs_label_quiet">เงียบ</string>
+    <string name="qs_label_custom">ที่กำหนดเอง</string>
+    <string name="qs_label_vip">VIP</string>
+    <string name="qs_label_phone">โทร</string>
+    <string name="qs_label_airplane">เครื่องบิน</string>
+    <string name="qs_label_vibrate_ring">สั่น</string>
+    <string name="qs_label_meeting_mode">โหมดประชุม</string>
+    <string name="qs_label_setting">การตั้งค่า</string>
+    <string name="qs_label_speed">เร่ง</string>
+    <string name="qs_label_silence">ปิดเสียง</string>
+    <string name="qs_label_softap">ฮอตสปอต</string>
+    <string name="qs_label_sdcard_uninstall">ถอด SD การ์ด</string>
+    <string name="qs_label_show">การแจ้งเตือน</string>
+    <string name="qs_label_hide">การแจ้งเตือน</string>
+    <string name="qs_label_sdcard_install">ติดตั้ง SD การ์ด</string>
+    <string name="qs_label_switching">การสับเปลี่ยน</string>
+    <string name="qs_label_turning_on">การเปิด</string>
+    <string name="qs_label_turning_off">การปิด</string>
+    <string name="qs_label_blacklist">ผู้ถูกบล็อค</string>
+    <string name="qs_label_blacklist2">ผู้ถูกบล็อค</string>
+    <string name="qs_label_cbutton">ปุ๋ม C</string>
+    <string name="qs_label_nfc">NFC</string>
+    <string name="qs_label_dataprotection_mode">การปกป้องข้อมูล</string>
+    <string name="qs_label_sound">เสียง</string>
+    <string name="qs_label_flashlight">ไฟฉาย</string>
+    <string name="status_bar_select_network1">Net 1</string>
+    <string name="status_bar_select_network2">Net 2</string>
+    <string name="status_bar_no_running_apps">ไม่มีแอปทำงานอยู่</string>
+    <string name="status_bar_recent_optimize">รายละเอียด</string>
+    <string name="status_bar_recent_delete">ล้าง</string>
+    <string name="status_bar_recent_historical">งานเชิงประวัติ</string>
+    <string name="status_bar_recent_running">งานที่ทำอยู่</string>
+    <string name="status_bar_screenshot_exit">ยกเลิก</string>
+    <string name="status_bar_screenshot_share">แชร์</string>
+    <string name="status_bar_screenshot_edit">แก้ไข</string>
+    <string name="status_bar_screenshot_save">บันทึก</string>
+    <string name="status_bar_screenshot_long">การเลื่อนการจับ</string>
+    <string name="status_bar_screenshot_interesting">จับภาพความสนุกสนาน</string>
+    <string name="status_bar_notify_interception_disable">ไม่อนุญาต</string>
+    <string name="status_bar_notify_interception_enable">อนุญาต</string>
+    <string name="qs_major_bar_tips">แสดงในแผงการแจ้งเตือน (มากที่สุด 10)</string>
+    <string name="qs_minor_bar_tips">ไม่แสดงในแผงการแจ้งเตือน</string>
+    <string name="status_bar_recent_memory">หน่วยความจำ</string>
+    <string name="status_bar_recent_memory_used">ใช้: </string>
+    <string name="status_bar_recent_memory_free">ฟรี|</string>
+    <string name="status_bar_recent_memory_item_used">ใช้: </string>
+    <string name="status_bar_recent_memory_total">หน่วยความจะทั้งหมด</string>
+    <string name="status_bar_earphones_connected_title">หูฟัง</string>
+    <string name="status_bar_earphones_connected_text">หูฟังได้รับการเชื่อมต่อ</string>
+    <string name="status_bar_earphones_connected_ticker">การเชื่อมต่อหูฟัง</string>
+    <string name="status_bar_screenshot_copytoclipboard">คัดลอกไปยังคลิปบอร์ด</string>
+    <string name="status_bar_enable_data_roaming">เปิดใช้การใช้งานข้ามเขต</string>
+    <string name="status_bar_disable_data_roaming">ปิดใช้การใช้งานข้ามเขต</string>
+    <string name="status_bar_select_tdlte">TD-LTE</string>
+    <!-- yulong add by jinxiaofeng -->
+    <string name="status_bar_expand_autobright">การปรับความสว่างแบบอัตโนมัติ</string>
+    <string name="status_bar_notification_manager">ผู้จัดการ</string>
+    <string name="status_bar_other_notify">มากกว่า</string>
+    <string name="status_bar_other_notify_back">กลับ</string>
+    <string name="qs_label_multiple_accounts_name">เจ้าของ</string>
+    <string name="status_bar_3g_priority">3G/2G</string>
+    <string name="status_bar_4g_priority">4G</string>
+    <string name="brightness_dlg_brightness">ความสว่าง</string>
+    <string name="brightness_dlg_adjust">(ปรับ)</string>
+    <string name="brightness_dlg_auto">อัตโนมัติ</string>
+    <string name="clear_notify_all_oldman">ล้างการแจ้งเตือนต่างๆ</string>
+    <string name="other_notification_format"><xliff:g id="NUMBER">%d</xliff:g> การแจ้งเตือนอื่นๆ </string>
+    <string name="merge_notification_format">( <xliff:g id="NUMBER">%d</xliff:g> ) </string>
+    <string name="other_notification_expand">แตะเพื่อดูทุกอย่าง</string>
+    <string name="other_notification_collapse">แตะเพื่อเก็บข้อมูล</string><!-- add on 2016.6.22 -->
+    <string name="title_show_notifcaiton">แสดงการแจ้งเตือน</string>
+    <string name="title_show_statusbar">แสดงบนแผง</string>
+    <string name="title_show_other">แสดงในที่อื่น</string>
+    <string name="header_name">เปิดใช้งานการแจ้งเตือน</string>
+    <string name="header_name_detail">แสดงในแผงการแจ้งเตือน</string>
+    <string name="title_show_locksreen">แสดงใน locksreen</string>
+    <string name="title_show_notification_center">ศูนย์การแจ้งเตือน</string>
+    <string name="title_show_floating">การแจ้งเตือนต่างๆ แบบลอยตัว</string>
+    <string name="title_show_floating_sub">หลังจากปลดล็อคหน้าจอแล้ว การแจ้งเตือนต่าง ๆ จะแสดงในส่วนบนของหน้าจอ และจะหายไปเองโดยอัตโนมัติ</string>
+    <string name="title_show_effect_preview">ภาพตัวอย่างรูปภาพ</string>
+    <string name="item_center_notifcaiton_title">ศูนย์การแจ้งเตือนและศูนย์การควบคุม</string>
+    <string name="item_center_notifcaiton_sub">การแจ้งเตือน</string>
+    <string name="item_center_notifcaiton_management">การจัดการการแจ้งเตือน</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">เปิดการใช้งานการลากลงเมื่อมีการล็อคหน้าจอ</string>
+    <string name="item_center_notifcaiton_ccm">แสดงชื่อยี่ห้อ</string>
+    <string name="item_center_notifcaiton_control">ศูนย์ควบคุม</string>
+    <string name="item_center_notifcaiton_quicksettings">การตั้งค่าต่าง ๆ อย่างเร็ว</string>
+    <string name="item_center_notifcaiton_other">อื่นๆ</string>
+    <string name="item_center_notifcaiton_obsessive">รายการการครอบงำความผิดปกติที่บังคับ</string>
+    <string name="item_center_notifcaiton_obsessive_hide">ซ่อนป้ายชื่อของไอคอน</string>
+    <string name="item_center_notifcaiton_obsessive_clear">ล้างป้ายชื่อของไอคอนเมื่อสั่น</string>
+    <string name="item_show_notifcaiton">การแจ้งเตือน</string>
+    <string name="item_show_statusbar">แผง</string>
+    <string name="item_show_other">อื่นๆ</string>
+    <string name="item_show_lockscreen">บนจอที่ล็อค</string>
+    <string name="item_show_none">ไม่มี</string>
+    <string name="item_show_dot">/</string>
+    <string name="status_bar_super_secure_system_mode">โหมดซูเปอร์เซฟในปัจจุบัน โปรดออกจากโหมดความปลอดภัยเพื่อเปิดการทำงานของฟังชั่น</string>
+    <string name="quicksettings_more">มากกว่า</string>
+    <string name="quicksettings_edit_disable">แก้ไข</string>
+    <string name="quicksettings_edit_enable">ออก</string>
+    <string name="clear_memory_notice">ขอแสดงความยินดี คุณได้ทำความสะอาดได้สำเร็จแล้ว</string>
+    <!-- yulong end -->
+    <string name="capital_on">เปิด</string>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_off">ปิด</string>
+    <string name="dateview_month">เดือน</string>
+    <string name="dateview_day">วัน</string>
+    <string name="domain_switch_toast">การแจ้งเตือนนี้มาจากพื้นที่อื่น</string>
+    <string name="lockscreen_airplane_mode_on">โหมดเครื่องบินเปิดอยู่</string>
+    <string name="lockscreen_missing_sim_message_short">SIM การ์ดหายไป</string>
+    <string name="lockscreen_sim_locked_message">SIM การ์ดถูกล็อคอยู่</string>
+    <string name="lockscreen_sim_puk_locked_message">SIM การ์ดถูกล็อคด้วยรหัส PUK</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">SIM การ์ดที่ใช้งานไม่ได้</string>
+    <string name="lockscreen_sim_error_message_short">SIM ผิดพลาด</string>
+
+    <!-- Content description for the close button in the zen mode panel introduction message. [CHAR LIMIT=NONE] -->
+
+
+    <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <!-- Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <!-- Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="zen_priority_introduction">คุณจะไม่ได้ถูกรบกวนจากเสียงหรือการสั่นใดๆ ยกเว้นสัญญาณเตือน การแจ้งเตือน เหตุการณ์ และ การโทรต่าง ๆ ที่คุณระบุไว้</string>
+    <string name="zen_priority_customize_button">ปรับแต่ง</string>
+    <string name="zen_silence_introduction_voice">สิ่งนี้บล็อคเสียงและการสั่นทุกอย่างไว้ รวมถึง สัญญาณเตือน เสียงเพลง วิดีโอและเกมต่างๆ ทั้งหมด คุณจะยังคงสามารถทำการโทรได้</string>
+    <string name="zen_silence_introduction">สิ่งนี้บล็อคเสียงและการสั่นทุกอย่างไว้ รวมถึง สัญญาณเตือน เสียงเพลง วิดีโอและเกมต่างๆ ทั้งหมด</string>
+    <string name="zen_alarm_warning_indef">คุณจะไม่ได้ยินเสียงการเตือนต่อไป <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> เว้นแต่ว่าคุณจะปิดสิ่งนี้ก่อนแล้ว</string>
+    <string name="alarm_template">ที่ <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
+    <string name="alarm_template_far">บน <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
+    <string name="interruption_level_none_with_warning">เงียบทั้งหมด  สิ่งนี้จะยังคงทำให้การอ่านหน้าจอเงียบด้วย</string>
+    <string name="interruption_level_alarms">การตั้งปลุกเท่านั้น</string>
+    <string name="interruption_level_none_twoline">เงียบ\nทั้งหมด</string>
+    <string name="interruption_level_priority_twoline">ที่มีความสำคัญ\nเท่านั้น</string>
+    <string name="interruption_level_alarms_twoline">สัญญาณเตือน\nเท่านั้น</string>
+    <string name="recents_app_shendu">ความลึก</string>
+    <string name="recents_app_liuliang">วันนี้:</string>
+    <string name="recents_app_memory">หน่วยความจำ:</string>
+    <string name="recents_app_battary">แบตเตอรี่:</string>
+    <string name="recents_app_memory_description">ใช้: <xliff:g id="used">%1$s</xliff:g> | ทั้งหมด <xliff:g id="total">%2$s</xliff:g></string>
+    <string name="recents_app_running_empty">ไม่มีภารกิจล่าสุด</string>
+    <string name="recents_app_best_already">ทำความสะอาดอย่างดีที่สุดแล้ว</string>
+    <string name="recents_app_release_memory">เพิ่มหน่วยความจำ <xliff:g id="used">%1$s</xliff:g></string>
+    <string name="recents_app_depthclear_notfind">เริ่มต้นแอปศูนย์ความปลอดภัยก่อน</string>
+    <string name="recents_app_memory_cleaned">ทำความสะอาดแล้ว</string>
+    <string name="shimmer">เลื่อนปลดล็อคไปทางขวา</string>
+    <string name="sim_slot">ช่องใส่ SIM</string>
+    <string name="wifi_WEP_transmit_key">กุญแจในการส่ง</string>
+    <string name="wifi_WEP_secury_key">กุญแจความปลอดภัย</string>
+    <string name="wapi_user_certificate">การการยืนยันตัวตนของผู้ใช้งาน</string>
+    <string name="wapi_as_certificate">ใบรับรอง ASE</string>
+    <string name="wifi_hex_password">รหัสผ่านฐานสิบหก</string>
+    <string name="wifi_security_none">ไม่มี</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <string name="wifi_show_advanced">แสดงตัวเลือกขั้นสูง</string>
+    <string name="wifi_ssid">เครือข่าย SSID</string>
+    <string name="wifi_ssid_hint">โปรดใส่รหัส SSID</string>
+    <string name="wifi_security">ความปลอดภัย</string>
+    <string name="wifi_signal">ความแรงของสัญญาณ</string>
+    <string name="wifi_status">สถานะ</string>
+    <string name="wifi_speed">ความเร็วของลิ้งค์</string>
+    <string name="wifi_frequency">ความถี่</string>
+    <string name="wifi_ip_address">ไอพี แอดเดรส</string>
+    <string name="wifi_eap_method">วิธีการของ EAP</string>
+    <string name="please_select_phase2">ขั้นตอนที่ 2 การการยืนยันตัวตน</string>
+    <string name="wifi_eap_ca_cert">ใบรับรองความปลอดภัยของ CA</string>
+    <string name="wifi_eap_user_cert">การการยืนยันตัวตนของผู้ใช้งาน</string>
+    <string name="wifi_eap_identity">ตัวตน</string>
+    <string name="wifi_eap_anonymous">ตัวตนที่ไม่ระบุชื่อ</string>
+    <string name="wifi_password">รหัสผ่าน</string>
+    <string name="wifi_password_text">รหัสผ่าน (8 ถึง 63 ตัวอักษร)</string>
+    <string name="wifi_info_connect_btn">เชื่อมต่อ</string>
+    <string name="wifi_info_cancal_btn">ยกเลิก</string>
+    <string name="wifi_show_password">แสดงรหัสผ่าน</string>
+    <string name="wifi_ip_settings">การตั้งค่า IP</string>
+    <string name="wifi_unchanged">(ไม่เปลี่ยนแปลง)</string>
+    <string name="wifi_unspecified">(ไม่มีการระบุ)</string>
+    <string name="wifi_remembered">บันทึกแล้ว</string>
+    <string name="wifi_disabled_generic">ที่ปิดใช้งาน</string>
+    <string name="wifi_disabled_network_failure">หลีกเลี่ยงการเชื่อมต่อสัญญาณอินเตอร์เน็ทที่แย่</string>
+    <string name="wifi_dns1">DNS 1</string>
+    <string name="wifi_dns2">DNS 2</string>
+    <string name="wifi_gateway">เกตเวย์</string>
+    <string name="wifi_network_prefix_length">ความยาวของรหัสนำเครือข่าย</string>
+    <string name="proxy_settings_title">พร็อกซี</string>
+    <string name="proxy_clear_text">ล้าง</string>
+    <string name="proxy_port_label">พร็อกซีพอร์ต</string>
+    <string name="proxy_exclusionlist_label">บายพาสพร็อกซีเพื่อ</string>
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+    <string name="proxy_defaultView_text">กลับไปค่าเริ่มต้น</string>
+    <string name="proxy_action_text">เสร็จ</string>
+    <string name="proxy_hostname_label">พร็อกซีโฮสเนม</string>
+    <string name="proxy_hostname_hint">proxy.example.com</string>
+    <string name="proxy_error">ความสนใจ</string>
+    <string name="proxy_error_dismiss">ตกลง</string>
+    <string name="proxy_error_invalid_host">ชื่อโฮสต์ที่คุณพิมพ์ไม่ถูกต้อง</string>
+    <string name="proxy_error_invalid_exclusion_list">รายการที่แยกออกที่ท่านพิมพ์นั้นไม่อยู่ในรูปแบบที่เหมาะสม พิมพ์ comma-separated list ของโดเมนที่ถูกแยกไป</string>
+    <string name="proxy_error_empty_port">คุณต้องทำรายการในพอร์ตให้สมบูรณ์</string>
+    <string name="proxy_error_empty_host_set_port">หากช่องโฮสเว้นว่าง ช่องพอร์ตจะต้องเว้นว่างเช่นกัน</string>
+    <string name="proxy_error_invalid_port">พอร์ตที่คุณพิมพ์ไม่ถูกต้อง</string>
+    <string name="proxy_warning_limited_support">พร็อกซี HTTP ถูกใช้โดยเบราเซอร์ แต่แอป อื่นอาจไม่จำเป็นต้องใช้ก็ได้</string>
+    <string name="qs_header_morning">อย่าแปล</string>
+    <string name="qs_header_afternoon">อย่าแปล</string>
+    <string name="status_bar_notification_message">[<xliff:g id="number">%d</xliff:g>ข้อความ]</string>
+    <string name="header_top">กลุ่มการจัดการการแจ้งเตือน</string>
+    <string name="header_name_top">การแจ้งเตือนแถบสถานะ</string>
+    <string name="header_name_detail_top">แสดงการแจ้งเตือนในแถบสถานะ</string>
+    <string name="header_name0">แถบสถานะ</string>
+    <string name="header_name1">คีย์การ์ด</string>
+    <string name="sub_switch_name0">เปิดใช้งานการแจ้งเตือนต่าง ๆ</string>
+    <string name="sub_switch_name1">การแจ้งเตือนต่างๆ แบบลอยตัว</string>
+    <string name="sub_switch_name1_sub">แสดงการแจ้งเตือนต่าง ๆ บนส่วนบนของจอ และหายไปเองโดยอัตโนมัติ</string>
+    <string name="sub_switch_name2">การแจ้งเตือนการล็อคหน้าจอ</string>
+    <string name="sub_switch_name2_sub">แสดงการแจ้งเตือนในแถบสถานะ</string>
+    <string name="sub_switch_name3">แสดงรายละเอียดการแจ้งเตือนต่าง ๆ</string>
+    <string name="sub_switch_name4">แสดงการแจ้งเตือนในแถบสถานะ</string>
+    <string name="title_activity_package_list">ตั้งค่าการแจ้งเตือน</string>
+    <string name="title_activity_package_list_batch">ชุดการแจ้งเตื่อนที่เกี่ยวข้อง</string>
+    <string name="preference_detail_show">แสดง</string>
+    <string name="preference_detail_hide">ซ่อน</string>
+    <string name="item_show_detail">แสดงรายละเอียด</string>
+    <string name="item_show_floating">การลอย</string>
+    <string name="manage_notification_access_title">การเข้าถึงการแจ้งเตือน</string>
+    <string name="notification_hide_system_app">ซ่อนแอประบบต่าง ๆ</string>
+     <string name="notification_show_system_app">แสดงแอประบบต่าง ๆ</string>
+    <string name="quick_wifi_connected">เชื่อมต่อแล้ว</string>
+    <string name="qs_wlan_title">WLAN</string>
+    <!-- add by shenyupeng -->
+    <string name="qs_label_4g">4G</string>
+    <string name="qs_label_controlcentor">ศูนย์ควบคุม</string>
+    <string name="qs_label_white_black_patterns">โมโน</string>
+    <!-- end -->
+    <string name="over_sea_hideNavigationBar_info">แสดงแถบการนำโดยการเลื่อนขึ้นจากส่วนล่างของหน้าจอ</string>
+
+    <!-- add from systemUI 5.1 -->
+    <string name="show_no_sim_message">"ไม่มี SIM การ์ด โปรดลองอีกครั้ง หลังจากใส่การ์ดเข้าไปแล้ว"</string>
+    <string name="accessibility_hide">"ซ่อน"</string>
+    <string name="data_no_connected_error">"โปรดตรวจสอบดูว่าข้อมูลที่ใช้ข้ามเขตได้รับสิทธิ์อนุญาตในการตั้งค่าต่าง ๆ-&gt;ในการจัดการ SIM การ์ด-&gt;การใช้งานข้ามเขตระหว่างประเทศหรือไม่"</string>
+    <!-- yulong begin modify -->
+    <!-- for change volume panel style, pengbin, 2015.12.10 -->
+    <string name="yl_volume_ring_icon_description">ความดังเสียงเสียงเรียกเข้าและการแจ้งเตือนต่าง ๆ</string>
+    <!-- yulong end -->
+    
+    <!--for control center resource,shenyupeng,2016.02.29  -->
+    <string name="ctrl_center_shown_1page">แสดงทางลัด-หน้า 1</string>
+    <string name="ctrl_center_shown_2page">แสดงทางลัด-หน้า 2</string>
+    <string name="ctrl_center_non_shown">ไม่แสดงทางลัด</string>
+    <string name="ctrl_center_hint">หมายเหตุ: แตะทางลัดค้างไว้เพื่อย้ายไป คุณสามารถปรับลำดับการแสดงต่างๆ</string>
+    <!-- yulong end -->
+    
+    <string name="reminder">เคล็ดลับ</string>
+	<string name="disclaimer_checkboxtext">ไม่มีพรอมต์อีกต่อไป</string>
+    <string name="disclaimer_agree">ตกลง</string>
+	<string name="close">ปิด</string>
+    <string name="bugreport_title_user_protocol">ข้อตกลงผู้ใช้</string>
+    <string name="bugreport_title_private_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="right_tips_summary">ร้องขอสิทธิ์ %1$s แมกกาซีนคีย์การ์ด</string>
+    <string name="right_tips">ยังคงใช้ฟังก์ชั่นนี้บ่งชี้ว่าได้ตกลงดังต่อไปนี้แล้ว</string>
+    <string name="right_rights">อินเตอร์เน็ต</string>
+    <string name="right_tips_user_protocol">ข้อตกลงผู้ใช้</string>
+    <string name="right_tips_and"> และ </string>
+    <string name="right_tips_mark">.</string>
+    <string name="right_tips_private_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="sim1">sim1</string>
+    <string name="sim2">sim2</string>
+    <string name="sim3">sim3</string>
+    <string name="qs_bottom_first_btn">ฉันรู้</string>
+    <string name="qs_bottom_first_notice">ปัดจากด้านล่างของจอเพื่อเข้าไปในแผงการตั้งค่าเร็ว</string>
+    <string name="lockpassword_confirm_passwords_dont_match">รหัสผ่านไม่ตรงกัน</string>
+
+    <string name="bottom_icon_edit_title">ไอคอนที่แสดงอยู่บนแผงการตั้งค่าเร็ว</string>
+    <string name="bottom_icon_edit_hint">คำใบ้: เลือกแอปที่คุณต้องการ</string>
+    <string name="icon_editor_overflow_hint">ไม่มีช่องเสียบว่าง</string>
+    
+    <string name="loading">กำลังโหลด...</string>
+</resources>

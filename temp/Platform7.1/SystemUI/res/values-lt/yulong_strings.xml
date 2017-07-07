@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Susitikimo režimas</string>
+    <string name="yl_volume_ring_icon_description">"Skambėjimo tono ir pranešimų garsumas"</string>
+    <string name="qs_label_vibrate_ring">Vibruoti</string>
+    <string name="qs_label_softap">Karštas taškas</string>
+    <string name="accessibility_ime_switch_button">"Perjungti įvesties būdo mygtuką."</string>
+    <string name="accessibility_no_wifi">"\„Wi-Fi\“ atjungtas."</string>
+    <string name="accessibility_wifi_off">"\„Wi-Fi\“ išjungtas."</string>
+    <string name="accessibility_wifi_one_bar">"Viena \„Wi-Fi\“ juostelė."</string>
+    <string name="accessibility_wifi_signal_full">"Visas \„Wi-Fi\“ signalas."</string>
+    <string name="accessibility_wifi_three_bars">"Trys \„Wi-Fi\“ juostelės."</string>
+    <string name="accessibility_wifi_two_bars">"Dvi \„Wi-Fi\“ juostelės."</string>
+    <string name="guide_click_txt">"Spustelėkite, kad pasiektumėte klaviatūros apsaugos žurnalo nustatymus"</string>
+    <string name="guide_sliding_txt">"Brūkštelėkite, kad pakeistumėte rodinį"</string>
+    <string name="guide_swipe_up_txt">"Brūkštelėkite aukštyn, kad atrakintumėte"</string>
+    <string name="guide_title">"Sveikiname įjungus klaviatūros apsaugos žurnalą"</string>
+    <string name="header_name_detail_top">"Rodyti pranešimus būsenos juostoje"</string>
+    <string name="header_name_top">"Būsenos juostos pranešimas"</string>
+    <string name="header_name0">"Būsenos juosta"</string>
+    <string name="header_name1">"Klaviatūros apsauga"</string>
+    <string name="header_top">"Masinis pranešimų tvarkymas"</string>
+    <string name="interruption_level_all">"Visi"</string>
+    <string name="keyguard_guide_enter">"Pabandykite"</string>
+    <string name="lockscreen_airplane_mode_on">"Įjungtas lėktuvo režimas."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM kortelės nėra."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Neveikianti SIM kortelė."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM klaida."</string>
+    <string name="lockscreen_sim_locked_message">"SIM kortelė užrakinta."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM kortelės PUK užrakintas."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Šį įrenginį valdo: \n<xliff:g id="organization">%1$s</xliff:g>\n. Jūsų profilį valdo: \n<xliff:g id="organization">%2$s</xliff:g>\n\nJūsų administratorius gali stebėti jūsų įrenginį ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nDaugiau informacijos teiraukitės savo administratoriaus."</string>
+    <string name="monitoring_description_legacy_vpn">"Jūs prisijungę prie VPN (\„<xliff:g id="application">%1$s</xliff:g>\“).\n\nJūsų VPN paslaugos teikėjas gali stebėti jūsų įrenginį ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Šį įrenginį valdo: \n<xliff:g id="organization">%1$s</xliff:g>\n. Jūsų profilį valdo: \n<xliff:g id="organization">%2$s</xliff:g>\n\nJūsų administratorius gali stebėti jūsų tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Daugiau informacijos teiraukitės savo administratoriaus.\n\nTaip pat esate prisijungę prie VPN (\„<xliff:g id="application">%3$s</xliff:g>\“) Jūsų VPN paslaugų teikėjas taip pat gali stebėti jūsų tinklo veiklą."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Šį įrenginį valdo: \n<xliff:g id="organization">%1$s</xliff:g>\n\n. Jūsų administratorius gali stebėti jūsų tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Daugiau informacijos teiraukitės savo administratoriaus.\n\nTaip pat esate prisijungę prie VPN (\„<xliff:g id="application">%2$s</xliff:g>\“) Jūsų VPN paslaugų teikėjas taip pat gali stebėti jūsų tinklo veiklą."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Jūsų profilį valdo: \n<xliff:g id="organization">%1$s</xliff:g>\n\n. Jūsų administratorius gali stebėti jūsų tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Daugiau informacijos teiraukitės savo administratoriaus.\n\nTaip pat esate prisijungę prie VPN (\„<xliff:g id="application">%2$s</xliff:g>\“) Jūsų VPN paslaugų teikėjas taip pat gali stebėti jūsų tinklo veiklą."</string>
+    <string name="monitoring_description_profile_owned">"Šį profilį valdo: \n<xliff:g id="organization">%1$s</xliff:g>\n\n. Jūsų administratorius gali stebėti jūsų įrenginį ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nDaugiau informacijos teiraukitės savo administratoriaus."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Šį įrenginį valdo: \n<xliff:g id="organization">%1$s</xliff:g>\n. Jūsų profilį valdo: \n<xliff:g id="organization">%2$s</xliff:g>\n\nJūsų administratorius gali stebėti jūsų tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Daugiau informacijos teiraukitės savo administratoriaus.\n\nTaip pat suteikėte leidimą \„<xliff:g id="application">%3$s</xliff:g>\“ nustatyti VPN ryšį. Ši programa taip pat gali stebėti jūsų tinklo veiklą."</string>
+    <string name="please_select_phase2">"2 fazės tapatumo nustatymas"</string>
+    <string name="proxy_exclusionlist_label">"Apeiti tarpinį prievadą"</string>
+    <string name="proxy_hostname_label">"Tarpinis pagrindinio kompiuterio vardas"</string>
+    <string name="proxy_port_label">"Tarpinis prievadas"</string>
+    <string name="proxy_settings_title">"Tarpinis"</string>
+    <string name="proxy_warning_limited_support">"Naršyklė naudoja tarpinį HTTP, bet kitos programos gali jo nenaudoti."</string>
+    <string name="qs_bottom_first_btn">"Žinau"</string>
+    <string name="qs_bottom_first_notice">"Brūkštelėkite iš ekrano apačios aukštyn, kad pasiektumėte Sparčiųjų nustatymų skydelį"</string>
+    <string name="qs_label_cbutton">"C mygtukas"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Lėktuvo režimas"</string>
+    <string name="sim_slot">"SIM kortelės lizdas"</string>
+    <string name="sim1">"1 SIM"</string>
+    <string name="sim2">"2 SIM"</string>
+    <string name="sim3">"3 SIM"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>pranešimai]"</string>
+    <string name="status_bar_settings_airplane">"Lėktuvo režimas"</string>
+    <string name="sub_switch_name0">"Įjungti pranešimus"</string>
+    <string name="sub_switch_name1">"Slankieji pranešimai"</string>
+    <string name="sub_switch_name1_sub">"Parodyti pranešimus viršutiniame rodinyje, tada automatiškai paslėpti"</string>
+    <string name="sub_switch_name2">"Užrakinto ekrano pranešimai"</string>
+    <string name="sub_switch_name2_sub">"Rodyti pranešimus būsenos juostoje"</string>
+    <string name="sub_switch_name3">"Rodyti pranešimų informaciją"</string>
+    <string name="sub_switch_name4">"Rodyti pranešimus būsenos juostoje"</string>
+    <string name="title_activity_package_list_batch">"Masinis pranešimų tvarkymas"</string>
+    <string name="wapi_as_certificate">"ASE sertifikatas"</string>
+    <string name="wapi_user_certificate">"Naudotojo sertifikatas"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anoniminė tapatybė"</string>
+    <string name="wifi_eap_ca_cert">"CA sertifikatas"</string>
+    <string name="wifi_eap_identity">"Tapatybė"</string>
+    <string name="wifi_eap_method">"EAP metodas"</string>
+    <string name="wifi_eap_user_cert">"Naudotojo sertifikatas"</string>
+    <string name="wifi_gateway">"Tinklų sietuvas"</string>
+    <string name="wifi_hex_password">"Šešioliktainis slaptažodis."</string>
+    <string name="wifi_info_cancal_btn">"Atšaukti"</string>
+    <string name="wifi_info_connect_btn">"Jungtis"</string>
+    <string name="wifi_ip_address">"IP adresas:"</string>
+    <string name="wifi_ip_settings">"IP nustatymai"</string>
+    <string name="wifi_network_prefix_length">"Tinklo prefikso ilgis"</string>
+    <string name="wifi_password">"Slaptažodis"</string>
+    <string name="wifi_password_text">"Slaptažodis (8–63 ženklai)"</string>
+    <string name="wifi_security">"Saugumas"</string>
+    <string name="wifi_security_none">"Nėra"</string>
+    <string name="wifi_show_advanced">"Rodyti išplėstines parinktis"</string>
+    <string name="wifi_show_password">"Rodyti slaptažodį"</string>
+    <string name="wifi_signal">"Signalo stiprumas"</string>
+    <string name="wifi_ssid">"Tinklo SSID"</string>
+    <string name="wifi_ssid_hint">"Įvesti tinklo SSID"</string>
+    <string name="wifi_status">"Būsena"</string>
+    <string name="wifi_unchanged">"(nepakitę)"</string>
+    <string name="wifi_WEP_secury_key">"Saugumo klavišas"</string>
+    <string name="wifi_WEP_transmit_key">"Perdavimo klavišas"</string>
+    <string name="zen_alarm_information_day_time">"Kitas jūsų žadintuvas yra <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Kitas jūsų žadintuvas <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Tik pirmenybiniai trukdymai"</string>
+    <string name="zen_no_interruptions">"Be trukdymų"</string>
+    <string name="zen_no_interruptions_with_warning">"Be trukdymų. Net žadintuvų."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G / Pagalbos skambučiai"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Kolekcija"</string>
+    <string name="keyguard_magzine_cancel_collect">"Į kolekciją"</string>
+    <string name="keyguard_magazine_resident">"Gyventojas"</string>
+    <string name="keyguard_magazine_cancel_resident">"Atšaukti gyventoją"</string>
+    <string name="keyguard_magazine_share">"Bendrinti"</string>
+    <string name="keyguard_magazine_link">"Saitas"</string>
+    <string name="keyguard_magazine_more">"Nustatymas"</string>
+    <string name="keyguard_magzine_collect_toast">"Įrašyti į žurnalo nuotraukas vietos galerijoje"</string>
+    <string name="keyguard_magazine_resident_toast">"Kaskart įjungus ekraną bus rodomas šis fonas"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Kaskart įjungus ekraną nebus rodomas šis fonas"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Žurnalo nuotraukų kolekcija"</string>
+    <string name="qs_label_calculator">"Skaičiuotuvas"</string>
+    <string name="qs_label_blaster">"Įrašytuvas"</string>
+    <string name="qs_label_magical">"Magiškas"</string>
+    <string name="qs_label_camera">"Fotoaparatas"</string>
+    <string name="qs_label_recording">"Įrašymas"</string>
+    <string name="qs_label_controlcentor">"Valdymo centras"</string>
+    <string name="qs_label_slience">"Ekrano kopija"</string>
+    <string name="header_name">"įjungti informavimą"</string>
+    <string name="header_name_detail">"Rodoma pranešimų skydelyje"</string>
+    <string name="title_show_locksreen">"Rodoma užrakintame ekrane"</string>
+    <string name="recents_app_shendu">"gylis"</string>
+    <string name="recents_app_liuliang">"Šiandien:"</string>
+    <string name="recents_app_memory">"Atmintis:"</string>
+    <string name="recents_app_battary">"Baterija:"</string>
+    <string name="recents_app_running_empty">"naujų užduočių nėra"</string>
+    <string name="recents_app_best_already">"jau geriausiai išvalyta"</string>
+    <string name="recents_app_release_memory">"atlaisvinti atmintį <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"pirmiau pradėti saugiojo centro programą"</string>
+    <string name="recents_app_memory_cleaned">"išvalyta"</string>
+    <string name="preference_detail_show">"Rodyti"</string>
+    <string name="preference_detail_hide">"Slėpti"</string>
+    <string name="item_show_notifcaiton">"Pranešimas"</string>
+    <string name="item_show_lockscreen">"užrakintame ekrane"</string>
+    <string name="item_show_floating">"slankusis"</string>
+    <string name="item_show_detail">"Rodyti informaciją"</string>
+    <string name="manage_notification_access_title">"Pranešimų prieiga"</string>
+    <string name="notification_hide_system_app">"Slėpti sistemos programas"</string>
+    <string name="notification_show_system_app">"Rodyti sistemos programas"</string>
+    <string name="ctrl_center_shown_1page">"Rodomos nuorodos: 1 puslapis"</string>
+    <string name="ctrl_center_shown_2page">"Rodomos nuorodos: 2 puslapis"</string>
+    <string name="ctrl_center_non_shown">"Nuorodos nerodomos"</string>
+    <string name="ctrl_center_hint">"Pastaba: Bakstelėkite ir palaikykite nuorodą, kad ją perkeltumėte. Ji gali būti rodoma arba nerodoma ir gali būti keičiama jos vieta\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Balso skambučių garsumas"</item>
+        <item>"Sistemos garsumas"</item>
+        <item>"Skambučio ir pranešimų garsumas"</item>
+        <item>"Medijos garsumas"</item>
+        <item>"Įspėjimo signalų garsumas"</item>
+        <item></item>
+        <item>"\„Bluetooth\“ skambučių garsumas"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 ekranas „Apžvalgoje“"</item>
+        <item quantity="other">"%d ekranų „Apžvalgoje“"</item>
+    </plurals>
+
+    <string name="accessibility_hide">"Slėpti"</string>
+    <string name="clear_memory_notice">"Sveikiname, jūs sėkmingai pašalinote užduotis"</string>
+    <string name="data_no_connected_error">"Prašome patikrinti, ar įjungtas duomenų tarptinklinis ryšys: Nustatymai-&gt;SIM kortelė-&gt;Tarptautinis tarptinklinis ryšys!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Vilkimo žemyn gestas įjungtas užrakinant ekraną"</string>
+    <string name="item_center_notifcaiton_obsessive">"OCD parinktys"</string>
+    <string name="qs_label_dataportection_mode">"Duomenų apsauga"</string>
+    <string name="qs_label_ringer">"Skambėjimo tonas"</string>
+    <string name="qs_label_rotation">"Ekrano sukimas"</string>
+    <string name="qs_label_speed">"Greitinti"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> naudojama |iš viso <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Nėra SIM kortelės. Įdėkite kortelę ir bandykite dar kartą!"</string>
+    <string name="status_bar_screenshot_interesting">"Įdomus kadras"</string>
+    <string name="status_bar_screenshot_long">"Ilga ekrano kopija"</string>
+    <string name="status_bar_super_secure_system_mode">"Šiuo metu veikia saugiuoju režimu, išjunkite saugųjį režimą, kad įjungtumėte funkciją"</string>
+    <string name="title_show_floating_sub">"Atrakinus ekraną, pranešimai rodomi ekrano viršuje, o paskui automatiškai dingsta"</string>
+    <string name="yl_volume_ring_icon_description">"Skambėjimo tono &amp; pranešimų garsumas"</string>
+    <string name="accessibility_quick_settings_data_off">"Mobilieji duomenys išjungti."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobilieji duomenys įjungti."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Tarptinklinis ryšys išjungtas."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Tarptinklinis ryšys įjungtas."</string>
+    <string name="brightness_dlg_adjust">"(Nustatykite)"</string>
+    <string name="brightness_dlg_auto">"AUTOMATINIS"</string>
+    <string name="brightness_dlg_brightness">"Šviesumas"</string>
+    <string name="clear_notify_all_oldman">"Trinti pranešimus"</string>
+    <string name="dateview_day">"Diena"</string>
+    <string name="dateview_month">"Mėnuo"</string>
+    <string name="domain_switch_toast">"Pranešimas yra iš kitos vietos."</string>
+    <string name="item_center_notifcaiton_ccm">"Rodyti tinklo operatoriaus pavadinimą"</string>
+    <string name="item_center_notifcaiton_control">"Valdymo centras"</string>
+    <string name="item_center_notifcaiton_management">"Pranešimų tvarkymas"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Pašalinti piktogramos žymą purtant"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Slėpti piktogramos žymą"</string>
+    <string name="item_center_notifcaiton_other">"Kita"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Spartieji nustatymai"</string>
+    <string name="item_center_notifcaiton_sub">"Pranešimas"</string>
+    <string name="item_center_notifcaiton_title">"Nustatymai"</string>
+    <string name="item_show_none">"Nei karto"</string>
+    <string name="item_show_other">"Kita"</string>
+    <string name="item_show_statusbar">"Skydas"</string>
+    <string name="keyguard_magazine_enter">"Braukite žemyn iki klaviatūros žurnalo"</string>
+    <string name="kg_no_service">"Nėra paslaugos."</string>
+    <string name="kg_no_uim">"Nėra UIM arba paslaugos"</string>
+    <string name="kg_no_usim">"Nėra SIM kortelės arba paslauga neteikiama"</string>
+    <string name="kg_none_carrier">"Nėra paslaugos."</string>
+    <string name="message_keep_one_launcher">"Reikia palikti bent vieną pradžios veiklą!"</string>
+    <string name="message_switch_fail">"Negalima pereiti prie šios užduoties, nes ji neturi sąsajos."</string>
+    <string name="other_notification_expand">"palieskite, kad peržiūrėtumėte viską."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> kitų pranešimų"</string>
+    <string name="qs_label_airplane">"Skrydžio režimas"</string>
+    <string name="qs_label_blacklist">"Blokavimas"</string>
+    <string name="qs_label_blacklist2">"Blokavimas"</string>
+    <string name="qs_label_bluetooth">"„Bluetooth“"</string>
+    <string name="qs_label_brightness">"Šviesumas"</string>
+    <string name="qs_label_data_roaming">"Tarptinklinis ryšys"</string>
+    <string name="qs_label_doublecard">"Dviejų kortelių parametrai"</string>
+    <string name="qs_label_driving_mode">"Automobilio režimas"</string>
+    <string name="qs_label_flashlight">"Žibintas"</string>
+    <string name="qs_label_flow_monitor">"Duomenų naudojimas"</string>
+    <string name="qs_label_location">"Naudojama vieta"</string>
+    <string name="qs_label_multiple_accounts_name">"Savininkas"</string>
+    <string name="qs_label_mutlwindow">"Daugiaprogramis režimas"</string>
+    <string name="qs_label_saving">"Energijos taupymo priemonė"</string>
+    <string name="qs_label_scenemode">"Scenų režimas"</string>
+    <string name="qs_label_sdcard_install">"Įdiegti SD kortelę"</string>
+    <string name="qs_label_sdcard_uninstall">"Pašalinti SD kortelę"</string>
+    <string name="qs_label_secure_mode">"Apsaugoti duomenis"</string>
+    <string name="qs_label_setting">"Nustatymai"</string>
+    <string name="qs_label_shrink_screen">"Ekrano padalijimas"</string>
+    <string name="qs_label_silence">"Begarsis"</string>
+    <string name="qs_label_sound">"Garsas"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Super saugus režimas"</string>
+    <string name="qs_label_switching">"Sukeitimas"</string>
+    <string name="qs_label_ttwindow_mode">"Naujienų transliacija"</string>
+    <string name="qs_label_turning_off">"Uždarymas"</string>
+    <string name="qs_label_turning_on">"Atidaroma"</string>
+    <string name="qs_label_viplist">"Baltasis sąrašas"</string>
+    <string name="qs_label_viplist2">"Baltasis sąrašas"</string>
+    <string name="qs_label_wlan">"„Wi-Fi“"</string>
+    <string name="qs_major_bar_tips">"Rodoma pranešimų juostoje (ne daugiau nei 10)"</string>
+    <string name="qs_minor_bar_tips">"Nerodoma pranešimų juostoje"</string>
+    <string name="quick_settings_apn_switch_label">"ANP jungiklis"</string>
+    <string name="quick_settings_data_off">"Duomenys išjungti"</string>
+    <string name="quick_settings_dds_sub">"Kortelės <xliff:g id="number">%d</xliff:g> duomenys"</string>
+    <string name="quick_settings_mobile_data_label">"Mobilieji duomenys"</string>
+    <string name="quick_settings_roaming_label">"Tarptinklinis ryšys"</string>
+    <string name="quicksettings_edit_disable">"Redaguoti"</string>
+    <string name="quicksettings_edit_enable">"Uždaryti"</string>
+    <string name="quicksettings_more">"Daugiau"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Nepavyksta prisijungti prie tinklo veikiant skrydžio režimui."</string>
+    <string name="status_bar_disable_data_roaming">"Tarptinklinis ryšys išjungtas."</string>
+    <string name="status_bar_earphones_connected_text">"Ausinės prijungtos."</string>
+    <string name="status_bar_earphones_connected_ticker">"Ausinės prijungtos."</string>
+    <string name="status_bar_earphones_connected_title">"Ausinės"</string>
+    <string name="status_bar_enable_data_roaming">"Tarptinklinis ryšys įjungtas."</string>
+    <string name="status_bar_expand_autobright">"Automatinis šviesumo reguliavimas"</string>
+    <string name="status_bar_expanded_airplane_mode">"Skrydžio režimas"</string>
+    <string name="status_bar_expanded_check_sim">"Be SIM kortelės"</string>
+    <string name="status_bar_expanded_check_uim">"Nėra UIM"</string>
+    <string name="status_bar_expanded_check_uimsim">"Nėra SIM kortelės"</string>
+    <string name="status_bar_expanded_data_net_status">"Nežinoma"</string>
+    <string name="status_bar_expanded_mms_send_note">"Jungiamasi prie tinklo... Bandykite vėliau dar kartą."</string>
+    <string name="status_bar_expanded_net_using_card">"Duomenų ryšiui naudojama telefono kortelė <xliff:g id="number">%d</xliff:g>. Vėliau galite patys perjungti tinklą."</string>
+    <string name="status_bar_expanded_network_forbid">"Paslauga išjungta"</string>
+    <string name="status_bar_expanded_network_off">"Nėra paslaugos."</string>
+    <string name="status_bar_expanded_start_network">"Mobilieji duomenys"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobilieji duomenys"</string>
+    <string name="status_bar_expanded_stop_network">"Mobilieji duomenys"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobilieji duomenys"</string>
+    <string name="status_bar_no_running_apps">"Nėra veikiančių programėlių"</string>
+    <string name="status_bar_notification_manager">"vadovas"</string>
+    <string name="status_bar_notify_interception_disable">"Drausti"</string>
+    <string name="status_bar_notify_interception_enable">"Leisti"</string>
+    <string name="status_bar_other_notify">"Daugiau"</string>
+    <string name="status_bar_other_notify_back">"Atgal"</string>
+    <string name="status_bar_recent_delete">"Išvalyti"</string>
+    <string name="status_bar_recent_historical">"Sena užduotis"</string>
+    <string name="status_bar_recent_memory">"Atmintis"</string>
+    <string name="status_bar_recent_memory_free">"laisva|"</string>
+    <string name="status_bar_recent_memory_item_used">"Naudojama:"</string>
+    <string name="status_bar_recent_memory_used">"Naudojama:"</string>
+    <string name="status_bar_recent_optimize">"Detalės"</string>
+    <string name="status_bar_recent_running">"Aktyvi užduotis"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Nukopijuota į iškarpinę."</string>
+    <string name="status_bar_screenshot_edit">"Redaguoti"</string>
+    <string name="status_bar_screenshot_exit">"Atšaukti"</string>
+    <string name="status_bar_screenshot_save">"Išsaugoti"</string>
+    <string name="status_bar_screenshot_share">"Bendrinti"</string>
+    <string name="status_bar_select_network1">"1 tinklas"</string>
+    <string name="status_bar_select_network2">"2 tinklas"</string>
+    <string name="tasklist_killall">"Išjungti viską"</string>
+    <string name="tasklist_memory_usage">"Laisva/bendroji atmintis: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Užduočių tvarkytuvas"</string>
+    <string name="title_activity_package_list">"Pranešimų centras"</string>
+    <string name="title_show_effect_preview">"Vaizdo peržiūra"</string>
+    <string name="title_show_floating">"Iškylantieji pranešimai"</string>
+    <string name="title_show_notifcaiton">"Leisti"</string>
+    <string name="title_show_notification_center">"Pranešimų centras"</string>
+    <string name="title_show_other">"Rodyti kitur"</string>
+    <string name="title_show_statusbar">"Rodyti juostoje"</string>
+    <string name="gps_notification_searching_text_content">"Išjungus GPS galima sutaupyti energijos."</string>
+    <string name="quick_settings_battery_charging_label">"Įkraunama, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Įkrauta"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Garsą išjungė <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Rodyti naršymo juostą slenkant iš ekrano apačios į viršų"</string>
+
+</resources>

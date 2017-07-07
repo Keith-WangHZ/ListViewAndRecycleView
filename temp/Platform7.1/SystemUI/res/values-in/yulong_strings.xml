@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Mode rapat</string>
+    <!-- yulong begin add by zhangyang -->
+    <string name="ctrl_center_hint">"Catatan: Ketuk dan tahan pintasan untuk memindahkannya. Anda dapat menyesuaikan urutan tampilannya"</string>
+    <string name="ctrl_center_non_shown">"Pintasan tidak ditampilkan"</string>
+    <string name="ctrl_center_shown_1page">"Pintasan yang ditampilkan-Halaman 1"</string>
+    <string name="ctrl_center_shown_2page">"Pintasan yang ditampilkan-Halaman 2"</string>
+    <string name="gps_notification_searching_text_content">"Daya dapat dihemat setelah GPS ditutup."</string>
+    <string name="guide_click_txt">"Klik untuk pengaturan penguncian majalah"</string>
+    <string name="guide_sliding_txt">"Geser untuk mengubah layar"</string>
+    <string name="guide_swipe_up_txt">"Sapu ke atas untuk membuka kunci"</string>
+    <string name="guide_title">"Selamat datang di Penguncian Majalah"</string>
+    <string name="keyguard_guide_enter">"Cobalah"</string>
+    <string name="notification_hide_system_app">"Sembunyikan aplikasi sistem"</string>
+    <string name="notification_show_system_app">"Tampilkan aplikasi sistem"</string>
+    <string name="qs_bottom_first_btn">"Saya tahu"</string>
+    <string name="qs_bottom_first_notice">"Usap ke atas dari bawah layar untuk mengakses panel Pengaturan Cepat"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="item_show_statusbar">"Panel"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_softap">"Hotspot"</string>
+    <string name="status_bar_3g_priority">"3G/2G"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_earphones_connected_title">"Earphone"</string>
+    <string name="status_bar_screenshot_edit">"Edit"</string>
+    <string name="status_bar_screenshot_exit">"Batal"</string>
+    <string name="status_bar_screenshot_interesting">"Fun Capture"</string>
+    <string name="status_bar_select_network1">"Net 1"</string>
+    <string name="status_bar_select_network2">"Net 2"</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/Darurat"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="status_bar_expanded_start_network">Data seluler</string>
+    <string name="status_bar_expanded_stop_network">Data seluler</string>
+    <string name="status_bar_expanded_start_network_g">Data seluler</string>
+    <string name="status_bar_expanded_stop_network_g">Data seluler</string>
+    <string name="status_bar_expanded_data_net_status">Tidak diketahui</string>
+    <string name="status_bar_expanded_check_uimsim">Tidak ada USIM</string>
+    <string name="status_bar_expanded_check_sim">Tidak ada SIM</string>
+    <string name="status_bar_expanded_check_uim">Tidak ada UIM</string>
+    <string name="status_bar_expanded_network_off">Tidak ada layanan</string>
+    <string name="status_bar_expanded_network_forbid">Layanan dinonaktifkan</string>
+    <string name="status_bar_expanded_airplane_mode">Mode pesawat terbang</string>
+    <string name="status_bar_expanded_mms_send_note">Menghubungkan jaringan... Coba lagi nanti.</string>
+    <string name="status_bar_airplane_mode_send_note">Tidak dapat menghubungkan jaringan dalam mode pesawat terbang.</string>
+    <string name="kg_no_uim">Tidak ada UIM atau layanan</string>
+    <string name="kg_no_usim">Tidak ada USIM atau layanan</string>
+    <string name="kg_none_carrier">Tidak ada layanan</string>
+    <string name="kg_no_service">Tidak ada layanan</string>
+    <string name="status_bar_expanded_net_using_card"><xliff:g id="number">%d</xliff:g>Gunakan kartu telepon untuk koneksi data. Anda dapat secara manual mengganti jaringan nanti.</string>
+    <!-- yulong beging add by zhangyang for yulong quick setting -->
+
+    <string name="qs_label_brightness">Kecerahan</string>
+    <string name="qs_label_location">Lokasi</string>
+    <string name="qs_label_rotation">Rotasi layar</string>
+    <string name="qs_label_scenemode">Mode</string>
+    <string name="qs_label_standard">Umum</string>
+    <string name="qs_label_flight">Pesawat terbang</string>
+    <string name="qs_label_meeting">Rapat</string>
+    <string name="qs_label_external">Luar Ruangan</string>
+    <string name="qs_label_quiet">Tenang</string>
+    <string name="qs_label_custom">Kustom</string>
+    <string name="qs_label_phone">Panggil</string>
+    <string name="qs_label_saving">Penghemat daya</string>
+    <string name="qs_label_airplane">Pesawat terbang</string>
+    <string name="qs_label_ringer">Dering</string>
+    <string name="qs_label_vibrate_ring">Getar</string>
+    <string name="qs_label_super_saving">Siaga jangka panjang</string>
+    <string name="qs_label_viplist">Daftar putih</string>
+    <string name="qs_label_viplist2">Daftar putih</string>
+    <string name="qs_label_doublecard">Kartu telepon</string>
+    <string name="qs_label_setting">Pengaturan</string>
+    <string name="qs_label_speed">Percepat</string>
+    <string name="qs_label_silence">Senyapkan</string>
+    <string name="qs_label_sdcard_uninstall">Hapus instalan kartu SD</string>
+    <string name="qs_label_show">Notifikasi</string>
+    <string name="qs_label_hide">Notifikasi</string>
+    <string name="qs_label_sdcard_install">Instal kartu SD</string>
+    <string name="qs_label_flow_monitor">Penggunaan data</string>
+    <string name="qs_label_switching">Mengganti</string>
+    <string name="qs_label_turning_on">Membuka</string>
+    <string name="qs_label_turning_off">Menutup</string>
+    <string name="qs_label_blacklist">Pemblokir</string>
+    <string name="qs_label_blacklist2">Pemblokir</string>
+    <string name="qs_label_cbutton">Tombol C</string>
+    <string name="qs_label_mutlwindow">Multi tugas</string>
+    <string name="qs_label_secure_mode">Lindungi data</string>
+    <string name="qs_label_super_secure_mode">Mode super aman</string>
+    <string name="qs_label_dataprotection_mode">Lindungi data</string>
+    <string name="qs_label_driving_mode">Mode mobil</string>
+    <string name="qs_label_ttwindow_mode">Aliran berita</string>
+    <string name="qs_label_sound">Suara</string>
+    <string name="qs_label_data_roaming">Roaming data</string>
+    <string name="qs_label_shrink_screen">Penskalaan layar</string>
+    <string name="qs_label_flashlight">Senter</string>
+    <string name="status_bar_no_running_apps">Tidak ada aplikasi berjalan</string>
+    <string name="status_bar_recent_optimize">Detail</string>
+    <string name="status_bar_recent_delete">Kosongkan</string>
+    <string name="status_bar_recent_historical">Tugas riwayat</string>
+    <string name="status_bar_recent_running">Tugas aktif</string>
+    <string name="status_bar_screenshot_share">Bagikan</string>
+    <string name="status_bar_screenshot_save">Simpan</string>
+    <string name="status_bar_notify_interception_disable">Larang</string>
+    <string name="status_bar_notify_interception_enable">Izinkan</string>
+    <string name="qs_major_bar_tips">Tampilkan dalam panel notifikasi (paling banyak 10)</string>
+    <string name="qs_minor_bar_tips">Tidak ditampilkan dalam panel notifikasi</string>
+    <string name="status_bar_recent_memory">Memori</string>
+    <string name="status_bar_recent_memory_used">Digunakan:</string>
+    <string name="status_bar_recent_memory_free">bebas|</string>
+    <string name="status_bar_recent_memory_item_used">Digunakan:</string>
+    <string name="status_bar_recent_memory_total">Memori total</string>
+    <string name="status_bar_earphones_connected_text">Earphone terhubung.</string>
+    <string name="status_bar_earphones_connected_ticker">Earphone terhubung.</string>
+    <string name="status_bar_screenshot_copytoclipboard">Disalin ke papan klip.</string>
+    <string name="status_bar_enable_data_roaming">Roaming diaktifkan.</string>
+    <string name="status_bar_disable_data_roaming">Roaming dinonaktifkan.</string>
+
+    <!-- yulong add by jinxiaofeng -->
+    <string name="status_bar_expand_autobright">Penyesuaian kecerahan otomatis</string>
+    <string name="status_bar_notification_manager">Pengelola</string>
+    <string name="status_bar_other_notify">Lainnya</string>
+    <string name="status_bar_other_notify_back">Kembali</string>
+    <string name="qs_label_multiple_accounts_name">Pemilik</string>
+    <string name="brightness_dlg_brightness">Kecerahan</string>
+    <string name="brightness_dlg_adjust">(Sesuaikan)</string>
+    <string name="brightness_dlg_auto">Otomatis</string>
+    <string name="clear_notify_all_oldman">Kosongkan notifikasi</string>
+    <string name="other_notification_format"><xliff:g id="NUMBER">%d</xliff:g> notifikasi lain</string>
+    <string name="other_notification_expand">sentuh untuk menampilkan semua.</string>
+    <string name="title_activity_package_list">Pusat notifikasi</string>
+    <string name="title_show_notifcaiton">Tampilkan notifikasi</string>
+    <string name="title_show_statusbar">Tampilkan di panel</string>
+    <string name="title_show_other">Tampilkan di lainnya</string>
+    <string name="title_show_notification_center">Pusat notifikasi</string>
+    <string name="title_show_floating">Notifikasi melayang</string>
+    <string name="title_show_floating_sub">Setelah membuka kunci, notifikasi ditampilkan di atas layar, kemudian menghilang secara otomatis</string>
+    <string name="title_show_effect_preview">Pratinjau gambar</string>
+    <string name="item_center_notifcaiton_title">Pusat notifikasi dan pusat kontrol</string>
+    <string name="item_center_notifcaiton_sub">Notifikasi</string>
+    <string name="item_center_notifcaiton_management">Pengelolaan notifikasi</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">Turun bawah diaktifkan ketika layar mengunci</string>
+    <string name="item_center_notifcaiton_ccm">Tampilkan nama operator</string>
+    <string name="item_center_notifcaiton_control">Pusat kontrol</string>
+    <string name="item_center_notifcaiton_quicksettings">Pengaturan cepat</string>
+    <string name="item_center_notifcaiton_other">Lainnya</string>
+    <string name="item_center_notifcaiton_obsessive">Item gangguan kompulsif obsesif</string>
+    <string name="item_center_notifcaiton_obsessive_hide">Sembunyikan label ikon</string>
+    <string name="item_center_notifcaiton_obsessive_clear">Kosongkan label ikon ketika menggoyangkan</string>
+    <string name="item_show_notifcaiton">Notifikasi</string>
+    <string name="item_show_other">Lainnya</string>
+    <string name="item_show_none">Tidak ada</string>
+    <string name="status_bar_super_secure_system_mode">Mode super aman saat ini, harap keluar dari mode aman untuk mengaktifkan fungsi</string>
+    <string name="quicksettings_more">lainnya</string>
+    <string name="quicksettings_edit_enable">Keluar</string>
+    <string name="clear_memory_notice">Selamat, kamu sudah berhasil menyelesaikan tugas</string>
+    <!-- yulong end -->
+    <string name="capital_on">NYALA</string>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_off">MATI</string>
+    <string name="dateview_month">bulan</string>
+    <string name="dateview_day">hari</string>
+    <string name="domain_switch_toast">Pemberitahuan ini dari ruang lain.</string>
+    <string name="status_bar_screenshot_long">Gambar layar panjang</string>
+    <string name="show_no_sim_message">Tidak ada kartu SIM. Silakan coba lagi setelah memasukkan kartu!</string>
+    <string name="data_no_connected_error">Periksa apakah roaming data diizinkan di Pengaturan-&gt;Manajemen KartuSIM-&gt;Roaming Internasional!</string>
+    <string name="qs_label_dataportection_mode">"Perlindungan data"</string>
+    <string name="accessibility_hide">"Sembunyikan"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> dapat digunakan |total <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="yl_volume_ring_icon_description">"Volume nada dering &amp; notifikasi"</string>
+    <string name="status_bar_accessibility_recent_apps">"%d layar dalam Tinjauan"</string>
+    <string name="header_name">"Izinkan"</string>
+    <string name="header_name_detail">"Tampilkan di panel notifikasi"</string>
+    <string name="header_name_detail_top">"Tampilkan notifikasi di bar status"</string>
+    <string name="header_name_top">"Notifikasi bar status"</string>
+    <string name="header_name0">"Notifikasi"</string>
+    <string name="header_name1">"Kunci layar"</string>
+    <string name="header_top">"Batch manajemen notifikasi"</string>
+    <string name="item_show_detail">"Tampilkan detail"</string>
+    <string name="item_show_floating">"mengambang"</string>
+    <string name="item_show_lockscreen">"Kunci layar"</string>
+    <string name="keyguard_magazine_cancel_resident">"Tempat Tinggal Canel"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Setiap kali layar nyala tidak secara default menampilkan wallpaper ini"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Koleksi foto majalah"</string>
+    <string name="keyguard_magazine_link">"Detail"</string>
+    <string name="keyguard_magazine_more">"Pengaturan"</string>
+    <string name="keyguard_magazine_resident">"Tempat tinggal"</string>
+    <string name="keyguard_magazine_resident_toast">"Setiap kali layar nyala secara default menampilkan wallpaper ini"</string>
+    <string name="keyguard_magazine_share">"Bagikan"</string>
+    <string name="keyguard_magzine_cancel_collect">"Ditambah ke favorit"</string>
+    <string name="keyguard_magzine_collect">"Mengumpulkan"</string>
+    <string name="keyguard_magzine_collect_toast">"Simpan ke foto majalah di galeri lokal"</string>
+    <string name="lockscreen_airplane_mode_on">"Mode pesawat nyala."</string>
+    <string name="lockscreen_missing_sim_message_short">"Kartu SIM hilang."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Kartu SIM tidak dapat digunakan."</string>
+    <string name="lockscreen_sim_error_message_short">"Kesalahan SIM."</string>
+    <string name="lockscreen_sim_locked_message">"Kartu SIM terkunci."</string>
+    <string name="lockscreen_sim_puk_locked_message">"Kartu SIM terkunci PUK."</string>
+    <string name="manage_notification_access_title">"Akses pemberitahuan"</string>
+    <string name="over_sea_hideNavigationBar_info">"Tampilkan bar navigasi dengan menggeser naik dari bawah layar"</string>
+    <string name="please_select_phase2">"Autentikasi tahap 2"</string>
+    <string name="preference_detail_hide">"Sembunyikan"</string>
+    <string name="preference_detail_show">"Tampilan"</string>
+    <string name="proxy_action_text">"Selesai"</string>
+    <string name="proxy_clear_text">"Kosongkan"</string>
+    <string name="proxy_defaultView_text">"Pulihkan default"</string>
+    <string name="proxy_error">"Perhatian"</string>
+    <string name="proxy_error_dismiss">"OK"</string>
+    <string name="proxy_error_empty_host_set_port">"Kolom port harus kosong jika kolom host kosong."</string>
+    <string name="proxy_error_empty_port">"Anda harus melengkapi kolom port."</string>
+    <string name="proxy_error_invalid_exclusion_list">"Daftar pengecualian yang Anda ketikkan tidak diformat dengan benar. Ketikkan daftar yang dipisahkan dengan koma untuk domain yang dikecualikan."</string>
+    <string name="proxy_error_invalid_host">"Nama host yang Anda ketikkan tidak valid."</string>
+    <string name="proxy_error_invalid_port">"Port yang Anda ketikkan tidak valid."</string>
+    <string name="proxy_exclusionlist_label">"Lewati proxy untuk"</string>
+    <string name="proxy_hostname_label">"Nama host proxy"</string>
+    <string name="proxy_port_label">"Port proxy"</string>
+    <string name="proxy_settings_title">"Proxy"</string>
+    <string name="proxy_warning_limited_support">"Proxy HTTP digunakan oleh browser tetapi dapat tidak digunakan oleh aplikasi lain."</string>
+    <string name="qs_header_afternoon">"PM"</string>
+    <string name="qs_header_morning">"AM"</string>
+    <string name="qs_label_blaster">"Perekam"</string>
+    <string name="qs_label_calculator">"Kalkulator"</string>
+    <string name="qs_label_blaster">"Perekam"</string>
+    <string name="qs_label_magical">"Ajaib"</string>
+    <string name="qs_label_camera">"Kamera"</string>
+    <string name="qs_label_recording">"Perekaman dimulai"</string>
+    <string name="qs_label_controlcentor">"Pusat kontrol"</string>
+    <string name="qs_label_slience">"Tangkapan layar"</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_roaming_label">"Roaming"</string>
+    <string name="quicksettings_edit_disable">"Edit"</string>
+    <string name="recents_app_battary">"Baterai:"</string>
+    <string name="recents_app_best_already">"sudah hapus terbaik"</string>
+    <string name="recents_app_depthclear_notfind">"mulai aplikasi pusat aman dulu"</string>
+    <string name="recents_app_liuliang">"Hari ini:"</string>
+    <string name="recents_app_memory">"Memori:"</string>
+    <string name="recents_app_memory_cleaned">"Telah dibersihkan"</string>
+    <string name="recents_app_release_memory">"lepas memori <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_running_empty">"tidak ada tugas terbaru"</string>
+    <string name="recents_app_shendu">"kedalaman"</string>
+    <string name="sim_slot">"Slot SIM"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>pesan]"</string>
+    <string name="sub_switch_name0">"Izinkan"</string>
+    <string name="sub_switch_name1">"Notifikasi melayang"</string>
+    <string name="sub_switch_name1_sub">"Tampilkan notifikasi di layar atas, lalu otomatis hilang"</string>
+    <string name="sub_switch_name2">"Notifikasi layar terkunci"</string>
+    <string name="sub_switch_name2_sub">"Tampilkan notifikasi di bar status"</string>
+    <string name="sub_switch_name3">"Tampilkan detail notifikasi"</string>
+    <string name="sub_switch_name4">"Tampilkan notifikasi di bar status"</string>
+    <string name="title_activity_package_list_batch">"Urusan batch notifikasi"</string>
+    <string name="title_show_locksreen">"Tampilkan di layar terkunci"</string>
+    <string name="wapi_as_certificate">"Sertifikat ASE"</string>
+    <string name="wapi_user_certificate">"Sertifikat pengguna"</string>
+    <string name="wifi_disabled_generic">"Nonaktif"</string>
+    <string name="wifi_disabled_network_failure">"Menghindari koneksi Internet yang buruk"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Identitas anonim"</string>
+    <string name="wifi_eap_ca_cert">"Sertifikat CA"</string>
+    <string name="wifi_eap_identity">"Identitas"</string>
+    <string name="wifi_eap_method">"Metode EAP"</string>
+    <string name="wifi_eap_user_cert">"Sertifikat pengguna"</string>
+    <string name="wifi_frequency">"Frekuensi"</string>
+    <string name="wifi_gateway">"Gateway"</string>
+    <string name="wifi_hex_password">"Kata sandi heksadesimal."</string>
+    <string name="wifi_info_cancal_btn">"Batal"</string>
+    <string name="wifi_info_connect_btn">"Sambungkan"</string>
+    <string name="wifi_ip_address">"Alamat IP"</string>
+    <string name="wifi_ip_settings">"Pengaturan IP"</string>
+    <string name="wifi_network_prefix_length">"Panjang awalan jaringan"</string>
+    <string name="wifi_password">"Kata Sandi"</string>
+    <string name="wifi_password_text">"Kata sandi (8-63 karakter)"</string>
+    <string name="wifi_remembered">"Disimpan"</string>
+    <string name="wifi_security">"Keamanan"</string>
+    <string name="wifi_security_none">"Tidak ada"</string>
+    <string name="wifi_show_advanced">"Tampilkan pilihan lanjutan"</string>
+    <string name="wifi_show_password">"Perlihatkan kata sandi"</string>
+    <string name="wifi_signal">"Kekuatan sinyal"</string>
+    <string name="wifi_speed">"Kecepatan tautan"</string>
+    <string name="wifi_ssid">"SSID jaringan"</string>
+    <string name="wifi_ssid_hint">"Masukkan SSID"</string>
+    <string name="wifi_status">"Status"</string>
+    <string name="wifi_unchanged">"(tidak diubah)"</string>
+    <string name="wifi_unspecified">"(tidak ditentukan)"</string>
+    <string name="wifi_WEP_secury_key">"Kunci Aman"</string>
+    <string name="wifi_WEP_transmit_key">"Kunci Transmisi"</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Volume panggilan suara"</item>
+        <item>"Volume sistem"</item>
+        <item>"Volume nada dering &amp; notifikasi"</item>
+        <item>"volume media"</item>
+        <item>"volume alarm"</item>
+        <item></item>
+        <item>"volume bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>

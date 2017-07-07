@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Način sestanka</string>
+    <string name="quick_settings_apn_switch_label">"APN stikalo"</string>
+    <string name="qs_label_vibrate_ring">"Vibriranje"</string>
+    <string name="qs_label_vibrate_ring">Vibriranje</string>
+    <string name="qs_label_softap">Dostopna točka</string>
+    <string name="accessibility_ime_switch_button">"Pritisnite gumb za preklop načina vnosa."</string>
+    <string name="accessibility_no_wifi">"Povezava Wi-Fi je prekinjena."</string>
+    <string name="accessibility_wifi_off">"Wi-Fi je izklopljen."</string>
+    <string name="accessibility_wifi_one_bar">"Wi-Fi z eno črtico."</string>
+    <string name="accessibility_wifi_signal_full">"Poln signal Wi-Fi."</string>
+    <string name="accessibility_wifi_three_bars">"Wi-Fi s tremi črticami."</string>
+    <string name="accessibility_wifi_two_bars">"Wi-Fi z dvema črticama."</string>
+    <string name="guide_click_txt">"Kliknite nastavitve za keyguard magazine"</string>
+    <string name="guide_sliding_txt">"Podrsajte za zamenjavo zaslona."</string>
+    <string name="guide_swipe_up_txt">"Podrsajte navzgor za odklepanje."</string>
+    <string name="guide_title">"Dobrodošli v Keyguard Magazine"</string>
+    <string name="header_name_detail_top">"Prikaži obvestila v vrstici stanja."</string>
+    <string name="header_name_top">"Obvestilo v vrstici stanja"</string>
+    <string name="header_name0">"Vrstica stanja"</string>
+    <string name="header_name1">"Keyguard"</string>
+    <string name="header_top">"Upravljanje paketa obvestil"</string>
+    <string name="interruption_level_all">"Vse"</string>
+    <string name="keyguard_guide_enter">"Preskusite"</string>
+    <string name="lockscreen_airplane_mode_on">"Letalski način je vklopljen."</string>
+    <string name="lockscreen_missing_sim_message_short">"Ni kartice SIM."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"Neuporabna kartica SIM"</string>
+    <string name="lockscreen_sim_error_message_short">"Napaka kartice SIM"</string>
+    <string name="lockscreen_sim_locked_message">"Kartica SIM je zaklenjena."</string>
+    <string name="lockscreen_sim_puk_locked_message">"Kartica SIM je zaklenjena s kodo PUK."</string>
+    <string name="monitoring_description_device_and_profile_owned">"To napravo nadzira:\n<xliff:g id="organization">%1$s</xliff:g>\nVaš profil nadzira:\n<xliff:g id="organization">%2$s</xliff:g>\n\nVaš skrbnik lahko nadzoruje vaše omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti.\n\nZa več informacij se obrnite na skrbnika."</string>
+    <string name="monitoring_description_legacy_vpn">"Povezava z VPN (\"<xliff:g id="application">%1$s</xliff:g>\") je vzpostavljena.\n\nPonudnik storitve VPN lahko nadzoruje vašo napravo in omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"To napravo nadzira:\n<xliff:g id="organization">%1$s</xliff:g>\nVaš profil nadzira:\n<xliff:g id="organization">%2$s</xliff:g>\n\nVaš skrbnik lahko nadzoruje vaše omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti. Za več informacij se obrnite na skrbnika.\n\nVzpostavljena je povezava z VPN (\"<xliff:g id="application">%3$s</xliff:g>\"). Ponudnik storitve VPN lahko nadzira tudi omrežno dejavnost."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"To napravo nadzira:\n<xliff:g id="organization">%1$s</xliff:g>\n\nVaš skrbnik lahko nadzoruje vaše omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti. Za več informacij se obrnite na skrbnika.\n\nVzpostavljena je povezava z VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Ponudnik storitve VPN lahko nadzira tudi omrežno dejavnost."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Ta profil nadzira:\n<xliff:g id="organization">%1$s</xliff:g>\n\nVaš skrbnik lahko nadzoruje vaše omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti. Za več informacij se obrnite na skrbnika.\n\nVzpostavljena je povezava z VPN (\"<xliff:g id="application">%2$s</xliff:g>\"). Ponudnik storitve VPN lahko nadzira tudi omrežno dejavnost."</string>
+    <string name="monitoring_description_profile_owned">"Ta profil nadzira:\n<xliff:g id="organization">%1$s</xliff:g>\n\nVaš skrbnik lahko nadzoruje vaše omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti.\n\nZa več informacij se obrnite na skrbnika."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"To napravo nadzira:\n<xliff:g id="organization">%1$s</xliff:g>\nVaš profil nadzira:\n<xliff:g id="organization">%2$s</xliff:g>\n\nVaš skrbnik lahko nadzoruje vaše omrežne dejavnosti, vključno z e-pošto, aplikacijami in varnimi spletnimi mesti. Za več informacij se obrnite na skrbnika.\n\nDodelili ste dovoljenje \"<xliff:g id="application">%3$s</xliff:g>\" za vzpostavitev povezave VPN. Ta aplikacija lahko nadzira tudi omrežno dejavnost."</string>
+    <string name="please_select_phase2">"Preverjanje pristnosti faze 2"</string>
+    <string name="proxy_exclusionlist_label">"Zaobidi posredniški strežnik za"</string>
+    <string name="proxy_hostname_label">"Ime gostitelja posredniškega strežnika"</string>
+    <string name="proxy_port_label">"Vrata posredniškega strežnika"</string>
+    <string name="proxy_settings_title">"Posredniški strežnik"</string>
+    <string name="proxy_warning_limited_support">"Brskalnik uporablja posredniški strežnik HTTP. Druge aplikacije ga morda ne uporabljajo."</string>
+    <string name="qs_bottom_first_btn">"Vem"</string>
+    <string name="qs_bottom_first_notice">"Podrsajte od dna zaslona navzgor za dostop do zaslona Hitre nastavitve."</string>
+    <string name="qs_label_cbutton">"Gumb C"</string>
+    <string name="qs_label_white_black_patterns">"Črno-belo"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Letalski način"</string>
+    <string name="sim_slot">"Reža za kartico SIM"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[Št. sporočil: <xliff:g id="number">%d</xliff:g>]"</string>
+    <string name="status_bar_settings_airplane">"Letalski način"</string>
+    <string name="sub_switch_name0">"Omogoči obvestila"</string>
+    <string name="sub_switch_name1">"Plavajoča obvestila"</string>
+    <string name="sub_switch_name1_sub">"Obvestila se prikažejo na vrhu zaslona in samodejno izginejo."</string>
+    <string name="sub_switch_name2">"Obvestila na zaklenjenem zaslonu"</string>
+    <string name="sub_switch_name2_sub">"Prikaži obvestila v vrstici stanja."</string>
+    <string name="sub_switch_name3">"Prikaži podrobnosti obvestil"</string>
+    <string name="sub_switch_name4">"Prikaži obvestila v vrstici stanja."</string>
+    <string name="title_activity_package_list_batch">"Ravnanje s paketi obvestil"</string>
+    <string name="wapi_as_certificate">"Potrdilo ASE"</string>
+    <string name="wapi_user_certificate">"Uporabniško potrdilo"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anonimna identiteta"</string>
+    <string name="wifi_eap_ca_cert">"Potrdilo CA"</string>
+    <string name="wifi_eap_identity">"Identiteta"</string>
+    <string name="wifi_eap_method">"Način EAP"</string>
+    <string name="wifi_eap_user_cert">"Uporabniško potrdilo"</string>
+    <string name="wifi_gateway">"Prehod"</string>
+    <string name="wifi_hex_password">"Šestnajstiško geslo."</string>
+    <string name="wifi_info_cancal_btn">"Prekini"</string>
+    <string name="wifi_info_connect_btn">"Poveži"</string>
+    <string name="wifi_ip_address">"Naslov IP"</string>
+    <string name="wifi_ip_settings">"Nastavitve IP-ja"</string>
+    <string name="wifi_network_prefix_length">"Dolžina predpone omrežja"</string>
+    <string name="wifi_password">"Geslo"</string>
+    <string name="wifi_password_text">"Geslo (od 8 do 63 znakov)"</string>
+    <string name="wifi_security">"Varnost"</string>
+    <string name="wifi_security_none">"Brez"</string>
+    <string name="wifi_show_advanced">"Prikaži napredne možnosti"</string>
+    <string name="wifi_show_password">"Pokaži geslo"</string>
+    <string name="wifi_signal">"Moč signala"</string>
+    <string name="wifi_ssid">"Omrežje SSID"</string>
+    <string name="wifi_ssid_hint">"Vnesite SSID"</string>
+    <string name="wifi_status">"Stanje"</string>
+    <string name="wifi_unchanged">"(nespremenjeno)"</string>
+    <string name="wifi_WEP_secury_key">"Varnostni ključ"</string>
+    <string name="wifi_WEP_transmit_key">"Ključ oddajanja"</string>
+    <string name="zen_alarm_information_day_time">"Naslednji alarm je načrtovan za <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Naslednji alarm je načrtovan za <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Samo prednostne motnje"</string>
+    <string name="zen_no_interruptions">"Brez motenj"</string>
+    <string name="zen_no_interruptions_with_warning">"Brez motenj Brez alarmov"</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/klic v sili"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Priljubljene"</string>
+    <string name="keyguard_magzine_cancel_collect">"Dodano"</string>
+    <string name="keyguard_magazine_resident">"Prebivalec"</string>
+    <string name="keyguard_magazine_cancel_resident">"Prekliči prebivalca"</string>
+    <string name="keyguard_magazine_share">"Deli"</string>
+    <string name="keyguard_magazine_link">"Povezava"</string>
+    <string name="keyguard_magazine_more">"Nastavitev"</string>
+    <string name="keyguard_magzine_collect_toast">"Shrani v album s fotografijami v lokalni galeriji"</string>
+    <string name="keyguard_magazine_resident_toast">"Ob vsakem vklopu zaslona se privzeto prikaže to ozadje"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Ob vsakem vklopu zaslona se to ozadje privzeto ne prikaže"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Zbirka albuma s fotografijami"</string>
+    <string name="qs_label_calculator">"Kalkulator"</string>
+    <string name="qs_label_blaster">"Snemalnik"</string>
+    <string name="qs_label_magical">"Čarobno"</string>
+    <string name="qs_label_camera">"Kamera"</string>
+    <string name="qs_label_recording">"Snemanje"</string>
+    <string name="qs_label_controlcentor">"Snemanje"</string>
+    <string name="qs_label_slience">"Posnetek zaslona"</string>
+    <string name="header_name">"omogoči obvestila"</string>
+    <string name="header_name_detail">"Prikaži na zaslonu z obvestili"</string>
+    <string name="title_show_locksreen">"Prikaži na zaklenjenem zaslonu"</string>
+    <string name="recents_app_shendu">"globinsko"</string>
+    <string name="recents_app_liuliang">"Danes:"</string>
+    <string name="recents_app_memory">"Pomnilnik:"</string>
+    <string name="recents_app_battary">"Baterija:"</string>
+    <string name="recents_app_running_empty">"ni nedavnih opravil"</string>
+    <string name="recents_app_best_already">"počiščeno za najboljše stanje"</string>
+    <string name="recents_app_release_memory">"količina sproščenega pomnilnika: <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"najprej zaženi aplikacijo Varnostno središče"</string>
+    <string name="recents_app_memory_cleaned">"počiščeno"</string>
+    <string name="preference_detail_show">"Prikaži"</string>
+    <string name="preference_detail_hide">"Skrij"</string>
+    <string name="item_show_notifcaiton">"Obvestilo"</string>
+    <string name="item_show_lockscreen">"na zaklenjenem zaslonu"</string>
+    <string name="item_show_floating">"plavajoče"</string>
+    <string name="item_show_detail">"Prikaži podrobnosti"</string>
+    <string name="manage_notification_access_title">"Dostop do obvestil"</string>
+    <string name="notification_hide_system_app">"Skrij sistemske aplikacije"</string>
+    <string name="notification_show_system_app">"Prikaži sistemske aplikacije"</string>
+    <string name="ctrl_center_shown_1page">"Prikazane bližnjice – 1. stran"</string>
+    <string name="ctrl_center_shown_2page">"Prikazane bližnjice – 2. stran"</string>
+    <string name="ctrl_center_non_shown">"Bližnjice niso prikazane"</string>
+    <string name="ctrl_center_hint">"Opomba: Tapnite in držite bližnjico, da jo premaknete. Lahko jo prikažete ali skrijete ter nastavite njeno lokacijo\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Glasnost glasovnih klicev"</item>
+        <item>"Glasnost sistema"</item>
+        <item>"Glasnost zvonjenja in obvestil"</item>
+        <item>"Glasnost predstavnosti"</item>
+        <item>"Glasnost alarma"</item>
+        <item></item>
+        <item>"Glasnost klicev s tehnologijo Bluetooth"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="accessibility_hide">"Skrij"</string>
+    <string name="clear_memory_notice">"Čestitke, uspešno si počistil naloge"</string>
+    <string name="data_no_connected_error">"Preverite, ali je podatkovno gostovanje dovoljeno v Nastavitve-&gt;Upravljanje kartice SIM-&gt;Mednarodno gostovanje!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Ko je zaslon zaklenjen, je omogočeno vlečenje"</string>
+    <string name="item_center_notifcaiton_obsessive">"Možnosti OCD"</string>
+    <string name="qs_label_dataportection_mode">"Zaščita podatkov"</string>
+    <string name="qs_label_ringer">"Zvonec"</string>
+    <string name="qs_label_rotation">"Obračanje zaslona"</string>
+    <string name="qs_label_speed">"Pospešiti"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> uporabljivo |skupno <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"Ni kartice SIM. Poskusite znova, ko ste vstavili kartico!"</string>
+    <string name="status_bar_screenshot_interesting">"Zanimiv"</string>
+    <string name="status_bar_screenshot_long">"Dolg"</string>
+    <string name="status_bar_super_secure_system_mode">"Trenutno v varnem načinu, izstopite iz varnega načina, da bi omogočili funkcijo"</string>
+    <string name="title_show_floating_sub">"Ko se zaslon odklene so sporočila prikazana na vrhu zaslona, nato samodejno izginejo"</string>
+    <string name="yl_volume_ring_icon_description">"Ton zvonjenja &amp; glasnost obvestila"</string>
+    <string name="gps_notification_searching_text_content">"Z energijo lahko varčujete, ko zaprete sistem GPS."</string>
+    <string name="quick_settings_battery_charging_label">"Polnjenje, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Napolnjeno"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Utišala oseba <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Prikaži vrstico za krmarjenje tako, da podrsate od dna zaslona"</string>
+    <string name="empty_file_notification_sent">"Skupna raba bluetootha: Oddaljena zavrnjena datoteka dolžine nič <xliff:g id="file">%1$s</xliff:g>"</string>
+    <string name="accessibility_quick_settings_data_off">"Mobilni podatki so izklopljeni."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobilni podatki so vklopljeni."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Gostovanje je izklopljeno."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Gostovanje je vklopljeno."</string>
+    <string name="quick_settings_mobile_data_label">"Mobilni podatki"</string>
+    <string name="quick_settings_roaming_label">"Gostovanje"</string>
+    <string name="quick_settings_apn_switch_label">"APN stikalo"</string>
+    <string name="quick_settings_dds_sub">"Podatki kartice <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="quick_settings_data_off">"Podatki so izklopljeni"</string>
+    <string name="keyguard_magazine_enter">"Podrsaj navzdol za varovalni ključ magazina"</string>
+    <string name="tasklistview_title">"Upravitelj opravil"</string>
+    <string name="message_switch_fail">"Preklop na to nalogo ni možen, ker nima vmesnika."</string>
+    <string name="tasklist_killall">"Prekini vse"</string>
+    <string name="tasklist_memory_usage">"Prost/celotni pomnilnik: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="message_keep_one_launcher">"Treba je obdržati vsaj eno domačo dejavnost!"</string>
+    <string name="status_bar_expanded_start_network">"Mobilni podatki"</string>
+    <string name="status_bar_expanded_stop_network">"Mobilni podatki"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobilni podatki"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobilni podatki"</string>
+    <string name="status_bar_expanded_data_net_status">"Neznano"</string>
+    <string name="status_bar_expanded_check_uimsim">"Ni kartice SIM"</string>
+    <string name="status_bar_expanded_check_sim">"Ni kartice SIM"</string>
+    <string name="status_bar_expanded_check_uim">"Ni UIM"</string>
+    <string name="status_bar_expanded_network_off">"Ni storitve."</string>
+    <string name="status_bar_expanded_network_forbid">"Storitev onemogočena"</string>
+    <string name="status_bar_expanded_airplane_mode">"Način letenja"</string>
+    <string name="status_bar_expanded_mms_send_note">"Povezovanje z omrežjem ... Poskusite ponovno kasneje."</string>
+    <string name="status_bar_airplane_mode_send_note">"V letalskem načinu se ni možno povezati na omražje."</string>
+    <string name="kg_no_uim">"Ni UIM ali storitve"</string>
+    <string name="kg_no_usim">"Ni kartice SIM ali storitve"</string>
+    <string name="kg_none_carrier">"Ni storitve."</string>
+    <string name="kg_no_service">"Ni storitve."</string>
+    <string name="status_bar_expanded_net_using_card">"Uporaba telefonske kartice <xliff:g id="number">%d</xliff:g>za podatkovno povezavo. Omrežje lahko kasneje preklopite ročno."</string>
+    <string name="qs_label_wlan">"Wi-Fi"</string>
+    <string name="qs_label_brightness">"Svetlost"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_location">"Mesto uporabe"</string>
+    <string name="qs_label_scenemode">"Način prizora"</string>
+    <string name="qs_label_saving">"Varčevanje porabe"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_airplane">"Način letenja"</string>
+    <string name="qs_label_viplist">"Beli seznam"</string>
+    <string name="qs_label_viplist2">"Beli seznam"</string>
+    <string name="qs_label_doublecard">"Nastavitve dvojne kartice"</string>
+    <string name="qs_label_setting">"Nastavitve"</string>
+    <string name="qs_label_silence">"Tiho"</string>
+    <string name="qs_label_sdcard_uninstall">"Odstrani kartico SD"</string>
+    <string name="qs_label_sdcard_install">"Namesti kartico SD"</string>
+    <string name="qs_label_flow_monitor">"Podatkovni promet"</string>
+    <string name="qs_label_switching">"Preklapljanje"</string>
+    <string name="qs_label_turning_on">"Odpiranje"</string>
+    <string name="qs_label_turning_off">"Zapiranje"</string>
+    <string name="qs_label_blacklist">"Blokiranje"</string>
+    <string name="qs_label_blacklist2">"Blokiranje"</string>
+    <string name="qs_label_mutlwindow">"Večopravilnost"</string>
+    <string name="qs_label_secure_mode">"Zavarovanje podatkov"</string>
+    <string name="qs_label_super_secure_mode">"Super varni način"</string>
+    <string name="qs_label_driving_mode">"Avtomobilski način"</string>
+    <string name="qs_label_ttwindow_mode">"Pretok novic"</string>
+    <string name="qs_label_sound">"Zvok"</string>
+    <string name="qs_label_data_roaming">"Gostovanje"</string>
+    <string name="qs_label_shrink_screen">"Prilagajanje zaslona"</string>
+    <string name="qs_label_flashlight">"Bliskavica"</string>
+    <string name="status_bar_select_network1">"Omrežje 1"</string>
+    <string name="status_bar_select_network2">"Omrežje 2"</string>
+    <string name="status_bar_recent_optimize">"Podrobnosti"</string>
+    <string name="status_bar_recent_delete">"Počisti"</string>
+    <string name="status_bar_recent_historical">"Zgodovina opravil"</string>
+    <string name="status_bar_recent_running">"Aktivna opravila"</string>
+    <string name="status_bar_screenshot_exit">"Prekliči"</string>
+    <string name="status_bar_screenshot_share">"Daj v skupno rabo"</string>
+    <string name="status_bar_screenshot_edit">"Uredi"</string>
+    <string name="status_bar_screenshot_save">"Shrani"</string>
+    <string name="status_bar_no_running_apps">"Ni delujočega programa"</string>
+    <string name="status_bar_notify_interception_disable">"Pozabi"</string>
+    <string name="status_bar_notify_interception_enable">"Dovoli"</string>
+    <string name="qs_major_bar_tips">"Prikazano na tabeli obvestil(največ 10)"</string>
+    <string name="qs_minor_bar_tips">"Ni prikazano na tabeli obvestil"</string>
+    <string name="status_bar_recent_memory">"Pomnilnik"</string>
+    <string name="status_bar_recent_memory_used">"Uporabljeno:"</string>
+    <string name="status_bar_recent_memory_free">"prosto|"</string>
+    <string name="status_bar_recent_memory_item_used">"Uporabljeno:"</string>
+    <string name="status_bar_earphones_connected_title">"Slušalka"</string>
+    <string name="status_bar_earphones_connected_text">"Slušalke so priključene."</string>
+    <string name="status_bar_earphones_connected_ticker">"Slušalke so priključene."</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Kopirano v odložišče."</string>
+    <string name="status_bar_enable_data_roaming">"Gostovanje je vklopljeno."</string>
+    <string name="status_bar_disable_data_roaming">"Gostovanje je izklopljeno."</string>
+    <string name="status_bar_notification_manager">"upravitelj"</string>
+    <string name="status_bar_other_notify">"Več"</string>
+    <string name="status_bar_other_notify_back">"Nazaj"</string>
+    <string name="qs_label_multiple_accounts_name">"Lastnik"</string>
+    <string name="status_bar_4g_priority">"4 G"</string>
+    <string name="status_bar_expand_autobright">"Svetlost se avtomatično prilagaja"</string>
+    <string name="brightness_dlg_brightness">"Svetlost"</string>
+    <string name="brightness_dlg_adjust">"(Prilagodi)"</string>
+    <string name="brightness_dlg_auto">"Samodejno"</string>
+    <string name="clear_notify_all_oldman">"Izbriši obvestila"</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> druga obvestila"</string>
+    <string name="other_notification_expand">"dotakni se za ogled vseh."</string>
+    <string name="title_activity_package_list">"Središče obvestil"</string>
+    <string name="title_show_notifcaiton">"Dovoli"</string>
+    <string name="title_show_statusbar">"Prikaži na tabeli"</string>
+    <string name="title_show_other">"Prikaži v drugih"</string>
+    <string name="title_show_notification_center">"Središče obvestil"</string>
+    <string name="title_show_floating">"Tekoča obvestila"</string>
+    <string name="title_show_effect_preview">"Predogled slik"</string>
+    <string name="item_center_notifcaiton_title">"Nastavitve"</string>
+    <string name="item_center_notifcaiton_sub">"Obvestilo"</string>
+    <string name="item_center_notifcaiton_management">"Upravljanje obvestil"</string>
+    <string name="item_center_notifcaiton_ccm">"Pokaži ime operaterja"</string>
+    <string name="item_center_notifcaiton_control">"Nadzorno središče"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Hitre nastavitve"</string>
+    <string name="item_center_notifcaiton_other">"Ostalo"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Skrij oznako ikone"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Ob tresenju skrij oznako ikone"</string>
+    <string name="item_show_statusbar">"Tabela"</string>
+    <string name="item_show_other">"Ostalo"</string>
+    <string name="item_show_none">"Brez"</string>
+    <string name="quicksettings_more">"Več"</string>
+    <string name="quicksettings_edit_disable">"Uredi"</string>
+    <string name="quicksettings_edit_enable">"Izhod"</string>
+    <string name="dateview_month">"Mesec"</string>
+    <string name="dateview_day">"Dan"</string>
+    <string name="domain_switch_toast">"Obvestilo je iz drugega prostora."</string>
+
+</resources>

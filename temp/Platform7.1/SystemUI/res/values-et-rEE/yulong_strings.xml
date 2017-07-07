@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="qs_label_meeting_mode">Koosolekurežiim</string>
+    <string name="qs_label_vibrate_ring">Vibreerimine</string>
+    <string name="qs_label_softap">Tööpunkt</string>
+    <string name="accessibility_ime_switch_button">"Sisestusmeetodi muutmise nupp"</string>
+    <string name="accessibility_no_wifi">"Wifi ühendus katkenud."</string>
+    <string name="accessibility_wifi_off">"Wifi väljas."</string>
+    <string name="accessibility_wifi_one_bar">"Wifi üks pulk."</string>
+    <string name="accessibility_wifi_signal_full">"Wifi max signaal."</string>
+    <string name="accessibility_wifi_three_bars">"Wifi kolm pulka."</string>
+    <string name="accessibility_wifi_two_bars">"Wifi kaks pulka."</string>
+    <string name="guide_click_txt">"Vajuta klahviluku ajakirja seadetele"</string>
+    <string name="guide_sliding_txt">"Ekraani vahetamiseks libista"</string>
+    <string name="guide_swipe_up_txt">"Pühi lukust avamiseks"</string>
+    <string name="guide_title">"Tere tulemast klahviluku ajakirja"</string>
+    <string name="header_name_detail_top">"Kuva teated olekuribal"</string>
+    <string name="header_name_top">"Olekuriba teavitus"</string>
+    <string name="header_name0">"Olekuriba"</string>
+    <string name="header_name1">"Klahvilukk"</string>
+    <string name="header_top">"Teadete halduse partii"</string>
+    <string name="interruption_level_all">"Kõik"</string>
+    <string name="keyguard_guide_enter">"Proovi"</string>
+    <string name="lockscreen_airplane_mode_on">"Lennukirežiim on sisse lülitatud."</string>
+    <string name="lockscreen_missing_sim_message_short">"SIM-kaart puudub."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">"SIM-kaart on kasutuskõlbmatu."</string>
+    <string name="lockscreen_sim_error_message_short">"SIM viga."</string>
+    <string name="lockscreen_sim_locked_message">"SIM-kaart on lukus."</string>
+    <string name="lockscreen_sim_puk_locked_message">"SIM-kaart on PUK-lukus."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Seda seadet haldab :\n<xliff:g id="organization">%1$s</xliff:g>\nTeie profiili haldab:\n<xliff:g id="organization">%2$s</xliff:g>\n\nTeie administraator saab jälgida võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite.\n\nLisateabe saamiseks pöörduge oma administraatori poole."</string>
+    <string name="monitoring_description_legacy_vpn">"Olete ühendatud VPN-ga (\"<xliff:g id="application">%1$s</xliff:g>\").\n\nTeie VPN teenusepakkuja saab jälgida teie seadet ja võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Seda seadet haldab:\n<xliff:g id="organization">%1$s</xliff:g>\nTeie profiili haldab:\n<xliff:g id="organization">%2$s</xliff:g>\n\nTeie administraator saab jälgida teie võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite. Lisateabe saamiseks võtke ühendust oma administraatoriga.\n\nLisaks olete ühendatud VPN võrku (\"<xliff:g id="application">%3$s</xliff:g>\"). Teie VPN teenusepakkuja saab samuti võrgutegevust jälgida."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Seda seadet haldab:\n<xliff:g id="organization">%1$s</xliff:g>\n\nTeie administraator saab jälgida teie võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite. Lisateabe saamiseks võtke ühendust oma administraatoriga.\n\nLisaks olete ühendatud VPN võrku (\"<xliff:g id="application">%2$s</xliff:g>\"). Teie VPN teenusepakkuja saab samuti võrgutegevust jälgida."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Seda profiili haldab:\n<xliff:g id="organization">%1$s</xliff:g>\n\nTeie administraator saab jälgida teie võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite. Lisateabe saamiseks võtke ühendust oma administraatoriga.\n\nLisaks olete ühendatud VPN võrku (\"<xliff:g id="application">%2$s</xliff:g>\"). Teie VPN teenusepakkuja saab samuti võrgutegevust jälgida."</string>
+    <string name="monitoring_description_profile_owned">"Seda profiili haldab :\n<xliff:g id="organization">%1$s</xliff:g>\n\nTeie administraator saab jälgida võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite.\n\nLisateabe saamiseks pöörduge oma administraatori poole."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Seda seadet haldab:\n<xliff:g id="organization">%1$s</xliff:g>\nTeie profiili haldab:\n<xliff:g id="organization">%2$s</xliff:g>\n\nTeie administraator saab jälgida teie võrgutegevust, kaasaarvatud e-kirju, rakendusi ja turvalisi veebisaite. Lisateabe saamiseks võtke ühendust oma administraatoriga.\n\nLisaks andsite \"<xliff:g id="application">%3$s</xliff:g>\" loa VPN-ühenduse loomiseks. See rakendus saab jälgida ka võrgutegevust."</string>
+    <string name="please_select_phase2">"2. etapi autentimine"</string>
+    <string name="proxy_exclusionlist_label">"Ignoreeri puhverserverit selle jaoks:"</string>
+    <string name="proxy_hostname_label">"Puhverserveri hostinimi"</string>
+    <string name="proxy_port_label">"Puhverserveri port"</string>
+    <string name="proxy_settings_title">"Puhverserver"</string>
+    <string name="proxy_warning_limited_support">"Brauser kasutab HTTP puhverserverit, kuid teised rakendused ei pruugi seda kasutada."</string>
+    <string name="qs_bottom_first_btn">"Tean"</string>
+    <string name="qs_bottom_first_notice">"Kiirseadete paneelile ligipääsuks põhkida ekraani allosast üles"</string>
+    <string name="qs_label_cbutton">"C-nupp"</string>
+    <string name="qs_label_white_black_patterns">"Mono"</string>
+    <string name="qs_wlan_title">"WLAN"</string>
+    <string name="quick_settings_airplane_mode_label">"Lennukirežiim"</string>
+    <string name="sim_slot">"SIM-kaardi pesa"</string>
+    <string name="sim1">"sim1"</string>
+    <string name="sim2">"sim2"</string>
+    <string name="sim3">"sim3"</string>
+    <string name="status_bar_notification_message">"[<xliff:g id="number">%d</xliff:g>sõnumit]"</string>
+    <string name="status_bar_settings_airplane">"Lennukirežiim"</string>
+    <string name="sub_switch_name0">"Luba teated"</string>
+    <string name="sub_switch_name1">"Ujuvad teated"</string>
+    <string name="sub_switch_name1_sub">"Teated kuvatakse ekraani ülaosas, siis kaovad ise"</string>
+    <string name="sub_switch_name2">"Lukustatud ekraani teated"</string>
+    <string name="sub_switch_name2_sub">"Kuva teated olekuribal"</string>
+    <string name="sub_switch_name3">"Kuva teadete detailid"</string>
+    <string name="sub_switch_name4">"Kuva teated olekuribal"</string>
+    <string name="title_activity_package_list_batch">"Teadete koos käitlemine"</string>
+    <string name="wapi_as_certificate">"ASE sertifikaat"</string>
+    <string name="wapi_user_certificate">"Kasutaja sertifikaat"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_eap_anonymous">"Anonüümne identiteet"</string>
+    <string name="wifi_eap_ca_cert">"CA sertifikaat"</string>
+    <string name="wifi_eap_identity">"Identiteet"</string>
+    <string name="wifi_eap_method">"EAP-meetod"</string>
+    <string name="wifi_eap_user_cert">"Kasutaja sertifikaat"</string>
+    <string name="wifi_gateway">"Lüüs"</string>
+    <string name="wifi_hex_password">"Kuueteistkümnendsüsteemis parool."</string>
+    <string name="wifi_info_cancal_btn">"Tühista"</string>
+    <string name="wifi_info_connect_btn">"Ühenda"</string>
+    <string name="wifi_ip_address">"IP-aadress"</string>
+    <string name="wifi_ip_settings">"IP seaded"</string>
+    <string name="wifi_network_prefix_length">"Võrgu eesliite pikkus"</string>
+    <string name="wifi_password">"Parool"</string>
+    <string name="wifi_password_text">"Parool (8 kuni 63 tähemärki)"</string>
+    <string name="wifi_security">"Turvalisus"</string>
+    <string name="wifi_security_none">"Pole"</string>
+    <string name="wifi_show_advanced">"Kuva täpsemad valikud"</string>
+    <string name="wifi_show_password">"Näita parooli"</string>
+    <string name="wifi_signal">"Signaali tugevus"</string>
+    <string name="wifi_ssid">"Võrgu SSID"</string>
+    <string name="wifi_ssid_hint">"Sisesta SSID"</string>
+    <string name="wifi_status">"Olek"</string>
+    <string name="wifi_unchanged">"(muutmata)"</string>
+    <string name="wifi_WEP_secury_key">"Turvakood"</string>
+    <string name="wifi_WEP_transmit_key">"Edastuskood"</string>
+    <string name="zen_alarm_information_day_time">"Järgmine äratus on <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_alarm_information_time">"Järgmine äratus on kell <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g>"</string>
+    <string name="zen_important_interruptions">"Ainult prioriteetsed katkestused"</string>
+    <string name="zen_no_interruptions">"Mitte ühtki katkestust"</string>
+    <string name="zen_no_interruptions_with_warning">"Mitte ühtki katkestust. Isegi mitte äratusi."</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_mobile_3g">"China Mobile 3G"</string>
+    <string name="china_mobile_4g">"China Mobile 4G"</string>
+    <string name="china_mobile_4g_2g">"China Mobile 4G/China Mobile"</string>
+    <string name="china_mobile_4g_3g">"China Mobile 4G/China Mobile 3G"</string>
+    <string name="china_mobile_4g_emergency">"China Mobile 4G/hädaabi"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="keyguard_magzine_collect">"Vastaja kulul"</string>
+    <string name="keyguard_magzine_cancel_collect">"Nõustu vastaja kulul kõnega"</string>
+    <string name="keyguard_magazine_resident">"Elanik"</string>
+    <string name="keyguard_magazine_cancel_resident">"Canel elanik"</string>
+    <string name="keyguard_magazine_share">"Jaga"</string>
+    <string name="keyguard_magazine_link">"Link"</string>
+    <string name="keyguard_magazine_more">"Seade"</string>
+    <string name="keyguard_magzine_collect_toast">"Salvesta ajakirja fotode alla kohalikus galeriis"</string>
+    <string name="keyguard_magazine_resident_toast">"Iga kord, kui ekraan sees, näitab vaikimise seda tausta"</string>
+    <string name="keyguard_magazine_cancel_resident_toast">"Iga kord, kui ekraan sees, ei näita vaikimise seda tausta"</string>
+    <string name="keyguard_magazine_collect_path_gallery">"Ajakirja fotode kogu"</string>
+    <string name="qs_label_calculator">"Kalkulaator"</string>
+    <string name="qs_label_blaster">"Salvestaja"</string>
+    <string name="qs_label_magical">"Maagiline"</string>
+    <string name="qs_label_camera">"Kaamera"</string>
+    <string name="qs_label_recording">"Salvestamine"</string>
+    <string name="qs_label_controlcentor">"Juhtimiskeskus"</string>
+    <string name="qs_label_slience">"Kuvatõmmis"</string>
+    <string name="header_name">"luba teatamine"</string>
+    <string name="header_name_detail">"Näita teadetepaneelil"</string>
+    <string name="title_show_locksreen">"Näita lukustatud ekraanil"</string>
+    <string name="recents_app_shendu">"sügavus"</string>
+    <string name="recents_app_liuliang">"Täna:"</string>
+    <string name="recents_app_memory">"Mälu:"</string>
+    <string name="recents_app_battary">"Aku:"</string>
+    <string name="recents_app_running_empty">"hiljutisi ülesandeid pole"</string>
+    <string name="recents_app_best_already">"juba parima olekuni puhastatud"</string>
+    <string name="recents_app_release_memory">"vabasta mälu <xliff:g id="used">%1$s</xliff:g>"</string>
+    <string name="recents_app_depthclear_notfind">"käivita turvakeskuse äpp"</string>
+    <string name="recents_app_memory_cleaned">"puhastatud"</string>
+    <string name="preference_detail_show">"Kuva"</string>
+    <string name="preference_detail_hide">"Peida"</string>
+    <string name="item_show_notifcaiton">"Teade"</string>
+    <string name="item_show_lockscreen">"lukustatud ekraanil"</string>
+    <string name="item_show_floating">"hõljuv"</string>
+    <string name="item_show_detail">"Näita detailselt"</string>
+    <string name="manage_notification_access_title">"Juurdepääs teadetele"</string>
+    <string name="notification_hide_system_app">"Peida süsteemiäpid"</string>
+    <string name="notification_show_system_app">"Kuva süsteemiäpid"</string>
+    <string name="ctrl_center_shown_1page">"Kuvatud otseteed-lk 1"</string>
+    <string name="ctrl_center_shown_2page">"Kuvatud otseteed-lk 2"</string>
+    <string name="ctrl_center_non_shown">"Otseteid pole kuvatud"</string>
+    <string name="ctrl_center_hint">"Märkus: Otsetee teisaldamiseks vajutada seda ja hoida all. Selle saab muuta kuvatuks, mittekuvatuks või muuta selle asukohta\n."</string>
+
+    <string-array name="volume_stream_titles">
+        <item>"Häälkõne helitugevus"</item>
+        <item>"Süsteemi helitugevus"</item>
+        <item>"Helin &amp; teadete helitugevus"</item>
+        <item>"Meedia helitugevus"</item>
+        <item>"Alarmide helitugevus"</item>
+        <item></item>
+        <item>"Bluetoothi kõnede helitugevus"</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="accessibility_hide">"Peida"</string>
+    <string name="clear_memory_notice">"Palju õnne, ülesannete kustutamine õnnestus"</string>
+    <string name="data_no_connected_error">"Kontrollige, kas rändlus on lubatud (Sätted -&gt; SIM-kaardi haldus -&gt; Rahvusvaheline rändlus)!"</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">"Lukustuskuval allalohistamine lubatud"</string>
+    <string name="item_center_notifcaiton_obsessive">"OCD suvandid"</string>
+    <string name="qs_label_dataportection_mode">"Andmekaitse"</string>
+    <string name="qs_label_ringer">"Helin"</string>
+    <string name="qs_label_rotation">"Ekraani pööramine"</string>
+    <string name="qs_label_speed">"Kiirendus"</string>
+    <string name="recents_app_memory_description">"<xliff:g id="used">%1$s</xliff:g> kasutatav |kokku <xliff:g id="total">%2$s</xliff:g>"</string>
+    <string name="show_no_sim_message">"SIM-kaarti pole. Proovige pärast kaardi sisestamist uuesti!"</string>
+    <string name="status_bar_screenshot_interesting">"Huvitav"</string>
+    <string name="status_bar_screenshot_long">"Pikk"</string>
+    <string name="status_bar_super_secure_system_mode">"Seade on turvarežiimis, funktsiooni lubamiseks väljuge turvarežiimist"</string>
+    <string name="title_show_floating_sub">"Pärast ekraaniluku avamist kuvatakse ekraani ülaosas teavitused, mis seejärel automaatselt kaovad"</string>
+    <string name="yl_volume_ring_icon_description">"Helina ja teavituste helitugevus"</string>
+
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">"1 kuva ülevaates"</item>
+        <item quantity="other">"%d kuva ülevaates"</item>
+    </plurals>
+
+    <string name="accessibility_quick_settings_data_off">"Mobiilne andmeside välja lülitatud."</string>
+    <string name="accessibility_quick_settings_data_on">"Mobiilne andmeside sisse lülitatud."</string>
+    <string name="accessibility_quick_settings_roaming_off">"Rändlus välja lülitatud."</string>
+    <string name="accessibility_quick_settings_roaming_on">"Rändlus sisse lülitatud."</string>
+    <string name="brightness_dlg_adjust">"(Kohanda)"</string>
+    <string name="brightness_dlg_auto">"Automaatne"</string>
+    <string name="brightness_dlg_brightness">"Eredus"</string>
+    <string name="clear_notify_all_oldman">"Kustuta teavitused"</string>
+    <string name="dateview_day">"Päev"</string>
+    <string name="dateview_month">"Kuu"</string>
+    <string name="domain_switch_toast">"Teavitus on teisest ruumist."</string>
+    <string name="item_center_notifcaiton_ccm">"Kuva operaatori nimi"</string>
+    <string name="item_center_notifcaiton_control">"Juhtimiskeskus"</string>
+    <string name="item_center_notifcaiton_management">"Teavituste haldus"</string>
+    <string name="item_center_notifcaiton_obsessive_clear">"Eemalda raputamise ajaks ikooni silt"</string>
+    <string name="item_center_notifcaiton_obsessive_hide">"Peida ikooni silt"</string>
+    <string name="item_center_notifcaiton_other">"Muud"</string>
+    <string name="item_center_notifcaiton_quicksettings">"Kiirsätted"</string>
+    <string name="item_center_notifcaiton_sub">"Teavitus"</string>
+    <string name="item_center_notifcaiton_title">"Sätted"</string>
+    <string name="item_show_none">"Puudub"</string>
+    <string name="item_show_other">"Muud"</string>
+    <string name="item_show_statusbar">"Paneel"</string>
+    <string name="keyguard_magazine_enter">"Nipsake alla magasini klahviluku aktiveerimiseks"</string>
+    <string name="kg_no_service">"Teenus puudub"</string>
+    <string name="kg_no_uim">"UIM või teenus puudub"</string>
+    <string name="kg_no_usim">"Geen SIM-kaart of service"</string>
+    <string name="kg_none_carrier">"Teenus puudub"</string>
+    <string name="message_keep_one_launcher">"Vähemalt üks avakuva toiming tuleb alles jätta!"</string>
+    <string name="message_switch_fail">"Sellele ülesandele ei saa lülituda, kuna sellel pole liidest."</string>
+    <string name="other_notification_expand">"puudutage kõigi kuvamiseks."</string>
+    <string name="other_notification_format">"<xliff:g id="NUMBER">%d</xliff:g> muud teavitust"</string>
+    <string name="qs_label_airplane">"Lennurežiim"</string>
+    <string name="qs_label_blacklist">"Blokeerija"</string>
+    <string name="qs_label_blacklist2">"Blokeerija"</string>
+    <string name="qs_label_bluetooth">"Bluetooth"</string>
+    <string name="qs_label_brightness">"Eredus"</string>
+    <string name="qs_label_data_roaming">"Rändlus"</string>
+    <string name="qs_label_doublecard">"Kahe kaardi sätted"</string>
+    <string name="qs_label_driving_mode">"Autorežiim"</string>
+    <string name="qs_label_flashlight">"Välklamp"</string>
+    <string name="qs_label_flow_monitor">"Andmekasutus"</string>
+    <string name="qs_label_location">"Asukoht"</string>
+    <string name="qs_label_multiple_accounts_name">"Omanik"</string>
+    <string name="qs_label_mutlwindow">"Multitegum"</string>
+    <string name="qs_label_saving">"Energiasääst"</string>
+    <string name="qs_label_scenemode">"Stseenirežiim"</string>
+    <string name="qs_label_sdcard_install">"SD-kaardi installimine"</string>
+    <string name="qs_label_sdcard_uninstall">"SD-kaardi desinstallimine"</string>
+    <string name="qs_label_secure_mode">"Kaitse andmeid"</string>
+    <string name="qs_label_setting">"Sätted"</string>
+    <string name="qs_label_shrink_screen">"Ekraani mastaapimine"</string>
+    <string name="qs_label_silence">"Summuta"</string>
+    <string name="qs_label_sound">"Heli"</string>
+    <string name="qs_label_super_saving">"Super"</string>
+    <string name="qs_label_super_secure_mode">"Üliturvaline režiim"</string>
+    <string name="qs_label_switching">"Lülitamine"</string>
+    <string name="qs_label_ttwindow_mode">"Uudisvoog"</string>
+    <string name="qs_label_turning_off">"Sulgemine"</string>
+    <string name="qs_label_turning_on">"Avamine"</string>
+    <string name="qs_label_viplist">"Valge nimekiri"</string>
+    <string name="qs_label_viplist2">"Valge nimekiri"</string>
+    <string name="qs_label_wlan">"WiFi"</string>
+    <string name="qs_major_bar_tips">"Näidatakse teavituspaneelil (kuni 10)"</string>
+    <string name="qs_minor_bar_tips">"Ei näidata teavituspaneelil"</string>
+    <string name="quick_settings_apn_switch_label">"APN-i lüliti"</string>
+    <string name="quick_settings_data_off">"Andmed väljas"</string>
+    <string name="quick_settings_dds_sub">"Kaardi <xliff:g id="number">%d</xliff:g> andmed"</string>
+    <string name="quick_settings_mobile_data_label">"Mobiilne andmeside"</string>
+    <string name="quick_settings_roaming_label">"Rändlus"</string>
+    <string name="quicksettings_edit_disable">"Redigeeri"</string>
+    <string name="quicksettings_edit_enable">"Välju"</string>
+    <string name="quicksettings_more">"Rohkem"</string>
+    <string name="status_bar_4g_priority">"4G"</string>
+    <string name="status_bar_airplane_mode_send_note">"Lennurežiimis ei saa võrguühendust luua."</string>
+    <string name="status_bar_disable_data_roaming">"Rändlus inaktiveeritud."</string>
+    <string name="status_bar_earphones_connected_text">"Kõrvaklapid ühendatud."</string>
+    <string name="status_bar_earphones_connected_ticker">"Kõrvaklapid ühendatud."</string>
+    <string name="status_bar_earphones_connected_title">"Kõrvaklapid"</string>
+    <string name="status_bar_enable_data_roaming">"Rändlus aktiveeritud."</string>
+    <string name="status_bar_expand_autobright">"Ereduse automaatne reguleerimine"</string>
+    <string name="status_bar_expanded_airplane_mode">"Lennurežiim"</string>
+    <string name="status_bar_expanded_check_sim">"SIM-kaarti pole"</string>
+    <string name="status_bar_expanded_check_uim">"UIM puudub"</string>
+    <string name="status_bar_expanded_check_uimsim">"SIM-kaarti pole"</string>
+    <string name="status_bar_expanded_data_net_status">"Tundmatu"</string>
+    <string name="status_bar_expanded_mms_send_note">"Võrguühenduse loomine… Proovige hiljem uuesti."</string>
+    <string name="status_bar_expanded_net_using_card">"Telefonikaarti kasutatakse <xliff:g id="number">%d</xliff:g> andmesideühenduseks. Võrku saate hiljem käsitsi vahetada."</string>
+    <string name="status_bar_expanded_network_forbid">"Teenus keelatud"</string>
+    <string name="status_bar_expanded_network_off">"Teenus puudub"</string>
+    <string name="status_bar_expanded_start_network">"Mobiilne andmeside"</string>
+    <string name="status_bar_expanded_start_network_g">"Mobiilne andmeside"</string>
+    <string name="status_bar_expanded_stop_network">"Mobiilne andmeside"</string>
+    <string name="status_bar_expanded_stop_network_g">"Mobiilne andmeside"</string>
+    <string name="status_bar_no_running_apps">"Töötavaid rakendusi pole"</string>
+    <string name="status_bar_notification_manager">"haldur"</string>
+    <string name="status_bar_notify_interception_disable">"Ei"</string>
+    <string name="status_bar_notify_interception_enable">"Luba"</string>
+    <string name="status_bar_other_notify">"Rohkem"</string>
+    <string name="status_bar_other_notify_back">"Tagasi"</string>
+    <string name="status_bar_recent_delete">"Kustuta"</string>
+    <string name="status_bar_recent_historical">"Varasem ülesanne"</string>
+    <string name="status_bar_recent_memory">"Mälu"</string>
+    <string name="status_bar_recent_memory_free">"vaba|"</string>
+    <string name="status_bar_recent_memory_item_used">"Kasutatud:"</string>
+    <string name="status_bar_recent_memory_used">"Kasutatud:"</string>
+    <string name="status_bar_recent_optimize">"Üksikasjad"</string>
+    <string name="status_bar_recent_running">"Aktiivne ülesanne"</string>
+    <string name="status_bar_screenshot_copytoclipboard">"Kopeeritud lõikelauale."</string>
+    <string name="status_bar_screenshot_edit">"Redigeeri"</string>
+    <string name="status_bar_screenshot_exit">"Tühista"</string>
+    <string name="status_bar_screenshot_save">"Salvesta"</string>
+    <string name="status_bar_screenshot_share">"Jaga"</string>
+    <string name="status_bar_select_network1">"Võrk 1"</string>
+    <string name="status_bar_select_network2">"Võrk 2"</string>
+    <string name="tasklist_killall">"Lõpeta kõik"</string>
+    <string name="tasklist_memory_usage">"Vaba/kogu mälu: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
+    <string name="tasklistview_title">"Tegumihaldur"</string>
+    <string name="title_activity_package_list">"Teavituskeskus"</string>
+    <string name="title_show_effect_preview">"Pildi eelvaade"</string>
+    <string name="title_show_floating">"Ujuteavitused"</string>
+    <string name="title_show_notifcaiton">"Luba"</string>
+    <string name="title_show_notification_center">"Teavituskeskus"</string>
+    <string name="title_show_other">"Näita teistel"</string>
+    <string name="title_show_statusbar">"Kuva paneelil"</string>
+    <string name="gps_notification_searching_text_content">"Akut saab säästa pärast GPS sulgemist."</string>
+    <string name="quick_settings_battery_charging_label">"Laadimas, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>"</string>
+    <string name="quick_settings_battery_charged_label">"Laetud"</string>
+    <string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+    <string name="muted_by">"Vaigistas <xliff:g id="third_party">%1$s</xliff:g>"</string>
+    <string name="over_sea_hideNavigationBar_info">"Näita ekraani alläärest ülespoole libistamisel navigatsiooniriba"</string>
+
+</resources>

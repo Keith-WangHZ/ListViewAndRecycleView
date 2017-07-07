@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="center_vertical"
+  android:layout_width="match_parent"
+  android:paddingLeft="16dp"
+  android:paddingRight="16dp"
+  android:paddingTop="12dp"
+  android:paddingBottom="12dp" 
+  android:layout_height="64dp">
+ <include layout="@layout/quick_setting_config_item"
+    android:id="@+id/quick_settings_list_item_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"/>
+  <ImageView
+    android:id="@+id/quick_settings_list_item_icon_drag_handle"
+    android:background="@drawable/quick_settings_drag"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"/>
+  <TextView
+    android:id="@+id/quick_settings_list_item_text"
+    android:layout_toRightOf="@id/quick_settings_list_item_icon"
+    android:layout_toLeftOf="@id/quick_settings_list_item_icon_drag_handle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:gravity="center_vertical"
+    android:visibility="gone"
+    android:singleLine="true"
+    android:ellipsize="end"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" />
+</RelativeLayout>
